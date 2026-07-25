@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-07-25T00:50:40+00:00",
+ "generated_at": "2026-07-25T01:00:11+00:00",
  "run_label": "pre-open",
  "composite": 30.0,
  "base_composite": 30.0,
@@ -103,9 +103,9 @@
    "delta": "-7.1% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-07-24",
-   "value": -0.17155530590996593,
+   "value": -0.1715553059099657,
    "subscores": {
-    "drawdown": -0.17155530590996593,
+    "drawdown": -0.1715553059099657,
     "mom10": -0.07080096923052792
    }
   },
@@ -149,7 +149,35 @@
    "subscores": {}
   }
  ],
- "news": null,
+ "news": {
+  "scanned_at": "2026-07-25T00:59:52Z",
+  "items": [
+   {
+    "headline": "Moody's warns AI capex and $820B+ in unstarted-lease commitments threaten credit quality of six hyperscalers",
+    "source": "CNBC / Moody's Ratings",
+    "url": "https://www.cnbc.com/2026/07/24/moodys-ai-spending-credit-quality-amazon-meta-alphabet.html",
+    "date": "2026-07-24",
+    "severity": "medium",
+    "note": "Rating agency flags that off-balance-sheet lease commitments (~$1.2T) and declining/negative free cash flow at Alphabet, Amazon, CoreWeave, Meta, Microsoft and Oracle could pressure leverage ratios if buildouts are debt-financed."
+   },
+   {
+    "headline": "Wisconsin regulators uphold $7B collateral requirement on Oracle for We Energies data center after S&P downgrade",
+    "source": "Financial Times / GuruFocus",
+    "url": "https://www.gurufocus.com/news/8968418/oracle-orcl-faces-7b-collateral-requirement-for-wisconsin-data-center",
+    "date": "2026-07-21",
+    "severity": "high",
+    "note": "A realized forced action directly triggered by S&P's July 9 downgrade to BBB-: Oracle must post a letter of credit exceeding $7B (>$100M/yr cost) to keep its Port Washington buildout on track, and is now fighting the ruling in court."
+   },
+   {
+    "headline": "Oracle 5-year CDS spread closes at record 198.23bps, surpassing 2008 financial-crisis-era peak",
+    "source": "Bloomberg / BondBlox",
+    "url": "https://bondblox.com/news/oracles-5y-cds-spread-hits-all-time-highs",
+    "date": "2026-07-18",
+    "severity": "medium",
+    "note": "Credit-default-swap markets are pricing Oracle's default risk at its highest level on record, reflecting investor concern over its debt-funded AI buildout and negative free cash flow."
+   }
+  ]
+ },
  "data_issues": [],
  "disclaimer": "Not financial advice. No indicator reliably times crashes; this composite raises the odds of a short heads-up, nothing more."
 }
