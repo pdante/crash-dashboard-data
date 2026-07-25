@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1a1a19">
+<title>AI Crash Monitor — AMBER</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --surface: #fcfcfb; --plane: #f9f9f7;
+    --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+    --grid: #e1e0d9; --border: rgba(11,11,11,0.10);
+    --good: #0ca30c; --warning: #b97a00; --critical: #d03b3b;
+    --good-bg: rgba(12,163,12,0.10); --warning-bg: rgba(250,178,25,0.16); --critical-bg: rgba(208,59,59,0.10);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --surface: #1a1a19; --plane: #0d0d0d;
+      --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+      --grid: #2c2c2a; --border: rgba(255,255,255,0.10);
+      --good: #0ca30c; --warning: #fab219; --critical: #e05252;
+      --good-bg: rgba(12,163,12,0.14); --warning-bg: rgba(250,178,25,0.12); --critical-bg: rgba(208,59,59,0.16);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--plane); color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 15px; line-height: 1.45;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 12px 12px 40px; }
+  header { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; padding: 8px 2px; flex-wrap: wrap; }
+  h1 { font-size: 17px; margin: 0; }
+  .asof { color: var(--muted); font-size: 12px; font-weight: 400; }
+  .banner {
+    border-radius: 12px; padding: 16px; margin: 4px 0 12px;
+    border: 1px solid var(--border); background: var(--surface);
+    border-left: 6px solid var(--tier-color);
+  }
+  .banner .tier-line { display: flex; align-items: center; gap: 10px; }
+  .banner .tier-name { font-size: 26px; font-weight: 700; color: var(--tier-color); }
+  .banner .tier-icon { font-size: 22px; color: var(--tier-color); }
+  .banner .score { margin-left: auto; text-align: right; }
+  .banner .score b { font-size: 26px; }
+  .banner .blurb { color: var(--ink-2); margin-top: 6px; }
+  .banner ul { margin: 8px 0 0; padding-left: 18px; color: var(--ink-2); font-size: 13px; }
+  .stale-badge { display: none; background: var(--critical-bg); color: var(--critical);
+    border: 1px solid var(--critical); border-radius: 6px; padding: 2px 8px; font-size: 12px; font-weight: 700; }
+  body.stale .stale-badge { display: inline-block; }
+  .tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 14px; }
+  .tile { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; }
+  .tile-label { color: var(--ink-2); font-size: 12px; min-height: 2.4em; }
+  .tile-value { font-size: 19px; font-weight: 650; margin: 2px 0; }
+  .tile-foot { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+  .delta { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+  .badge { display: inline-flex; align-items: center; gap: 4px; font-size: 11px; font-weight: 700;
+    border-radius: 6px; padding: 1px 7px; letter-spacing: 0.02em; }
+  .badge .icon { font-size: 9px; }
+  .badge.good { color: var(--good); background: var(--good-bg); }
+  .badge.warning { color: var(--warning); background: var(--warning-bg); }
+  .badge.critical { color: var(--critical); background: var(--critical-bg); }
+  .badge.unknown { color: var(--muted); background: var(--plane); border: 1px solid var(--border); }
+  section { background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    padding: 12px 14px; margin-bottom: 14px; }
+  h2 { font-size: 14px; margin: 2px 0 8px; display: flex; justify-content: space-between; align-items: baseline; }
+  table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+  col.c-label { width: 46%; } col.c-num { width: 30%; } col.c-status { width: 24%; }
+  td { padding: 8px 4px; border-top: 1px solid var(--grid); vertical-align: top; }
+  .group-row td { border-top: none; padding-top: 14px; color: var(--muted); font-size: 11px;
+    font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; }
+  .ind-label { font-weight: 600; font-size: 13px; }
+  .detail { color: var(--muted); font-size: 12px; font-weight: 400; margin-top: 2px; }
+  .num { text-align: right; font-variant-numeric: tabular-nums; font-size: 13px; overflow-wrap: anywhere; }
+  .status-cell { text-align: right; white-space: nowrap; }
+  .status-cell .asof { margin-top: 3px; }
+  ul.news { list-style: none; margin: 0; padding: 0; }
+  ul.news li { display: flex; gap: 10px; padding: 8px 0; border-top: 1px solid var(--grid); align-items: flex-start; }
+  ul.news li:first-child { border-top: none; }
+  .news-head { font-weight: 600; font-size: 13px; }
+  .news-head a { color: inherit; }
+  .news-meta { color: var(--muted); font-size: 12px; }
+  ul.issues { color: var(--warning); font-size: 13px; margin: 0; padding-left: 18px; }
+  footer { color: var(--muted); font-size: 12px; padding: 0 4px; }
+</style>
+</head>
+<body style="--tier-color: var(--warning)">
+<main>
+  <header>
+    <h1>AI Crash Monitor</h1>
+    <span class="asof">pre-open · <time id="gen-time">2026-07-25T00:50Z</time>
+    <span class="stale-badge">STALE DATA</span></span>
+  </header>
+
+  <div class="banner">
+    <div class="tier-line">
+      <span class="tier-icon">▲</span>
+      <span class="tier-name">AMBER</span>
+      <span class="score"><b>30</b><br><span class="asof">composite / 100</span></span>
+    </div>
+    <div class="blurb">Elevated readings — check the tripped indicators below.</div>
+    <ul><li>Red: AI basket drawdown / momentum, Periphery canaries (CRWV, ORCL), Breadth (RSP/SPY, % above 50dma)</li></ul>
+  </div>
+
+  <div class="tiles">
+      <div class="tile">
+        <div class="tile-label">HY credit spread (OAS)</div>
+        <div class="tile-value">2.77%</div>
+        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+6bp 5d</span></div>
+      </div>
+      <div class="tile">
+        <div class="tile-label">VIX term structure (VIX/VIX3M)</div>
+        <div class="tile-value">0.91</div>
+        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+0.03 5d</span></div>
+      </div>
+      <div class="tile">
+        <div class="tile-label">HYG/IEF ratio (credit vs safety)</div>
+        <div class="tile-value">+0.0% 10d</div>
+        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+0.3% 5d</span></div>
+      </div>
+      <div class="tile">
+        <div class="tile-label">AI basket drawdown / momentum</div>
+        <div class="tile-value">-17.2% vs 60d high</div>
+        <div class="tile-foot"><span class="badge critical"><span class="icon">■</span>ALERT</span><span class="delta">-7.1% 10d</span></div>
+      </div>
+  </div>
+
+  <section>
+    <h2>Indicators <span class="asof">status · value · as of</span></h2>
+    <table><colgroup><col class="c-label"><col class="c-num"><col class="c-status"></colgroup><tr class="group-row"><td colspan="3">Credit &amp; funding</td></tr>
+        <tr>
+          <td class="ind-label">HY credit spread (OAS)<div class="detail">Level 2.77% (amber ≥4.5%), 5d change +6bp (amber ≥+30bp). A fast widening is the best short-lead credit signal.</div></td>
+          <td class="num">2.77%<div class="delta">+6bp 5d</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-23</div></td>
+        </tr>
+        <tr>
+          <td class="ind-label">CCC credit spread (OAS)<div class="detail">Junkiest credit tier — closest public proxy for the leveraged AI periphery.</div></td>
+          <td class="num">9.91%<div class="delta">+21bp 5d</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-23</div></td>
+        </tr>
+        <tr>
+          <td class="ind-label">HYG/IEF ratio (credit vs safety)<div class="detail">High-yield ETF vs Treasuries — a same-day credit read with no FRED lag.</div></td>
+          <td class="num">+0.0% 10d<div class="delta">+0.3% 5d</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-24</div></td>
+        </tr>
+        <tr>
+          <td class="ind-label">SOFR − IORB (funding stress)<div class="detail">Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.</div></td>
+          <td class="num">-3bp<div class="delta">3d avg</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-23</div></td>
+        </tr>
+        <tr>
+          <td class="ind-label">Chicago Fed NFCI<div class="detail">Weekly financial-conditions composite; positive = tighter than average.</div></td>
+          <td class="num">-0.55<div class="delta">-0.05 4w</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-17</div></td>
+        </tr><tr class="group-row"><td colspan="3">Volatility</td></tr>
+        <tr>
+          <td class="ind-label">VIX term structure (VIX/VIX3M)<div class="detail">≥1.00 = backwardation — the near-coincident confirmation signal (days of lead at most).</div></td>
+          <td class="num">0.91<div class="delta">+0.03 5d</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-24</div></td>
+        </tr><tr class="group-row"><td colspan="3">AI sector</td></tr>
+        <tr>
+          <td class="ind-label">AI basket drawdown / momentum<div class="detail">Equal-weight basket of 14 AI-exposed names.</div></td>
+          <td class="num">-17.2% vs 60d high<div class="delta">-7.1% 10d</div></td>
+          <td class="status-cell"><span class="badge critical"><span class="icon">■</span>ALERT</span><div class="asof">2026-07-24</div></td>
+        </tr>
+        <tr>
+          <td class="ind-label">Periphery canaries (CRWV, ORCL)<div class="detail">Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.</div></td>
+          <td class="num">CRWV -19% · ORCL -18% 10d<div class="delta">vol ×1.1 / ×0.7</div></td>
+          <td class="status-cell"><span class="badge critical"><span class="icon">■</span>ALERT</span><div class="asof">2026-07-24</div></td>
+        </tr><tr class="group-row"><td colspan="3">Backdrop</td></tr>
+        <tr>
+          <td class="ind-label">Breadth (RSP/SPY, % above 50dma)<div class="detail">Narrowing breadth = fragility backdrop; slow signal, low weight.</div></td>
+          <td class="num">RSP/SPY +0.2% 20d<div class="delta">7% of basket &gt; 50dma</div></td>
+          <td class="status-cell"><span class="badge critical"><span class="icon">■</span>ALERT</span><div class="asof">2026-07-24</div></td>
+        </tr>
+        <tr>
+          <td class="ind-label">Yield curve (10y−3m)<div class="detail">Inversion is a 6–18 month gauge, not a timing signal — capped at amber.</div></td>
+          <td class="num">+0.73%<div class="delta">+0.03 5d</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-24</div></td>
+        </tr>
+    </table>
+  </section>
+  
+    <section>
+      <h2>Credit-event news scan <span class="asof"></span></h2>
+      <p class="detail">No scan results yet.</p>
+    </section>
+  
+  <footer>
+    Short-lead stress composite from free public data (FRED, Yahoo). It raises the odds of a
+    day-to-week heads-up; it cannot guarantee one — 1987/2020-type moves are unpredictable.
+    Not financial advice.
+  </footer>
+</main>
+<script>
+  (function () {
+    var age = Date.now() - 1784940640000;
+    if (age > 30 * 3600 * 1000) { document.body.classList.add("stale"); }
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+{
+ "schema": 1,
+ "generated_at": "2026-07-25T00:50:40+00:00",
+ "run_label": "pre-open",
+ "composite": 30.0,
+ "base_composite": 30.0,
+ "tier": "AMBER",
+ "override": null,
+ "reasons": [
+  "Red: AI basket drawdown / momentum, Periphery canaries (CRWV, ORCL), Breadth (RSP/SPY, % above 50dma)"
+ ],
+ "news_escalated": false,
+ "unknown_indicators": [],
+ "indicators": [
+  {
+   "id": "hy_oas",
+   "label": "HY credit spread (OAS)",
+   "group": "Credit & funding",
+   "weight": 0.16,
+   "status": 0,
+   "display": "2.77%",
+   "delta": "+6bp 5d",
+   "detail": "Level 2.77% (amber \u22654.5%), 5d change +6bp (amber \u2265+30bp). A fast widening is the best short-lead credit signal.",
+   "asof": "2026-07-23",
+   "value": 2.77,
+   "subscores": {
+    "level": 0,
+    "chg5": 0
+   }
+  },
+  {
+   "id": "ccc_oas",
+   "label": "CCC credit spread (OAS)",
+   "group": "Credit & funding",
+   "weight": 0.1,
+   "status": 0,
+   "display": "9.91%",
+   "delta": "+21bp 5d",
+   "detail": "Junkiest credit tier \u2014 closest public proxy for the leveraged AI periphery.",
+   "asof": "2026-07-23",
+   "value": 9.91,
+   "subscores": {}
+  },
+  {
+   "id": "hyg_ief",
+   "label": "HYG/IEF ratio (credit vs safety)",
+   "group": "Credit & funding",
+   "weight": 0.12,
+   "status": 0,
+   "display": "+0.0% 10d",
+   "delta": "+0.3% 5d",
+   "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
+   "asof": "2026-07-24",
+   "value": 0.0003889029531884969,
+   "subscores": {}
+  },
+  {
+   "id": "sofr_iorb",
+   "label": "SOFR \u2212 IORB (funding stress)",
+   "group": "Credit & funding",
+   "weight": 0.08,
+   "status": 0,
+   "display": "-3bp",
+   "delta": "3d avg",
+   "detail": "Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.",
+   "asof": "2026-07-23",
+   "value": -2.666666666666654,
+   "subscores": {}
+  },
+  {
+   "id": "nfci",
+   "label": "Chicago Fed NFCI",
+   "group": "Credit & funding",
+   "weight": 0.04,
+   "status": 0,
+   "display": "-0.55",
+   "delta": "-0.05 4w",
+   "detail": "Weekly financial-conditions composite; positive = tighter than average.",
+   "asof": "2026-07-17",
+   "value": -0.552,
+   "subscores": {}
+  },
+  {
+   "id": "vix_ts",
+   "label": "VIX term structure (VIX/VIX3M)",
+   "group": "Volatility",
+   "weight": 0.16,
+   "status": 0,
+   "display": "0.91",
+   "delta": "+0.03 5d",
+   "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
+   "asof": "2026-07-24",
+   "value": 0.9058995473604146,
+   "subscores": {}
+  },
+  {
+   "id": "ai_basket",
+   "label": "AI basket drawdown / momentum",
+   "group": "AI sector",
+   "weight": 0.12,
+   "status": 2,
+   "display": "-17.2% vs 60d high",
+   "delta": "-7.1% 10d",
+   "detail": "Equal-weight basket of 14 AI-exposed names.",
+   "asof": "2026-07-24",
+   "value": -0.17155530590996593,
+   "subscores": {
+    "drawdown": -0.17155530590996593,
+    "mom10": -0.07080096923052792
+   }
+  },
+  {
+   "id": "periphery",
+   "label": "Periphery canaries (CRWV, ORCL)",
+   "group": "AI sector",
+   "weight": 0.1,
+   "status": 2,
+   "display": "CRWV -19% \u00b7 ORCL -18% 10d",
+   "delta": "vol \u00d71.1 / \u00d70.7",
+   "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
+   "asof": "2026-07-24",
+   "value": null,
+   "subscores": {}
+  },
+  {
+   "id": "breadth",
+   "label": "Breadth (RSP/SPY, % above 50dma)",
+   "group": "Backdrop",
+   "weight": 0.08,
+   "status": 2,
+   "display": "RSP/SPY +0.2% 20d",
+   "delta": "7% of basket > 50dma",
+   "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
+   "asof": "2026-07-24",
+   "value": 0.0022753972238285236,
+   "subscores": {}
+  },
+  {
+   "id": "yield_curve",
+   "label": "Yield curve (10y\u22123m)",
+   "group": "Backdrop",
+   "weight": 0.04,
+   "status": 0,
+   "display": "+0.73%",
+   "delta": "+0.03 5d",
+   "detail": "Inversion is a 6\u201318 month gauge, not a timing signal \u2014 capped at amber.",
+   "asof": "2026-07-24",
+   "value": 0.73,
+   "subscores": {}
+  }
+ ],
+ "news": null,
+ "data_issues": [],
+ "disclaimer": "Not financial advice. No indicator reliably times crashes; this composite raises the odds of a short heads-up, nothing more."
+}
