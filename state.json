@@ -1,13 +1,17 @@
 {
- "schema": 1,
- "generated_at": "2026-07-25T01:00:11+00:00",
- "run_label": "pre-open",
- "composite": 30.0,
- "base_composite": 30.0,
- "tier": "AMBER",
+ "schema": 2,
+ "generated_at": "2026-07-27T14:00:09+00:00",
+ "run_label": "mid-day",
+ "composite": 20.8,
+ "base_composite": 20.8,
+ "tier": "GREEN",
+ "regime": "equity-only",
  "override": null,
  "reasons": [
-  "Red: AI basket drawdown / momentum, Periphery canaries (CRWV, ORCL), Breadth (RSP/SPY, % above 50dma)"
+  "Red: AI basket drawdown / momentum, Breadth (RSP/SPY, % above 50dma)",
+  "Amber: Periphery canaries (CRWV, ORCL)",
+  "Regime: equity-only \u2014 Equity and vol rows only; credit is quiet.",
+  "Hedge pricing (not in composite): Put skew / cost of tail insurance expensive, Implied vol richness (VIX pctile, IV\u2212RV) moderate"
  ],
  "news_escalated": false,
  "unknown_indicators": [],
@@ -29,6 +33,23 @@
    }
   },
   {
+   "id": "ig_oas",
+   "label": "IG credit spread (OAS)",
+   "group": "Credit & funding",
+   "weight": 0.08,
+   "status": 0,
+   "display": "0.79%",
+   "delta": "+1bp 5d",
+   "detail": "Level 0.79% (amber \u22651.3%), 5d change +1bp (amber \u2265+15bp). Both tiers calm (HY/IG 3.5\u00d7).",
+   "asof": "2026-07-23",
+   "value": 0.79,
+   "subscores": {
+    "level": 0,
+    "chg5": 0,
+    "hy_ig_ratio": 3.5063291139240507
+   }
+  },
+  {
    "id": "ccc_oas",
    "label": "CCC credit spread (OAS)",
    "group": "Credit & funding",
@@ -47,11 +68,24 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "+0.0% 10d",
-   "delta": "+0.3% 5d",
+   "display": "-0.1% 10d",
+   "delta": "-0.0% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
-   "asof": "2026-07-24",
-   "value": 0.0003889029531884969,
+   "asof": "2026-07-27",
+   "value": -0.0008967973848738042,
+   "subscores": {}
+  },
+  {
+   "id": "loan_credit",
+   "label": "Leveraged loans (BKLN)",
+   "group": "Credit & funding",
+   "weight": 0.06,
+   "status": 0,
+   "display": "+0.3% 10d",
+   "delta": "+0.0% 5d",
+   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+0.5pp 10d).",
+   "asof": "2026-07-27",
+   "value": 0.002891435558681321,
    "subscores": {}
   },
   {
@@ -60,12 +94,29 @@
    "group": "Credit & funding",
    "weight": 0.08,
    "status": 0,
-   "display": "-3bp",
+   "display": "-2bp",
    "delta": "3d avg",
    "detail": "Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.",
-   "asof": "2026-07-23",
-   "value": -2.666666666666654,
+   "asof": "2026-07-24",
+   "value": -1.6666666666666459,
    "subscores": {}
+  },
+  {
+   "id": "funding_tail",
+   "label": "Funding tail (SOFR spread + Fed repo use)",
+   "group": "Credit & funding",
+   "weight": 0.06,
+   "status": 0,
+   "display": "13bp tail",
+   "delta": "Fed repo ops $0.0bn (3d max)",
+   "detail": "SOFR 99th\u22121st percentile 13bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
+   "asof": "2026-07-24",
+   "value": 13.000000000000034,
+   "subscores": {
+    "tail": 0,
+    "usage": 0,
+    "usage_bn": 0.003
+   }
   },
   {
    "id": "nfci",
@@ -87,11 +138,45 @@
    "weight": 0.16,
    "status": 0,
    "display": "0.91",
-   "delta": "+0.03 5d",
+   "delta": "+0.04 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-07-24",
-   "value": 0.9058995473604146,
+   "asof": "2026-07-27",
+   "value": 0.9113545471410051,
    "subscores": {}
+  },
+  {
+   "id": "put_skew",
+   "label": "Put skew / cost of tail insurance",
+   "group": "Hedge pricing",
+   "weight": 0.0,
+   "status": 2,
+   "display": "SKEW 147",
+   "delta": "VVIX 99 \u00b7 +0 5d",
+   "detail": "SKEW 147 (expensive \u2265145), VVIX 99 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-07-24",
+   "value": 147.27999877929688,
+   "subscores": {
+    "skew": 2,
+    "vvix": 1,
+    "vvix_level": 99.06999969482422
+   }
+  },
+  {
+   "id": "vol_premium",
+   "label": "Implied vol richness (VIX pctile, IV\u2212RV)",
+   "group": "Hedge pricing",
+   "weight": 0.0,
+   "status": 1,
+   "display": "65th pctile",
+   "delta": "IV\u2212RV +6.9pt",
+   "detail": "VIX 18.3 sits at the 65th percentile of its trailing year (expensive \u226580th); 20d realized 11.4, so implied carries +6.9 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-07-27",
+   "value": 6.947652950245477,
+   "subscores": {
+    "pctile": 1,
+    "premium": 1,
+    "realized": 11.35234628681507
+   }
   },
   {
    "id": "ai_basket",
@@ -100,13 +185,13 @@
    "weight": 0.12,
    "status": 2,
    "display": "-17.2% vs 60d high",
-   "delta": "-7.1% 10d",
+   "delta": "-4.1% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
-   "asof": "2026-07-24",
-   "value": -0.1715553059099657,
+   "asof": "2026-07-27",
+   "value": -0.17164859934980659,
    "subscores": {
-    "drawdown": -0.1715553059099657,
-    "mom10": -0.07080096923052792
+    "drawdown": -0.17164859934980659,
+    "mom10": -0.04144649232181441
    }
   },
   {
@@ -114,11 +199,11 @@
    "label": "Periphery canaries (CRWV, ORCL)",
    "group": "AI sector",
    "weight": 0.1,
-   "status": 2,
-   "display": "CRWV -19% \u00b7 ORCL -18% 10d",
-   "delta": "vol \u00d71.1 / \u00d70.7",
+   "status": 1,
+   "display": "CRWV -13% \u00b7 ORCL -8% 10d",
+   "delta": "vol \u00d71.1 / \u00d70.8",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
-   "asof": "2026-07-24",
+   "asof": "2026-07-27",
    "value": null,
    "subscores": {}
   },
@@ -128,11 +213,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 2,
-   "display": "RSP/SPY +0.2% 20d",
-   "delta": "7% of basket > 50dma",
+   "display": "RSP/SPY +0.6% 20d",
+   "delta": "0% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
-   "asof": "2026-07-24",
-   "value": 0.0022753972238285236,
+   "asof": "2026-07-27",
+   "value": 0.005535889558667684,
    "subscores": {}
   },
   {
@@ -150,31 +235,47 @@
   }
  ],
  "news": {
-  "scanned_at": "2026-07-25T00:59:52Z",
+  "scanned_at": "2026-07-27T13:59:02Z",
   "items": [
    {
-    "headline": "Moody's warns AI capex and $820B+ in unstarted-lease commitments threaten credit quality of six hyperscalers",
-    "source": "CNBC / Moody's Ratings",
-    "url": "https://www.cnbc.com/2026/07/24/moodys-ai-spending-credit-quality-amazon-meta-alphabet.html",
+    "headline": "Nvidia in talks to guarantee ~$250B financing for OpenAI's SoftBank-backed Ohio campus plus up to $350B in chip financing",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing",
+    "date": "2026-07-27",
+    "severity": "medium",
+    "note": "Deepens the circular vendor-financing web (Nvidia backstopping the purchases of its own chips) underpinning the AI infrastructure debt build-out that credit investors are watching for contagion risk."
+   },
+   {
+    "headline": "Rising corporate borrowing costs threaten to squeeze heavily-indebted neoclouds and hyperscalers",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/07/26/what-more-expensive-corporate-debt-could-mean-for-the-ai-buildout.html",
+    "date": "2026-07-26",
+    "severity": "medium",
+    "note": "Goldman Sachs' chief credit strategist warns that widening spreads will push AI capex funding toward private markets and JV structures as syndicated credit gets pricier, a direct signal of rising financing stress."
+   },
+   {
+    "headline": "Mag7 index posts worst day since April 2025 as Big Tech earnings collide with investor revolt over AI spending",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-07-26/big-tech-earnings-slam-into-a-market-in-revolt-over-ai-spending",
+    "date": "2026-07-26",
+    "severity": "medium",
+    "note": "Marks a break in the market's tacit tolerance for unchecked AI capex, coming right before Microsoft/Meta/Amazon/Apple report \u2014 a leading indicator for how capex guidance will be priced this week."
+   },
+   {
+    "headline": "5-year CDS on Oracle, Amazon, Google and Microsoft hit multi-year highs as bond-market anxiety over AI capex grows",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/07/24/bond-market-anxiety-ai-capex-spending.html",
     "date": "2026-07-24",
     "severity": "medium",
-    "note": "Rating agency flags that off-balance-sheet lease commitments (~$1.2T) and declining/negative free cash flow at Alphabet, Amazon, CoreWeave, Meta, Microsoft and Oracle could pressure leverage ratios if buildouts are debt-financed."
+    "note": "CDS spreads on the group ex-Oracle hit their highest since at least 2018 as fixed-income investors demand more compensation for hyperscaler AI-debt risk, a concrete credit-market stress signal."
    },
    {
-    "headline": "Wisconsin regulators uphold $7B collateral requirement on Oracle for We Energies data center after S&P downgrade",
-    "source": "Financial Times / GuruFocus",
-    "url": "https://www.gurufocus.com/news/8968418/oracle-orcl-faces-7b-collateral-requirement-for-wisconsin-data-center",
-    "date": "2026-07-21",
-    "severity": "high",
-    "note": "A realized forced action directly triggered by S&P's July 9 downgrade to BBB-: Oracle must post a letter of credit exceeding $7B (>$100M/yr cost) to keep its Port Washington buildout on track, and is now fighting the ruling in court."
-   },
-   {
-    "headline": "Oracle 5-year CDS spread closes at record 198.23bps, surpassing 2008 financial-crisis-era peak",
-    "source": "Bloomberg / BondBlox",
-    "url": "https://bondblox.com/news/oracles-5y-cds-spread-hits-all-time-highs",
-    "date": "2026-07-18",
+    "headline": "Alphabet posts first-ever negative quarterly free cash flow after lifting 2026 AI capex guidance to $205B",
+    "source": "Semafor",
+    "url": "https://www.semafor.com/article/07/23/2026/alphabets-free-cash-flow-turns-negative",
+    "date": "2026-07-23",
     "severity": "medium",
-    "note": "Credit-default-swap markets are pricing Oracle's default risk at its highest level on record, reflecting investor concern over its debt-funded AI buildout and negative free cash flow."
+    "note": "Shares fell ~7% and dragged the Mag7 index to its worst session in over a year, the clearest realized AI-revenue/capex disappointment so far this earnings season."
    }
   ]
  },

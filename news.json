@@ -1,29 +1,45 @@
 {
-  "scanned_at": "2026-07-25T00:59:52Z",
+  "scanned_at": "2026-07-27T13:59:02Z",
   "items": [
     {
-      "headline": "Moody's warns AI capex and $820B+ in unstarted-lease commitments threaten credit quality of six hyperscalers",
-      "source": "CNBC / Moody's Ratings",
-      "url": "https://www.cnbc.com/2026/07/24/moodys-ai-spending-credit-quality-amazon-meta-alphabet.html",
+      "headline": "Nvidia in talks to guarantee ~$250B financing for OpenAI's SoftBank-backed Ohio campus plus up to $350B in chip financing",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing",
+      "date": "2026-07-27",
+      "severity": "medium",
+      "note": "Deepens the circular vendor-financing web (Nvidia backstopping the purchases of its own chips) underpinning the AI infrastructure debt build-out that credit investors are watching for contagion risk."
+    },
+    {
+      "headline": "Rising corporate borrowing costs threaten to squeeze heavily-indebted neoclouds and hyperscalers",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/26/what-more-expensive-corporate-debt-could-mean-for-the-ai-buildout.html",
+      "date": "2026-07-26",
+      "severity": "medium",
+      "note": "Goldman Sachs' chief credit strategist warns that widening spreads will push AI capex funding toward private markets and JV structures as syndicated credit gets pricier, a direct signal of rising financing stress."
+    },
+    {
+      "headline": "Mag7 index posts worst day since April 2025 as Big Tech earnings collide with investor revolt over AI spending",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-26/big-tech-earnings-slam-into-a-market-in-revolt-over-ai-spending",
+      "date": "2026-07-26",
+      "severity": "medium",
+      "note": "Marks a break in the market's tacit tolerance for unchecked AI capex, coming right before Microsoft/Meta/Amazon/Apple report — a leading indicator for how capex guidance will be priced this week."
+    },
+    {
+      "headline": "5-year CDS on Oracle, Amazon, Google and Microsoft hit multi-year highs as bond-market anxiety over AI capex grows",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/24/bond-market-anxiety-ai-capex-spending.html",
       "date": "2026-07-24",
       "severity": "medium",
-      "note": "Rating agency flags that off-balance-sheet lease commitments (~$1.2T) and declining/negative free cash flow at Alphabet, Amazon, CoreWeave, Meta, Microsoft and Oracle could pressure leverage ratios if buildouts are debt-financed."
+      "note": "CDS spreads on the group ex-Oracle hit their highest since at least 2018 as fixed-income investors demand more compensation for hyperscaler AI-debt risk, a concrete credit-market stress signal."
     },
     {
-      "headline": "Wisconsin regulators uphold $7B collateral requirement on Oracle for We Energies data center after S&P downgrade",
-      "source": "Financial Times / GuruFocus",
-      "url": "https://www.gurufocus.com/news/8968418/oracle-orcl-faces-7b-collateral-requirement-for-wisconsin-data-center",
-      "date": "2026-07-21",
-      "severity": "high",
-      "note": "A realized forced action directly triggered by S&P's July 9 downgrade to BBB-: Oracle must post a letter of credit exceeding $7B (>$100M/yr cost) to keep its Port Washington buildout on track, and is now fighting the ruling in court."
-    },
-    {
-      "headline": "Oracle 5-year CDS spread closes at record 198.23bps, surpassing 2008 financial-crisis-era peak",
-      "source": "Bloomberg / BondBlox",
-      "url": "https://bondblox.com/news/oracles-5y-cds-spread-hits-all-time-highs",
-      "date": "2026-07-18",
+      "headline": "Alphabet posts first-ever negative quarterly free cash flow after lifting 2026 AI capex guidance to $205B",
+      "source": "Semafor",
+      "url": "https://www.semafor.com/article/07/23/2026/alphabets-free-cash-flow-turns-negative",
+      "date": "2026-07-23",
       "severity": "medium",
-      "note": "Credit-default-swap markets are pricing Oracle's default risk at its highest level on record, reflecting investor concern over its debt-funded AI buildout and negative free cash flow."
+      "note": "Shares fell ~7% and dragged the Mag7 index to its worst session in over a year, the clearest realized AI-revenue/capex disappointment so far this earnings season."
     }
   ]
 }

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#1a1a19">
-<title>AI Crash Monitor — AMBER</title>
+<title>AI Crash Monitor — GREEN</title>
 <style>
   :root {
     color-scheme: light dark;
@@ -44,6 +44,9 @@
   .banner .score { margin-left: auto; text-align: right; }
   .banner .score b { font-size: 26px; }
   .banner .blurb { color: var(--ink-2); margin-top: 6px; }
+  .banner .regime { margin-top: 8px; font-size: 13px; font-weight: 600; }
+  .banner .regime span { font-weight: 400; color: var(--ink-2); }
+  .group-note { text-transform: none; letter-spacing: 0; font-weight: 400; }
   .banner ul { margin: 8px 0 0; padding-left: 18px; color: var(--ink-2); font-size: 13px; }
   .stale-badge { display: none; background: var(--critical-bg); color: var(--critical);
     border: 1px solid var(--critical); border-radius: 6px; padding: 2px 8px; font-size: 12px; font-weight: 700; }
@@ -84,22 +87,23 @@
   footer { color: var(--muted); font-size: 12px; padding: 0 4px; }
 </style>
 </head>
-<body style="--tier-color: var(--warning)">
+<body style="--tier-color: var(--good)">
 <main>
   <header>
     <h1>AI Crash Monitor</h1>
-    <span class="asof">pre-open · <time id="gen-time">2026-07-25T01:00Z</time>
+    <span class="asof">mid-day · <time id="gen-time">2026-07-27T14:00Z</time>
     <span class="stale-badge">STALE DATA</span></span>
   </header>
 
   <div class="banner">
     <div class="tier-line">
-      <span class="tier-icon">▲</span>
-      <span class="tier-name">AMBER</span>
-      <span class="score"><b>30</b><br><span class="asof">composite / 100</span></span>
+      <span class="tier-icon">●</span>
+      <span class="tier-name">GREEN</span>
+      <span class="score"><b>21</b><br><span class="asof">composite / 100</span></span>
     </div>
-    <div class="blurb">Elevated readings — check the tripped indicators below.</div>
-    <ul><li>Red: AI basket drawdown / momentum, Periphery canaries (CRWV, ORCL), Breadth (RSP/SPY, % above 50dma)</li></ul>
+    <div class="blurb">No unusual stress in the monitored signals.</div>
+    <div class="regime">Regime: equity-only <span>— equity and vol rows only; credit is quiet</span></div>
+    <ul><li>Red: AI basket drawdown / momentum, Breadth (RSP/SPY, % above 50dma)</li><li>Amber: Periphery canaries (CRWV, ORCL)</li><li>Regime: equity-only — Equity and vol rows only; credit is quiet.</li><li>Hedge pricing (not in composite): Put skew / cost of tail insurance expensive, Implied vol richness (VIX pctile, IV−RV) moderate</li></ul>
   </div>
 
   <div class="tiles">
@@ -109,19 +113,29 @@
         <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+6bp 5d</span></div>
       </div>
       <div class="tile">
+        <div class="tile-label">IG credit spread (OAS)</div>
+        <div class="tile-value">0.79%</div>
+        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+1bp 5d</span></div>
+      </div>
+      <div class="tile">
         <div class="tile-label">VIX term structure (VIX/VIX3M)</div>
         <div class="tile-value">0.91</div>
-        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+0.03 5d</span></div>
+        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+0.04 5d</span></div>
       </div>
       <div class="tile">
         <div class="tile-label">HYG/IEF ratio (credit vs safety)</div>
-        <div class="tile-value">+0.0% 10d</div>
-        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+0.3% 5d</span></div>
+        <div class="tile-value">-0.1% 10d</div>
+        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">-0.0% 5d</span></div>
       </div>
       <div class="tile">
         <div class="tile-label">AI basket drawdown / momentum</div>
         <div class="tile-value">-17.2% vs 60d high</div>
-        <div class="tile-foot"><span class="badge critical"><span class="icon">■</span>ALERT</span><span class="delta">-7.1% 10d</span></div>
+        <div class="tile-foot"><span class="badge critical"><span class="icon">■</span>ALERT</span><span class="delta">-4.1% 10d</span></div>
+      </div>
+      <div class="tile">
+        <div class="tile-label">Put skew / cost of tail insurance</div>
+        <div class="tile-value">SKEW 147</div>
+        <div class="tile-foot"><span class="badge critical"><span class="icon">■</span>EXPENSIVE</span><span class="delta">VVIX 99 · +0 5d</span></div>
       </div>
   </div>
 
@@ -134,19 +148,34 @@
           <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-23</div></td>
         </tr>
         <tr>
+          <td class="ind-label">IG credit spread (OAS)<div class="detail">Level 0.79% (amber ≥1.3%), 5d change +1bp (amber ≥+15bp). Both tiers calm (HY/IG 3.5×).</div></td>
+          <td class="num">0.79%<div class="delta">+1bp 5d</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-23</div></td>
+        </tr>
+        <tr>
           <td class="ind-label">CCC credit spread (OAS)<div class="detail">Junkiest credit tier — closest public proxy for the leveraged AI periphery.</div></td>
           <td class="num">9.91%<div class="delta">+21bp 5d</div></td>
           <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-23</div></td>
         </tr>
         <tr>
           <td class="ind-label">HYG/IEF ratio (credit vs safety)<div class="detail">High-yield ETF vs Treasuries — a same-day credit read with no FRED lag.</div></td>
-          <td class="num">+0.0% 10d<div class="delta">+0.3% 5d</div></td>
-          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-24</div></td>
+          <td class="num">-0.1% 10d<div class="delta">-0.0% 5d</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-27</div></td>
+        </tr>
+        <tr>
+          <td class="ind-label">Leveraged loans (BKLN)<div class="detail">Floating-rate senior secured loans — isolates credit risk from rate moves. Tracking HY closely (+0.5pp 10d).</div></td>
+          <td class="num">+0.3% 10d<div class="delta">+0.0% 5d</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-27</div></td>
         </tr>
         <tr>
           <td class="ind-label">SOFR − IORB (funding stress)<div class="detail">Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.</div></td>
-          <td class="num">-3bp<div class="delta">3d avg</div></td>
-          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-23</div></td>
+          <td class="num">-2bp<div class="delta">3d avg</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-24</div></td>
+        </tr>
+        <tr>
+          <td class="ind-label">Funding tail (SOFR spread + Fed repo use)<div class="detail">SOFR 99th−1st percentile 13bp (amber ≥30bp); Fed repo ops $0.0bn (3d max) (amber ≥$5bn). Needs both legs to confirm stress over calendar effects.</div></td>
+          <td class="num">13bp tail<div class="delta">Fed repo ops $0.0bn (3d max)</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-24</div></td>
         </tr>
         <tr>
           <td class="ind-label">Chicago Fed NFCI<div class="detail">Weekly financial-conditions composite; positive = tighter than average.</div></td>
@@ -155,52 +184,74 @@
         </tr><tr class="group-row"><td colspan="3">Volatility</td></tr>
         <tr>
           <td class="ind-label">VIX term structure (VIX/VIX3M)<div class="detail">≥1.00 = backwardation — the near-coincident confirmation signal (days of lead at most).</div></td>
-          <td class="num">0.91<div class="delta">+0.03 5d</div></td>
-          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-24</div></td>
+          <td class="num">0.91<div class="delta">+0.04 5d</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-27</div></td>
         </tr><tr class="group-row"><td colspan="3">AI sector</td></tr>
         <tr>
           <td class="ind-label">AI basket drawdown / momentum<div class="detail">Equal-weight basket of 14 AI-exposed names.</div></td>
-          <td class="num">-17.2% vs 60d high<div class="delta">-7.1% 10d</div></td>
-          <td class="status-cell"><span class="badge critical"><span class="icon">■</span>ALERT</span><div class="asof">2026-07-24</div></td>
+          <td class="num">-17.2% vs 60d high<div class="delta">-4.1% 10d</div></td>
+          <td class="status-cell"><span class="badge critical"><span class="icon">■</span>ALERT</span><div class="asof">2026-07-27</div></td>
         </tr>
         <tr>
           <td class="ind-label">Periphery canaries (CRWV, ORCL)<div class="detail">Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.</div></td>
-          <td class="num">CRWV -19% · ORCL -18% 10d<div class="delta">vol ×1.1 / ×0.7</div></td>
-          <td class="status-cell"><span class="badge critical"><span class="icon">■</span>ALERT</span><div class="asof">2026-07-24</div></td>
+          <td class="num">CRWV -13% · ORCL -8% 10d<div class="delta">vol ×1.1 / ×0.8</div></td>
+          <td class="status-cell"><span class="badge warning"><span class="icon">▲</span>WATCH</span><div class="asof">2026-07-27</div></td>
         </tr><tr class="group-row"><td colspan="3">Backdrop</td></tr>
         <tr>
           <td class="ind-label">Breadth (RSP/SPY, % above 50dma)<div class="detail">Narrowing breadth = fragility backdrop; slow signal, low weight.</div></td>
-          <td class="num">RSP/SPY +0.2% 20d<div class="delta">7% of basket &gt; 50dma</div></td>
-          <td class="status-cell"><span class="badge critical"><span class="icon">■</span>ALERT</span><div class="asof">2026-07-24</div></td>
+          <td class="num">RSP/SPY +0.6% 20d<div class="delta">0% of basket &gt; 50dma</div></td>
+          <td class="status-cell"><span class="badge critical"><span class="icon">■</span>ALERT</span><div class="asof">2026-07-27</div></td>
         </tr>
         <tr>
           <td class="ind-label">Yield curve (10y−3m)<div class="detail">Inversion is a 6–18 month gauge, not a timing signal — capped at amber.</div></td>
           <td class="num">+0.73%<div class="delta">+0.03 5d</div></td>
           <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-24</div></td>
+        </tr><tr class="group-row"><td colspan="3">Hedge pricing <span class="group-note">cost of protection · not part of the composite</span></td></tr>
+        <tr>
+          <td class="ind-label">Put skew / cost of tail insurance<div class="detail">SKEW 147 (expensive ≥145), VVIX 99 (expensive ≥110). Tail insurance is expensive — you would be paying up for the tail. Cost tier, not a risk tier — excluded from the composite.</div></td>
+          <td class="num">SKEW 147<div class="delta">VVIX 99 · +0 5d</div></td>
+          <td class="status-cell"><span class="badge critical"><span class="icon">■</span>EXPENSIVE</span><div class="asof">2026-07-24</div></td>
+        </tr>
+        <tr>
+          <td class="ind-label">Implied vol richness (VIX pctile, IV−RV)<div class="detail">VIX 18.3 sits at the 65th percentile of its trailing year (expensive ≥80th); 20d realized 11.4, so implied carries +6.9 vol points of premium (expensive ≥8). Cost tier, not a risk tier — excluded from the composite.</div></td>
+          <td class="num">65th pctile<div class="delta">IV−RV +6.9pt</div></td>
+          <td class="status-cell"><span class="badge warning"><span class="icon">▲</span>MODERATE</span><div class="asof">2026-07-27</div></td>
         </tr>
     </table>
   </section>
   
     <section>
-      <h2>Credit-event news scan <span class="asof">2026-07-25T00:59</span></h2>
+      <h2>Credit-event news scan <span class="asof">2026-07-27T13:59</span></h2>
       <ul class="news">
       <li>
         <span class="badge warning">MEDIUM</span>
-        <div><div class="news-head"><a href="https://www.cnbc.com/2026/07/24/moodys-ai-spending-credit-quality-amazon-meta-alphabet.html" rel="noopener">Moody&#x27;s warns AI capex and $820B+ in unstarted-lease commitments threaten credit quality of six hyperscalers</a></div>
-        <div class="news-meta">CNBC / Moody&#x27;s Ratings · 2026-07-24</div>
-        <div class="detail">Rating agency flags that off-balance-sheet lease commitments (~$1.2T) and declining/negative free cash flow at Alphabet, Amazon, CoreWeave, Meta, Microsoft and Oracle could pressure leverage ratios if buildouts are debt-financed.</div></div>
-      </li>
-      <li>
-        <span class="badge critical">HIGH</span>
-        <div><div class="news-head"><a href="https://www.gurufocus.com/news/8968418/oracle-orcl-faces-7b-collateral-requirement-for-wisconsin-data-center" rel="noopener">Wisconsin regulators uphold $7B collateral requirement on Oracle for We Energies data center after S&amp;P downgrade</a></div>
-        <div class="news-meta">Financial Times / GuruFocus · 2026-07-21</div>
-        <div class="detail">A realized forced action directly triggered by S&amp;P&#x27;s July 9 downgrade to BBB-: Oracle must post a letter of credit exceeding $7B (&gt;$100M/yr cost) to keep its Port Washington buildout on track, and is now fighting the ruling in court.</div></div>
+        <div><div class="news-head"><a href="https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing" rel="noopener">Nvidia in talks to guarantee ~$250B financing for OpenAI&#x27;s SoftBank-backed Ohio campus plus up to $350B in chip financing</a></div>
+        <div class="news-meta">Bloomberg · 2026-07-27</div>
+        <div class="detail">Deepens the circular vendor-financing web (Nvidia backstopping the purchases of its own chips) underpinning the AI infrastructure debt build-out that credit investors are watching for contagion risk.</div></div>
       </li>
       <li>
         <span class="badge warning">MEDIUM</span>
-        <div><div class="news-head"><a href="https://bondblox.com/news/oracles-5y-cds-spread-hits-all-time-highs" rel="noopener">Oracle 5-year CDS spread closes at record 198.23bps, surpassing 2008 financial-crisis-era peak</a></div>
-        <div class="news-meta">Bloomberg / BondBlox · 2026-07-18</div>
-        <div class="detail">Credit-default-swap markets are pricing Oracle&#x27;s default risk at its highest level on record, reflecting investor concern over its debt-funded AI buildout and negative free cash flow.</div></div>
+        <div><div class="news-head"><a href="https://www.cnbc.com/2026/07/26/what-more-expensive-corporate-debt-could-mean-for-the-ai-buildout.html" rel="noopener">Rising corporate borrowing costs threaten to squeeze heavily-indebted neoclouds and hyperscalers</a></div>
+        <div class="news-meta">CNBC · 2026-07-26</div>
+        <div class="detail">Goldman Sachs&#x27; chief credit strategist warns that widening spreads will push AI capex funding toward private markets and JV structures as syndicated credit gets pricier, a direct signal of rising financing stress.</div></div>
+      </li>
+      <li>
+        <span class="badge warning">MEDIUM</span>
+        <div><div class="news-head"><a href="https://www.bloomberg.com/news/articles/2026-07-26/big-tech-earnings-slam-into-a-market-in-revolt-over-ai-spending" rel="noopener">Mag7 index posts worst day since April 2025 as Big Tech earnings collide with investor revolt over AI spending</a></div>
+        <div class="news-meta">Bloomberg · 2026-07-26</div>
+        <div class="detail">Marks a break in the market&#x27;s tacit tolerance for unchecked AI capex, coming right before Microsoft/Meta/Amazon/Apple report — a leading indicator for how capex guidance will be priced this week.</div></div>
+      </li>
+      <li>
+        <span class="badge warning">MEDIUM</span>
+        <div><div class="news-head"><a href="https://www.cnbc.com/2026/07/24/bond-market-anxiety-ai-capex-spending.html" rel="noopener">5-year CDS on Oracle, Amazon, Google and Microsoft hit multi-year highs as bond-market anxiety over AI capex grows</a></div>
+        <div class="news-meta">CNBC · 2026-07-24</div>
+        <div class="detail">CDS spreads on the group ex-Oracle hit their highest since at least 2018 as fixed-income investors demand more compensation for hyperscaler AI-debt risk, a concrete credit-market stress signal.</div></div>
+      </li>
+      <li>
+        <span class="badge warning">MEDIUM</span>
+        <div><div class="news-head"><a href="https://www.semafor.com/article/07/23/2026/alphabets-free-cash-flow-turns-negative" rel="noopener">Alphabet posts first-ever negative quarterly free cash flow after lifting 2026 AI capex guidance to $205B</a></div>
+        <div class="news-meta">Semafor · 2026-07-23</div>
+        <div class="detail">Shares fell ~7% and dragged the Mag7 index to its worst session in over a year, the clearest realized AI-revenue/capex disappointment so far this earnings season.</div></div>
       </li></ul>
     </section>
   
@@ -212,7 +263,7 @@
 </main>
 <script>
   (function () {
-    var age = Date.now() - 1784941211000;
+    var age = Date.now() - 1785160809000;
     if (age > 30 * 3600 * 1000) { document.body.classList.add("stale"); }
   })();
 </script>
