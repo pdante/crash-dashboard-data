@@ -1,14 +1,15 @@
 {
  "schema": 2,
- "generated_at": "2026-07-27T22:32:29+00:00",
- "run_label": "post-close",
- "composite": 25.0,
- "base_composite": 25.0,
+ "generated_at": "2026-07-28T13:20:38+00:00",
+ "run_label": "pre-open",
+ "composite": 20.8,
+ "base_composite": 20.8,
  "tier": "GREEN",
  "regime": "equity-only",
  "override": null,
  "reasons": [
-  "Red: AI basket drawdown / momentum, Periphery canaries (CRWV, ORCL), Breadth (RSP/SPY, % above 50dma)",
+  "Red: AI basket drawdown / momentum, Breadth (RSP/SPY, % above 50dma)",
+  "Amber: Periphery canaries (CRWV, ORCL)",
   "Regime: equity-only \u2014 Equity and vol rows only; credit is quiet.",
   "Hedge pricing (not in composite): Put skew / cost of tail insurance expensive, Implied vol richness (VIX pctile, IV\u2212RV) moderate"
  ],
@@ -93,11 +94,11 @@
    "group": "Credit & funding",
    "weight": 0.08,
    "status": 0,
-   "display": "-2bp",
+   "display": "-1bp",
    "delta": "3d avg",
    "detail": "Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.",
-   "asof": "2026-07-24",
-   "value": -1.6666666666666459,
+   "asof": "2026-07-27",
+   "value": -0.9999999999999787,
    "subscores": {}
   },
   {
@@ -109,7 +110,7 @@
    "display": "13bp tail",
    "delta": "Fed repo ops $0.0bn (3d max)",
    "detail": "SOFR 99th\u22121st percentile 13bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
-   "asof": "2026-07-24",
+   "asof": "2026-07-27",
    "value": 13.000000000000034,
    "subscores": {
     "tail": 0,
@@ -136,11 +137,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.92",
-   "delta": "+0.05 5d",
+   "display": "0.91",
+   "delta": "+0.10 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-07-27",
-   "value": 0.924257394610966,
+   "asof": "2026-07-17",
+   "value": 0.9138266612040106,
    "subscores": {}
   },
   {
@@ -167,14 +168,14 @@
    "weight": 0.0,
    "status": 1,
    "display": "70th pctile",
-   "delta": "IV\u2212RV +7.0pt",
-   "detail": "VIX 18.7 sits at the 70th percentile of its trailing year (expensive \u226580th); 20d realized 11.7, so implied carries +7.0 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-07-27",
-   "value": 7.005893956116918,
+   "delta": "IV\u2212RV +7.4pt",
+   "detail": "VIX 18.7 sits at the 70th percentile of its trailing year (expensive \u226580th); 20d realized 11.3, so implied carries +7.4 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-07-28",
+   "value": 7.384627229066783,
    "subscores": {
     "pctile": 1,
     "premium": 1,
-    "realized": 11.664106120177028
+    "realized": 11.31537353387267
    }
   },
   {
@@ -184,13 +185,13 @@
    "weight": 0.12,
    "status": 2,
    "display": "-17.8% vs 60d high",
-   "delta": "-7.8% 10d",
+   "delta": "-4.9% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-07-27",
-   "value": -0.17795550470721988,
+   "value": -0.17807861634817002,
    "subscores": {
-    "drawdown": -0.17795550470721988,
-    "mom10": -0.07797955165318793
+    "drawdown": -0.17807861634817002,
+    "mom10": -0.04888719362729166
    }
   },
   {
@@ -198,9 +199,9 @@
    "label": "Periphery canaries (CRWV, ORCL)",
    "group": "AI sector",
    "weight": 0.1,
-   "status": 2,
-   "display": "CRWV -20% \u00b7 ORCL -15% 10d",
-   "delta": "vol \u00d71.1 / \u00d70.7",
+   "status": 1,
+   "display": "CRWV -15% \u00b7 ORCL -9% 10d",
+   "delta": "vol \u00d71.1 / \u00d70.8",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
    "asof": "2026-07-27",
    "value": null,
@@ -212,11 +213,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 2,
-   "display": "RSP/SPY +1.0% 20d",
+   "display": "RSP/SPY +0.9% 20d",
    "delta": "0% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
    "asof": "2026-07-27",
-   "value": 0.009612335931914684,
+   "value": 0.009174325559474283,
    "subscores": {}
   },
   {
@@ -234,23 +235,15 @@
   }
  ],
  "news": {
-  "scanned_at": "2026-07-27T13:59:02Z",
+  "scanned_at": "2026-07-28T13:19:33Z",
   "items": [
    {
-    "headline": "Nvidia in talks to guarantee ~$250B financing for OpenAI's SoftBank-backed Ohio campus plus up to $350B in chip financing",
-    "source": "Bloomberg",
-    "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing",
+    "headline": "Nvidia's 5-year CDS spikes to a record intraday high and stock sheds ~$250B in market cap on report Nvidia is in talks to guarantee $250B of OpenAI's SoftBank-backed Ohio data-center financing (plus up to $350B in chip financing)",
+    "source": "Yahoo Finance / Investing.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-rising-cds-talk-wall-123955612.html",
     "date": "2026-07-27",
     "severity": "medium",
-    "note": "Deepens the circular vendor-financing web (Nvidia backstopping the purchases of its own chips) underpinning the AI infrastructure debt build-out that credit investors are watching for contagion risk."
-   },
-   {
-    "headline": "Rising corporate borrowing costs threaten to squeeze heavily-indebted neoclouds and hyperscalers",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/07/26/what-more-expensive-corporate-debt-could-mean-for-the-ai-buildout.html",
-    "date": "2026-07-26",
-    "severity": "medium",
-    "note": "Goldman Sachs' chief credit strategist warns that widening spreads will push AI capex funding toward private markets and JV structures as syndicated credit gets pricier, a direct signal of rising financing stress."
+    "note": "Nvidia's own credit-risk pricing is now reacting to the circular-financing web it created, the clearest sign yet that markets see contagion risk in Nvidia backstopping purchases of its own chips."
    },
    {
     "headline": "Mag7 index posts worst day since April 2025 as Big Tech earnings collide with investor revolt over AI spending",
@@ -261,20 +254,44 @@
     "note": "Marks a break in the market's tacit tolerance for unchecked AI capex, coming right before Microsoft/Meta/Amazon/Apple report \u2014 a leading indicator for how capex guidance will be priced this week."
    },
    {
-    "headline": "5-year CDS on Oracle, Amazon, Google and Microsoft hit multi-year highs as bond-market anxiety over AI capex grows",
+    "headline": "Rising corporate borrowing costs threaten to squeeze heavily-indebted neoclouds and hyperscalers",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/07/26/what-more-expensive-corporate-debt-could-mean-for-the-ai-buildout.html",
+    "date": "2026-07-26",
+    "severity": "medium",
+    "note": "Goldman Sachs' chief credit strategist warns that widening spreads will push AI capex funding toward private markets and JV structures as syndicated credit gets pricier, a direct signal of rising financing stress."
+   },
+   {
+    "headline": "Oracle's 5-year CDS climbs to ~203bps, the highest level since contracts began trading in 2008, surpassing financial-crisis-era peaks",
+    "source": "TipRanks",
+    "url": "https://www.tipranks.com/news/oracles-credit-default-swap-prices-near-record-high-levels",
+    "date": "2026-07-25",
+    "severity": "medium",
+    "note": "Oracle's CDS has become the market's proxy for AI-capex debt fear given its $120B+ of bonds tied to the Stargate buildout; a record print is a concrete, quantifiable credit-stress signal rather than commentary."
+   },
+   {
+    "headline": "CoreWeave sell-off intensifies on capex/spending concerns; analysis flags Altman Z-Score of 0.3 (deep distress zone), $32.9B net debt vs $2.3B cash, and cash interest (~$1.1B/yr) consuming nearly half its cash pile",
+    "source": "The Motley Fool",
+    "url": "https://www.fool.com/investing/2026/07/25/coreweave-stock-fell-114-on-friday-the-sell-off-is/",
+    "date": "2026-07-25",
+    "severity": "low",
+    "note": "Independent analyst warning quantifying balance-sheet strain at the most levered neocloud, worth tracking but not yet a rating-agency action or realized event."
+   },
+   {
+    "headline": "Meta reportedly faces higher borrowing costs on a new $12B BlackRock-backed SPV for its Texas AI data center, with investors demanding yields above 7% (~40bps above its 2025 record financing)",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/technology/ai/articles/meta-latest-ai-data-center-104924131.html",
+    "date": "2026-07-24",
+    "severity": "medium",
+    "note": "Concrete spread widening on hyperscaler data-center SPV debt, one of the clearest early markers that private-credit investors are repricing AI-buildout risk."
+   },
+   {
+    "headline": "5-year CDS on Oracle, Amazon, Google and Microsoft hit multi-year highs; BofA Global Fund Manager Survey finds 48% of investors now call AI hyperscaler capex the most likely source of a systemic credit event",
     "source": "CNBC",
     "url": "https://www.cnbc.com/2026/07/24/bond-market-anxiety-ai-capex-spending.html",
     "date": "2026-07-24",
-    "severity": "medium",
-    "note": "CDS spreads on the group ex-Oracle hit their highest since at least 2018 as fixed-income investors demand more compensation for hyperscaler AI-debt risk, a concrete credit-market stress signal."
-   },
-   {
-    "headline": "Alphabet posts first-ever negative quarterly free cash flow after lifting 2026 AI capex guidance to $205B",
-    "source": "Semafor",
-    "url": "https://www.semafor.com/article/07/23/2026/alphabets-free-cash-flow-turns-negative",
-    "date": "2026-07-23",
-    "severity": "medium",
-    "note": "Shares fell ~7% and dragged the Mag7 index to its worst session in over a year, the clearest realized AI-revenue/capex disappointment so far this earnings season."
+    "severity": "low",
+    "note": "Broad-based survey and CDS evidence that AI-capex credit risk has become the consensus top tail-risk view among institutional investors, context for the sharper single-name moves this week."
    }
   ]
  },

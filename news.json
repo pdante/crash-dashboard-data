@@ -1,21 +1,13 @@
 {
-  "scanned_at": "2026-07-27T13:59:02Z",
+  "scanned_at": "2026-07-28T13:19:33Z",
   "items": [
     {
-      "headline": "Nvidia in talks to guarantee ~$250B financing for OpenAI's SoftBank-backed Ohio campus plus up to $350B in chip financing",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing",
+      "headline": "Nvidia's 5-year CDS spikes to a record intraday high and stock sheds ~$250B in market cap on report Nvidia is in talks to guarantee $250B of OpenAI's SoftBank-backed Ohio data-center financing (plus up to $350B in chip financing)",
+      "source": "Yahoo Finance / Investing.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-rising-cds-talk-wall-123955612.html",
       "date": "2026-07-27",
       "severity": "medium",
-      "note": "Deepens the circular vendor-financing web (Nvidia backstopping the purchases of its own chips) underpinning the AI infrastructure debt build-out that credit investors are watching for contagion risk."
-    },
-    {
-      "headline": "Rising corporate borrowing costs threaten to squeeze heavily-indebted neoclouds and hyperscalers",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/26/what-more-expensive-corporate-debt-could-mean-for-the-ai-buildout.html",
-      "date": "2026-07-26",
-      "severity": "medium",
-      "note": "Goldman Sachs' chief credit strategist warns that widening spreads will push AI capex funding toward private markets and JV structures as syndicated credit gets pricier, a direct signal of rising financing stress."
+      "note": "Nvidia's own credit-risk pricing is now reacting to the circular-financing web it created, the clearest sign yet that markets see contagion risk in Nvidia backstopping purchases of its own chips."
     },
     {
       "headline": "Mag7 index posts worst day since April 2025 as Big Tech earnings collide with investor revolt over AI spending",
@@ -26,20 +18,44 @@
       "note": "Marks a break in the market's tacit tolerance for unchecked AI capex, coming right before Microsoft/Meta/Amazon/Apple report — a leading indicator for how capex guidance will be priced this week."
     },
     {
-      "headline": "5-year CDS on Oracle, Amazon, Google and Microsoft hit multi-year highs as bond-market anxiety over AI capex grows",
+      "headline": "Rising corporate borrowing costs threaten to squeeze heavily-indebted neoclouds and hyperscalers",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/26/what-more-expensive-corporate-debt-could-mean-for-the-ai-buildout.html",
+      "date": "2026-07-26",
+      "severity": "medium",
+      "note": "Goldman Sachs' chief credit strategist warns that widening spreads will push AI capex funding toward private markets and JV structures as syndicated credit gets pricier, a direct signal of rising financing stress."
+    },
+    {
+      "headline": "Oracle's 5-year CDS climbs to ~203bps, the highest level since contracts began trading in 2008, surpassing financial-crisis-era peaks",
+      "source": "TipRanks",
+      "url": "https://www.tipranks.com/news/oracles-credit-default-swap-prices-near-record-high-levels",
+      "date": "2026-07-25",
+      "severity": "medium",
+      "note": "Oracle's CDS has become the market's proxy for AI-capex debt fear given its $120B+ of bonds tied to the Stargate buildout; a record print is a concrete, quantifiable credit-stress signal rather than commentary."
+    },
+    {
+      "headline": "CoreWeave sell-off intensifies on capex/spending concerns; analysis flags Altman Z-Score of 0.3 (deep distress zone), $32.9B net debt vs $2.3B cash, and cash interest (~$1.1B/yr) consuming nearly half its cash pile",
+      "source": "The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/07/25/coreweave-stock-fell-114-on-friday-the-sell-off-is/",
+      "date": "2026-07-25",
+      "severity": "low",
+      "note": "Independent analyst warning quantifying balance-sheet strain at the most levered neocloud, worth tracking but not yet a rating-agency action or realized event."
+    },
+    {
+      "headline": "Meta reportedly faces higher borrowing costs on a new $12B BlackRock-backed SPV for its Texas AI data center, with investors demanding yields above 7% (~40bps above its 2025 record financing)",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/meta-latest-ai-data-center-104924131.html",
+      "date": "2026-07-24",
+      "severity": "medium",
+      "note": "Concrete spread widening on hyperscaler data-center SPV debt, one of the clearest early markers that private-credit investors are repricing AI-buildout risk."
+    },
+    {
+      "headline": "5-year CDS on Oracle, Amazon, Google and Microsoft hit multi-year highs; BofA Global Fund Manager Survey finds 48% of investors now call AI hyperscaler capex the most likely source of a systemic credit event",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/24/bond-market-anxiety-ai-capex-spending.html",
       "date": "2026-07-24",
-      "severity": "medium",
-      "note": "CDS spreads on the group ex-Oracle hit their highest since at least 2018 as fixed-income investors demand more compensation for hyperscaler AI-debt risk, a concrete credit-market stress signal."
-    },
-    {
-      "headline": "Alphabet posts first-ever negative quarterly free cash flow after lifting 2026 AI capex guidance to $205B",
-      "source": "Semafor",
-      "url": "https://www.semafor.com/article/07/23/2026/alphabets-free-cash-flow-turns-negative",
-      "date": "2026-07-23",
-      "severity": "medium",
-      "note": "Shares fell ~7% and dragged the Mag7 index to its worst session in over a year, the clearest realized AI-revenue/capex disappointment so far this earnings season."
+      "severity": "low",
+      "note": "Broad-based survey and CDS evidence that AI-capex credit risk has become the consensus top tail-risk view among institutional investors, context for the sharper single-name moves this week."
     }
   ]
 }
