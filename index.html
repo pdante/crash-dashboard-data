@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#1a1a19">
-<title>AI Crash Monitor — GREEN</title>
+<title>AI Crash Monitor — AMBER</title>
 <style>
   :root {
     color-scheme: light dark;
@@ -87,23 +87,23 @@
   footer { color: var(--muted); font-size: 12px; padding: 0 4px; }
 </style>
 </head>
-<body style="--tier-color: var(--good)">
+<body style="--tier-color: var(--warning)">
 <main>
   <header>
     <h1>AI Crash Monitor</h1>
-    <span class="asof">mid-day · <time id="gen-time">2026-07-29T17:45Z</time>
+    <span class="asof">post-close · <time id="gen-time">2026-07-29T22:27Z</time>
     <span class="stale-badge">STALE DATA</span></span>
   </header>
 
   <div class="banner">
     <div class="tier-line">
-      <span class="tier-icon">●</span>
-      <span class="tier-name">GREEN</span>
-      <span class="score"><b>29</b><br><span class="asof">composite / 100</span></span>
+      <span class="tier-icon">▲</span>
+      <span class="tier-name">AMBER</span>
+      <span class="score"><b>36</b><br><span class="asof">composite / 100</span></span>
     </div>
-    <div class="blurb">No unusual stress in the monitored signals.</div>
+    <div class="blurb">Elevated readings — check the tripped indicators below.</div>
     <div class="regime">Regime: credit-led <span>— credit is involved — more serious than an equity-only dip</span></div>
-    <ul><li>Red: AI basket drawdown / momentum, Periphery canaries (CRWV, ORCL), Breadth (RSP/SPY, % above 50dma)</li><li>Amber: CCC credit spread (OAS)</li><li>Regime: credit-led — Credit is involved — more serious than an equity-only dip.</li><li>Hedge pricing (not in composite): Put skew / cost of tail insurance expensive, Implied vol richness (VIX pctile, IV−RV) expensive</li></ul>
+    <ul><li>Red: AI basket drawdown / momentum, Periphery canaries (CRWV, ORCL), Breadth (RSP/SPY, % above 50dma)</li><li>Amber: CCC credit spread (OAS), VIX term structure (VIX/VIX3M)</li><li>Regime: credit-led — Credit is involved — more serious than an equity-only dip.</li><li>Hedge pricing (not in composite): Put skew / cost of tail insurance moderate, Implied vol richness (VIX pctile, IV−RV) expensive</li></ul>
   </div>
 
   <div class="tiles">
@@ -119,23 +119,23 @@
       </div>
       <div class="tile">
         <div class="tile-label">VIX term structure (VIX/VIX3M)</div>
-        <div class="tile-value">0.95</div>
-        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+0.07 5d</span></div>
+        <div class="tile-value">0.96</div>
+        <div class="tile-foot"><span class="badge warning"><span class="icon">▲</span>WATCH</span><span class="delta">+0.09 5d</span></div>
       </div>
       <div class="tile">
         <div class="tile-label">HYG/IEF ratio (credit vs safety)</div>
-        <div class="tile-value">-0.3% 10d</div>
-        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">-0.2% 5d</span></div>
+        <div class="tile-value">-0.1% 10d</div>
+        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">-0.4% 5d</span></div>
       </div>
       <div class="tile">
         <div class="tile-label">AI basket drawdown / momentum</div>
-        <div class="tile-value">-22.6% vs 60d high</div>
-        <div class="tile-foot"><span class="badge critical"><span class="icon">■</span>ALERT</span><span class="delta">-11.0% 10d</span></div>
+        <div class="tile-value">-24.0% vs 60d high</div>
+        <div class="tile-foot"><span class="badge critical"><span class="icon">■</span>ALERT</span><span class="delta">-12.5% 10d</span></div>
       </div>
       <div class="tile">
         <div class="tile-label">Put skew / cost of tail insurance</div>
-        <div class="tile-value">SKEW 147</div>
-        <div class="tile-foot"><span class="badge critical"><span class="icon">■</span>EXPENSIVE</span><span class="delta">VVIX 104 · -1 5d</span></div>
+        <div class="tile-value">SKEW 140</div>
+        <div class="tile-foot"><span class="badge warning"><span class="icon">▲</span>MODERATE</span><span class="delta">VVIX 109 · -11 5d</span></div>
       </div>
   </div>
 
@@ -159,12 +159,12 @@
         </tr>
         <tr>
           <td class="ind-label">HYG/IEF ratio (credit vs safety)<div class="detail">High-yield ETF vs Treasuries — a same-day credit read with no FRED lag.</div></td>
-          <td class="num">-0.3% 10d<div class="delta">-0.2% 5d</div></td>
+          <td class="num">-0.1% 10d<div class="delta">-0.4% 5d</div></td>
           <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-29</div></td>
         </tr>
         <tr>
-          <td class="ind-label">Leveraged loans (BKLN)<div class="detail">Floating-rate senior secured loans — isolates credit risk from rate moves. Tracking HY closely (+0.5pp 10d).</div></td>
-          <td class="num">+0.2% 10d<div class="delta">-0.1% 5d</div></td>
+          <td class="ind-label">Leveraged loans (BKLN)<div class="detail">Floating-rate senior secured loans — isolates credit risk from rate moves. Tracking HY closely (+0.8pp 10d).</div></td>
+          <td class="num">+0.0% 10d<div class="delta">-0.0% 5d</div></td>
           <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-29</div></td>
         </tr>
         <tr>
@@ -184,37 +184,37 @@
         </tr><tr class="group-row"><td colspan="3">Volatility</td></tr>
         <tr>
           <td class="ind-label">VIX term structure (VIX/VIX3M)<div class="detail">≥1.00 = backwardation — the near-coincident confirmation signal (days of lead at most).</div></td>
-          <td class="num">0.95<div class="delta">+0.07 5d</div></td>
-          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-29</div></td>
+          <td class="num">0.96<div class="delta">+0.09 5d</div></td>
+          <td class="status-cell"><span class="badge warning"><span class="icon">▲</span>WATCH</span><div class="asof">2026-07-29</div></td>
         </tr><tr class="group-row"><td colspan="3">AI sector</td></tr>
         <tr>
           <td class="ind-label">AI basket drawdown / momentum<div class="detail">Equal-weight basket of 14 AI-exposed names.</div></td>
-          <td class="num">-22.6% vs 60d high<div class="delta">-11.0% 10d</div></td>
+          <td class="num">-24.0% vs 60d high<div class="delta">-12.5% 10d</div></td>
           <td class="status-cell"><span class="badge critical"><span class="icon">■</span>ALERT</span><div class="asof">2026-07-29</div></td>
         </tr>
         <tr>
           <td class="ind-label">Periphery canaries (CRWV, ORCL)<div class="detail">Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.</div></td>
-          <td class="num">CRWV -21% · ORCL -7% 10d<div class="delta">vol ×1.2 / ×0.8</div></td>
+          <td class="num">CRWV -21% · ORCL -11% 10d<div class="delta">vol ×1.1 / ×0.8</div></td>
           <td class="status-cell"><span class="badge critical"><span class="icon">■</span>ALERT</span><div class="asof">2026-07-29</div></td>
         </tr><tr class="group-row"><td colspan="3">Backdrop</td></tr>
         <tr>
           <td class="ind-label">Breadth (RSP/SPY, % above 50dma)<div class="detail">Narrowing breadth = fragility backdrop; slow signal, low weight.</div></td>
-          <td class="num">RSP/SPY +2.5% 20d<div class="delta">0% of basket &gt; 50dma</div></td>
+          <td class="num">RSP/SPY +3.8% 20d<div class="delta">0% of basket &gt; 50dma</div></td>
           <td class="status-cell"><span class="badge critical"><span class="icon">■</span>ALERT</span><div class="asof">2026-07-29</div></td>
         </tr>
         <tr>
           <td class="ind-label">Yield curve (10y−3m)<div class="detail">Inversion is a 6–18 month gauge, not a timing signal — capped at amber.</div></td>
-          <td class="num">+0.71%<div class="delta">-0.05 5d</div></td>
-          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-28</div></td>
+          <td class="num">+0.84%<div class="delta">+0.06 5d</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-29</div></td>
         </tr><tr class="group-row"><td colspan="3">Hedge pricing <span class="group-note">cost of protection · not part of the composite</span></td></tr>
         <tr>
-          <td class="ind-label">Put skew / cost of tail insurance<div class="detail">SKEW 147 (expensive ≥145), VVIX 104 (expensive ≥110). Tail insurance is expensive — you would be paying up for the tail. Cost tier, not a risk tier — excluded from the composite.</div></td>
-          <td class="num">SKEW 147<div class="delta">VVIX 104 · -1 5d</div></td>
-          <td class="status-cell"><span class="badge critical"><span class="icon">■</span>EXPENSIVE</span><div class="asof">2026-07-27</div></td>
+          <td class="ind-label">Put skew / cost of tail insurance<div class="detail">SKEW 140 (expensive ≥145), VVIX 109 (expensive ≥110). Tail insurance is moderately priced. Cost tier, not a risk tier — excluded from the composite.</div></td>
+          <td class="num">SKEW 140<div class="delta">VVIX 109 · -11 5d</div></td>
+          <td class="status-cell"><span class="badge warning"><span class="icon">▲</span>MODERATE</span><div class="asof">2026-07-29</div></td>
         </tr>
         <tr>
-          <td class="ind-label">Implied vol richness (VIX pctile, IV−RV)<div class="detail">VIX 19.5 sits at the 78th percentile of its trailing year (expensive ≥80th); 20d realized 9.8, so implied carries +9.8 vol points of premium (expensive ≥8). Cost tier, not a risk tier — excluded from the composite.</div></td>
-          <td class="num">78th pctile<div class="delta">IV−RV +9.8pt</div></td>
+          <td class="ind-label">Implied vol richness (VIX pctile, IV−RV)<div class="detail">VIX 20.7 sits at the 84th percentile of its trailing year (expensive ≥80th); 20d realized 10.7, so implied carries +10.0 vol points of premium (expensive ≥8). Cost tier, not a risk tier — excluded from the composite.</div></td>
+          <td class="num">84th pctile<div class="delta">IV−RV +10.0pt</div></td>
           <td class="status-cell"><span class="badge critical"><span class="icon">■</span>EXPENSIVE</span><div class="asof">2026-07-29</div></td>
         </tr>
     </table>
@@ -251,7 +251,7 @@
 </main>
 <script>
   (function () {
-    var age = Date.now() - 1785347132000;
+    var age = Date.now() - 1785364025000;
     if (age > 30 * 3600 * 1000) { document.body.classList.add("stale"); }
   })();
 </script>
