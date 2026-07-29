@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-07-28T22:31:42+00:00",
- "run_label": "post-close",
+ "generated_at": "2026-07-29T13:26:14+00:00",
+ "run_label": "pre-open",
  "composite": 25.0,
  "base_composite": 25.0,
  "tier": "GREEN",
@@ -11,7 +11,7 @@
   "Red: AI basket drawdown / momentum, Breadth (RSP/SPY, % above 50dma)",
   "Amber: CCC credit spread (OAS), Periphery canaries (CRWV, ORCL)",
   "Regime: credit-led \u2014 Credit is involved \u2014 more serious than an equity-only dip.",
-  "Hedge pricing (not in composite): Put skew / cost of tail insurance moderate, Implied vol richness (VIX pctile, IV\u2212RV) expensive"
+  "Hedge pricing (not in composite): Put skew / cost of tail insurance expensive, Implied vol richness (VIX pctile, IV\u2212RV) moderate"
  ],
  "news_escalated": false,
  "unknown_indicators": [],
@@ -68,11 +68,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "-0.4% 10d",
-   "delta": "-0.3% 5d",
+   "display": "-0.2% 10d",
+   "delta": "+0.1% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
-   "asof": "2026-07-28",
-   "value": -0.004139709999583352,
+   "asof": "2026-07-27",
+   "value": -0.001788624853132803,
    "subscores": {}
   },
   {
@@ -82,10 +82,10 @@
    "weight": 0.06,
    "status": 0,
    "display": "+0.3% 10d",
-   "delta": "+0.0% 5d",
-   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+0.5pp 10d).",
-   "asof": "2026-07-28",
-   "value": 0.0033833013850390614,
+   "delta": "+0.1% 5d",
+   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+0.8pp 10d).",
+   "asof": "2026-07-27",
+   "value": 0.002891435558681321,
    "subscores": {}
   },
   {
@@ -97,8 +97,8 @@
    "display": "-1bp",
    "delta": "3d avg",
    "detail": "Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.",
-   "asof": "2026-07-27",
-   "value": -0.9999999999999787,
+   "asof": "2026-07-28",
+   "value": -0.6666666666666524,
    "subscores": {}
   },
   {
@@ -107,11 +107,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "13bp tail",
+   "display": "14bp tail",
    "delta": "Fed repo ops $0.0bn (3d max)",
-   "detail": "SOFR 99th\u22121st percentile 13bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
-   "asof": "2026-07-27",
-   "value": 13.000000000000034,
+   "detail": "SOFR 99th\u22121st percentile 14bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
+   "asof": "2026-07-28",
+   "value": 14.000000000000012,
    "subscores": {
     "tail": 0,
     "usage": 0,
@@ -125,10 +125,10 @@
    "weight": 0.04,
    "status": 0,
    "display": "-0.55",
-   "delta": "-0.05 4w",
+   "delta": "-0.04 4w",
    "detail": "Weekly financial-conditions composite; positive = tighter than average.",
-   "asof": "2026-07-17",
-   "value": -0.552,
+   "asof": "2026-07-24",
+   "value": -0.554,
    "subscores": {}
   },
   {
@@ -137,11 +137,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.92",
-   "delta": "+0.04 5d",
+   "display": "0.91",
+   "delta": "+0.10 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-07-28",
-   "value": 0.9169183547245773,
+   "asof": "2026-07-17",
+   "value": 0.9138266612040106,
    "subscores": {}
   },
   {
@@ -149,16 +149,16 @@
    "label": "Put skew / cost of tail insurance",
    "group": "Hedge pricing",
    "weight": 0.0,
-   "status": 1,
-   "display": "SKEW 143",
-   "delta": "VVIX 99 \u00b7 -3 5d",
-   "detail": "SKEW 143 (expensive \u2265145), VVIX 99 (expensive \u2265110). Tail insurance is moderately priced. Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-07-28",
-   "value": 142.97999572753906,
+   "status": 2,
+   "display": "SKEW 147",
+   "delta": "VVIX 101 \u00b7 -1 5d",
+   "detail": "SKEW 147 (expensive \u2265145), VVIX 101 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-07-27",
+   "value": 146.60000610351562,
    "subscores": {
-    "skew": 1,
+    "skew": 2,
     "vvix": 1,
-    "vvix_level": 98.51000213623047
+    "vvix_level": 100.91000366210938
    }
   },
   {
@@ -166,16 +166,16 @@
    "label": "Implied vol richness (VIX pctile, IV\u2212RV)",
    "group": "Hedge pricing",
    "weight": 0.0,
-   "status": 2,
-   "display": "64th pctile",
-   "delta": "IV\u2212RV +8.5pt",
-   "detail": "VIX 18.2 sits at the 64th percentile of its trailing year (expensive \u226580th); 20d realized 9.7, so implied carries +8.5 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-07-28",
-   "value": 8.50716083804243,
+   "status": 1,
+   "display": "72th pctile",
+   "delta": "IV\u2212RV +7.5pt",
+   "detail": "VIX 18.9 sits at the 72th percentile of its trailing year (expensive \u226580th); 20d realized 11.3, so implied carries +7.5 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-07-29",
+   "value": 7.544627076478893,
    "subscores": {
     "pctile": 1,
-    "premium": 2,
-    "realized": 9.702838246430225
+    "premium": 1,
+    "realized": 11.31537353387267
    }
   },
   {
@@ -184,14 +184,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 2,
-   "display": "-19.9% vs 60d high",
-   "delta": "-7.9% 10d",
+   "display": "-17.8% vs 60d high",
+   "delta": "-4.9% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
-   "asof": "2026-07-28",
-   "value": -0.19876752104317086,
+   "asof": "2026-07-27",
+   "value": -0.17807861634817024,
    "subscores": {
-    "drawdown": -0.19876752104317086,
-    "mom10": -0.07855310707290641
+    "drawdown": -0.17807861634817024,
+    "mom10": -0.04888719362729177
    }
   },
   {
@@ -200,10 +200,10 @@
    "group": "AI sector",
    "weight": 0.1,
    "status": 1,
-   "display": "CRWV -16% \u00b7 ORCL -6% 10d",
+   "display": "CRWV -15% \u00b7 ORCL -9% 10d",
    "delta": "vol \u00d71.1 / \u00d70.8",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
-   "asof": "2026-07-28",
+   "asof": "2026-07-27",
    "value": null,
    "subscores": {}
   },
@@ -213,11 +213,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 2,
-   "display": "RSP/SPY +2.2% 20d",
+   "display": "RSP/SPY +0.9% 20d",
    "delta": "0% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
-   "asof": "2026-07-28",
-   "value": 0.02197202729433978,
+   "asof": "2026-07-27",
+   "value": 0.009174325559474283,
    "subscores": {}
   },
   {
@@ -235,63 +235,31 @@
   }
  ],
  "news": {
-  "scanned_at": "2026-07-28T13:19:33Z",
+  "scanned_at": "2026-07-29T13:24:10Z",
   "items": [
    {
-    "headline": "Nvidia's 5-year CDS spikes to a record intraday high and stock sheds ~$250B in market cap on report Nvidia is in talks to guarantee $250B of OpenAI's SoftBank-backed Ohio data-center financing (plus up to $350B in chip financing)",
-    "source": "Yahoo Finance / Investing.com",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-rising-cds-talk-wall-123955612.html",
+    "headline": "Big Tech CDS costs hit fresh records \u2014 Oracle's 5-year CDS widens to ~215bps (from ~144bps in January) and Nvidia's to ~82bps \u2014 as 2026 AI-related bond issuance tops $244B",
+    "source": "Seeking Alpha",
+    "url": "https://seekingalpha.com/news/4615543-tech-credit-risk-rises-as-oracle-cds-hits-cycle-high-nvidia-spreads-widen",
+    "date": "2026-07-28",
+    "severity": "medium",
+    "note": "CDS widening materially across the AI-debt complex is a concrete, market-priced stress signal \u2014 Oracle's spread has now more than quadrupled since mid-2025 and sits above the 2008 crisis peak."
+   },
+   {
+    "headline": "Nvidia's 5-year CDS logs its largest single-day spike on record and NVDA sheds ~$250B in market cap after reports it is negotiating up to $750B in AI infrastructure deals, including a $250B guarantee for OpenAI's SoftBank-built Ohio data center plus $350B in chip financing",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/07/27/nvidia-and-openai-in-talks-for-up-to-250-billion-dollar-ai-backstop.html",
     "date": "2026-07-27",
     "severity": "medium",
-    "note": "Nvidia's own credit-risk pricing is now reacting to the circular-financing web it created, the clearest sign yet that markets see contagion risk in Nvidia backstopping purchases of its own chips."
+    "note": "Nvidia's own credit-risk pricing reacting to a financing web it created is the clearest market signal yet that circular AI financing is being treated as contagion risk, echoing recent IMF and BIS warnings on the same structure."
    },
    {
-    "headline": "Mag7 index posts worst day since April 2025 as Big Tech earnings collide with investor revolt over AI spending",
-    "source": "Bloomberg",
-    "url": "https://www.bloomberg.com/news/articles/2026-07-26/big-tech-earnings-slam-into-a-market-in-revolt-over-ai-spending",
-    "date": "2026-07-26",
-    "severity": "medium",
-    "note": "Marks a break in the market's tacit tolerance for unchecked AI capex, coming right before Microsoft/Meta/Amazon/Apple report \u2014 a leading indicator for how capex guidance will be priced this week."
-   },
-   {
-    "headline": "Rising corporate borrowing costs threaten to squeeze heavily-indebted neoclouds and hyperscalers",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/07/26/what-more-expensive-corporate-debt-could-mean-for-the-ai-buildout.html",
-    "date": "2026-07-26",
-    "severity": "medium",
-    "note": "Goldman Sachs' chief credit strategist warns that widening spreads will push AI capex funding toward private markets and JV structures as syndicated credit gets pricier, a direct signal of rising financing stress."
-   },
-   {
-    "headline": "Oracle's 5-year CDS climbs to ~203bps, the highest level since contracts began trading in 2008, surpassing financial-crisis-era peaks",
-    "source": "TipRanks",
-    "url": "https://www.tipranks.com/news/oracles-credit-default-swap-prices-near-record-high-levels",
-    "date": "2026-07-25",
-    "severity": "medium",
-    "note": "Oracle's CDS has become the market's proxy for AI-capex debt fear given its $120B+ of bonds tied to the Stargate buildout; a record print is a concrete, quantifiable credit-stress signal rather than commentary."
-   },
-   {
-    "headline": "CoreWeave sell-off intensifies on capex/spending concerns; analysis flags Altman Z-Score of 0.3 (deep distress zone), $32.9B net debt vs $2.3B cash, and cash interest (~$1.1B/yr) consuming nearly half its cash pile",
-    "source": "The Motley Fool",
-    "url": "https://www.fool.com/investing/2026/07/25/coreweave-stock-fell-114-on-friday-the-sell-off-is/",
-    "date": "2026-07-25",
+    "headline": "SoftBank issues fresh \u00a560B (~$369M) of bonds to Japanese institutional investors, its latest debt raise to help fund a ~$65B OpenAI investment commitment",
+    "source": "Yahoo Finance / TradingKey",
+    "url": "https://sg.finance.yahoo.com/news/softbank-plans-60-bil-bond-232817175.html",
+    "date": "2026-07-27",
     "severity": "low",
-    "note": "Independent analyst warning quantifying balance-sheet strain at the most levered neocloud, worth tracking but not yet a rating-agency action or realized event."
-   },
-   {
-    "headline": "Meta reportedly faces higher borrowing costs on a new $12B BlackRock-backed SPV for its Texas AI data center, with investors demanding yields above 7% (~40bps above its 2025 record financing)",
-    "source": "Yahoo Finance",
-    "url": "https://finance.yahoo.com/technology/ai/articles/meta-latest-ai-data-center-104924131.html",
-    "date": "2026-07-24",
-    "severity": "medium",
-    "note": "Concrete spread widening on hyperscaler data-center SPV debt, one of the clearest early markers that private-credit investors are repricing AI-buildout risk."
-   },
-   {
-    "headline": "5-year CDS on Oracle, Amazon, Google and Microsoft hit multi-year highs; BofA Global Fund Manager Survey finds 48% of investors now call AI hyperscaler capex the most likely source of a systemic credit event",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/07/24/bond-market-anxiety-ai-capex-spending.html",
-    "date": "2026-07-24",
-    "severity": "low",
-    "note": "Broad-based survey and CDS evidence that AI-capex credit risk has become the consensus top tail-risk view among institutional investors, context for the sharper single-name moves this week."
+    "note": "Incremental but continuous debt-funded AI exposure at an issuer already rated one notch below investment grade \u2014 leverage color to watch rather than a standalone stress event."
    }
   ]
  },

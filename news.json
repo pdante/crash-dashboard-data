@@ -1,61 +1,29 @@
 {
-  "scanned_at": "2026-07-28T13:19:33Z",
+  "scanned_at": "2026-07-29T13:24:10Z",
   "items": [
     {
-      "headline": "Nvidia's 5-year CDS spikes to a record intraday high and stock sheds ~$250B in market cap on report Nvidia is in talks to guarantee $250B of OpenAI's SoftBank-backed Ohio data-center financing (plus up to $350B in chip financing)",
-      "source": "Yahoo Finance / Investing.com",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-rising-cds-talk-wall-123955612.html",
+      "headline": "Big Tech CDS costs hit fresh records — Oracle's 5-year CDS widens to ~215bps (from ~144bps in January) and Nvidia's to ~82bps — as 2026 AI-related bond issuance tops $244B",
+      "source": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4615543-tech-credit-risk-rises-as-oracle-cds-hits-cycle-high-nvidia-spreads-widen",
+      "date": "2026-07-28",
+      "severity": "medium",
+      "note": "CDS widening materially across the AI-debt complex is a concrete, market-priced stress signal — Oracle's spread has now more than quadrupled since mid-2025 and sits above the 2008 crisis peak."
+    },
+    {
+      "headline": "Nvidia's 5-year CDS logs its largest single-day spike on record and NVDA sheds ~$250B in market cap after reports it is negotiating up to $750B in AI infrastructure deals, including a $250B guarantee for OpenAI's SoftBank-built Ohio data center plus $350B in chip financing",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/27/nvidia-and-openai-in-talks-for-up-to-250-billion-dollar-ai-backstop.html",
       "date": "2026-07-27",
       "severity": "medium",
-      "note": "Nvidia's own credit-risk pricing is now reacting to the circular-financing web it created, the clearest sign yet that markets see contagion risk in Nvidia backstopping purchases of its own chips."
+      "note": "Nvidia's own credit-risk pricing reacting to a financing web it created is the clearest market signal yet that circular AI financing is being treated as contagion risk, echoing recent IMF and BIS warnings on the same structure."
     },
     {
-      "headline": "Mag7 index posts worst day since April 2025 as Big Tech earnings collide with investor revolt over AI spending",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-26/big-tech-earnings-slam-into-a-market-in-revolt-over-ai-spending",
-      "date": "2026-07-26",
-      "severity": "medium",
-      "note": "Marks a break in the market's tacit tolerance for unchecked AI capex, coming right before Microsoft/Meta/Amazon/Apple report — a leading indicator for how capex guidance will be priced this week."
-    },
-    {
-      "headline": "Rising corporate borrowing costs threaten to squeeze heavily-indebted neoclouds and hyperscalers",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/26/what-more-expensive-corporate-debt-could-mean-for-the-ai-buildout.html",
-      "date": "2026-07-26",
-      "severity": "medium",
-      "note": "Goldman Sachs' chief credit strategist warns that widening spreads will push AI capex funding toward private markets and JV structures as syndicated credit gets pricier, a direct signal of rising financing stress."
-    },
-    {
-      "headline": "Oracle's 5-year CDS climbs to ~203bps, the highest level since contracts began trading in 2008, surpassing financial-crisis-era peaks",
-      "source": "TipRanks",
-      "url": "https://www.tipranks.com/news/oracles-credit-default-swap-prices-near-record-high-levels",
-      "date": "2026-07-25",
-      "severity": "medium",
-      "note": "Oracle's CDS has become the market's proxy for AI-capex debt fear given its $120B+ of bonds tied to the Stargate buildout; a record print is a concrete, quantifiable credit-stress signal rather than commentary."
-    },
-    {
-      "headline": "CoreWeave sell-off intensifies on capex/spending concerns; analysis flags Altman Z-Score of 0.3 (deep distress zone), $32.9B net debt vs $2.3B cash, and cash interest (~$1.1B/yr) consuming nearly half its cash pile",
-      "source": "The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/07/25/coreweave-stock-fell-114-on-friday-the-sell-off-is/",
-      "date": "2026-07-25",
+      "headline": "SoftBank issues fresh ¥60B (~$369M) of bonds to Japanese institutional investors, its latest debt raise to help fund a ~$65B OpenAI investment commitment",
+      "source": "Yahoo Finance / TradingKey",
+      "url": "https://sg.finance.yahoo.com/news/softbank-plans-60-bil-bond-232817175.html",
+      "date": "2026-07-27",
       "severity": "low",
-      "note": "Independent analyst warning quantifying balance-sheet strain at the most levered neocloud, worth tracking but not yet a rating-agency action or realized event."
-    },
-    {
-      "headline": "Meta reportedly faces higher borrowing costs on a new $12B BlackRock-backed SPV for its Texas AI data center, with investors demanding yields above 7% (~40bps above its 2025 record financing)",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/meta-latest-ai-data-center-104924131.html",
-      "date": "2026-07-24",
-      "severity": "medium",
-      "note": "Concrete spread widening on hyperscaler data-center SPV debt, one of the clearest early markers that private-credit investors are repricing AI-buildout risk."
-    },
-    {
-      "headline": "5-year CDS on Oracle, Amazon, Google and Microsoft hit multi-year highs; BofA Global Fund Manager Survey finds 48% of investors now call AI hyperscaler capex the most likely source of a systemic credit event",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/24/bond-market-anxiety-ai-capex-spending.html",
-      "date": "2026-07-24",
-      "severity": "low",
-      "note": "Broad-based survey and CDS evidence that AI-capex credit risk has become the consensus top tail-risk view among institutional investors, context for the sharper single-name moves this week."
+      "note": "Incremental but continuous debt-funded AI exposure at an issuer already rated one notch below investment grade — leverage color to watch rather than a standalone stress event."
     }
   ]
 }
