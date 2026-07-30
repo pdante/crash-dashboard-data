@@ -1,29 +1,29 @@
 {
-  "scanned_at": "2026-07-29T13:24:10Z",
+  "scanned_at": "2026-07-30T13:14:22Z",
   "items": [
     {
-      "headline": "Big Tech CDS costs hit fresh records — Oracle's 5-year CDS widens to ~215bps (from ~144bps in January) and Nvidia's to ~82bps — as 2026 AI-related bond issuance tops $244B",
-      "source": "Seeking Alpha",
-      "url": "https://seekingalpha.com/news/4615543-tech-credit-risk-rises-as-oracle-cds-hits-cycle-high-nvidia-spreads-widen",
-      "date": "2026-07-28",
+      "headline": "CoreWeave sweetens terms on $2.6B loan tied to Anthropic, Jane Street and Hudson River Trading capacity as investors balk at AI debt; CoreWeave's 5-year CDS up over 50% this month",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-29/coreweave-boosts-yield-on-2-6-billion-loan-tied-to-anthropic",
+      "date": "2026-07-29",
       "severity": "medium",
-      "note": "CDS widening materially across the AI-debt complex is a concrete, market-priced stress signal — Oracle's spread has now more than quadrupled since mid-2025 and sits above the 2008 crisis peak."
+      "note": "A neocloud having to widen pricing (+up to 125bps) and deepen the discount (99c to 97c) to clear a loan is a direct market read on deteriorating AI-debt appetite, not commentary."
     },
     {
-      "headline": "Nvidia's 5-year CDS logs its largest single-day spike on record and NVDA sheds ~$250B in market cap after reports it is negotiating up to $750B in AI infrastructure deals, including a $250B guarantee for OpenAI's SoftBank-built Ohio data center plus $350B in chip financing",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/27/nvidia-and-openai-in-talks-for-up-to-250-billion-dollar-ai-backstop.html",
-      "date": "2026-07-27",
+      "headline": "Meta's free cash flow collapses 91% YoY to $784M as AI investment consumes 98% of operating cash flow; shares fall ~9% on a disappointing revenue outlook",
+      "source": "Bloomberg / qz.com",
+      "url": "https://qz.com/microsoft-meta-stock-ai-earnings-premarket-073026",
+      "date": "2026-07-29",
       "severity": "medium",
-      "note": "Nvidia's own credit-risk pricing reacting to a financing web it created is the clearest market signal yet that circular AI financing is being treated as contagion risk, echoing recent IMF and BIS warnings on the same structure."
+      "note": "Near-total consumption of operating cash by AI capex is a credit-relevant cash-generation signal distinct from the stock move itself, and raises the odds Meta leans further on debt to fund its build-out."
     },
     {
-      "headline": "SoftBank issues fresh ¥60B (~$369M) of bonds to Japanese institutional investors, its latest debt raise to help fund a ~$65B OpenAI investment commitment",
-      "source": "Yahoo Finance / TradingKey",
-      "url": "https://sg.finance.yahoo.com/news/softbank-plans-60-bil-bond-232817175.html",
-      "date": "2026-07-27",
-      "severity": "low",
-      "note": "Incremental but continuous debt-funded AI exposure at an issuer already rated one notch below investment grade — leverage color to watch rather than a standalone stress event."
+      "headline": "Alphabet raises 2026 capex guidance to as much as $205B and posts its first negative free cash flow since its 2004 IPO; shares fall ~7%",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/07/26/big-tech-earnings-meta-microsoft-apple-amazon-market-revolt-ai-spending/",
+      "date": "2026-07-23",
+      "severity": "medium",
+      "note": "A hyperscaler burning cash for the first time in its public history while raising capex guidance above analyst expectations sharpens the question of how the AI buildout gets financed if internally generated cash no longer covers it."
     }
   ]
 }

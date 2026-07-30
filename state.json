@@ -1,15 +1,15 @@
 {
  "schema": 2,
- "generated_at": "2026-07-29T22:27:05+00:00",
- "run_label": "post-close",
- "composite": 35.8,
- "base_composite": 35.8,
- "tier": "AMBER",
+ "generated_at": "2026-07-30T13:16:04+00:00",
+ "run_label": "pre-open",
+ "composite": 29.2,
+ "base_composite": 29.2,
+ "tier": "GREEN",
  "regime": "credit-led",
  "override": null,
  "reasons": [
   "Red: AI basket drawdown / momentum, Periphery canaries (CRWV, ORCL), Breadth (RSP/SPY, % above 50dma)",
-  "Amber: CCC credit spread (OAS), VIX term structure (VIX/VIX3M)",
+  "Amber: CCC credit spread (OAS)",
   "Regime: credit-led \u2014 Credit is involved \u2014 more serious than an equity-only dip.",
   "Hedge pricing (not in composite): Put skew / cost of tail insurance moderate, Implied vol richness (VIX pctile, IV\u2212RV) expensive"
  ],
@@ -94,11 +94,11 @@
    "group": "Credit & funding",
    "weight": 0.08,
    "status": 0,
-   "display": "-1bp",
+   "display": "-0bp",
    "delta": "3d avg",
    "detail": "Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.",
-   "asof": "2026-07-28",
-   "value": -0.6666666666666524,
+   "asof": "2026-07-29",
+   "value": -0.3333333333333262,
    "subscores": {}
   },
   {
@@ -110,7 +110,7 @@
    "display": "14bp tail",
    "delta": "Fed repo ops $0.0bn (3d max)",
    "detail": "SOFR 99th\u22121st percentile 14bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
-   "asof": "2026-07-28",
+   "asof": "2026-07-29",
    "value": 14.000000000000012,
    "subscores": {
     "tail": 0,
@@ -136,12 +136,12 @@
    "label": "VIX term structure (VIX/VIX3M)",
    "group": "Volatility",
    "weight": 0.16,
-   "status": 1,
-   "display": "0.96",
-   "delta": "+0.09 5d",
+   "status": 0,
+   "display": "0.91",
+   "delta": "+0.10 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-07-29",
-   "value": 0.9609302254610284,
+   "asof": "2026-07-17",
+   "value": 0.9138266612040106,
    "subscores": {}
   },
   {
@@ -167,13 +167,13 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 2,
-   "display": "84th pctile",
-   "delta": "IV\u2212RV +10.0pt",
-   "detail": "VIX 20.7 sits at the 84th percentile of its trailing year (expensive \u226580th); 20d realized 10.7, so implied carries +10.0 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-07-29",
-   "value": 9.983087566629951,
+   "display": "73th pctile",
+   "delta": "IV\u2212RV +8.3pt",
+   "detail": "VIX 18.9 sits at the 73th percentile of its trailing year (expensive \u226580th); 20d realized 10.7, so implied carries +8.3 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-07-30",
+   "value": 8.253088024393623,
    "subscores": {
-    "pctile": 2,
+    "pctile": 1,
     "premium": 2,
     "realized": 10.676912280782158
    }
@@ -188,9 +188,9 @@
    "delta": "-12.5% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-07-29",
-   "value": -0.24021815373585742,
+   "value": -0.2402181537358572,
    "subscores": {
-    "drawdown": -0.24021815373585742,
+    "drawdown": -0.2402181537358572,
     "mom10": -0.12498160565027294
    }
   },
@@ -235,31 +235,31 @@
   }
  ],
  "news": {
-  "scanned_at": "2026-07-29T13:24:10Z",
+  "scanned_at": "2026-07-30T13:14:22Z",
   "items": [
    {
-    "headline": "Big Tech CDS costs hit fresh records \u2014 Oracle's 5-year CDS widens to ~215bps (from ~144bps in January) and Nvidia's to ~82bps \u2014 as 2026 AI-related bond issuance tops $244B",
-    "source": "Seeking Alpha",
-    "url": "https://seekingalpha.com/news/4615543-tech-credit-risk-rises-as-oracle-cds-hits-cycle-high-nvidia-spreads-widen",
-    "date": "2026-07-28",
+    "headline": "CoreWeave sweetens terms on $2.6B loan tied to Anthropic, Jane Street and Hudson River Trading capacity as investors balk at AI debt; CoreWeave's 5-year CDS up over 50% this month",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-07-29/coreweave-boosts-yield-on-2-6-billion-loan-tied-to-anthropic",
+    "date": "2026-07-29",
     "severity": "medium",
-    "note": "CDS widening materially across the AI-debt complex is a concrete, market-priced stress signal \u2014 Oracle's spread has now more than quadrupled since mid-2025 and sits above the 2008 crisis peak."
+    "note": "A neocloud having to widen pricing (+up to 125bps) and deepen the discount (99c to 97c) to clear a loan is a direct market read on deteriorating AI-debt appetite, not commentary."
    },
    {
-    "headline": "Nvidia's 5-year CDS logs its largest single-day spike on record and NVDA sheds ~$250B in market cap after reports it is negotiating up to $750B in AI infrastructure deals, including a $250B guarantee for OpenAI's SoftBank-built Ohio data center plus $350B in chip financing",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/07/27/nvidia-and-openai-in-talks-for-up-to-250-billion-dollar-ai-backstop.html",
-    "date": "2026-07-27",
+    "headline": "Meta's free cash flow collapses 91% YoY to $784M as AI investment consumes 98% of operating cash flow; shares fall ~9% on a disappointing revenue outlook",
+    "source": "Bloomberg / qz.com",
+    "url": "https://qz.com/microsoft-meta-stock-ai-earnings-premarket-073026",
+    "date": "2026-07-29",
     "severity": "medium",
-    "note": "Nvidia's own credit-risk pricing reacting to a financing web it created is the clearest market signal yet that circular AI financing is being treated as contagion risk, echoing recent IMF and BIS warnings on the same structure."
+    "note": "Near-total consumption of operating cash by AI capex is a credit-relevant cash-generation signal distinct from the stock move itself, and raises the odds Meta leans further on debt to fund its build-out."
    },
    {
-    "headline": "SoftBank issues fresh \u00a560B (~$369M) of bonds to Japanese institutional investors, its latest debt raise to help fund a ~$65B OpenAI investment commitment",
-    "source": "Yahoo Finance / TradingKey",
-    "url": "https://sg.finance.yahoo.com/news/softbank-plans-60-bil-bond-232817175.html",
-    "date": "2026-07-27",
-    "severity": "low",
-    "note": "Incremental but continuous debt-funded AI exposure at an issuer already rated one notch below investment grade \u2014 leverage color to watch rather than a standalone stress event."
+    "headline": "Alphabet raises 2026 capex guidance to as much as $205B and posts its first negative free cash flow since its 2004 IPO; shares fall ~7%",
+    "source": "Fortune",
+    "url": "https://fortune.com/2026/07/26/big-tech-earnings-meta-microsoft-apple-amazon-market-revolt-ai-spending/",
+    "date": "2026-07-23",
+    "severity": "medium",
+    "note": "A hyperscaler burning cash for the first time in its public history while raising capex guidance above analyst expectations sharpens the question of how the AI buildout gets financed if internally generated cash no longer covers it."
    }
   ]
  },
