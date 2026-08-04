@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-08-03T16:00:00Z",
+  "scanned_at": "2026-08-04T13:24:31Z",
   "items": [
     {
       "headline": "AI leveraged-loan investors push back for the first time in years: CoreWeave, Proofpoint among 4+ borrowers forced to sweeten terms in one week",
@@ -8,6 +8,30 @@
       "date": "2026-08-01",
       "severity": "medium",
       "note": "Money managers overwhelmed by AI-debt supply are now demanding higher yields and stronger protections across multiple unrelated borrowers (CoreWeave's loan repriced to 5.5pts over benchmark; Proofpoint added roughly two dozen covenant changes at a ~9.3% yield) — a market-wide repricing of AI credit risk, not an isolated name."
+    },
+    {
+      "headline": "CoreWeave's credit-default swaps spike to 855bp, implying ~50% five-year default odds; Nebius/CoreWeave shares slide on the same read-through",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/07/29/nebius-drops-10-coreweave-sinks-9-as-rising-credit-swap-costs-hit-the-ai-cloud-trade/",
+      "date": "2026-07-29",
+      "severity": "medium",
+      "note": "A sharp, concrete widening in CDS pricing on a heavily-levered neocloud is a direct credit-market signal that financing costs for GPU-backed debt are becoming unsustainable, distinct from the equity move itself."
+    },
+    {
+      "headline": "BlackRock prices $12.5B bond for Meta's El Paso data center at 7.53% yield on weak ~$17B order book",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/blackrock-raises-12-5-billion-of-debt-for-meta-data-center",
+      "date": "2026-07-27",
+      "severity": "medium",
+      "note": "One of the highest yields yet on a blue-chip data-center bond, with demand well below the multiple-times oversubscription that's typical for these deals — a concrete sign that data-center debt issuance is getting harder and costlier to clear."
+    },
+    {
+      "headline": "Moody's warns 'unprecedented' AI capex is eroding credit quality at Microsoft, Amazon, Alphabet, Meta, Oracle and CoreWeave",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/24/moodys-ai-spending-credit-quality-amazon-meta-alphabet.html",
+      "date": "2026-07-24",
+      "severity": "low",
+      "note": "Analyst warning rather than a rating action, but it's the clearest statement yet from a major rating agency that the shift from asset-light to capex-heavy AI buildouts is a credit-quality risk across hyperscalers and neoclouds alike."
     }
   ]
 }
