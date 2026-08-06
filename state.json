@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-08-05T22:33:02+00:00",
- "run_label": "post-close",
+ "generated_at": "2026-08-06T13:20:43+00:00",
+ "run_label": "pre-open",
  "composite": 12.5,
  "base_composite": 12.5,
  "tier": "GREEN",
@@ -93,11 +93,11 @@
    "group": "Credit & funding",
    "weight": 0.08,
    "status": 0,
-   "display": "+1bp",
+   "display": "+0bp",
    "delta": "3d avg",
    "detail": "Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.",
-   "asof": "2026-08-04",
-   "value": 0.6666666666666821,
+   "asof": "2026-08-05",
+   "value": 1.4802973661668755e-14,
    "subscores": {}
   },
   {
@@ -106,11 +106,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "14bp tail",
+   "display": "13bp tail",
    "delta": "Fed repo ops $0.0bn (3d max)",
-   "detail": "SOFR 99th\u22121st percentile 14bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
-   "asof": "2026-08-04",
-   "value": 14.000000000000012,
+   "detail": "SOFR 99th\u22121st percentile 13bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
+   "asof": "2026-08-05",
+   "value": 12.99999999999999,
    "subscores": {
     "tail": 0,
     "usage": 0,
@@ -136,11 +136,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.83",
-   "delta": "-0.04 5d",
+   "display": "0.91",
+   "delta": "+0.10 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-08-05",
-   "value": 0.8343007801105919,
+   "asof": "2026-07-17",
+   "value": 0.9138266612040106,
    "subscores": {}
   },
   {
@@ -166,11 +166,11 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 0,
-   "display": "22th pctile",
-   "delta": "IV\u2212RV +1.3pt",
-   "detail": "VIX 15.8 sits at the 22th percentile of its trailing year (expensive \u226580th); 20d realized 14.5, so implied carries +1.3 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-08-05",
-   "value": 1.313534103098963,
+   "display": "23th pctile",
+   "delta": "IV\u2212RV +1.4pt",
+   "detail": "VIX 15.9 sits at the 23th percentile of its trailing year (expensive \u226580th); 20d realized 14.5, so implied carries +1.4 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-08-06",
+   "value": 1.3535340649519902,
    "subscores": {
     "pctile": 0,
     "premium": 0,
@@ -187,10 +187,10 @@
    "delta": "+3.0% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-08-05",
-   "value": -0.10232786759949908,
+   "value": -0.10232786759949897,
    "subscores": {
-    "drawdown": -0.10232786759949908,
-    "mom10": 0.029682774603549955
+    "drawdown": -0.10232786759949897,
+    "mom10": 0.029682774603549733
    }
   },
   {
@@ -234,15 +234,31 @@
   }
  ],
  "news": {
-  "scanned_at": "2026-08-05T13:23:54Z",
+  "scanned_at": "2026-08-06T13:20:09Z",
   "items": [
    {
-    "headline": "Private-credit firms' insurance arms could push AI loan losses onto taxpayers via state guaranty funds, report warns; Michael Burry amplifies",
-    "source": "The American Prospect",
-    "url": "https://prospect.org/2026/08/03/ai-bailout-could-be-baked-into-bubble-private-equity-life-insurers-loans/",
-    "date": "2026-08-03",
+    "headline": "SoftBank finally closes $10B loan against its OpenAI stake, after talks stalled over how to value a private company as collateral",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/08/06/softbank-q1-earnings-intel-bytedance-stakes.html",
+    "date": "2026-08-06",
     "severity": "low",
-    "note": "Traces how PE-owned life insurers hold opaque, AI-data-center-linked credit instruments and could be backstopped by state guaranty funds if they fail \u2014 a structural tail-risk argument for the private-credit leg of the AI debt build-out, not a realized event."
+    "note": "OpenAI contributed zero investment gain/loss to SoftBank's Q1 print (masked by an Intel-stake windfall) and the OpenAI-collateralized loan only got done after lenders balked at pricing a private, unprofitable AI startup \u2014 a live data point on the fragility of collateral valuation in the OpenAI-Nvidia-SoftBank financing web."
+   },
+   {
+    "headline": "Fitch names an AI-driven market correction a top global credit risk in its Q3 2026 outlook",
+    "source": "The Motley Fool",
+    "url": "https://www.fool.com/investing/2026/08/04/fitch-says-ai-market-correction-could-be-a-big-ris/",
+    "date": "2026-08-04",
+    "severity": "low",
+    "note": "A major rating agency formally flagging AI-concentration risk to global credit alongside geopolitical risk is a notable escalation in tone, though it is a forward-looking warning rather than a realized event."
+   },
+   {
+    "headline": "CoreWeave forced to raise spread 100-125bps and accept maintenance covenants to get its $2.6B Anthropic-linked loan done",
+    "source": "Tech Times",
+    "url": "https://www.techtimes.com/articles/322772/20260803/ai-loan-investors-demand-covenants-after-coreweave-spread-blows-out-125-points.htm",
+    "date": "2026-08-03",
+    "severity": "medium",
+    "note": "Leveraged-loan investors extracted a 9%+ yield, an OID discount, and a 1.35x debt-service-coverage covenant plus full amortization from CoreWeave \u2014 concrete evidence that credit markets are repricing neocloud/GPU-debt risk rather than just talking about it."
    }
   ]
  },

@@ -1,13 +1,29 @@
 {
-  "scanned_at": "2026-08-05T13:23:54Z",
+  "scanned_at": "2026-08-06T13:20:09Z",
   "items": [
     {
-      "headline": "Private-credit firms' insurance arms could push AI loan losses onto taxpayers via state guaranty funds, report warns; Michael Burry amplifies",
-      "source": "The American Prospect",
-      "url": "https://prospect.org/2026/08/03/ai-bailout-could-be-baked-into-bubble-private-equity-life-insurers-loans/",
-      "date": "2026-08-03",
+      "headline": "SoftBank finally closes $10B loan against its OpenAI stake, after talks stalled over how to value a private company as collateral",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/06/softbank-q1-earnings-intel-bytedance-stakes.html",
+      "date": "2026-08-06",
       "severity": "low",
-      "note": "Traces how PE-owned life insurers hold opaque, AI-data-center-linked credit instruments and could be backstopped by state guaranty funds if they fail — a structural tail-risk argument for the private-credit leg of the AI debt build-out, not a realized event."
+      "note": "OpenAI contributed zero investment gain/loss to SoftBank's Q1 print (masked by an Intel-stake windfall) and the OpenAI-collateralized loan only got done after lenders balked at pricing a private, unprofitable AI startup — a live data point on the fragility of collateral valuation in the OpenAI-Nvidia-SoftBank financing web."
+    },
+    {
+      "headline": "Fitch names an AI-driven market correction a top global credit risk in its Q3 2026 outlook",
+      "source": "The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/08/04/fitch-says-ai-market-correction-could-be-a-big-ris/",
+      "date": "2026-08-04",
+      "severity": "low",
+      "note": "A major rating agency formally flagging AI-concentration risk to global credit alongside geopolitical risk is a notable escalation in tone, though it is a forward-looking warning rather than a realized event."
+    },
+    {
+      "headline": "CoreWeave forced to raise spread 100-125bps and accept maintenance covenants to get its $2.6B Anthropic-linked loan done",
+      "source": "Tech Times",
+      "url": "https://www.techtimes.com/articles/322772/20260803/ai-loan-investors-demand-covenants-after-coreweave-spread-blows-out-125-points.htm",
+      "date": "2026-08-03",
+      "severity": "medium",
+      "note": "Leveraged-loan investors extracted a 9%+ yield, an OID discount, and a 1.35x debt-service-coverage covenant plus full amortization from CoreWeave — concrete evidence that credit markets are repricing neocloud/GPU-debt risk rather than just talking about it."
     }
   ]
 }
