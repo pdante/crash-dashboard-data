@@ -1,29 +1,21 @@
 {
-  "scanned_at": "2026-08-06T13:20:09Z",
+  "scanned_at": "2026-08-07T12:31:44Z",
   "items": [
     {
-      "headline": "SoftBank finally closes $10B loan against its OpenAI stake, after talks stalled over how to value a private company as collateral",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/06/softbank-q1-earnings-intel-bytedance-stakes.html",
+      "headline": "CMBS investors grow cautious as AI-linked data-center debt spreads widen",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-06/cmbs-investors-push-back-against-ai-as-luddite-trade-spreads",
       "date": "2026-08-06",
-      "severity": "low",
-      "note": "OpenAI contributed zero investment gain/loss to SoftBank's Q1 print (masked by an Intel-stake windfall) and the OpenAI-collateralized loan only got done after lenders balked at pricing a private, unprofitable AI startup — a live data point on the fragility of collateral valuation in the OpenAI-Nvidia-SoftBank financing web."
-    },
-    {
-      "headline": "Fitch names an AI-driven market correction a top global credit risk in its Q3 2026 outlook",
-      "source": "The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/08/04/fitch-says-ai-market-correction-could-be-a-big-ris/",
-      "date": "2026-08-04",
-      "severity": "low",
-      "note": "A major rating agency formally flagging AI-concentration risk to global credit alongside geopolitical risk is a notable escalation in tone, though it is a forward-looking warning rather than a realized event."
-    },
-    {
-      "headline": "CoreWeave forced to raise spread 100-125bps and accept maintenance covenants to get its $2.6B Anthropic-linked loan done",
-      "source": "Tech Times",
-      "url": "https://www.techtimes.com/articles/322772/20260803/ai-loan-investors-demand-covenants-after-coreweave-spread-blows-out-125-points.htm",
-      "date": "2026-08-03",
       "severity": "medium",
-      "note": "Leveraged-loan investors extracted a 9%+ yield, an OID discount, and a 1.35x debt-service-coverage covenant plus full amortization from CoreWeave — concrete evidence that credit markets are repricing neocloud/GPU-debt risk rather than just talking about it."
+      "note": "Two of the last three data-center-backed CMBS deals (KKR's CyrusOne, Blackstone's QTS) had to reprice wider than initial talk to clear, concrete evidence private-market appetite for AI-linked debt is softening."
+    },
+    {
+      "headline": "Oracle's 5-year CDS spread hits highest level since 2008",
+      "source": "Invezz",
+      "url": "https://invezz.com/news/2026/08/05/oracle-stock-is-rebounding-despite-the-soaring-cds-spread-is-it-a-buy/",
+      "date": "2026-08-05",
+      "severity": "medium",
+      "note": "Oracle's 5-year CDS premium climbed to roughly 203bp even as the equity rebounds, underscoring persistent credit-market unease over the capex-driven cash burn behind July's S&P downgrade to BBB-."
     }
   ]
 }
