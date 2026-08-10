@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-08-07T22:03:35+00:00",
- "run_label": "post-close",
+ "generated_at": "2026-08-10T12:34:13+00:00",
+ "run_label": "pre-open",
  "composite": 12.5,
  "base_composite": 12.5,
  "tier": "GREEN",
@@ -93,11 +93,11 @@
    "group": "Credit & funding",
    "weight": 0.08,
    "status": 0,
-   "display": "+0bp",
+   "display": "-1bp",
    "delta": "3d avg",
    "detail": "Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.",
-   "asof": "2026-08-06",
-   "value": 1.4802973661668755e-14,
+   "asof": "2026-08-07",
+   "value": -1.3333333333333197,
    "subscores": {}
   },
   {
@@ -109,7 +109,7 @@
    "display": "12bp tail",
    "delta": "Fed repo ops $0.0bn (3d max)",
    "detail": "SOFR 99th\u22121st percentile 12bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
-   "asof": "2026-08-06",
+   "asof": "2026-08-07",
    "value": 12.00000000000001,
    "subscores": {
     "tail": 0,
@@ -136,11 +136,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.80",
-   "delta": "-0.08 5d",
+   "display": "0.91",
+   "delta": "+0.10 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-08-07",
-   "value": 0.7959401797574264,
+   "asof": "2026-07-17",
+   "value": 0.9138266612040106,
    "subscores": {}
   },
   {
@@ -166,11 +166,11 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 0,
-   "display": "8th pctile",
-   "delta": "IV\u2212RV +0.5pt",
-   "detail": "VIX 14.9 sits at the 8th percentile of its trailing year (expensive \u226580th); 20d realized 14.4, so implied carries +0.5 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-08-07",
-   "value": 0.5249714557654599,
+   "display": "17th pctile",
+   "delta": "IV\u2212RV +1.1pt",
+   "detail": "VIX 15.5 sits at the 17th percentile of its trailing year (expensive \u226580th); 20d realized 14.4, so implied carries +1.1 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-08-10",
+   "value": 1.0849718753821591,
    "subscores": {
     "pctile": 0,
     "premium": 0,
@@ -187,9 +187,9 @@
    "delta": "+9.3% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-08-07",
-   "value": -0.09461646581104788,
+   "value": -0.09461646581104777,
    "subscores": {
-    "drawdown": -0.09461646581104788,
+    "drawdown": -0.09461646581104777,
     "mom10": 0.09287142599594733
    }
   },
@@ -234,23 +234,23 @@
   }
  ],
  "news": {
-  "scanned_at": "2026-08-07T12:31:44Z",
+  "scanned_at": "2026-08-10T12:32:09Z",
   "items": [
    {
-    "headline": "CMBS investors grow cautious as AI-linked data-center debt spreads widen",
-    "source": "Bloomberg",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-06/cmbs-investors-push-back-against-ai-as-luddite-trade-spreads",
-    "date": "2026-08-06",
+    "headline": "AI loan investors demand covenants after CoreWeave leveraged-loan spread blows out 125bp",
+    "source": "Tech Times",
+    "url": "https://www.techtimes.com/articles/322772/20260803/ai-loan-investors-demand-covenants-after-coreweave-spread-blows-out-125-points.htm",
+    "date": "2026-08-03",
     "severity": "medium",
-    "note": "Two of the last three data-center-backed CMBS deals (KKR's CyrusOne, Blackstone's QTS) had to reprice wider than initial talk to clear, concrete evidence private-market appetite for AI-linked debt is softening."
+    "note": "Lenders forcing covenant protections back into a leveraged loan is a concrete tightening of terms for AI-infrastructure debt, reversing the covenant-lite trend from earlier in the buildout."
    },
    {
-    "headline": "Oracle's 5-year CDS spread hits highest level since 2008",
-    "source": "Invezz",
-    "url": "https://invezz.com/news/2026/08/05/oracle-stock-is-rebounding-despite-the-soaring-cds-spread-is-it-a-buy/",
-    "date": "2026-08-05",
+    "headline": "Loan investors push back on AI-exposed borrowers; CoreWeave, Proofpoint forced to sweeten terms to clear deals",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-01/loan-investors-are-pushing-back-as-fear-rises-credit-weekly",
+    "date": "2026-08-01",
     "severity": "medium",
-    "note": "Oracle's 5-year CDS premium climbed to roughly 203bp even as the equity rebounds, underscoring persistent credit-market unease over the capex-driven cash burn behind July's S&P downgrade to BBB-."
+    "note": "Borrowers having to raise yields or add investor protections to place debt is a direct market signal of rising financing costs for AI-infrastructure credit."
    }
   ]
  },

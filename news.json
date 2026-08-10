@@ -1,21 +1,21 @@
 {
-  "scanned_at": "2026-08-07T12:31:44Z",
+  "scanned_at": "2026-08-10T12:32:09Z",
   "items": [
     {
-      "headline": "CMBS investors grow cautious as AI-linked data-center debt spreads widen",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-06/cmbs-investors-push-back-against-ai-as-luddite-trade-spreads",
-      "date": "2026-08-06",
+      "headline": "AI loan investors demand covenants after CoreWeave leveraged-loan spread blows out 125bp",
+      "source": "Tech Times",
+      "url": "https://www.techtimes.com/articles/322772/20260803/ai-loan-investors-demand-covenants-after-coreweave-spread-blows-out-125-points.htm",
+      "date": "2026-08-03",
       "severity": "medium",
-      "note": "Two of the last three data-center-backed CMBS deals (KKR's CyrusOne, Blackstone's QTS) had to reprice wider than initial talk to clear, concrete evidence private-market appetite for AI-linked debt is softening."
+      "note": "Lenders forcing covenant protections back into a leveraged loan is a concrete tightening of terms for AI-infrastructure debt, reversing the covenant-lite trend from earlier in the buildout."
     },
     {
-      "headline": "Oracle's 5-year CDS spread hits highest level since 2008",
-      "source": "Invezz",
-      "url": "https://invezz.com/news/2026/08/05/oracle-stock-is-rebounding-despite-the-soaring-cds-spread-is-it-a-buy/",
-      "date": "2026-08-05",
+      "headline": "Loan investors push back on AI-exposed borrowers; CoreWeave, Proofpoint forced to sweeten terms to clear deals",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-01/loan-investors-are-pushing-back-as-fear-rises-credit-weekly",
+      "date": "2026-08-01",
       "severity": "medium",
-      "note": "Oracle's 5-year CDS premium climbed to roughly 203bp even as the equity rebounds, underscoring persistent credit-market unease over the capex-driven cash burn behind July's S&P downgrade to BBB-."
+      "note": "Borrowers having to raise yields or add investor protections to place debt is a direct market signal of rising financing costs for AI-infrastructure credit."
     }
   ]
 }
