@@ -91,7 +91,7 @@
 <main>
   <header>
     <h1>AI Crash Monitor</h1>
-    <span class="asof">post-close · <time id="gen-time">2026-08-10T22:04Z</time>
+    <span class="asof">pre-open · <time id="gen-time">2026-08-11T12:33Z</time>
     <span class="stale-badge">STALE DATA</span></span>
   </header>
 
@@ -99,11 +99,11 @@
     <div class="tier-line">
       <span class="tier-icon">●</span>
       <span class="tier-name">GREEN</span>
-      <span class="score"><b>12</b><br><span class="asof">composite / 100</span></span>
+      <span class="score"><b>14</b><br><span class="asof">composite / 100</span></span>
     </div>
     <div class="blurb">No unusual stress in the monitored signals.</div>
     <div class="regime">Regime: credit-led <span>— credit is involved — more serious than an equity-only dip</span></div>
-    <ul><li>Amber: CCC credit spread (OAS), AI basket drawdown / momentum, Breadth (RSP/SPY, % above 50dma)</li><li>Regime: credit-led — Credit is involved — more serious than an equity-only dip.</li><li>Hedge pricing (not in composite): Put skew / cost of tail insurance moderate, Implied vol richness (VIX pctile, IV−RV) cheap</li></ul>
+    <ul><li>Amber: CCC credit spread (OAS), AI basket drawdown / momentum, Breadth (RSP/SPY, % above 50dma)</li><li>Regime: credit-led — Credit is involved — more serious than an equity-only dip.</li><li>Hedge pricing (not in composite): Put skew / cost of tail insurance moderate, Implied vol richness (VIX pctile, IV−RV) cheap</li><li>Note: 1 of 15 indicators unavailable — composite is computed from the rest.</li></ul>
   </div>
 
   <div class="tiles">
@@ -119,8 +119,8 @@
       </div>
       <div class="tile">
         <div class="tile-label">VIX term structure (VIX/VIX3M)</div>
-        <div class="tile-value">0.81</div>
-        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">-0.06 5d</span></div>
+        <div class="tile-value">n/a</div>
+        <div class="tile-foot"><span class="badge unknown"><span class="icon">○</span>N/A</span><span class="delta"></span></div>
       </div>
       <div class="tile">
         <div class="tile-label">HYG/IEF ratio (credit vs safety)</div>
@@ -169,13 +169,13 @@
         </tr>
         <tr>
           <td class="ind-label">SOFR − IORB (funding stress)<div class="detail">Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.</div></td>
-          <td class="num">-1bp<div class="delta">3d avg</div></td>
-          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-08-07</div></td>
+          <td class="num">-2bp<div class="delta">3d avg</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-08-10</div></td>
         </tr>
         <tr>
-          <td class="ind-label">Funding tail (SOFR spread + Fed repo use)<div class="detail">SOFR 99th−1st percentile 12bp (amber ≥30bp); Fed repo ops $0.0bn (3d max) (amber ≥$5bn). Needs both legs to confirm stress over calendar effects.</div></td>
-          <td class="num">12bp tail<div class="delta">Fed repo ops $0.0bn (3d max)</div></td>
-          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-08-07</div></td>
+          <td class="ind-label">Funding tail (SOFR spread + Fed repo use)<div class="detail">SOFR 99th−1st percentile 13bp (amber ≥30bp); Fed repo ops $0.0bn (3d max) (amber ≥$5bn). Needs both legs to confirm stress over calendar effects.</div></td>
+          <td class="num">13bp tail<div class="delta">Fed repo ops $0.0bn (3d max)</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-08-10</div></td>
         </tr>
         <tr>
           <td class="ind-label">Chicago Fed NFCI<div class="detail">Weekly financial-conditions composite; positive = tighter than average.</div></td>
@@ -183,9 +183,9 @@
           <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-31</div></td>
         </tr><tr class="group-row"><td colspan="3">Volatility</td></tr>
         <tr>
-          <td class="ind-label">VIX term structure (VIX/VIX3M)<div class="detail">≥1.00 = backwardation — the near-coincident confirmation signal (days of lead at most).</div></td>
-          <td class="num">0.81<div class="delta">-0.06 5d</div></td>
-          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-08-10</div></td>
+          <td class="ind-label">VIX term structure (VIX/VIX3M)<div class="detail">data unavailable: single positional indexer is out-of-bounds</div></td>
+          <td class="num">n/a<div class="delta"></div></td>
+          <td class="status-cell"><span class="badge unknown"><span class="icon">○</span>N/A</span><div class="asof"></div></td>
         </tr><tr class="group-row"><td colspan="3">AI sector</td></tr>
         <tr>
           <td class="ind-label">AI basket drawdown / momentum<div class="detail">Equal-weight basket of 14 AI-exposed names.</div></td>
@@ -215,28 +215,52 @@
         <tr>
           <td class="ind-label">Implied vol richness (VIX pctile, IV−RV)<div class="detail">VIX 15.5 sits at the 17th percentile of its trailing year (expensive ≥80th); 20d realized 14.0, so implied carries +1.5 vol points of premium (expensive ≥8). Cost tier, not a risk tier — excluded from the composite.</div></td>
           <td class="num">17th pctile<div class="delta">IV−RV +1.5pt</div></td>
-          <td class="status-cell"><span class="badge good"><span class="icon">●</span>CHEAP</span><div class="asof">2026-08-10</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>CHEAP</span><div class="asof">2026-08-11</div></td>
         </tr>
     </table>
   </section>
   
     <section>
-      <h2>Credit-event news scan <span class="asof">2026-08-10T12:32</span></h2>
+      <h2>Credit-event news scan <span class="asof">2026-08-11T12:32</span></h2>
       <ul class="news">
       <li>
         <span class="badge warning">MEDIUM</span>
-        <div><div class="news-head"><a href="https://www.techtimes.com/articles/322772/20260803/ai-loan-investors-demand-covenants-after-coreweave-spread-blows-out-125-points.htm" rel="noopener">AI loan investors demand covenants after CoreWeave leveraged-loan spread blows out 125bp</a></div>
-        <div class="news-meta">Tech Times · 2026-08-03</div>
-        <div class="detail">Lenders forcing covenant protections back into a leveraged loan is a concrete tightening of terms for AI-infrastructure debt, reversing the covenant-lite trend from earlier in the buildout.</div></div>
+        <div><div class="news-head"><a href="https://www.techtimes.com/articles/323718/20260810/banks-hit-concentration-limits-sending-data-center-debt-pension-funds.htm" rel="noopener">Banks hit concentration limits on data-center debt, pushing exposure to pension funds and insurers</a></div>
+        <div class="news-meta">Tech Times · 2026-08-10</div>
+        <div class="detail">Banks are hitting exposure caps to the same handful of hyperscale tenants, forcing more AI data-center debt into the less-regulated 144A/private-credit channel held by pensions and insurers.</div></div>
+      </li>
+      <li>
+        <span class="badge good">LOW</span>
+        <div><div class="news-head"><a href="https://www.bloomberg.com/news/articles/2026-08-10/sec-exempts-data-center-bonds-from-key-securitization-rules" rel="noopener">SEC exempts data-center bonds from key asset-backed-securities rules, easing debt issuance</a></div>
+        <div class="news-meta">Bloomberg · 2026-08-10</div>
+        <div class="detail">Removing risk-retention and disclosure requirements for a class of data-center securitizations lowers the bar for issuance just as the sector&#x27;s debt load is drawing credit scrutiny.</div></div>
       </li>
       <li>
         <span class="badge warning">MEDIUM</span>
-        <div><div class="news-head"><a href="https://www.bloomberg.com/news/articles/2026-08-01/loan-investors-are-pushing-back-as-fear-rises-credit-weekly" rel="noopener">Loan investors push back on AI-exposed borrowers; CoreWeave, Proofpoint forced to sweeten terms to clear deals</a></div>
-        <div class="news-meta">Bloomberg · 2026-08-01</div>
-        <div class="detail">Borrowers having to raise yields or add investor protections to place debt is a direct market signal of rising financing costs for AI-infrastructure credit.</div></div>
+        <div><div class="news-head"><a href="https://www.kucoin.com/news/flash/oracle-5-year-cds-surges-70-bps-to-record-215-bps-amid-tech-debt-concerns" rel="noopener">Oracle-led hyperscaler CDS spreads hit fresh records; Oracle&#x27;s 5-year CDS at 215bp, up 70bp YTD</a></div>
+        <div class="news-meta">KuCoin News · 2026-08-09</div>
+        <div class="detail">Oracle&#x27;s CDS spread widened past the 2008-crisis peak with Meta and Broadcom also hitting record levels, a broad-based credit-market signal of rising AI financing risk beyond a single name.</div></div>
+      </li>
+      <li>
+        <span class="badge warning">MEDIUM</span>
+        <div><div class="news-head"><a href="https://www.bloomberg.com/news/articles/2026-08-07/ai-debt-indigestion-forces-wall-street-to-rethink-bond-sales" rel="noopener">AI debt indigestion forces Wall Street to rethink bond sales as ~80% of data-center securities trade wider than issuance</a></div>
+        <div class="news-meta">Bloomberg · 2026-08-07</div>
+        <div class="detail">Broad-based secondary-market spread widening across data-center debt sold since early 2025 signals waning investor appetite after the year&#x27;s fundraising surge.</div></div>
+      </li>
+      <li>
+        <span class="badge warning">MEDIUM</span>
+        <div><div class="news-head"><a href="https://www.bloomberg.com/news/articles/2026-08-06/cmbs-investors-push-back-against-ai-as-luddite-trade-spreads" rel="noopener">CMBS investors push back on AI-linked data-center debt; CyrusOne and QTS deals had to widen pricing to clear</a></div>
+        <div class="news-meta">Bloomberg · 2026-08-06</div>
+        <div class="detail">Two of the last three data-center-backed commercial mortgage bonds needed repricing to attract buyers, a concrete sign of spread widening spreading into the CMBS corner of AI credit.</div></div>
+      </li>
+      <li>
+        <span class="badge warning">MEDIUM</span>
+        <div><div class="news-head"><a href="https://finance.yahoo.com/technology/ai/articles/softbanks-ai-funding-plans-face-061407936.html" rel="noopener">SoftBank&#x27;s AI funding plans face reckoning: $30B of obligations due in H2 2026 plus a $40B bridge loan maturing March 2027</a></div>
+        <div class="news-meta">Reuters · 2026-08-04</div>
+        <div class="detail">Lenders are wary of using SoftBank&#x27;s OpenAI stake as loan collateral, and its margin-loan LTV against Arm shares is running well above SoftBank&#x27;s own reported ratio, tightening the path to fund its AI commitments.</div></div>
       </li></ul>
     </section>
-  
+  <section><h2>Data issues</h2><ul class="issues"><li>VIX term structure (VIX/VIX3M): single positional indexer is out-of-bounds</li></ul></section>
   <footer>
     Short-lead stress composite from free public data (FRED, Yahoo). It raises the odds of a
     day-to-week heads-up; it cannot guarantee one — 1987/2020-type moves are unpredictable.
@@ -245,7 +269,7 @@
 </main>
 <script>
   (function () {
-    var age = Date.now() - 1786399495000;
+    var age = Date.now() - 1786451606000;
     if (age > 30 * 3600 * 1000) { document.body.classList.add("stale"); }
   })();
 </script>
