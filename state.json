@@ -1,22 +1,19 @@
 {
  "schema": 2,
- "generated_at": "2026-08-11T12:33:26+00:00",
+ "generated_at": "2026-08-11T13:45:24+00:00",
  "run_label": "pre-open",
- "composite": 14.4,
- "base_composite": 14.4,
+ "composite": 12.5,
+ "base_composite": 12.5,
  "tier": "GREEN",
  "regime": "credit-led",
  "override": null,
  "reasons": [
   "Amber: CCC credit spread (OAS), AI basket drawdown / momentum, Breadth (RSP/SPY, % above 50dma)",
   "Regime: credit-led \u2014 Credit is involved \u2014 more serious than an equity-only dip.",
-  "Hedge pricing (not in composite): Put skew / cost of tail insurance moderate, Implied vol richness (VIX pctile, IV\u2212RV) cheap",
-  "Note: 1 of 15 indicators unavailable \u2014 composite is computed from the rest."
+  "Hedge pricing (not in composite): Put skew / cost of tail insurance moderate, Implied vol richness (VIX pctile, IV\u2212RV) cheap"
  ],
  "news_escalated": false,
- "unknown_indicators": [
-  "VIX term structure (VIX/VIX3M)"
- ],
+ "unknown_indicators": [],
  "indicators": [
   {
    "id": "hy_oas",
@@ -70,11 +67,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "+1.0% 10d",
-   "delta": "+0.3% 5d",
+   "display": "+0.9% 10d",
+   "delta": "+0.2% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
-   "asof": "2026-08-10",
-   "value": 0.00969873611365335,
+   "asof": "2026-08-11",
+   "value": 0.008888424374269954,
    "subscores": {}
   },
   {
@@ -85,9 +82,9 @@
    "status": 0,
    "display": "+0.5% 10d",
    "delta": "+0.3% 5d",
-   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (-0.2pp 10d).",
-   "asof": "2026-08-10",
-   "value": 0.00539483146857811,
+   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (-0.1pp 10d).",
+   "asof": "2026-08-11",
+   "value": 0.005147036480380729,
    "subscores": {}
   },
   {
@@ -138,12 +135,12 @@
    "label": "VIX term structure (VIX/VIX3M)",
    "group": "Volatility",
    "weight": 0.16,
-   "status": -1,
-   "display": "n/a",
-   "delta": "",
-   "detail": "data unavailable: single positional indexer is out-of-bounds",
-   "asof": "",
-   "value": null,
+   "status": 0,
+   "display": "0.91",
+   "delta": "+0.10 5d",
+   "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
+   "asof": "2026-07-17",
+   "value": 0.9138266612040106,
    "subscores": {}
   },
   {
@@ -173,11 +170,11 @@
    "delta": "IV\u2212RV +1.5pt",
    "detail": "VIX 15.5 sits at the 17th percentile of its trailing year (expensive \u226580th); 20d realized 14.0, so implied carries +1.5 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-08-11",
-   "value": 1.4563066805601892,
+   "value": 1.5346440377044388,
    "subscores": {
     "pctile": 0,
     "premium": 0,
-    "realized": 14.003693357586783
+    "realized": 13.995355695266753
    }
   },
   {
@@ -187,13 +184,13 @@
    "weight": 0.12,
    "status": 1,
    "display": "-9.9% vs 60d high",
-   "delta": "+9.6% 10d",
+   "delta": "+12.5% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
-   "asof": "2026-08-10",
-   "value": -0.09938711590684235,
+   "asof": "2026-08-11",
+   "value": -0.09888115227126015,
    "subscores": {
-    "drawdown": -0.09938711590684235,
-    "mom10": 0.09574090905348931
+    "drawdown": -0.09888115227126015,
+    "mom10": 0.12466590084061302
    }
   },
   {
@@ -202,10 +199,10 @@
    "group": "AI sector",
    "weight": 0.1,
    "status": 0,
-   "display": "CRWV +25% \u00b7 ORCL +26% 10d",
-   "delta": "vol \u00d71.6 / \u00d71.0",
+   "display": "CRWV +33% \u00b7 ORCL +22% 10d",
+   "delta": "vol \u00d71.6 / \u00d71.1",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
-   "asof": "2026-08-10",
+   "asof": "2026-08-11",
    "value": null,
    "subscores": {}
   },
@@ -215,11 +212,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 1,
-   "display": "RSP/SPY -0.4% 20d",
+   "display": "RSP/SPY +0.6% 20d",
    "delta": "36% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
-   "asof": "2026-08-10",
-   "value": -0.003768006558067305,
+   "asof": "2026-08-11",
+   "value": 0.005954775202212437,
    "subscores": {}
   },
   {
@@ -289,8 +286,6 @@
    }
   ]
  },
- "data_issues": [
-  "VIX term structure (VIX/VIX3M): single positional indexer is out-of-bounds"
- ],
+ "data_issues": [],
  "disclaimer": "Not financial advice. No indicator reliably times crashes; this composite raises the odds of a short heads-up, nothing more."
 }
