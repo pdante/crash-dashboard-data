@@ -1,53 +1,21 @@
 {
-  "scanned_at": "2026-08-11T12:32:42Z",
+  "scanned_at": "2026-08-12T12:33:28Z",
   "items": [
     {
-      "headline": "Banks hit concentration limits on data-center debt, pushing exposure to pension funds and insurers",
-      "source": "Tech Times",
-      "url": "https://www.techtimes.com/articles/323718/20260810/banks-hit-concentration-limits-sending-data-center-debt-pension-funds.htm",
-      "date": "2026-08-10",
-      "severity": "medium",
-      "note": "Banks are hitting exposure caps to the same handful of hyperscale tenants, forcing more AI data-center debt into the less-regulated 144A/private-credit channel held by pensions and insurers."
-    },
-    {
-      "headline": "SEC exempts data-center bonds from key asset-backed-securities rules, easing debt issuance",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-10/sec-exempts-data-center-bonds-from-key-securitization-rules",
-      "date": "2026-08-10",
+      "headline": "CoreWeave's Q2 net interest expense more than doubles to $640M as total debt hits $35B",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
+      "date": "2026-08-11",
       "severity": "low",
-      "note": "Removing risk-retention and disclosure requirements for a class of data-center securitizations lowers the bar for issuance just as the sector's debt load is drawing credit scrutiny."
+      "note": "Even with a revenue and backlog beat, net interest expense more than doubled year-over-year and net losses widened on the back of it — a concrete sign of the rising debt-service burden building up at neoclouds."
     },
     {
-      "headline": "Oracle-led hyperscaler CDS spreads hit fresh records; Oracle's 5-year CDS at 215bp, up 70bp YTD",
-      "source": "KuCoin News",
-      "url": "https://www.kucoin.com/news/flash/oracle-5-year-cds-surges-70-bps-to-record-215-bps-amid-tech-debt-concerns",
-      "date": "2026-08-09",
-      "severity": "medium",
-      "note": "Oracle's CDS spread widened past the 2008-crisis peak with Meta and Broadcom also hitting record levels, a broad-based credit-market signal of rising AI financing risk beyond a single name."
-    },
-    {
-      "headline": "AI debt indigestion forces Wall Street to rethink bond sales as ~80% of data-center securities trade wider than issuance",
+      "headline": "AIG CEO says AI data-center boom is 'maxing out' P&C insurers' capacity",
       "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-07/ai-debt-indigestion-forces-wall-street-to-rethink-bond-sales",
-      "date": "2026-08-07",
-      "severity": "medium",
-      "note": "Broad-based secondary-market spread widening across data-center debt sold since early 2025 signals waning investor appetite after the year's fundraising surge."
-    },
-    {
-      "headline": "CMBS investors push back on AI-linked data-center debt; CyrusOne and QTS deals had to widen pricing to clear",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-06/cmbs-investors-push-back-against-ai-as-luddite-trade-spreads",
-      "date": "2026-08-06",
-      "severity": "medium",
-      "note": "Two of the last three data-center-backed commercial mortgage bonds needed repricing to attract buyers, a concrete sign of spread widening spreading into the CMBS corner of AI credit."
-    },
-    {
-      "headline": "SoftBank's AI funding plans face reckoning: $30B of obligations due in H2 2026 plus a $40B bridge loan maturing March 2027",
-      "source": "Reuters",
-      "url": "https://finance.yahoo.com/technology/ai/articles/softbanks-ai-funding-plans-face-061407936.html",
-      "date": "2026-08-04",
-      "severity": "medium",
-      "note": "Lenders are wary of using SoftBank's OpenAI stake as loan collateral, and its margin-loan LTV against Arm shares is running well above SoftBank's own reported ratio, tightening the path to fund its AI commitments."
+      "url": "https://www.bloomberg.com/news/articles/2026-08-11/ai-data-center-boom-is-maxing-out-p-c-insurers-aig-ceo-says",
+      "date": "2026-08-11",
+      "severity": "low",
+      "note": "A major insurer flagging strained underwriting capacity for AI infrastructure risk points to a thinning backstop just as more of the sector's debt gets pushed into insurance and pension balance sheets."
     }
   ]
 }

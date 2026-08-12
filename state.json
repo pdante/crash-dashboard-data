@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-08-11T22:10:17+00:00",
- "run_label": "post-close",
+ "generated_at": "2026-08-12T12:35:09+00:00",
+ "run_label": "pre-open",
  "composite": 9.2,
  "base_composite": 9.2,
  "tier": "GREEN",
@@ -96,8 +96,8 @@
    "display": "-2bp",
    "delta": "3d avg",
    "detail": "Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.",
-   "asof": "2026-08-10",
-   "value": -1.6666666666666607,
+   "asof": "2026-08-11",
+   "value": -1.999999999999987,
    "subscores": {}
   },
   {
@@ -106,11 +106,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "13bp tail",
+   "display": "15bp tail",
    "delta": "Fed repo ops $0.1bn (3d max)",
-   "detail": "SOFR 99th\u22121st percentile 13bp (amber \u226530bp); Fed repo ops $0.1bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
-   "asof": "2026-08-10",
-   "value": 12.99999999999999,
+   "detail": "SOFR 99th\u22121st percentile 15bp (amber \u226530bp); Fed repo ops $0.1bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
+   "asof": "2026-08-11",
+   "value": 14.999999999999991,
    "subscores": {
     "tail": 0,
     "usage": 0,
@@ -136,11 +136,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.81",
-   "delta": "-0.07 5d",
+   "display": "0.91",
+   "delta": "+0.10 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-08-11",
-   "value": 0.8080380674916984,
+   "asof": "2026-07-17",
+   "value": 0.9138266612040106,
    "subscores": {}
   },
   {
@@ -166,11 +166,11 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 0,
-   "display": "13th pctile",
-   "delta": "IV\u2212RV +1.2pt",
-   "detail": "VIX 15.3 sits at the 13th percentile of its trailing year (expensive \u226580th); 20d realized 14.1, so implied carries +1.2 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-08-11",
-   "value": 1.1960721051937515,
+   "display": "15th pctile",
+   "delta": "IV\u2212RV +1.3pt",
+   "detail": "VIX 15.4 sits at the 15th percentile of its trailing year (expensive \u226580th); 20d realized 14.1, so implied carries +1.3 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-08-12",
+   "value": 1.2860722577816421,
    "subscores": {
     "pctile": 0,
     "premium": 0,
@@ -190,7 +190,7 @@
    "value": -0.09959096329434813,
    "subscores": {
     "drawdown": -0.09959096329434813,
-    "mom10": 0.12378000187654137
+    "mom10": 0.12378000187654181
    }
   },
   {
@@ -234,55 +234,23 @@
   }
  ],
  "news": {
-  "scanned_at": "2026-08-11T12:32:42Z",
+  "scanned_at": "2026-08-12T12:33:28Z",
   "items": [
    {
-    "headline": "Banks hit concentration limits on data-center debt, pushing exposure to pension funds and insurers",
-    "source": "Tech Times",
-    "url": "https://www.techtimes.com/articles/323718/20260810/banks-hit-concentration-limits-sending-data-center-debt-pension-funds.htm",
-    "date": "2026-08-10",
-    "severity": "medium",
-    "note": "Banks are hitting exposure caps to the same handful of hyperscale tenants, forcing more AI data-center debt into the less-regulated 144A/private-credit channel held by pensions and insurers."
-   },
-   {
-    "headline": "SEC exempts data-center bonds from key asset-backed-securities rules, easing debt issuance",
-    "source": "Bloomberg",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-10/sec-exempts-data-center-bonds-from-key-securitization-rules",
-    "date": "2026-08-10",
+    "headline": "CoreWeave's Q2 net interest expense more than doubles to $640M as total debt hits $35B",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
+    "date": "2026-08-11",
     "severity": "low",
-    "note": "Removing risk-retention and disclosure requirements for a class of data-center securitizations lowers the bar for issuance just as the sector's debt load is drawing credit scrutiny."
+    "note": "Even with a revenue and backlog beat, net interest expense more than doubled year-over-year and net losses widened on the back of it \u2014 a concrete sign of the rising debt-service burden building up at neoclouds."
    },
    {
-    "headline": "Oracle-led hyperscaler CDS spreads hit fresh records; Oracle's 5-year CDS at 215bp, up 70bp YTD",
-    "source": "KuCoin News",
-    "url": "https://www.kucoin.com/news/flash/oracle-5-year-cds-surges-70-bps-to-record-215-bps-amid-tech-debt-concerns",
-    "date": "2026-08-09",
-    "severity": "medium",
-    "note": "Oracle's CDS spread widened past the 2008-crisis peak with Meta and Broadcom also hitting record levels, a broad-based credit-market signal of rising AI financing risk beyond a single name."
-   },
-   {
-    "headline": "AI debt indigestion forces Wall Street to rethink bond sales as ~80% of data-center securities trade wider than issuance",
+    "headline": "AIG CEO says AI data-center boom is 'maxing out' P&C insurers' capacity",
     "source": "Bloomberg",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-07/ai-debt-indigestion-forces-wall-street-to-rethink-bond-sales",
-    "date": "2026-08-07",
-    "severity": "medium",
-    "note": "Broad-based secondary-market spread widening across data-center debt sold since early 2025 signals waning investor appetite after the year's fundraising surge."
-   },
-   {
-    "headline": "CMBS investors push back on AI-linked data-center debt; CyrusOne and QTS deals had to widen pricing to clear",
-    "source": "Bloomberg",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-06/cmbs-investors-push-back-against-ai-as-luddite-trade-spreads",
-    "date": "2026-08-06",
-    "severity": "medium",
-    "note": "Two of the last three data-center-backed commercial mortgage bonds needed repricing to attract buyers, a concrete sign of spread widening spreading into the CMBS corner of AI credit."
-   },
-   {
-    "headline": "SoftBank's AI funding plans face reckoning: $30B of obligations due in H2 2026 plus a $40B bridge loan maturing March 2027",
-    "source": "Reuters",
-    "url": "https://finance.yahoo.com/technology/ai/articles/softbanks-ai-funding-plans-face-061407936.html",
-    "date": "2026-08-04",
-    "severity": "medium",
-    "note": "Lenders are wary of using SoftBank's OpenAI stake as loan collateral, and its margin-loan LTV against Arm shares is running well above SoftBank's own reported ratio, tightening the path to fund its AI commitments."
+    "url": "https://www.bloomberg.com/news/articles/2026-08-11/ai-data-center-boom-is-maxing-out-p-c-insurers-aig-ceo-says",
+    "date": "2026-08-11",
+    "severity": "low",
+    "note": "A major insurer flagging strained underwriting capacity for AI infrastructure risk points to a thinning backstop just as more of the sector's debt gets pushed into insurance and pension balance sheets."
    }
   ]
  },
