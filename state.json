@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-08-13T12:34:34+00:00",
+ "generated_at": "2026-08-13T13:50:55+00:00",
  "run_label": "pre-open",
  "composite": 4.2,
  "base_composite": 4.2,
@@ -67,11 +67,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "+0.8% 10d",
-   "delta": "+0.5% 5d",
+   "display": "+0.4% 10d",
+   "delta": "-0.0% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
-   "asof": "2026-08-12",
-   "value": 0.008365935733548824,
+   "asof": "2026-08-13",
+   "value": 0.0037819612959670845,
    "subscores": {}
   },
   {
@@ -80,11 +80,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "+0.8% 10d",
+   "display": "+0.9% 10d",
    "delta": "+0.3% 5d",
-   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (-0.1pp 10d).",
-   "asof": "2026-08-12",
-   "value": 0.008345609685323163,
+   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (-0.0pp 10d).",
+   "asof": "2026-08-13",
+   "value": 0.00883220375800109,
    "subscores": {}
   },
   {
@@ -136,11 +136,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.79",
-   "delta": "+0.00 5d",
+   "display": "0.78",
+   "delta": "-0.09 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-08-12",
-   "value": 0.7852131490324761,
+   "asof": "2026-08-13",
+   "value": 0.7793401852779298,
    "subscores": {}
   },
   {
@@ -157,7 +157,7 @@
    "subscores": {
     "skew": 1,
     "vvix": 0,
-    "vvix_level": 88.5
+    "vvix_level": 88.11000061035156
    }
   },
   {
@@ -166,15 +166,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 0,
-   "display": "5th pctile",
+   "display": "3th pctile",
    "delta": "IV\u2212RV +0.5pt",
-   "detail": "VIX 14.6 sits at the 5th percentile of its trailing year (expensive \u226580th); 20d realized 14.1, so implied carries +0.5 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "detail": "VIX 14.4 sits at the 3th percentile of its trailing year (expensive \u226580th); 20d realized 13.9, so implied carries +0.5 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-08-13",
-   "value": 0.5336086023218733,
+   "value": 0.49428631274159684,
    "subscores": {
     "pctile": 0,
     "premium": 0,
-    "realized": 14.056391550266017
+    "realized": 13.915713534670513
    }
   },
   {
@@ -183,14 +183,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 0,
-   "display": "-6.6% vs 60d high",
-   "delta": "+22.9% 10d",
+   "display": "-4.5% vs 60d high",
+   "delta": "+17.1% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
-   "asof": "2026-08-12",
-   "value": -0.06617964965671608,
+   "asof": "2026-08-13",
+   "value": -0.04474881022321131,
    "subscores": {
-    "drawdown": -0.06617964965671608,
-    "mom10": 0.2290637831568243
+    "drawdown": -0.04474881022321131,
+    "mom10": 0.17068091240289518
    }
   },
   {
@@ -199,10 +199,10 @@
    "group": "AI sector",
    "weight": 0.1,
    "status": 0,
-   "display": "CRWV +77% \u00b7 ORCL +30% 10d",
-   "delta": "vol \u00d71.7 / \u00d71.1",
+   "display": "CRWV +56% \u00b7 ORCL +24% 10d",
+   "delta": "vol \u00d71.7 / \u00d71.0",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
-   "asof": "2026-08-12",
+   "asof": "2026-08-13",
    "value": null,
    "subscores": {}
   },
@@ -212,11 +212,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 0,
-   "display": "RSP/SPY +1.4% 20d",
-   "delta": "50% of basket > 50dma",
+   "display": "RSP/SPY -0.4% 20d",
+   "delta": "64% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
-   "asof": "2026-08-12",
-   "value": 0.014321916266206491,
+   "asof": "2026-08-13",
+   "value": -0.0038056179944681023,
    "subscores": {}
   },
   {
