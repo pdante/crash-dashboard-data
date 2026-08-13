@@ -1,21 +1,53 @@
 {
-  "scanned_at": "2026-08-12T12:33:28Z",
+  "scanned_at": "2026-08-13T12:34:11Z",
   "items": [
     {
-      "headline": "CoreWeave's Q2 net interest expense more than doubles to $640M as total debt hits $35B",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
-      "date": "2026-08-11",
-      "severity": "low",
-      "note": "Even with a revenue and backlog beat, net interest expense more than doubled year-over-year and net losses widened on the back of it — a concrete sign of the rising debt-service burden building up at neoclouds."
+      "headline": "Banks hit concentration limits on AI data-center loans, push risk to pension and private-credit funds",
+      "source": "Tech Times",
+      "url": "https://www.techtimes.com/articles/323718/20260810/banks-hit-concentration-limits-sending-data-center-debt-pension-funds.htm",
+      "date": "2026-08-10",
+      "severity": "medium",
+      "note": "Oracle's $38B data-center construction debt is proving too large for JPMorgan and SMBC to hold, forcing banks to offload exposure into pension and insurance portfolios — a sign the traditional syndication channel is straining."
     },
     {
-      "headline": "AIG CEO says AI data-center boom is 'maxing out' P&C insurers' capacity",
+      "headline": "CMBS investors push back on AI data-center debt as 'Luddite trade' spreads",
       "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/ai-data-center-boom-is-maxing-out-p-c-insurers-aig-ceo-says",
-      "date": "2026-08-11",
-      "severity": "low",
-      "note": "A major insurer flagging strained underwriting capacity for AI infrastructure risk points to a thinning backstop just as more of the sector's debt gets pushed into insurance and pension balance sheets."
+      "url": "https://www.bloomberg.com/news/articles/2026-08-06/cmbs-investors-push-back-against-ai-as-luddite-trade-spreads",
+      "date": "2026-08-06",
+      "severity": "medium",
+      "note": "KKR-backed CyrusOne and Blackstone-backed QTS both had to widen pricing on recent commercial mortgage bond sales to clear demand, a concrete sign of spread widening in data-center CMBS."
+    },
+    {
+      "headline": "AI loan investors demand covenants after CoreWeave spread blows out 125bps",
+      "source": "Tech Times",
+      "url": "https://www.techtimes.com/articles/322772/20260803/ai-loan-investors-demand-covenants-after-coreweave-spread-blows-out-125-points.htm",
+      "date": "2026-08-03",
+      "severity": "medium",
+      "note": "Lenders forced CoreWeave to accept maintenance covenants and pay up 100-125bps more on a $2.6B facility, a realized tightening of terms on GPU-backed debt."
+    },
+    {
+      "headline": "CoreWeave CDS pricing implies ~50% five-year default odds as stock drops 9%",
+      "source": "Tech Times / 24/7 Wall St.",
+      "url": "https://www.techtimes.com/articles/322222/20260730/coreweave-cds-hits-50-default-odds-bond-market-calls-time-gpu-debt-spiral.htm",
+      "date": "2026-07-29",
+      "severity": "medium",
+      "note": "Credit-default-swap spreads on CoreWeave widened to 855bps, materially repricing the market's view of GPU-backed neocloud debt ahead of its Q2 print."
+    },
+    {
+      "headline": "Moody's flags Oracle and CoreWeave as the weakest credit links in AI's hyperscaler buildout",
+      "source": "Cryptopolitan",
+      "url": "https://www.cryptopolitan.com/moodys-flags-oracle-and-coreweave-as-ais-weakest-credit-link/",
+      "date": "2026-07-25",
+      "severity": "medium",
+      "note": "Moody's research note cites Oracle's Baa2-negative rating and CoreWeave's Ba3 rating, and warns $1.2T in off-balance-sheet lease commitments across six hyperscalers understate true leverage."
+    },
+    {
+      "headline": "S&P downgrades Oracle to BBB-, one notch above junk, on OpenAI concentration risk",
+      "source": "S&P Global Ratings",
+      "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/101695609",
+      "date": "2026-07-09",
+      "severity": "medium",
+      "note": "A realized ratings action tying Oracle's AI capex buildout and its heavy OpenAI revenue concentration directly to a credit downgrade, leaving the company one step above speculative grade."
     }
   ]
 }
