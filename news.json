@@ -1,13 +1,37 @@
 {
-  "scanned_at": "2026-08-13T12:34:11Z",
+  "scanned_at": "2026-08-14T12:31:11Z",
   "items": [
+    {
+      "headline": "Big Tech's AI debt binge pushes up CDS costs for unrelated 'safe' companies",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-13/big-tech-drives-up-credit-risk-for-safe-firms-with-no-ai-links",
+      "date": "2026-08-13",
+      "severity": "medium",
+      "note": "BNP Paribas strategists say intensifying competition for cash from Big Tech's AI borrowing spree is spilling over into wider CDS spreads for companies with no data-center exposure, a sign AI credit stress is bleeding into the broader market."
+    },
+    {
+      "headline": "CoreWeave's CDS still implies ~50% five-year default odds despite record Q2 beat and $129B backlog",
+      "source": "Tech Times",
+      "url": "https://www.techtimes.com/articles/324054/20260812/coreweave-q2-2026-129b-backlog-grew-296b-six-weeks-despite-50-default-odds.htm",
+      "date": "2026-08-12",
+      "severity": "medium",
+      "note": "$29.6B of new bookings and a strong print didn't move CoreWeave's credit-default-swap market, which continues to price a coin-flip default probability, a persistent gap between equity optimism and credit-market skepticism."
+    },
     {
       "headline": "Banks hit concentration limits on AI data-center loans, push risk to pension and private-credit funds",
       "source": "Tech Times",
       "url": "https://www.techtimes.com/articles/323718/20260810/banks-hit-concentration-limits-sending-data-center-debt-pension-funds.htm",
       "date": "2026-08-10",
       "severity": "medium",
-      "note": "Oracle's $38B data-center construction debt is proving too large for JPMorgan and SMBC to hold, forcing banks to offload exposure into pension and insurance portfolios — a sign the traditional syndication channel is straining."
+      "note": "Oracle's $38B data-center construction debt is proving too large for JPMorgan and SMBC to hold, forcing banks to offload exposure into pension and insurance portfolios, a sign the traditional syndication channel is straining."
+    },
+    {
+      "headline": "Banks now factor permitting readiness and community opposition directly into data-center loan underwriting",
+      "source": "Reuters",
+      "url": "https://bworldonline.com/technology/2026/08/13/769786/lenders-scrutinize-us-data-center-financing-as-community-opposition-builds/",
+      "date": "2026-08-10",
+      "severity": "low",
+      "note": "Bank of America and other lenders are adding a project-readiness test (permits plus local support) to credit assessments after roughly $130B of AI data-center projects faced organized opposition in Q1 2026 alone."
     },
     {
       "headline": "CMBS investors push back on AI data-center debt as 'Luddite trade' spreads",
@@ -24,14 +48,6 @@
       "date": "2026-08-03",
       "severity": "medium",
       "note": "Lenders forced CoreWeave to accept maintenance covenants and pay up 100-125bps more on a $2.6B facility, a realized tightening of terms on GPU-backed debt."
-    },
-    {
-      "headline": "CoreWeave CDS pricing implies ~50% five-year default odds as stock drops 9%",
-      "source": "Tech Times / 24/7 Wall St.",
-      "url": "https://www.techtimes.com/articles/322222/20260730/coreweave-cds-hits-50-default-odds-bond-market-calls-time-gpu-debt-spiral.htm",
-      "date": "2026-07-29",
-      "severity": "medium",
-      "note": "Credit-default-swap spreads on CoreWeave widened to 855bps, materially repricing the market's view of GPU-backed neocloud debt ahead of its Q2 print."
     },
     {
       "headline": "Moody's flags Oracle and CoreWeave as the weakest credit links in AI's hyperscaler buildout",
