@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-08-14T17:23:43+00:00",
- "run_label": "mid-day",
+ "generated_at": "2026-08-14T21:46:35+00:00",
+ "run_label": "post-close",
  "composite": 4.2,
  "base_composite": 4.2,
  "tier": "GREEN",
@@ -10,7 +10,7 @@
  "reasons": [
   "Amber: CCC credit spread (OAS)",
   "Regime: credit-led \u2014 Credit is involved \u2014 more serious than an equity-only dip.",
-  "Hedge pricing (not in composite): Put skew / cost of tail insurance cheap, Implied vol richness (VIX pctile, IV\u2212RV) cheap"
+  "Hedge pricing (not in composite): Put skew / cost of tail insurance moderate, Implied vol richness (VIX pctile, IV\u2212RV) cheap"
  ],
  "news_escalated": false,
  "unknown_indicators": [],
@@ -71,7 +71,7 @@
    "delta": "+0.3% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
    "asof": "2026-08-14",
-   "value": 0.0033703235616697746,
+   "value": 0.003343395339318045,
    "subscores": {}
   },
   {
@@ -81,10 +81,10 @@
    "weight": 0.06,
    "status": 0,
    "display": "+0.9% 10d",
-   "delta": "+0.4% 5d",
-   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+0.2pp 10d).",
+   "delta": "+0.3% 5d",
+   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+0.1pp 10d).",
    "asof": "2026-08-14",
-   "value": 0.00907314265957937,
+   "value": 0.008827872023731587,
    "subscores": {}
   },
   {
@@ -107,14 +107,14 @@
    "weight": 0.06,
    "status": 0,
    "display": "11bp tail",
-   "delta": "Fed repo ops $0.1bn (3d max)",
-   "detail": "SOFR 99th\u22121st percentile 11bp (amber \u226530bp); Fed repo ops $0.1bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
+   "delta": "Fed repo ops $0.0bn (3d max)",
+   "detail": "SOFR 99th\u22121st percentile 11bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
    "asof": "2026-08-13",
    "value": 11.000000000000032,
    "subscores": {
     "tail": 0,
     "usage": 0,
-    "usage_bn": 0.1
+    "usage_bn": 0.002
    }
   },
   {
@@ -136,11 +136,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.78",
-   "delta": "-0.09 5d",
+   "display": "0.77",
+   "delta": "-0.10 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
    "asof": "2026-08-14",
-   "value": 0.7799352386243223,
+   "value": 0.7719393665618417,
    "subscores": {}
   },
   {
@@ -148,16 +148,16 @@
    "label": "Put skew / cost of tail insurance",
    "group": "Hedge pricing",
    "weight": 0.0,
-   "status": 0,
-   "display": "SKEW 134",
-   "delta": "VVIX 89 \u00b7 -0 5d",
-   "detail": "SKEW 134 (expensive \u2265145), VVIX 89 (expensive \u2265110). Tail insurance is comparatively cheap. Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-08-13",
-   "value": 134.3699951171875,
+   "status": 1,
+   "display": "SKEW 138",
+   "delta": "VVIX 87 \u00b7 +6 5d",
+   "detail": "SKEW 138 (expensive \u2265145), VVIX 87 (expensive \u2265110). Tail insurance is moderately priced. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-08-14",
+   "value": 138.36000061035156,
    "subscores": {
-    "skew": 0,
+    "skew": 1,
     "vvix": 0,
-    "vvix_level": 88.75
+    "vvix_level": 87.4800033569336
    }
   },
   {
@@ -167,14 +167,14 @@
    "weight": 0.0,
    "status": 0,
    "display": "3th pctile",
-   "delta": "IV\u2212RV +1.1pt",
-   "detail": "VIX 14.5 sits at the 3th percentile of its trailing year (expensive \u226580th); 20d realized 13.4, so implied carries +1.1 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "delta": "IV\u2212RV +0.9pt",
+   "detail": "VIX 14.2 sits at the 3th percentile of its trailing year (expensive \u226580th); 20d realized 13.4, so implied carries +0.9 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-08-14",
-   "value": 1.0804337473798498,
+   "value": 0.8898011297856421,
    "subscores": {
     "pctile": 0,
     "premium": 0,
-    "realized": 13.379566290767123
+    "realized": 13.360198870214358
    }
   },
   {
@@ -183,14 +183,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 0,
-   "display": "-6.0% vs 60d high",
-   "delta": "+12.6% 10d",
+   "display": "-5.7% vs 60d high",
+   "delta": "+12.9% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-08-14",
-   "value": -0.059904768765972505,
+   "value": -0.05746589453345219,
    "subscores": {
-    "drawdown": -0.059904768765972505,
-    "mom10": 0.12643109323417612
+    "drawdown": -0.05746589453345219,
+    "mom10": 0.12935337565485527
    }
   },
   {
@@ -199,7 +199,7 @@
    "group": "AI sector",
    "weight": 0.1,
    "status": 0,
-   "display": "CRWV +47% \u00b7 ORCL +17% 10d",
+   "display": "CRWV +47% \u00b7 ORCL +16% 10d",
    "delta": "vol \u00d71.7 / \u00d71.0",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
    "asof": "2026-08-14",
@@ -212,11 +212,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 0,
-   "display": "RSP/SPY +0.0% 20d",
-   "delta": "57% of basket > 50dma",
+   "display": "RSP/SPY -0.0% 20d",
+   "delta": "64% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
    "asof": "2026-08-14",
-   "value": 0.00014205665371047616,
+   "value": -0.00039213445915808887,
    "subscores": {}
   },
   {
@@ -225,11 +225,11 @@
    "group": "Backdrop",
    "weight": 0.04,
    "status": 0,
-   "display": "+0.76%",
-   "delta": "-0.03 5d",
+   "display": "+0.82%",
+   "delta": "+0.04 5d",
    "detail": "Inversion is a 6\u201318 month gauge, not a timing signal \u2014 capped at amber.",
-   "asof": "2026-08-13",
-   "value": 0.76,
+   "asof": "2026-08-14",
+   "value": 0.82,
    "subscores": {}
   }
  ],
