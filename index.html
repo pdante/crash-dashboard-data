@@ -91,7 +91,7 @@
 <main>
   <header>
     <h1>AI Crash Monitor</h1>
-    <span class="asof">pre-open · <time id="gen-time">2026-08-17T11:59Z</time>
+    <span class="asof">pre-open · <time id="gen-time">2026-08-17T13:07Z</time>
     <span class="stale-badge">STALE DATA</span></span>
   </header>
 
@@ -119,8 +119,8 @@
       </div>
       <div class="tile">
         <div class="tile-label">VIX term structure (VIX/VIX3M)</div>
-        <div class="tile-value">0.77</div>
-        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+0.00 5d</span></div>
+        <div class="tile-value">0.91</div>
+        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+0.10 5d</span></div>
       </div>
       <div class="tile">
         <div class="tile-label">HYG/IEF ratio (credit vs safety)</div>
@@ -169,13 +169,13 @@
         </tr>
         <tr>
           <td class="ind-label">SOFR − IORB (funding stress)<div class="detail">Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.</div></td>
-          <td class="num">-2bp<div class="delta">3d avg</div></td>
-          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-08-13</div></td>
+          <td class="num">-3bp<div class="delta">3d avg</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-08-14</div></td>
         </tr>
         <tr>
           <td class="ind-label">Funding tail (SOFR spread + Fed repo use)<div class="detail">SOFR 99th−1st percentile 11bp (amber ≥30bp); Fed repo ops $0.0bn (3d max) (amber ≥$5bn). Needs both legs to confirm stress over calendar effects.</div></td>
           <td class="num">11bp tail<div class="delta">Fed repo ops $0.0bn (3d max)</div></td>
-          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-08-13</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-08-14</div></td>
         </tr>
         <tr>
           <td class="ind-label">Chicago Fed NFCI<div class="detail">Weekly financial-conditions composite; positive = tighter than average.</div></td>
@@ -184,8 +184,8 @@
         </tr><tr class="group-row"><td colspan="3">Volatility</td></tr>
         <tr>
           <td class="ind-label">VIX term structure (VIX/VIX3M)<div class="detail">≥1.00 = backwardation — the near-coincident confirmation signal (days of lead at most).</div></td>
-          <td class="num">0.77<div class="delta">+0.00 5d</div></td>
-          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-08-14</div></td>
+          <td class="num">0.91<div class="delta">+0.10 5d</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-07-17</div></td>
         </tr><tr class="group-row"><td colspan="3">AI sector</td></tr>
         <tr>
           <td class="ind-label">AI basket drawdown / momentum<div class="detail">Equal-weight basket of 14 AI-exposed names.</div></td>
@@ -213,8 +213,8 @@
           <td class="status-cell"><span class="badge warning"><span class="icon">▲</span>MODERATE</span><div class="asof">2026-08-14</div></td>
         </tr>
         <tr>
-          <td class="ind-label">Implied vol richness (VIX pctile, IV−RV)<div class="detail">VIX 14.9 sits at the 9th percentile of its trailing year (expensive ≥80th); 20d realized 13.4, so implied carries +1.5 vol points of premium (expensive ≥8). Cost tier, not a risk tier — excluded from the composite.</div></td>
-          <td class="num">9th pctile<div class="delta">IV−RV +1.5pt</div></td>
+          <td class="ind-label">Implied vol richness (VIX pctile, IV−RV)<div class="detail">VIX 15.1 sits at the 11th percentile of its trailing year (expensive ≥80th); 20d realized 13.4, so implied carries +1.7 vol points of premium (expensive ≥8). Cost tier, not a risk tier — excluded from the composite.</div></td>
+          <td class="num">11th pctile<div class="delta">IV−RV +1.7pt</div></td>
           <td class="status-cell"><span class="badge good"><span class="icon">●</span>CHEAP</span><div class="asof">2026-08-17</div></td>
         </tr>
     </table>
@@ -245,7 +245,7 @@
 </main>
 <script>
   (function () {
-    var age = Date.now() - 1786967968000;
+    var age = Date.now() - 1786972068000;
     if (age > 30 * 3600 * 1000) { document.body.classList.add("stale"); }
   })();
 </script>

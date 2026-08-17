@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-08-17T11:59:28+00:00",
+ "generated_at": "2026-08-17T13:07:48+00:00",
  "run_label": "pre-open",
  "composite": 4.2,
  "base_composite": 4.2,
@@ -93,11 +93,11 @@
    "group": "Credit & funding",
    "weight": 0.08,
    "status": 0,
-   "display": "-2bp",
+   "display": "-3bp",
    "delta": "3d avg",
    "detail": "Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.",
-   "asof": "2026-08-13",
-   "value": -2.333333333333313,
+   "asof": "2026-08-14",
+   "value": -2.9999999999999805,
    "subscores": {}
   },
   {
@@ -109,7 +109,7 @@
    "display": "11bp tail",
    "delta": "Fed repo ops $0.0bn (3d max)",
    "detail": "SOFR 99th\u22121st percentile 11bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
-   "asof": "2026-08-13",
+   "asof": "2026-08-14",
    "value": 11.000000000000032,
    "subscores": {
     "tail": 0,
@@ -136,11 +136,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.77",
-   "delta": "+0.00 5d",
+   "display": "0.91",
+   "delta": "+0.10 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-08-14",
-   "value": 0.7719393665618417,
+   "asof": "2026-07-17",
+   "value": 0.9138266612040106,
    "subscores": {}
   },
   {
@@ -166,11 +166,11 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 0,
-   "display": "9th pctile",
-   "delta": "IV\u2212RV +1.5pt",
-   "detail": "VIX 14.9 sits at the 9th percentile of its trailing year (expensive \u226580th); 20d realized 13.4, so implied carries +1.5 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "display": "11th pctile",
+   "delta": "IV\u2212RV +1.7pt",
+   "detail": "VIX 15.1 sits at the 11th percentile of its trailing year (expensive \u226580th); 20d realized 13.4, so implied carries +1.7 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-08-17",
-   "value": 1.5498009771977515,
+   "value": 1.6998015494023413,
    "subscores": {
     "pctile": 0,
     "premium": 0,
@@ -187,9 +187,9 @@
    "delta": "+12.9% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-08-14",
-   "value": -0.057465894533451634,
+   "value": -0.05746589453345208,
    "subscores": {
-    "drawdown": -0.057465894533451634,
+    "drawdown": -0.05746589453345208,
     "mom10": 0.1293533756548555
    }
   },
