@@ -1,19 +1,22 @@
 {
  "schema": 2,
- "generated_at": "2026-08-17T21:47:21+00:00",
- "run_label": "post-close",
- "composite": 4.2,
- "base_composite": 4.2,
+ "generated_at": "2026-08-18T12:01:39+00:00",
+ "run_label": "pre-open",
+ "composite": 4.8,
+ "base_composite": 4.8,
  "tier": "GREEN",
  "regime": "credit-led",
  "override": null,
  "reasons": [
   "Amber: CCC credit spread (OAS)",
   "Regime: credit-led \u2014 Credit is involved \u2014 more serious than an equity-only dip.",
-  "Hedge pricing (not in composite): Put skew / cost of tail insurance moderate, Implied vol richness (VIX pctile, IV\u2212RV) cheap"
+  "Hedge pricing (not in composite): Put skew / cost of tail insurance moderate, Implied vol richness (VIX pctile, IV\u2212RV) cheap",
+  "Note: 1 of 15 indicators unavailable \u2014 composite is computed from the rest."
  ],
  "news_escalated": false,
- "unknown_indicators": [],
+ "unknown_indicators": [
+  "VIX term structure (VIX/VIX3M)"
+ ],
  "indicators": [
   {
    "id": "hy_oas",
@@ -67,11 +70,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "+0.4% 10d",
-   "delta": "+0.1% 5d",
+   "display": "+0.3% 10d",
+   "delta": "+0.3% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
-   "asof": "2026-08-17",
-   "value": 0.0035664607596039843,
+   "asof": "2026-08-14",
+   "value": 0.003343395339318045,
    "subscores": {}
   },
   {
@@ -80,11 +83,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "+0.7% 10d",
-   "delta": "+0.4% 5d",
-   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+0.4pp 10d).",
-   "asof": "2026-08-17",
-   "value": 0.007342125124309096,
+   "display": "+0.9% 10d",
+   "delta": "+0.3% 5d",
+   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+0.1pp 10d).",
+   "asof": "2026-08-14",
+   "value": 0.008827872023731587,
    "subscores": {}
   },
   {
@@ -135,12 +138,12 @@
    "label": "VIX term structure (VIX/VIX3M)",
    "group": "Volatility",
    "weight": 0.16,
-   "status": 0,
-   "display": "0.80",
-   "delta": "-0.08 5d",
-   "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-08-17",
-   "value": 0.7977940572469027,
+   "status": -1,
+   "display": "n/a",
+   "delta": "",
+   "detail": "data unavailable: single positional indexer is out-of-bounds",
+   "asof": "",
+   "value": null,
    "subscores": {}
   },
   {
@@ -149,15 +152,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 1,
-   "display": "SKEW 143",
-   "delta": "VVIX 94 \u00b7 +6 5d",
-   "detail": "SKEW 143 (expensive \u2265145), VVIX 94 (expensive \u2265110). Tail insurance is moderately priced. Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-08-17",
-   "value": 142.91000366210938,
+   "display": "SKEW 138",
+   "delta": "VVIX 87 \u00b7 +6 5d",
+   "detail": "SKEW 138 (expensive \u2265145), VVIX 87 (expensive \u2265110). Tail insurance is moderately priced. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-08-14",
+   "value": 138.36000061035156,
    "subscores": {
     "skew": 1,
     "vvix": 0,
-    "vvix_level": 93.91999816894531
+    "vvix_level": 87.4800033569336
    }
   },
   {
@@ -166,15 +169,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 0,
-   "display": "12th pctile",
-   "delta": "IV\u2212RV +1.7pt",
-   "detail": "VIX 15.2 sits at the 12th percentile of its trailing year (expensive \u226580th); 20d realized 13.5, so implied carries +1.7 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-08-17",
-   "value": 1.6668742960461245,
+   "display": "19th pctile",
+   "delta": "IV\u2212RV +2.3pt",
+   "detail": "VIX 15.7 sits at the 19th percentile of its trailing year (expensive \u226580th); 20d realized 13.4, so implied carries +2.3 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-08-18",
+   "value": 2.329800710168943,
    "subscores": {
     "pctile": 0,
     "premium": 0,
-    "realized": 13.523125284337176
+    "realized": 13.360198870214358
    }
   },
   {
@@ -183,14 +186,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 0,
-   "display": "-6.4% vs 60d high",
-   "delta": "+7.1% 10d",
+   "display": "-5.7% vs 60d high",
+   "delta": "+12.9% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
-   "asof": "2026-08-17",
-   "value": -0.06384030785073458,
+   "asof": "2026-08-14",
+   "value": -0.057465894533452744,
    "subscores": {
-    "drawdown": -0.06384030785073458,
-    "mom10": 0.07084618645504448
+    "drawdown": -0.057465894533452744,
+    "mom10": 0.12935337565485505
    }
   },
   {
@@ -199,10 +202,10 @@
    "group": "AI sector",
    "weight": 0.1,
    "status": 0,
-   "display": "CRWV +24% \u00b7 ORCL +3% 10d",
+   "display": "CRWV +47% \u00b7 ORCL +16% 10d",
    "delta": "vol \u00d71.7 / \u00d71.0",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
-   "asof": "2026-08-17",
+   "asof": "2026-08-14",
    "value": null,
    "subscores": {}
   },
@@ -212,11 +215,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 0,
-   "display": "RSP/SPY -0.2% 20d",
+   "display": "RSP/SPY -0.0% 20d",
    "delta": "64% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
-   "asof": "2026-08-17",
-   "value": -0.0017334024460016195,
+   "asof": "2026-08-14",
+   "value": -0.00039213445915808887,
    "subscores": {}
   },
   {
@@ -234,10 +237,18 @@
   }
  ],
  "news": {
-  "scanned_at": "2026-08-17T11:59:11Z",
+  "scanned_at": "2026-08-18T00:00:00Z",
   "items": [
    {
-    "headline": "Bond traders flag $70B of 'shadow' credit backstops Nvidia and Broadcom are extending to AI buildouts",
+    "headline": "Oracle drops Wisconsin lawsuit challenging data-center credit-rating rules",
+    "source": "Civic Media",
+    "url": "https://civicmedia.us/news/2026/08/17/oracle-drops-lawsuit-challenging-wisconsin-data-center-credit-rules",
+    "date": "2026-08-17",
+    "severity": "low",
+    "note": "Oracle backs off a fight over state rules requiring credit-rating disclosures from data-center developers, an early sign regulators are pricing developer credit risk directly into build-out approvals."
+   },
+   {
+    "headline": "Bond traders flag $70B of 'shadow' credit backstops Nvidia and Broadcom extend to AI buildouts",
     "source": "Bloomberg",
     "url": "https://www.bloomberg.com/news/articles/2026-08-15/bond-traders-agonize-over-ai-companies-70-billion-of-shadow-credit-backstops",
     "date": "2026-08-15",
@@ -246,14 +257,56 @@
    },
    {
     "headline": "BofA cuts Broadcom's credit outlook to Marketweight on hidden leverage in its XPV financing platform",
-    "source": "Bank of America (via Investing.com/FX Leaders)",
+    "source": "Bank of America (via Investing.com)",
     "url": "https://www.investing.com/news/stock-market-news/broadcom-credit-rating-cut-to-marketweight-on-xpv-concerns-93CH-4850949",
     "date": "2026-08-12",
     "severity": "medium",
-    "note": "A sell-side credit desk downgrade tied directly to the Blackstone/Apollo-backed XPV SPV, which could carry up to $370B in senior debt and exposes Broadcom to residual-value guarantees as large as $42B in stress scenarios."
+    "note": "Sell-side credit downgrade tied directly to the Blackstone/Apollo-backed XPV SPV, which could carry up to $370B in senior debt and exposes Broadcom to residual-value guarantees as large as $42B in stress scenarios."
+   },
+   {
+    "headline": "CoreWeave's backlog grows to $129B, but CDS still price a 50% five-year default probability",
+    "source": "Tech Times",
+    "url": "https://www.techtimes.com/articles/324054/20260812/coreweave-q2-2026-129b-backlog-grew-296b-six-weeks-despite-50-default-odds.htm",
+    "date": "2026-08-12",
+    "severity": "medium",
+    "note": "Credit markets keep pricing CoreWeave at distressed levels even after strong backlog growth, showing revenue momentum alone isn't resolving lenders' concerns about its GPU-debt load."
+   },
+   {
+    "headline": "Oracle's 5-year CDS hits record ~215bps as Apollo's Slok warns AI capex could 'self-throttle'",
+    "source": "Fortune",
+    "url": "https://fortune.com/2026/08/10/torsten-slok-ai-profit-margins-capex-oracle/",
+    "date": "2026-08-10",
+    "severity": "medium",
+    "note": "Oracle's default-insurance cost, up from ~145bps at year-end, is now the widest among major AI infrastructure names, with Apollo's chief economist flagging that rising all-in yields could force hyperscalers to throttle the capex cycle."
+   },
+   {
+    "headline": "CMBS investors push back as AI-linked data-center debt spreads widen",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-06/cmbs-investors-push-back-against-ai-as-luddite-trade-spreads",
+    "date": "2026-08-06",
+    "severity": "medium",
+    "note": "Two of the last three data-center-backed CMBS deals (CyrusOne, QTS) had to widen pricing to clear, a concrete sign of rising risk premiums in securitized AI infrastructure debt."
+   },
+   {
+    "headline": "AI loan investors demand covenants after CoreWeave's leveraged-loan spread blows out 125bps",
+    "source": "Tech Times",
+    "url": "https://www.techtimes.com/articles/322772/20260803/ai-loan-investors-demand-covenants-after-coreweave-spread-blows-out-125-points.htm",
+    "date": "2026-08-03",
+    "severity": "medium",
+    "note": "Lenders forced CoreWeave to sweeten terms on a $2.6B facility, concrete evidence private credit is repricing AI/GPU-backed loan risk upward rather than just commentary."
+   },
+   {
+    "headline": "S&P downgrades Oracle to BBB-, one notch above junk, on AI-driven cash burn",
+    "source": "HNGN (S&P Global Ratings action)",
+    "url": "https://www.hngn.com/articles/271995/20260709/sp-downgrades-oracle-credit-rating-ai-buildout-deepens-42-billion-cash-deficit.htm",
+    "date": "2026-07-09",
+    "severity": "high",
+    "note": "Realized rating action: Oracle cut to the lowest investment-grade rung as its AI data-center buildout drives an estimated $42B free-cash-flow deficit, the clearest credit-event anchor in this cycle."
    }
   ]
  },
- "data_issues": [],
+ "data_issues": [
+  "VIX term structure (VIX/VIX3M): single positional indexer is out-of-bounds"
+ ],
  "disclaimer": "Not financial advice. No indicator reliably times crashes; this composite raises the odds of a short heads-up, nothing more."
 }

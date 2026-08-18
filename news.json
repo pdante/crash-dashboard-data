@@ -1,8 +1,16 @@
 {
-  "scanned_at": "2026-08-17T11:59:11Z",
+  "scanned_at": "2026-08-18T00:00:00Z",
   "items": [
     {
-      "headline": "Bond traders flag $70B of 'shadow' credit backstops Nvidia and Broadcom are extending to AI buildouts",
+      "headline": "Oracle drops Wisconsin lawsuit challenging data-center credit-rating rules",
+      "source": "Civic Media",
+      "url": "https://civicmedia.us/news/2026/08/17/oracle-drops-lawsuit-challenging-wisconsin-data-center-credit-rules",
+      "date": "2026-08-17",
+      "severity": "low",
+      "note": "Oracle backs off a fight over state rules requiring credit-rating disclosures from data-center developers, an early sign regulators are pricing developer credit risk directly into build-out approvals."
+    },
+    {
+      "headline": "Bond traders flag $70B of 'shadow' credit backstops Nvidia and Broadcom extend to AI buildouts",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-08-15/bond-traders-agonize-over-ai-companies-70-billion-of-shadow-credit-backstops",
       "date": "2026-08-15",
@@ -11,11 +19,51 @@
     },
     {
       "headline": "BofA cuts Broadcom's credit outlook to Marketweight on hidden leverage in its XPV financing platform",
-      "source": "Bank of America (via Investing.com/FX Leaders)",
+      "source": "Bank of America (via Investing.com)",
       "url": "https://www.investing.com/news/stock-market-news/broadcom-credit-rating-cut-to-marketweight-on-xpv-concerns-93CH-4850949",
       "date": "2026-08-12",
       "severity": "medium",
-      "note": "A sell-side credit desk downgrade tied directly to the Blackstone/Apollo-backed XPV SPV, which could carry up to $370B in senior debt and exposes Broadcom to residual-value guarantees as large as $42B in stress scenarios."
+      "note": "Sell-side credit downgrade tied directly to the Blackstone/Apollo-backed XPV SPV, which could carry up to $370B in senior debt and exposes Broadcom to residual-value guarantees as large as $42B in stress scenarios."
+    },
+    {
+      "headline": "CoreWeave's backlog grows to $129B, but CDS still price a 50% five-year default probability",
+      "source": "Tech Times",
+      "url": "https://www.techtimes.com/articles/324054/20260812/coreweave-q2-2026-129b-backlog-grew-296b-six-weeks-despite-50-default-odds.htm",
+      "date": "2026-08-12",
+      "severity": "medium",
+      "note": "Credit markets keep pricing CoreWeave at distressed levels even after strong backlog growth, showing revenue momentum alone isn't resolving lenders' concerns about its GPU-debt load."
+    },
+    {
+      "headline": "Oracle's 5-year CDS hits record ~215bps as Apollo's Slok warns AI capex could 'self-throttle'",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/08/10/torsten-slok-ai-profit-margins-capex-oracle/",
+      "date": "2026-08-10",
+      "severity": "medium",
+      "note": "Oracle's default-insurance cost, up from ~145bps at year-end, is now the widest among major AI infrastructure names, with Apollo's chief economist flagging that rising all-in yields could force hyperscalers to throttle the capex cycle."
+    },
+    {
+      "headline": "CMBS investors push back as AI-linked data-center debt spreads widen",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-06/cmbs-investors-push-back-against-ai-as-luddite-trade-spreads",
+      "date": "2026-08-06",
+      "severity": "medium",
+      "note": "Two of the last three data-center-backed CMBS deals (CyrusOne, QTS) had to widen pricing to clear, a concrete sign of rising risk premiums in securitized AI infrastructure debt."
+    },
+    {
+      "headline": "AI loan investors demand covenants after CoreWeave's leveraged-loan spread blows out 125bps",
+      "source": "Tech Times",
+      "url": "https://www.techtimes.com/articles/322772/20260803/ai-loan-investors-demand-covenants-after-coreweave-spread-blows-out-125-points.htm",
+      "date": "2026-08-03",
+      "severity": "medium",
+      "note": "Lenders forced CoreWeave to sweeten terms on a $2.6B facility, concrete evidence private credit is repricing AI/GPU-backed loan risk upward rather than just commentary."
+    },
+    {
+      "headline": "S&P downgrades Oracle to BBB-, one notch above junk, on AI-driven cash burn",
+      "source": "HNGN (S&P Global Ratings action)",
+      "url": "https://www.hngn.com/articles/271995/20260709/sp-downgrades-oracle-credit-rating-ai-buildout-deepens-42-billion-cash-deficit.htm",
+      "date": "2026-07-09",
+      "severity": "high",
+      "note": "Realized rating action: Oracle cut to the lowest investment-grade rung as its AI data-center buildout drives an estimated $42B free-cash-flow deficit, the clearest credit-event anchor in this cycle."
     }
   ]
 }
