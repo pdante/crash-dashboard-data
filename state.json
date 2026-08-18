@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-08-18T12:01:39+00:00",
+ "generated_at": "2026-08-18T13:10:10+00:00",
  "run_label": "pre-open",
  "composite": 4.8,
  "base_composite": 4.8,
@@ -96,11 +96,11 @@
    "group": "Credit & funding",
    "weight": 0.08,
    "status": 0,
-   "display": "-3bp",
+   "display": "-2bp",
    "delta": "3d avg",
    "detail": "Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.",
-   "asof": "2026-08-14",
-   "value": -2.9999999999999805,
+   "asof": "2026-08-17",
+   "value": -1.6666666666666459,
    "subscores": {}
   },
   {
@@ -109,11 +109,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "11bp tail",
+   "display": "14bp tail",
    "delta": "Fed repo ops $0.0bn (3d max)",
-   "detail": "SOFR 99th\u22121st percentile 11bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
-   "asof": "2026-08-14",
-   "value": 11.000000000000032,
+   "detail": "SOFR 99th\u22121st percentile 14bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
+   "asof": "2026-08-17",
+   "value": 14.000000000000012,
    "subscores": {
     "tail": 0,
     "usage": 0,
@@ -169,11 +169,11 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 0,
-   "display": "19th pctile",
-   "delta": "IV\u2212RV +2.3pt",
-   "detail": "VIX 15.7 sits at the 19th percentile of its trailing year (expensive \u226580th); 20d realized 13.4, so implied carries +2.3 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "display": "21th pctile",
+   "delta": "IV\u2212RV +2.4pt",
+   "detail": "VIX 15.8 sits at the 21th percentile of its trailing year (expensive \u226580th); 20d realized 13.4, so implied carries +2.4 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-08-18",
-   "value": 2.329800710168943,
+   "value": 2.399801358667478,
    "subscores": {
     "pctile": 0,
     "premium": 0,
@@ -190,10 +190,10 @@
    "delta": "+12.9% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-08-14",
-   "value": -0.057465894533452744,
+   "value": -0.05746589453345241,
    "subscores": {
-    "drawdown": -0.057465894533452744,
-    "mom10": 0.12935337565485505
+    "drawdown": -0.05746589453345241,
+    "mom10": 0.12935337565485527
    }
   },
   {
@@ -215,11 +215,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 0,
-   "display": "RSP/SPY -0.0% 20d",
+   "display": "RSP/SPY +1.7% 20d",
    "delta": "64% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
    "asof": "2026-08-14",
-   "value": -0.00039213445915808887,
+   "value": 0.01700700746377093,
    "subscores": {}
   },
   {
