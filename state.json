@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-08-19T12:01:32+00:00",
+ "generated_at": "2026-08-19T13:11:07+00:00",
  "run_label": "pre-open",
  "composite": 12.5,
  "base_composite": 12.5,
@@ -93,11 +93,11 @@
    "group": "Credit & funding",
    "weight": 0.08,
    "status": 0,
-   "display": "-2bp",
+   "display": "-1bp",
    "delta": "3d avg",
    "detail": "Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.",
-   "asof": "2026-08-17",
-   "value": -1.6666666666666459,
+   "asof": "2026-08-18",
+   "value": -0.6666666666666524,
    "subscores": {}
   },
   {
@@ -123,11 +123,11 @@
    "group": "Credit & funding",
    "weight": 0.04,
    "status": 0,
-   "display": "-0.55",
+   "display": "-0.56",
    "delta": "-0.02 4w",
    "detail": "Weekly financial-conditions composite; positive = tighter than average.",
-   "asof": "2026-08-07",
-   "value": -0.549,
+   "asof": "2026-08-14",
+   "value": -0.559,
    "subscores": {}
   },
   {
@@ -166,11 +166,11 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 0,
-   "display": "22th pctile",
-   "delta": "IV\u2212RV +2.1pt",
-   "detail": "VIX 15.8 sits at the 22th percentile of its trailing year (expensive \u226580th); 20d realized 13.7, so implied carries +2.1 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "display": "17th pctile",
+   "delta": "IV\u2212RV +1.8pt",
+   "detail": "VIX 15.4 sits at the 17th percentile of its trailing year (expensive \u226580th); 20d realized 13.7, so implied carries +1.8 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-08-19",
-   "value": 2.1264184624671305,
+   "value": 1.7964185387610758,
    "subscores": {
     "pctile": 0,
     "premium": 0,
@@ -187,10 +187,10 @@
    "delta": "-0.9% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-08-18",
-   "value": -0.09968576833192311,
+   "value": -0.09968576833192377,
    "subscores": {
-    "drawdown": -0.09968576833192311,
-    "mom10": -0.00886952092120008
+    "drawdown": -0.09968576833192377,
+    "mom10": -0.00886952092119997
    }
   },
   {
