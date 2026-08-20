@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-08-20T12:01:32+00:00",
+ "generated_at": "2026-08-20T13:12:39+00:00",
  "run_label": "pre-open",
  "composite": 12.5,
  "base_composite": 12.5,
@@ -166,11 +166,11 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 0,
-   "display": "15th pctile",
-   "delta": "IV\u2212RV +1.8pt",
-   "detail": "VIX 15.4 sits at the 15th percentile of its trailing year (expensive \u226580th); 20d realized 13.6, so implied carries +1.8 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "display": "23th pctile",
+   "delta": "IV\u2212RV +2.2pt",
+   "detail": "VIX 15.8 sits at the 23th percentile of its trailing year (expensive \u226580th); 20d realized 13.6, so implied carries +2.2 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-08-20",
-   "value": 1.7554187181419465,
+   "value": 2.215418756288919,
    "subscores": {
     "pctile": 0,
     "premium": 0,
@@ -187,10 +187,10 @@
    "delta": "-0.9% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-08-19",
-   "value": -0.11008801924809664,
+   "value": -0.11008801924809686,
    "subscores": {
-    "drawdown": -0.11008801924809664,
-    "mom10": -0.008644750536976109
+    "drawdown": -0.11008801924809686,
+    "mom10": -0.00864475053697622
    }
   },
   {
@@ -212,11 +212,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 1,
-   "display": "RSP/SPY +1.5% 20d",
+   "display": "RSP/SPY +0.9% 20d",
    "delta": "36% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
    "asof": "2026-08-19",
-   "value": 0.014661284209438685,
+   "value": 0.00876702854906708,
    "subscores": {}
   },
   {
