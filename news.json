@@ -1,13 +1,29 @@
 {
-  "scanned_at": "2026-08-19T12:00:00Z",
+  "scanned_at": "2026-08-20T12:00:00Z",
   "items": [
     {
-      "headline": "Nvidia's guarantee for OpenAI's Ohio data center lands at $105B, $145B below the figure floated in July",
-      "source": "CNBC / Fortune",
-      "url": "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html",
-      "date": "2026-08-17",
+      "headline": "Nebius sinks 13% after $4.5B convertible note offering paired with exchange of existing 2029/2031 notes",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/08/19/nebius-group-sinks-13-on-4-5b-convertible-note-offering-and-share-exchange-plan/",
+      "date": "2026-08-19",
       "severity": "medium",
-      "note": "Nvidia's financing backstop for the 8GW Pike County campus was cut from an earlier-floated $250B (then a reported sub-$120B) to $105B before signing, a concrete scale-back of the circular Nvidia-OpenAI financing web that Fortune frames as a sign of doubt over real chip demand behind the deal."
+      "note": "Nebius raised $2.75B (2030) + $1.75B (2034) converts and is exchanging older notes for shares, with management warning exchange holders may dump shares/unwind hedges; concrete evidence a neocloud with $8B cash still can't self-fund $5.66B/quarter capex without repeated dilutive refinancing."
+    },
+    {
+      "headline": "WSJ tally of $3 trillion in off-balance-sheet AI commitments triggers neocloud selloff",
+      "source": "Wall Street Journal / 24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/08/18/neocloud-stocks-plummet-on-rising-overspend-fears-coreweave-down-7-nebius-down-5-terawulf-down-6/",
+      "date": "2026-08-18",
+      "severity": "medium",
+      "note": "First concrete sizing of hyperscaler off-balance-sheet lease/SPV commitments (~$3T across nine firms) drove CoreWeave -6.8%, Nebius -5.2%, TeraWulf -6.5%, directly evidencing the circular-financing/SPV risk this thesis tracks rather than an equity-only move on sentiment alone."
+    },
+    {
+      "headline": "BofA fund manager survey: 38% now call hyperscaler AI capex the top systemic credit-event risk",
+      "source": "Bank of America (via Yahoo Finance)",
+      "url": "https://finance.yahoo.com/technology/ai/articles/bank-america-stark-warning-ai-210907473.html",
+      "date": "2026-08-18",
+      "severity": "low",
+      "note": "Second straight month hyperscaler capex tops the systemic-risk list (ahead of private credit at 23%), yet 71% still expect no 2026 capex cut — a sentiment/positioning signal, not a realized event, worth tracking for a turn."
     }
   ]
 }

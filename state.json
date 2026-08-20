@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-08-19T21:47:34+00:00",
- "run_label": "post-close",
+ "generated_at": "2026-08-20T12:01:32+00:00",
+ "run_label": "pre-open",
  "composite": 12.5,
  "base_composite": 12.5,
  "tier": "GREEN",
@@ -96,7 +96,7 @@
    "display": "-1bp",
    "delta": "3d avg",
    "detail": "Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.",
-   "asof": "2026-08-18",
+   "asof": "2026-08-19",
    "value": -0.6666666666666524,
    "subscores": {}
   },
@@ -109,7 +109,7 @@
    "display": "12bp tail",
    "delta": "Fed repo ops $0.0bn (3d max)",
    "detail": "SOFR 99th\u22121st percentile 12bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
-   "asof": "2026-08-18",
+   "asof": "2026-08-19",
    "value": 12.00000000000001,
    "subscores": {
     "tail": 0,
@@ -136,11 +136,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.80",
-   "delta": "+0.00 5d",
+   "display": "0.91",
+   "delta": "+0.10 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-08-19",
-   "value": 0.8018309417351717,
+   "asof": "2026-07-17",
+   "value": 0.9138266612040106,
    "subscores": {}
   },
   {
@@ -166,11 +166,11 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 0,
-   "display": "8th pctile",
-   "delta": "IV\u2212RV +1.3pt",
-   "detail": "VIX 14.9 sits at the 8th percentile of its trailing year (expensive \u226580th); 20d realized 13.6, so implied carries +1.3 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-08-19",
-   "value": 1.2654189470237824,
+   "display": "15th pctile",
+   "delta": "IV\u2212RV +1.8pt",
+   "detail": "VIX 15.4 sits at the 15th percentile of its trailing year (expensive \u226580th); 20d realized 13.6, so implied carries +1.8 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-08-20",
+   "value": 1.7554187181419465,
    "subscores": {
     "pctile": 0,
     "premium": 0,
@@ -187,10 +187,10 @@
    "delta": "-0.9% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-08-19",
-   "value": -0.11008836137020916,
+   "value": -0.11008801924809664,
    "subscores": {
-    "drawdown": -0.11008836137020916,
-    "mom10": -0.008645131658434613
+    "drawdown": -0.11008801924809664,
+    "mom10": -0.008644750536976109
    }
   },
   {
@@ -212,11 +212,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 1,
-   "display": "RSP/SPY +0.9% 20d",
+   "display": "RSP/SPY +1.5% 20d",
    "delta": "36% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
    "asof": "2026-08-19",
-   "value": 0.00876702854906708,
+   "value": 0.014661284209438685,
    "subscores": {}
   },
   {
@@ -234,15 +234,31 @@
   }
  ],
  "news": {
-  "scanned_at": "2026-08-19T12:00:00Z",
+  "scanned_at": "2026-08-20T12:00:00Z",
   "items": [
    {
-    "headline": "Nvidia's guarantee for OpenAI's Ohio data center lands at $105B, $145B below the figure floated in July",
-    "source": "CNBC / Fortune",
-    "url": "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html",
-    "date": "2026-08-17",
+    "headline": "Nebius sinks 13% after $4.5B convertible note offering paired with exchange of existing 2029/2031 notes",
+    "source": "24/7 Wall St.",
+    "url": "https://247wallst.com/investing/2026/08/19/nebius-group-sinks-13-on-4-5b-convertible-note-offering-and-share-exchange-plan/",
+    "date": "2026-08-19",
     "severity": "medium",
-    "note": "Nvidia's financing backstop for the 8GW Pike County campus was cut from an earlier-floated $250B (then a reported sub-$120B) to $105B before signing, a concrete scale-back of the circular Nvidia-OpenAI financing web that Fortune frames as a sign of doubt over real chip demand behind the deal."
+    "note": "Nebius raised $2.75B (2030) + $1.75B (2034) converts and is exchanging older notes for shares, with management warning exchange holders may dump shares/unwind hedges; concrete evidence a neocloud with $8B cash still can't self-fund $5.66B/quarter capex without repeated dilutive refinancing."
+   },
+   {
+    "headline": "WSJ tally of $3 trillion in off-balance-sheet AI commitments triggers neocloud selloff",
+    "source": "Wall Street Journal / 24/7 Wall St.",
+    "url": "https://247wallst.com/investing/2026/08/18/neocloud-stocks-plummet-on-rising-overspend-fears-coreweave-down-7-nebius-down-5-terawulf-down-6/",
+    "date": "2026-08-18",
+    "severity": "medium",
+    "note": "First concrete sizing of hyperscaler off-balance-sheet lease/SPV commitments (~$3T across nine firms) drove CoreWeave -6.8%, Nebius -5.2%, TeraWulf -6.5%, directly evidencing the circular-financing/SPV risk this thesis tracks rather than an equity-only move on sentiment alone."
+   },
+   {
+    "headline": "BofA fund manager survey: 38% now call hyperscaler AI capex the top systemic credit-event risk",
+    "source": "Bank of America (via Yahoo Finance)",
+    "url": "https://finance.yahoo.com/technology/ai/articles/bank-america-stark-warning-ai-210907473.html",
+    "date": "2026-08-18",
+    "severity": "low",
+    "note": "Second straight month hyperscaler capex tops the systemic-risk list (ahead of private credit at 23%), yet 71% still expect no 2026 capex cut \u2014 a sentiment/positioning signal, not a realized event, worth tracking for a turn."
    }
   ]
  },
