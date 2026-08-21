@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-08-20T21:50:51+00:00",
- "run_label": "post-close",
+ "generated_at": "2026-08-21T12:03:01+00:00",
+ "run_label": "pre-open",
  "composite": 12.5,
  "base_composite": 12.5,
  "tier": "GREEN",
@@ -93,11 +93,11 @@
    "group": "Credit & funding",
    "weight": 0.08,
    "status": 0,
-   "display": "-1bp",
+   "display": "-2bp",
    "delta": "3d avg",
    "detail": "Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.",
-   "asof": "2026-08-19",
-   "value": -0.6666666666666524,
+   "asof": "2026-08-20",
+   "value": -1.6666666666666607,
    "subscores": {}
   },
   {
@@ -106,11 +106,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "12bp tail",
+   "display": "13bp tail",
    "delta": "Fed repo ops $0.0bn (3d max)",
-   "detail": "SOFR 99th\u22121st percentile 12bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
-   "asof": "2026-08-19",
-   "value": 12.00000000000001,
+   "detail": "SOFR 99th\u22121st percentile 13bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
+   "asof": "2026-08-20",
+   "value": 12.99999999999999,
    "subscores": {
     "tail": 0,
     "usage": 0,
@@ -136,11 +136,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.84",
-   "delta": "+0.00 5d",
+   "display": "0.91",
+   "delta": "+0.10 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-08-20",
-   "value": 0.8399790491856792,
+   "asof": "2026-07-17",
+   "value": 0.9138266612040106,
    "subscores": {}
   },
   {
@@ -166,11 +166,11 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 0,
-   "display": "26th pctile",
-   "delta": "IV\u2212RV +2.9pt",
-   "detail": "VIX 16.0 sits at the 26th percentile of its trailing year (expensive \u226580th); 20d realized 13.2, so implied carries +2.9 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-08-20",
-   "value": 2.8523534465146394,
+   "display": "18th pctile",
+   "delta": "IV\u2212RV +2.3pt",
+   "detail": "VIX 15.5 sits at the 18th percentile of its trailing year (expensive \u226580th); 20d realized 13.2, so implied carries +2.3 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-08-21",
+   "value": 2.312353484661612,
    "subscores": {
     "pctile": 0,
     "premium": 0,
@@ -187,10 +187,10 @@
    "delta": "-0.3% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-08-20",
-   "value": -0.1096416335881818,
+   "value": -0.10952206895632488,
    "subscores": {
-    "drawdown": -0.1096416335881818,
-    "mom10": -0.0034864272775826377
+    "drawdown": -0.10952206895632488,
+    "mom10": -0.0033526064920953447
    }
   },
   {
@@ -212,11 +212,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 1,
-   "display": "RSP/SPY +1.6% 20d",
+   "display": "RSP/SPY +0.6% 20d",
    "delta": "36% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
    "asof": "2026-08-20",
-   "value": 0.015903513908247513,
+   "value": 0.006163611860624307,
    "subscores": {}
   },
   {
@@ -234,31 +234,47 @@
   }
  ],
  "news": {
-  "scanned_at": "2026-08-20T12:00:00Z",
+  "scanned_at": "2026-08-21T12:02:36Z",
   "items": [
    {
-    "headline": "Nebius sinks 13% after $4.5B convertible note offering paired with exchange of existing 2029/2031 notes",
-    "source": "24/7 Wall St.",
-    "url": "https://247wallst.com/investing/2026/08/19/nebius-group-sinks-13-on-4-5b-convertible-note-offering-and-share-exchange-plan/",
+    "headline": "Nebius upsizes convert to $5B and forces exchange of $800M in existing notes for shares; stock dives 14% before rebounding",
+    "source": "The Motley Fool / 24/7 Wall St.",
+    "url": "https://247wallst.com/investing/2026/08/19/nebius-dives-14-and-coreweave-falls-4-before-rebounding-neocloud-stocks-face-volatility-as-the-nasdaq-whipsaws/",
     "date": "2026-08-19",
     "severity": "medium",
-    "note": "Nebius raised $2.75B (2030) + $1.75B (2034) converts and is exchanging older notes for shares, with management warning exchange holders may dump shares/unwind hedges; concrete evidence a neocloud with $8B cash still can't self-fund $5.66B/quarter capex without repeated dilutive refinancing."
+    "note": "Upsized from $4.5B to $5B and paired with an $800M note-for-equity swap on the 2029/2031 converts \u2014 a realized, dilutive refinancing that shows a neocloud leaning on capital markets rather than cash flow to fund GPU buildout."
    },
    {
-    "headline": "WSJ tally of $3 trillion in off-balance-sheet AI commitments triggers neocloud selloff",
-    "source": "Wall Street Journal / 24/7 Wall St.",
+    "headline": "SoftBank readies record \u00a51tn retail bond as Nvidia and Oracle CDS spreads widen further",
+    "source": "TradingPedia",
+    "url": "https://www.tradingpedia.com/2026/08/19/softbanks-record-bond-plan-faces-rising-ai-credit-strains/",
+    "date": "2026-08-19",
+    "severity": "medium",
+    "note": "Nvidia's 5-year CDS hit 80.77bp (+90% YTD, more than doubled since May) and Oracle's stayed above 200bp as SoftBank moves to raise a record retail bond to fund its AI/OpenAI commitments \u2014 concrete credit-spread widening tied to AI-infra counterparties."
+   },
+   {
+    "headline": "CoreWeave, Nebius, TeraWulf slide as Anthropic's $65B and OpenAI's $40B ARR land below whisper numbers",
+    "source": "24/7 Wall St. / Yahoo Finance",
     "url": "https://247wallst.com/investing/2026/08/18/neocloud-stocks-plummet-on-rising-overspend-fears-coreweave-down-7-nebius-down-5-terawulf-down-6/",
     "date": "2026-08-18",
     "severity": "medium",
-    "note": "First concrete sizing of hyperscaler off-balance-sheet lease/SPV commitments (~$3T across nine firms) drove CoreWeave -6.8%, Nebius -5.2%, TeraWulf -6.5%, directly evidencing the circular-financing/SPV risk this thesis tracks rather than an equity-only move on sentiment alone."
+    "note": "CoreWeave -6.8%, Nebius -5.2%, TeraWulf -6.5% on the combination of an AI-revenue miss versus expectations at the two largest model labs and the WSJ's fresh $3T sizing of hyperscaler off-balance-sheet lease/purchase commitments \u2014 a revenue-disappointment signal feeding directly into neocloud counterparty risk."
    },
    {
-    "headline": "BofA fund manager survey: 38% now call hyperscaler AI capex the top systemic credit-event risk",
-    "source": "Bank of America (via Yahoo Finance)",
-    "url": "https://finance.yahoo.com/technology/ai/articles/bank-america-stark-warning-ai-210907473.html",
-    "date": "2026-08-18",
+    "headline": "Nvidia scales OpenAI/SB Energy financing backstop down to ~$120B from a rumored $250B, still negotiating up to $350B in GPU financing",
+    "source": "24/7 Wall St.",
+    "url": "https://247wallst.com/investing/2026/08/17/nvidias-circular-financing-web-gets-even-wider/",
+    "date": "2026-08-17",
+    "severity": "medium",
+    "note": "SEC 8-K quantifies Nvidia's guaranty exposure on the SB Energy-built, OpenAI-leased Ohio campus; even scaled back, it's a concrete, dollar-sized escalation of the circular-financing/SPV web the credit thesis is watching for collection risk if AI revenue disappoints."
+   },
+   {
+    "headline": "Anthropic-tied Nexus Data Centers (Hubbard, TX) closes $1.3B private-credit loan inside a $16B project-finance package",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-19/anthropic-tied-data-center-inks-1-3-billion-private-credit-loan",
+    "date": "2026-08-19",
     "severity": "low",
-    "note": "Second straight month hyperscaler capex tops the systemic-risk list (ahead of private credit at 23%), yet 71% still expect no 2026 capex cut \u2014 a sentiment/positioning signal, not a realized event, worth tracking for a turn."
+    "note": "Single-tenant (Anthropic) concentration risk on a large private-credit-funded campus with its own gas plant \u2014 not distress on its own, but adds to the private-credit book of AI-tenant-concentrated debt this thesis tracks."
    }
   ]
  },

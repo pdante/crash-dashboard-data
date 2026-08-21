@@ -1,29 +1,45 @@
 {
-  "scanned_at": "2026-08-20T12:00:00Z",
+  "scanned_at": "2026-08-21T12:02:36Z",
   "items": [
     {
-      "headline": "Nebius sinks 13% after $4.5B convertible note offering paired with exchange of existing 2029/2031 notes",
-      "source": "24/7 Wall St.",
-      "url": "https://247wallst.com/investing/2026/08/19/nebius-group-sinks-13-on-4-5b-convertible-note-offering-and-share-exchange-plan/",
+      "headline": "Nebius upsizes convert to $5B and forces exchange of $800M in existing notes for shares; stock dives 14% before rebounding",
+      "source": "The Motley Fool / 24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/08/19/nebius-dives-14-and-coreweave-falls-4-before-rebounding-neocloud-stocks-face-volatility-as-the-nasdaq-whipsaws/",
       "date": "2026-08-19",
       "severity": "medium",
-      "note": "Nebius raised $2.75B (2030) + $1.75B (2034) converts and is exchanging older notes for shares, with management warning exchange holders may dump shares/unwind hedges; concrete evidence a neocloud with $8B cash still can't self-fund $5.66B/quarter capex without repeated dilutive refinancing."
+      "note": "Upsized from $4.5B to $5B and paired with an $800M note-for-equity swap on the 2029/2031 converts — a realized, dilutive refinancing that shows a neocloud leaning on capital markets rather than cash flow to fund GPU buildout."
     },
     {
-      "headline": "WSJ tally of $3 trillion in off-balance-sheet AI commitments triggers neocloud selloff",
-      "source": "Wall Street Journal / 24/7 Wall St.",
+      "headline": "SoftBank readies record ¥1tn retail bond as Nvidia and Oracle CDS spreads widen further",
+      "source": "TradingPedia",
+      "url": "https://www.tradingpedia.com/2026/08/19/softbanks-record-bond-plan-faces-rising-ai-credit-strains/",
+      "date": "2026-08-19",
+      "severity": "medium",
+      "note": "Nvidia's 5-year CDS hit 80.77bp (+90% YTD, more than doubled since May) and Oracle's stayed above 200bp as SoftBank moves to raise a record retail bond to fund its AI/OpenAI commitments — concrete credit-spread widening tied to AI-infra counterparties."
+    },
+    {
+      "headline": "CoreWeave, Nebius, TeraWulf slide as Anthropic's $65B and OpenAI's $40B ARR land below whisper numbers",
+      "source": "24/7 Wall St. / Yahoo Finance",
       "url": "https://247wallst.com/investing/2026/08/18/neocloud-stocks-plummet-on-rising-overspend-fears-coreweave-down-7-nebius-down-5-terawulf-down-6/",
       "date": "2026-08-18",
       "severity": "medium",
-      "note": "First concrete sizing of hyperscaler off-balance-sheet lease/SPV commitments (~$3T across nine firms) drove CoreWeave -6.8%, Nebius -5.2%, TeraWulf -6.5%, directly evidencing the circular-financing/SPV risk this thesis tracks rather than an equity-only move on sentiment alone."
+      "note": "CoreWeave -6.8%, Nebius -5.2%, TeraWulf -6.5% on the combination of an AI-revenue miss versus expectations at the two largest model labs and the WSJ's fresh $3T sizing of hyperscaler off-balance-sheet lease/purchase commitments — a revenue-disappointment signal feeding directly into neocloud counterparty risk."
     },
     {
-      "headline": "BofA fund manager survey: 38% now call hyperscaler AI capex the top systemic credit-event risk",
-      "source": "Bank of America (via Yahoo Finance)",
-      "url": "https://finance.yahoo.com/technology/ai/articles/bank-america-stark-warning-ai-210907473.html",
-      "date": "2026-08-18",
+      "headline": "Nvidia scales OpenAI/SB Energy financing backstop down to ~$120B from a rumored $250B, still negotiating up to $350B in GPU financing",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/08/17/nvidias-circular-financing-web-gets-even-wider/",
+      "date": "2026-08-17",
+      "severity": "medium",
+      "note": "SEC 8-K quantifies Nvidia's guaranty exposure on the SB Energy-built, OpenAI-leased Ohio campus; even scaled back, it's a concrete, dollar-sized escalation of the circular-financing/SPV web the credit thesis is watching for collection risk if AI revenue disappoints."
+    },
+    {
+      "headline": "Anthropic-tied Nexus Data Centers (Hubbard, TX) closes $1.3B private-credit loan inside a $16B project-finance package",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-19/anthropic-tied-data-center-inks-1-3-billion-private-credit-loan",
+      "date": "2026-08-19",
       "severity": "low",
-      "note": "Second straight month hyperscaler capex tops the systemic-risk list (ahead of private credit at 23%), yet 71% still expect no 2026 capex cut — a sentiment/positioning signal, not a realized event, worth tracking for a turn."
+      "note": "Single-tenant (Anthropic) concentration risk on a large private-credit-funded campus with its own gas plant — not distress on its own, but adds to the private-credit book of AI-tenant-concentrated debt this thesis tracks."
     }
   ]
 }
