@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-08-21T12:03:01+00:00",
+ "generated_at": "2026-08-21T13:13:03+00:00",
  "run_label": "pre-open",
  "composite": 12.5,
  "base_composite": 12.5,
@@ -166,11 +166,11 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 0,
-   "display": "18th pctile",
+   "display": "16th pctile",
    "delta": "IV\u2212RV +2.3pt",
-   "detail": "VIX 15.5 sits at the 18th percentile of its trailing year (expensive \u226580th); 20d realized 13.2, so implied carries +2.3 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "detail": "VIX 15.4 sits at the 16th percentile of its trailing year (expensive \u226580th); 20d realized 13.2, so implied carries +2.3 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-08-21",
-   "value": 2.312353484661612,
+   "value": 2.2723535228085847,
    "subscores": {
     "pctile": 0,
     "premium": 0,
@@ -187,10 +187,10 @@
    "delta": "-0.3% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-08-20",
-   "value": -0.10952206895632488,
+   "value": -0.10952206895632455,
    "subscores": {
-    "drawdown": -0.10952206895632488,
-    "mom10": -0.0033526064920953447
+    "drawdown": -0.10952206895632455,
+    "mom10": -0.0033526064920951226
    }
   },
   {
