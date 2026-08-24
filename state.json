@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-08-24T12:02:36+00:00",
+ "generated_at": "2026-08-24T13:15:13+00:00",
  "run_label": "pre-open",
  "composite": 9.2,
  "base_composite": 9.2,
@@ -136,11 +136,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.91",
-   "delta": "+0.10 5d",
+   "display": "0.82",
+   "delta": "+0.00 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-07-17",
-   "value": 0.9138266612040106,
+   "asof": "2026-08-21",
+   "value": 0.8178378440238334,
    "subscores": {}
   },
   {
@@ -170,7 +170,7 @@
    "delta": "IV\u2212RV +2.7pt",
    "detail": "VIX 15.9 sits at the 25th percentile of its trailing year (expensive \u226580th); 20d realized 13.2, so implied carries +2.7 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-08-24",
-   "value": 2.7270942907044464,
+   "value": 2.707094786615091,
    "subscores": {
     "pctile": 0,
     "premium": 0,
@@ -190,7 +190,7 @@
    "value": -0.10672964607742852,
    "subscores": {
     "drawdown": -0.10672964607742852,
-    "mom10": -0.013379058867912574
+    "mom10": -0.013379058867912685
    }
   },
   {
