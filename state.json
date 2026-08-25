@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-08-24T21:51:17+00:00",
- "run_label": "post-close",
+ "generated_at": "2026-08-25T12:05:47+00:00",
+ "run_label": "pre-open",
  "composite": 17.5,
  "base_composite": 17.5,
  "tier": "GREEN",
@@ -94,11 +94,11 @@
    "group": "Credit & funding",
    "weight": 0.08,
    "status": 0,
-   "display": "-2bp",
+   "display": "-1bp",
    "delta": "3d avg",
    "detail": "Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.",
-   "asof": "2026-08-21",
-   "value": -1.6666666666666607,
+   "asof": "2026-08-24",
+   "value": -0.6666666666666673,
    "subscores": {}
   },
   {
@@ -110,7 +110,7 @@
    "display": "14bp tail",
    "delta": "Fed repo ops $0.0bn (3d max)",
    "detail": "SOFR 99th\u22121st percentile 14bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
-   "asof": "2026-08-21",
+   "asof": "2026-08-24",
    "value": 14.000000000000012,
    "subscores": {
     "tail": 0,
@@ -167,11 +167,11 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 0,
-   "display": "24th pctile",
-   "delta": "IV\u2212RV +2.6pt",
-   "detail": "VIX 15.9 sits at the 24th percentile of its trailing year (expensive \u226580th); 20d realized 13.3, so implied carries +2.6 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-08-24",
-   "value": 2.569155298603297,
+   "display": "20th pctile",
+   "delta": "IV\u2212RV +2.5pt",
+   "detail": "VIX 15.7 sits at the 20th percentile of its trailing year (expensive \u226580th); 20d realized 13.3, so implied carries +2.5 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-08-25",
+   "value": 2.4591546882517346,
    "subscores": {
     "pctile": 0,
     "premium": 0,
@@ -188,10 +188,10 @@
    "delta": "-2.8% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-08-24",
-   "value": -0.12421788933492739,
+   "value": -0.12421721456118362,
    "subscores": {
-    "drawdown": -0.12421788933492739,
-    "mom10": -0.027570975335428405
+    "drawdown": -0.12421721456118362,
+    "mom10": -0.027570226097044293
    }
   },
   {
@@ -235,63 +235,31 @@
   }
  ],
  "news": {
-  "scanned_at": "2026-08-24T12:00:56Z",
+  "scanned_at": "2026-08-25T12:00:00Z",
   "items": [
    {
-    "headline": "Nebius upsizes convert to $5B and forces exchange of $800M in existing notes for shares; stock dives 14% before rebounding",
-    "source": "The Motley Fool / 24/7 Wall St.",
-    "url": "https://247wallst.com/investing/2026/08/19/nebius-dives-14-and-coreweave-falls-4-before-rebounding-neocloud-stocks-face-volatility-as-the-nasdaq-whipsaws/",
-    "date": "2026-08-19",
-    "severity": "medium",
-    "note": "Upsized from $4.5B to $5B and paired with an $800M note-for-equity swap on the 2029/2031 converts \u2014 a realized, dilutive refinancing that shows a neocloud leaning on capital markets rather than cash flow to fund GPU buildout."
-   },
-   {
-    "headline": "SoftBank readies record retail bond as Nvidia and Oracle CDS spreads widen further",
-    "source": "TradingPedia",
-    "url": "https://www.tradingpedia.com/2026/08/19/softbanks-record-bond-plan-faces-rising-ai-credit-strains/",
-    "date": "2026-08-19",
-    "severity": "medium",
-    "note": "Nvidia's 5-year CDS hit ~81bp (more than double its late-May level) and Oracle's held above 200bp as SoftBank moves to raise a record retail bond to fund its AI/OpenAI commitments \u2014 concrete credit-spread widening tied to AI-infra counterparties."
-   },
-   {
-    "headline": "Goldman shops $1.15B junk-rated bond for a CoreWeave-leased data center",
-    "source": "Bloomberg",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-19/goldman-sounds-out-investors-for-coreweave-tied-data-center-bond",
-    "date": "2026-08-19",
-    "severity": "medium",
-    "note": "A single-tenant, junk-rated offering backed by CoreWeave's lease is a direct market test of how private capital is pricing neocloud counterparty risk, ahead of a broader CoreWeave bond calendar."
-   },
-   {
-    "headline": "Anthropic-tied Nexus Data Centers (Hubbard, TX) closes $1.3B private-credit loan inside a $16B project-finance package",
-    "source": "Bloomberg",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-19/anthropic-tied-data-center-inks-1-3-billion-private-credit-loan",
-    "date": "2026-08-19",
+    "headline": "Fortune: the Fed doesn't know who's financing the $3 trillion AI boom",
+    "source": "Fortune",
+    "url": "https://fortune.com/2026/08/25/the-fed-doesnt-know-whos-financing-the-3-trillion-ai-boom/",
+    "date": "2026-08-25",
     "severity": "low",
-    "note": "Single-tenant (Anthropic) concentration risk on a large private-credit-funded campus with its own gas plant \u2014 not distress on its own, but adds to the private-credit book of AI-tenant-concentrated debt this thesis tracks."
+    "note": "Commentary flags that leverage and counterparty links across the private-credit vehicles funding AI buildouts are poorly understood by regulators, echoing pre-2008 opacity concerns \u2014 notable color, not a realized event."
    },
    {
-    "headline": "CoreWeave, Nebius, TeraWulf slide as Anthropic's $65B and OpenAI's $40B ARR land below whisper numbers",
-    "source": "24/7 Wall St. / Yahoo Finance",
-    "url": "https://247wallst.com/investing/2026/08/18/neocloud-stocks-plummet-on-rising-overspend-fears-coreweave-down-7-nebius-down-5-terawulf-down-6/",
-    "date": "2026-08-18",
-    "severity": "medium",
-    "note": "CoreWeave -6.8%, Nebius -5.2%, TeraWulf -6.5% on the combination of an AI-revenue miss versus expectations at the two largest model labs and the WSJ's fresh $3T sizing of hyperscaler off-balance-sheet lease/purchase commitments \u2014 a revenue-disappointment signal feeding directly into neocloud counterparty risk."
+    "headline": "SoftBank finalizes record \u00a51tn ($6.3B) retail bond to fund AI/OpenAI commitments, pricing Sept 4",
+    "source": "Dataconomy / MarketScreener",
+    "url": "https://dataconomy.com/2026/08/24/softbank-to-issue-record-63-billion-retail-bonds-to-fund/",
+    "date": "2026-08-24",
+    "severity": "low",
+    "note": "Terms set (7-year notes, 4.3-4.9% indicative coupon) for the largest-ever Japanese corporate retail bond, underscoring SoftBank's growing reliance on debt \u2014 including retail investors \u2014 to fund its AI/OpenAI exposure."
    },
    {
-    "headline": "Blackstone's QTS prices Microsoft-linked data-center bond at junk-like yields despite investment-grade rating",
-    "source": "Bloomberg",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-18/blackstone-backed-qts-kicks-off-data-center-bond-at-hefty-cost",
-    "date": "2026-08-18",
-    "severity": "medium",
-    "note": "Investment-grade-rated, hyperscaler-anchored data-center paper pricing at junk-like spreads shows the AI-infra risk premium bleeding into securitized debt, not just neocloud corporate names."
-   },
-   {
-    "headline": "Nvidia scales OpenAI/SB Energy financing backstop down to ~$120B from a rumored $250B, still negotiating up to $350B in GPU financing",
+    "headline": "AI-driven bond issuance pushes borrowing costs higher economy-wide; 30-year Treasury hits 19-year high",
     "source": "24/7 Wall St.",
-    "url": "https://247wallst.com/investing/2026/08/17/nvidias-circular-financing-web-gets-even-wider/",
-    "date": "2026-08-17",
+    "url": "https://247wallst.com/investing/2026/08/23/the-ai-debt-boom-is-helping-push-everyones-cost-of-capital-higher/",
+    "date": "2026-08-23",
     "severity": "medium",
-    "note": "SEC 8-K quantifies Nvidia's guaranty exposure on the SB Energy-built, OpenAI-leased Ohio campus; even scaled back, it's a concrete, dollar-sized escalation of the circular-financing/SPV web the credit thesis is watching for collection risk if AI revenue disappoints."
+    "note": "Corporate bond issuance up 27% YTD to $1.7T with the 30-year Treasury at 5.32% (Aug 18) and PJM capacity prices up ~6x YoY \u2014 concrete evidence that AI-infra debt supply is now repricing the broader cost of capital, tightening conditions for every leveraged AI-adjacent borrower."
    }
   ]
  },
