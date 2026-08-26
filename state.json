@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-08-25T21:50:53+00:00",
- "run_label": "post-close",
+ "generated_at": "2026-08-26T12:03:38+00:00",
+ "run_label": "pre-open",
  "composite": 12.5,
  "base_composite": 12.5,
  "tier": "GREEN",
@@ -93,11 +93,11 @@
    "group": "Credit & funding",
    "weight": 0.08,
    "status": 0,
-   "display": "-1bp",
+   "display": "+0bp",
    "delta": "3d avg",
    "detail": "Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.",
-   "asof": "2026-08-24",
-   "value": -0.6666666666666673,
+   "asof": "2026-08-25",
+   "value": 0.33333333333334103,
    "subscores": {}
   },
   {
@@ -109,7 +109,7 @@
    "display": "14bp tail",
    "delta": "Fed repo ops $0.0bn (3d max)",
    "detail": "SOFR 99th\u22121st percentile 14bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
-   "asof": "2026-08-24",
+   "asof": "2026-08-25",
    "value": 14.000000000000012,
    "subscores": {
     "tail": 0,
@@ -166,11 +166,11 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 0,
-   "display": "16th pctile",
-   "delta": "IV\u2212RV +2.2pt",
-   "detail": "VIX 15.4 sits at the 16th percentile of its trailing year (expensive \u226580th); 20d realized 13.3, so implied carries +2.2 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-08-25",
-   "value": 2.1602113923071933,
+   "display": "19th pctile",
+   "delta": "IV\u2212RV +2.4pt",
+   "detail": "VIX 15.7 sits at the 19th percentile of its trailing year (expensive \u226580th); 20d realized 13.3, so implied carries +2.4 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-08-26",
+   "value": 2.430211850070865,
    "subscores": {
     "pctile": 0,
     "premium": 0,
@@ -187,10 +187,10 @@
    "delta": "-0.8% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-08-25",
-   "value": -0.10671738255919905,
+   "value": -0.10671738255919916,
    "subscores": {
-    "drawdown": -0.10671738255919905,
-    "mom10": -0.007914646735799225
+    "drawdown": -0.10671738255919916,
+    "mom10": -0.007914646735799558
    }
   },
   {
@@ -234,31 +234,31 @@
   }
  ],
  "news": {
-  "scanned_at": "2026-08-25T12:00:00Z",
+  "scanned_at": "2026-08-26T12:00:00Z",
   "items": [
    {
-    "headline": "Fortune: the Fed doesn't know who's financing the $3 trillion AI boom",
-    "source": "Fortune",
-    "url": "https://fortune.com/2026/08/25/the-fed-doesnt-know-whos-financing-the-3-trillion-ai-boom/",
+    "headline": "Nebius upsizes convertible notes to $5.75B, beating raised target, against ~$1.4B revenue base",
+    "source": "24/7 Wall St. / The Motley Fool",
+    "url": "https://247wallst.com/investing/2026/08/25/nebius-rises-4-despite-adding-5-75b-in-convertible-debt-snapping-a-six-session-slide/",
     "date": "2026-08-25",
     "severity": "low",
-    "note": "Commentary flags that leverage and counterparty links across the private-credit vehicles funding AI buildouts are poorly understood by regulators, echoing pre-2008 opacity concerns \u2014 notable color, not a realized event."
+    "note": "Neocloud operator closed $5.75B in 2030/2034 convertible notes (above an already-raised $5B target) to fund GPU buildout, layering large debt onto a thin revenue base \u2014 a leverage-buildup signal worth tracking, not a stress event since the deal was oversubscribed."
    },
    {
-    "headline": "SoftBank finalizes record \u00a51tn ($6.3B) retail bond to fund AI/OpenAI commitments, pricing Sept 4",
-    "source": "Dataconomy / MarketScreener",
-    "url": "https://dataconomy.com/2026/08/24/softbank-to-issue-record-63-billion-retail-bonds-to-fund/",
+    "headline": "Broadcom credit-default swaps widen 28bps in August as it backstops AI chip-financing SPVs",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-24/broadcom-credit-risk-soars-on-mega-ai-debt-financing-backstops",
+    "date": "2026-08-24",
+    "severity": "medium",
+    "note": "Broadcom's 5-yr CDS rose 28bps and bond yields +14bps this month \u2014 a bigger move than Oracle or SpaceX \u2014 as it plans $60B+ of new AI debt financing and off-balance-sheet guarantees, feeding 'phantom leverage' concerns across chip-financing SPVs."
+   },
+   {
+    "headline": "Neocloud Lambda in talks for $3B pre-IPO round, months after $917M loan against its own GPUs",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-24/ai-cloud-provider-lambda-in-talks-for-3-billion-pre-ipo-round",
     "date": "2026-08-24",
     "severity": "low",
-    "note": "Terms set (7-year notes, 4.3-4.9% indicative coupon) for the largest-ever Japanese corporate retail bond, underscoring SoftBank's growing reliance on debt \u2014 including retail investors \u2014 to fund its AI/OpenAI exposure."
-   },
-   {
-    "headline": "AI-driven bond issuance pushes borrowing costs higher economy-wide; 30-year Treasury hits 19-year high",
-    "source": "24/7 Wall St.",
-    "url": "https://247wallst.com/investing/2026/08/23/the-ai-debt-boom-is-helping-push-everyones-cost-of-capital-higher/",
-    "date": "2026-08-23",
-    "severity": "medium",
-    "note": "Corporate bond issuance up 27% YTD to $1.7T with the 30-year Treasury at 5.32% (Aug 18) and PJM capacity prices up ~6x YoY \u2014 concrete evidence that AI-infra debt supply is now repricing the broader cost of capital, tightening conditions for every leveraged AI-adjacent borrower."
+    "note": "Lambda is raising pre-IPO equity partly to dilute a balance sheet already carrying GPU-collateralized debt used to buy more Nvidia chips \u2014 the kind of depreciating-collateral loan structure credit watchers flag as fragile, though this raise itself is a de-risking move, not a stress event."
    }
   ]
  },

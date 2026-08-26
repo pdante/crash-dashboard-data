@@ -1,29 +1,29 @@
 {
-  "scanned_at": "2026-08-25T12:00:00Z",
+  "scanned_at": "2026-08-26T12:00:00Z",
   "items": [
     {
-      "headline": "Fortune: the Fed doesn't know who's financing the $3 trillion AI boom",
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/08/25/the-fed-doesnt-know-whos-financing-the-3-trillion-ai-boom/",
+      "headline": "Nebius upsizes convertible notes to $5.75B, beating raised target, against ~$1.4B revenue base",
+      "source": "24/7 Wall St. / The Motley Fool",
+      "url": "https://247wallst.com/investing/2026/08/25/nebius-rises-4-despite-adding-5-75b-in-convertible-debt-snapping-a-six-session-slide/",
       "date": "2026-08-25",
       "severity": "low",
-      "note": "Commentary flags that leverage and counterparty links across the private-credit vehicles funding AI buildouts are poorly understood by regulators, echoing pre-2008 opacity concerns — notable color, not a realized event."
+      "note": "Neocloud operator closed $5.75B in 2030/2034 convertible notes (above an already-raised $5B target) to fund GPU buildout, layering large debt onto a thin revenue base — a leverage-buildup signal worth tracking, not a stress event since the deal was oversubscribed."
     },
     {
-      "headline": "SoftBank finalizes record ¥1tn ($6.3B) retail bond to fund AI/OpenAI commitments, pricing Sept 4",
-      "source": "Dataconomy / MarketScreener",
-      "url": "https://dataconomy.com/2026/08/24/softbank-to-issue-record-63-billion-retail-bonds-to-fund/",
+      "headline": "Broadcom credit-default swaps widen 28bps in August as it backstops AI chip-financing SPVs",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-24/broadcom-credit-risk-soars-on-mega-ai-debt-financing-backstops",
+      "date": "2026-08-24",
+      "severity": "medium",
+      "note": "Broadcom's 5-yr CDS rose 28bps and bond yields +14bps this month — a bigger move than Oracle or SpaceX — as it plans $60B+ of new AI debt financing and off-balance-sheet guarantees, feeding 'phantom leverage' concerns across chip-financing SPVs."
+    },
+    {
+      "headline": "Neocloud Lambda in talks for $3B pre-IPO round, months after $917M loan against its own GPUs",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-24/ai-cloud-provider-lambda-in-talks-for-3-billion-pre-ipo-round",
       "date": "2026-08-24",
       "severity": "low",
-      "note": "Terms set (7-year notes, 4.3-4.9% indicative coupon) for the largest-ever Japanese corporate retail bond, underscoring SoftBank's growing reliance on debt — including retail investors — to fund its AI/OpenAI exposure."
-    },
-    {
-      "headline": "AI-driven bond issuance pushes borrowing costs higher economy-wide; 30-year Treasury hits 19-year high",
-      "source": "24/7 Wall St.",
-      "url": "https://247wallst.com/investing/2026/08/23/the-ai-debt-boom-is-helping-push-everyones-cost-of-capital-higher/",
-      "date": "2026-08-23",
-      "severity": "medium",
-      "note": "Corporate bond issuance up 27% YTD to $1.7T with the 30-year Treasury at 5.32% (Aug 18) and PJM capacity prices up ~6x YoY — concrete evidence that AI-infra debt supply is now repricing the broader cost of capital, tightening conditions for every leveraged AI-adjacent borrower."
+      "note": "Lambda is raising pre-IPO equity partly to dilute a balance sheet already carrying GPU-collateralized debt used to buy more Nvidia chips — the kind of depreciating-collateral loan structure credit watchers flag as fragile, though this raise itself is a de-risking move, not a stress event."
     }
   ]
 }
