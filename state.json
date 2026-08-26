@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-08-26T12:03:38+00:00",
+ "generated_at": "2026-08-26T13:18:10+00:00",
  "run_label": "pre-open",
  "composite": 12.5,
  "base_composite": 12.5,
@@ -123,11 +123,11 @@
    "group": "Credit & funding",
    "weight": 0.04,
    "status": 0,
-   "display": "-0.56",
-   "delta": "-0.02 4w",
+   "display": "-0.57",
+   "delta": "-0.03 4w",
    "detail": "Weekly financial-conditions composite; positive = tighter than average.",
-   "asof": "2026-08-14",
-   "value": -0.559,
+   "asof": "2026-08-21",
+   "value": -0.566,
    "subscores": {}
   },
   {
@@ -170,7 +170,7 @@
    "delta": "IV\u2212RV +2.4pt",
    "detail": "VIX 15.7 sits at the 19th percentile of its trailing year (expensive \u226580th); 20d realized 13.3, so implied carries +2.4 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-08-26",
-   "value": 2.430211850070865,
+   "value": 2.4102113923071933,
    "subscores": {
     "pctile": 0,
     "premium": 0,
@@ -187,10 +187,10 @@
    "delta": "-0.8% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-08-25",
-   "value": -0.10671738255919916,
+   "value": -0.10671738255919894,
    "subscores": {
-    "drawdown": -0.10671738255919916,
-    "mom10": -0.007914646735799558
+    "drawdown": -0.10671738255919894,
+    "mom10": -0.007914646735799225
    }
   },
   {
