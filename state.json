@@ -1,14 +1,14 @@
 {
  "schema": 2,
- "generated_at": "2026-08-26T13:18:10+00:00",
- "run_label": "pre-open",
- "composite": 12.5,
- "base_composite": 12.5,
+ "generated_at": "2026-08-26T18:10:49+00:00",
+ "run_label": "mid-day",
+ "composite": 16.7,
+ "base_composite": 16.7,
  "tier": "GREEN",
  "regime": "credit-led",
  "override": null,
  "reasons": [
-  "Amber: CCC credit spread (OAS), AI basket drawdown / momentum, Breadth (RSP/SPY, % above 50dma)",
+  "Amber: CCC credit spread (OAS), AI basket drawdown / momentum, Periphery canaries (CRWV, ORCL), Breadth (RSP/SPY, % above 50dma)",
   "Regime: credit-led \u2014 Credit is involved \u2014 more serious than an equity-only dip.",
   "Hedge pricing (not in composite): Put skew / cost of tail insurance moderate, Implied vol richness (VIX pctile, IV\u2212RV) cheap"
  ],
@@ -21,11 +21,11 @@
    "group": "Credit & funding",
    "weight": 0.16,
    "status": 0,
-   "display": "2.69%",
-   "delta": "-1bp 5d",
-   "detail": "Level 2.69% (amber \u22654.5%), 5d change -1bp (amber \u2265+30bp). A fast widening is the best short-lead credit signal.",
-   "asof": "2026-08-24",
-   "value": 2.69,
+   "display": "2.70%",
+   "delta": "-5bp 5d",
+   "detail": "Level 2.70% (amber \u22654.5%), 5d change -5bp (amber \u2265+30bp). A fast widening is the best short-lead credit signal.",
+   "asof": "2026-08-25",
+   "value": 2.7,
    "subscores": {
     "level": 0,
     "chg5": 0
@@ -38,14 +38,14 @@
    "weight": 0.08,
    "status": 0,
    "display": "0.81%",
-   "delta": "+0bp 5d",
-   "detail": "Level 0.81% (amber \u22651.3%), 5d change +0bp (amber \u2265+15bp). Both tiers calm (HY/IG 3.3\u00d7).",
-   "asof": "2026-08-24",
+   "delta": "-1bp 5d",
+   "detail": "Level 0.81% (amber \u22651.3%), 5d change -1bp (amber \u2265+15bp). Both tiers calm (HY/IG 3.3\u00d7).",
+   "asof": "2026-08-25",
    "value": 0.81,
    "subscores": {
     "level": 0,
     "chg5": 0,
-    "hy_ig_ratio": 3.3209876543209873
+    "hy_ig_ratio": 3.3333333333333335
    }
   },
   {
@@ -54,11 +54,11 @@
    "group": "Credit & funding",
    "weight": 0.1,
    "status": 1,
-   "display": "10.36%",
-   "delta": "+18bp 5d",
+   "display": "10.39%",
+   "delta": "+12bp 5d",
    "detail": "Junkiest credit tier \u2014 closest public proxy for the leveraged AI periphery.",
-   "asof": "2026-08-24",
-   "value": 10.36,
+   "asof": "2026-08-25",
+   "value": 10.39,
    "subscores": {}
   },
   {
@@ -67,11 +67,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "-0.2% 10d",
-   "delta": "-0.1% 5d",
+   "display": "-0.0% 10d",
+   "delta": "+0.3% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
-   "asof": "2026-08-25",
-   "value": -0.0017229393145250516,
+   "asof": "2026-08-26",
+   "value": -0.00046224833429964196,
    "subscores": {}
   },
   {
@@ -80,11 +80,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "-0.0% 10d",
-   "delta": "-0.1% 5d",
-   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (-0.6pp 10d).",
-   "asof": "2026-08-25",
-   "value": -0.00048734057791177676,
+   "display": "-0.1% 10d",
+   "delta": "-0.2% 5d",
+   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (-0.4pp 10d).",
+   "asof": "2026-08-26",
+   "value": -0.0009737320775167202,
    "subscores": {}
   },
   {
@@ -139,8 +139,8 @@
    "display": "0.85",
    "delta": "+0.00 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-08-25",
-   "value": 0.8484349580467073,
+   "asof": "2026-08-26",
+   "value": 0.8517698939997322,
    "subscores": {}
   },
   {
@@ -166,15 +166,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 0,
-   "display": "19th pctile",
-   "delta": "IV\u2212RV +2.4pt",
-   "detail": "VIX 15.7 sits at the 19th percentile of its trailing year (expensive \u226580th); 20d realized 13.3, so implied carries +2.4 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "display": "15th pctile",
+   "delta": "IV\u2212RV +3.7pt",
+   "detail": "VIX 15.4 sits at the 15th percentile of its trailing year (expensive \u226580th); 20d realized 11.7, so implied carries +3.7 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-08-26",
-   "value": 2.4102113923071933,
+   "value": 3.691766358614956,
    "subscores": {
     "pctile": 0,
     "premium": 0,
-    "realized": 13.289788416957943
+    "realized": 11.708233259915318
    }
   },
   {
@@ -183,14 +183,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 1,
-   "display": "-10.7% vs 60d high",
-   "delta": "-0.8% 10d",
+   "display": "-10.6% vs 60d high",
+   "delta": "-4.2% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
-   "asof": "2026-08-25",
-   "value": -0.10671738255919894,
+   "asof": "2026-08-26",
+   "value": -0.10569817910399715,
    "subscores": {
-    "drawdown": -0.10671738255919894,
-    "mom10": -0.007914646735799225
+    "drawdown": -0.10569817910399715,
+    "mom10": -0.04231920071256645
    }
   },
   {
@@ -198,11 +198,11 @@
    "label": "Periphery canaries (CRWV, ORCL)",
    "group": "AI sector",
    "weight": 0.1,
-   "status": 0,
-   "display": "CRWV -3% \u00b7 ORCL -0% 10d",
-   "delta": "vol \u00d71.7 / \u00d70.9",
+   "status": 1,
+   "display": "CRWV -18% \u00b7 ORCL -3% 10d",
+   "delta": "vol \u00d71.6 / \u00d70.9",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
-   "asof": "2026-08-25",
+   "asof": "2026-08-26",
    "value": null,
    "subscores": {}
   },
@@ -212,11 +212,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 1,
-   "display": "RSP/SPY -1.5% 20d",
+   "display": "RSP/SPY -1.9% 20d",
    "delta": "36% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
-   "asof": "2026-08-25",
-   "value": -0.014576909059729304,
+   "asof": "2026-08-26",
+   "value": -0.018570921130209306,
    "subscores": {}
   },
   {
