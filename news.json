@@ -1,29 +1,21 @@
 {
-  "scanned_at": "2026-08-26T12:00:00Z",
+  "scanned_at": "2026-08-27T21:21:20Z",
   "items": [
     {
-      "headline": "Nebius upsizes convertible notes to $5.75B, beating raised target, against ~$1.4B revenue base",
-      "source": "24/7 Wall St. / The Motley Fool",
-      "url": "https://247wallst.com/investing/2026/08/25/nebius-rises-4-despite-adding-5-75b-in-convertible-debt-snapping-a-six-session-slide/",
+      "headline": "SoftBank weighs $10-20B bond sale as existing notes sell off, racing to refinance $40B OpenAI bridge loan",
+      "source": "Bloomberg (via Yahoo Finance)",
+      "url": "https://finance.yahoo.com/technology/ai/articles/softbank-mulls-20-billion-bond-045551527.html",
       "date": "2026-08-25",
-      "severity": "low",
-      "note": "Neocloud operator closed $5.75B in 2030/2034 convertible notes (above an already-raised $5B target) to fund GPU buildout, layering large debt onto a thin revenue base — a leverage-buildup signal worth tracking, not a stress event since the deal was oversubscribed."
-    },
-    {
-      "headline": "Broadcom credit-default swaps widen 28bps in August as it backstops AI chip-financing SPVs",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-24/broadcom-credit-risk-soars-on-mega-ai-debt-financing-backstops",
-      "date": "2026-08-24",
       "severity": "medium",
-      "note": "Broadcom's 5-yr CDS rose 28bps and bond yields +14bps this month — a bigger move than Oracle or SpaceX — as it plans $60B+ of new AI debt financing and off-balance-sheet guarantees, feeding 'phantom leverage' concerns across chip-financing SPVs."
+      "note": "SoftBank's existing 8.5% 2036 notes fell ~2.5c on reports it may sell up to $20B in new dollar/euro bonds (its first 144A deal in a decade) to refinance the $40B bridge loan backing its OpenAI stake — a forced-refinancing stress sign in the AI shadow-financing chain."
     },
     {
-      "headline": "Neocloud Lambda in talks for $3B pre-IPO round, months after $917M loan against its own GPUs",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-24/ai-cloud-provider-lambda-in-talks-for-3-billion-pre-ipo-round",
+      "headline": "SoftBank plans record ¥1 trillion ($6.3B) retail bond sale to keep funding its OpenAI commitments",
+      "source": "Bloomberg / Japan Times",
+      "url": "https://www.japantimes.co.jp/business/2026/08/24/companies/softbank-plan-bond-sale/",
       "date": "2026-08-24",
       "severity": "low",
-      "note": "Lambda is raising pre-IPO equity partly to dilute a balance sheet already carrying GPU-collateralized debt used to buy more Nvidia chips — the kind of depreciating-collateral loan structure credit watchers flag as fragile, though this raise itself is a de-risking move, not a stress event."
+      "note": "Biggest-ever retail bond offering by a Japanese issuer, layered on top of the $40B OpenAI bridge loan and the mulled institutional deal — notable leverage buildup at the entity most exposed to OpenAI's private valuation, not yet a distress signal."
     }
   ]
 }
