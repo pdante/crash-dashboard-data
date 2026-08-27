@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-08-27T21:23:07+00:00",
+ "generated_at": "2026-08-27T22:17:43+00:00",
  "run_label": "post-close",
  "composite": 13.3,
  "base_composite": 13.3,
@@ -137,7 +137,7 @@
    "weight": 0.16,
    "status": 0,
    "display": "0.83",
-   "delta": "-0.05 5d",
+   "delta": "+0.00 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
    "asof": "2026-08-27",
    "value": 0.8263098331536957,
@@ -187,10 +187,10 @@
    "delta": "-3.6% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-08-27",
-   "value": -0.0769096522334125,
+   "value": -0.07690965223341362,
    "subscores": {
-    "drawdown": -0.0769096522334125,
-    "mom10": -0.036407083885798275
+    "drawdown": -0.07690965223341362,
+    "mom10": -0.0364070838857985
    }
   },
   {
