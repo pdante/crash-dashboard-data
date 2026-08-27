@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-08-26T18:10:49+00:00",
- "run_label": "mid-day",
+ "generated_at": "2026-08-27T00:55:16+00:00",
+ "run_label": "pre-open",
  "composite": 16.7,
  "base_composite": 16.7,
  "tier": "GREEN",
@@ -71,7 +71,7 @@
    "delta": "+0.3% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
    "asof": "2026-08-26",
-   "value": -0.00046224833429964196,
+   "value": -0.00022898330502674202,
    "subscores": {}
   },
   {
@@ -80,11 +80,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "-0.1% 10d",
+   "display": "-0.0% 10d",
    "delta": "-0.2% 5d",
    "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (-0.4pp 10d).",
    "asof": "2026-08-26",
-   "value": -0.0009737320775167202,
+   "value": -0.0004868660387583601,
    "subscores": {}
   },
   {
@@ -140,7 +140,7 @@
    "delta": "+0.00 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
    "asof": "2026-08-26",
-   "value": 0.8517698939997322,
+   "value": 0.845469718269018,
    "subscores": {}
   },
   {
@@ -150,14 +150,14 @@
    "weight": 0.0,
    "status": 1,
    "display": "SKEW 143",
-   "delta": "VVIX 86 \u00b7 -0 5d",
-   "detail": "SKEW 143 (expensive \u2265145), VVIX 86 (expensive \u2265110). Tail insurance is moderately priced. Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-08-25",
-   "value": 143.27000427246094,
+   "delta": "VVIX 85 \u00b7 +0 5d",
+   "detail": "SKEW 143 (expensive \u2265145), VVIX 85 (expensive \u2265110). Tail insurance is moderately priced. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-08-26",
+   "value": 142.9600067138672,
    "subscores": {
     "skew": 1,
     "vvix": 0,
-    "vvix_level": 85.66999816894531
+    "vvix_level": 85.23999786376953
    }
   },
   {
@@ -166,15 +166,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 0,
-   "display": "15th pctile",
-   "delta": "IV\u2212RV +3.7pt",
-   "detail": "VIX 15.4 sits at the 15th percentile of its trailing year (expensive \u226580th); 20d realized 11.7, so implied carries +3.7 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "display": "12th pctile",
+   "delta": "IV\u2212RV +3.5pt",
+   "detail": "VIX 15.2 sits at the 12th percentile of its trailing year (expensive \u226580th); 20d realized 11.7, so implied carries +3.5 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-08-26",
-   "value": 3.691766358614956,
+   "value": 3.523345951057898,
    "subscores": {
     "pctile": 0,
     "premium": 0,
-    "realized": 11.708233259915318
+    "realized": 11.686654087089074
    }
   },
   {
@@ -183,14 +183,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 1,
-   "display": "-10.6% vs 60d high",
+   "display": "-10.5% vs 60d high",
    "delta": "-4.2% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-08-26",
-   "value": -0.10569817910399715,
+   "value": -0.10508778369537819,
    "subscores": {
-    "drawdown": -0.10569817910399715,
-    "mom10": -0.04231920071256645
+    "drawdown": -0.10508778369537819,
+    "mom10": -0.041665546712150836
    }
   },
   {
@@ -212,11 +212,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 1,
-   "display": "RSP/SPY -1.9% 20d",
+   "display": "RSP/SPY -2.0% 20d",
    "delta": "36% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
    "asof": "2026-08-26",
-   "value": -0.018570921130209306,
+   "value": -0.01964145238120385,
    "subscores": {}
   },
   {
@@ -225,11 +225,11 @@
    "group": "Backdrop",
    "weight": 0.04,
    "status": 0,
-   "display": "+0.78%",
-   "delta": "-0.07 5d",
+   "display": "+0.81%",
+   "delta": "+0.02 5d",
    "detail": "Inversion is a 6\u201318 month gauge, not a timing signal \u2014 capped at amber.",
-   "asof": "2026-08-25",
-   "value": 0.78,
+   "asof": "2026-08-26",
+   "value": 0.81,
    "subscores": {}
   }
  ],
