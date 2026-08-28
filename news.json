@@ -1,21 +1,29 @@
 {
-  "scanned_at": "2026-08-27T21:21:20Z",
+  "scanned_at": "2026-08-28T21:33:58Z",
   "items": [
     {
-      "headline": "SoftBank weighs $10-20B bond sale as existing notes sell off, racing to refinance $40B OpenAI bridge loan",
-      "source": "Bloomberg (via Yahoo Finance)",
-      "url": "https://finance.yahoo.com/technology/ai/articles/softbank-mulls-20-billion-bond-045551527.html",
-      "date": "2026-08-25",
+      "headline": "Nvidia pauses 'AI Compute Partnership' revenue-share financing deals with smaller AI cloud providers over antitrust concerns",
+      "source": "WSJ (via U.S. News)",
+      "url": "https://money.usnews.com/investing/news/articles/2026-08-27/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-wsj-reports",
+      "date": "2026-08-27",
       "severity": "medium",
-      "note": "SoftBank's existing 8.5% 2036 notes fell ~2.5c on reports it may sell up to $20B in new dollar/euro bonds (its first 144A deal in a decade) to refinance the $40B bridge loan backing its OpenAI stake — a forced-refinancing stress sign in the AI shadow-financing chain."
+      "note": "Nvidia pulled a two-month-old program that backstopped smaller neoclouds' GPU utilization for a revenue cut, pulling back a vendor-financing support mechanism just as smaller AI infrastructure buildouts lean hardest on it."
     },
     {
-      "headline": "SoftBank plans record ¥1 trillion ($6.3B) retail bond sale to keep funding its OpenAI commitments",
-      "source": "Bloomberg / Japan Times",
-      "url": "https://www.japantimes.co.jp/business/2026/08/24/companies/softbank-plan-bond-sale/",
-      "date": "2026-08-24",
+      "headline": "IREN posts $639M FY26 impairment charge and debt load surges to $7.6B as it pivots from bitcoin mining to AI cloud",
+      "source": "GlobeNewswire (IREN press release)",
+      "url": "https://www.globenewswire.com/news-release/2026/08/27/3352401/0/en/iren-reports-fy26-results.html",
+      "date": "2026-08-27",
       "severity": "low",
-      "note": "Biggest-ever retail bond offering by a Japanese issuer, layered on top of the $40B OpenAI bridge loan and the mulled institutional deal — notable leverage buildup at the entity most exposed to OpenAI's private valuation, not yet a distress signal."
+      "note": "Non-cash impairments from decommissioning bitcoin-mining hardware plus a jump in total debt to fund GPU buildout illustrate the balance-sheet strain smaller neoclouds are taking on to chase AI compute demand, even though cash and committed GPU financing remain large."
+    },
+    {
+      "headline": "SoftBank weighs $10-20B bond sale as existing notes sell off, racing to refinance $40B OpenAI bridge loan",
+      "source": "Bloomberg (via Investing.com)",
+      "url": "https://www.investing.com/news/stock-market-news/softbank-weighs-up-to-20-bln-bond-sale-to-refinance-openai-loan--bloomberg-4876268",
+      "date": "2026-08-26",
+      "severity": "medium",
+      "note": "SoftBank's existing 8.5% 2036 notes fell ~2.5c on reports it may sell up to $20B in new dollar/euro bonds (its first 144A deal in a decade) to refinance the $40B bridge loan backing its OpenAI stake — continued forced-refinancing stress in the AI shadow-financing chain."
     }
   ]
 }
