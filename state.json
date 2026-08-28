@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-08-28T21:34:24+00:00",
+ "generated_at": "2026-08-28T22:23:23+00:00",
  "run_label": "post-close",
  "composite": 16.7,
  "base_composite": 16.7,
@@ -187,10 +187,10 @@
    "delta": "-4.7% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-08-28",
-   "value": -0.0755024630651604,
+   "value": -0.07550246306516117,
    "subscores": {
-    "drawdown": -0.0755024630651604,
-    "mom10": -0.04724000033785258
+    "drawdown": -0.07550246306516117,
+    "mom10": -0.047240000337852806
    }
   },
   {
