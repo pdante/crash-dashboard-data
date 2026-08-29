@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-08-28T22:23:23+00:00",
- "run_label": "post-close",
+ "generated_at": "2026-08-29T00:36:09+00:00",
+ "run_label": "pre-open",
  "composite": 16.7,
  "base_composite": 16.7,
  "tier": "GREEN",
@@ -137,7 +137,7 @@
    "weight": 0.16,
    "status": 0,
    "display": "0.83",
-   "delta": "+0.00 5d",
+   "delta": "-0.05 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
    "asof": "2026-08-28",
    "value": 0.8255149132189085,
@@ -187,10 +187,10 @@
    "delta": "-4.7% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-08-28",
-   "value": -0.07550246306516117,
+   "value": -0.07550246306516062,
    "subscores": {
-    "drawdown": -0.07550246306516117,
-    "mom10": -0.047240000337852806
+    "drawdown": -0.07550246306516062,
+    "mom10": -0.04724000033785258
    }
   },
   {
