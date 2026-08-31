@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-08-28T21:33:58Z",
+  "scanned_at": "2026-08-31T18:11:46Z",
   "items": [
     {
       "headline": "Nvidia pauses 'AI Compute Partnership' revenue-share financing deals with smaller AI cloud providers over antitrust concerns",
@@ -7,7 +7,7 @@
       "url": "https://money.usnews.com/investing/news/articles/2026-08-27/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-wsj-reports",
       "date": "2026-08-27",
       "severity": "medium",
-      "note": "Nvidia pulled a two-month-old program that backstopped smaller neoclouds' GPU utilization for a revenue cut, pulling back a vendor-financing support mechanism just as smaller AI infrastructure buildouts lean hardest on it."
+      "note": "Nvidia pulled a vendor-financing backstop that smaller neoclouds leaned on to bridge GPU capex ahead of customer contracts, right as scrutiny of circular AI financing intensifies."
     },
     {
       "headline": "IREN posts $639M FY26 impairment charge and debt load surges to $7.6B as it pivots from bitcoin mining to AI cloud",
@@ -15,15 +15,39 @@
       "url": "https://www.globenewswire.com/news-release/2026/08/27/3352401/0/en/iren-reports-fy26-results.html",
       "date": "2026-08-27",
       "severity": "low",
-      "note": "Non-cash impairments from decommissioning bitcoin-mining hardware plus a jump in total debt to fund GPU buildout illustrate the balance-sheet strain smaller neoclouds are taking on to chase AI compute demand, even though cash and committed GPU financing remain large."
+      "note": "Non-cash impairments from decommissioning bitcoin-mining hardware plus a jump in total debt to fund GPU buildout illustrate the balance-sheet strain smaller neoclouds are taking on to chase AI compute demand."
     },
     {
-      "headline": "SoftBank weighs $10-20B bond sale as existing notes sell off, racing to refinance $40B OpenAI bridge loan",
-      "source": "Bloomberg (via Investing.com)",
-      "url": "https://www.investing.com/news/stock-market-news/softbank-weighs-up-to-20-bln-bond-sale-to-refinance-openai-loan--bloomberg-4876268",
+      "headline": "SoftBank's dollar bonds post biggest one-day drop since April, CDS widens, as it weighs $10-20B bond sale to refinance $40B OpenAI bridge loan",
+      "source": "Bloomberg (via ZeroHedge/Investing.com)",
+      "url": "https://www.zerohedge.com/markets/softbank-2036-bonds-tumble-firm-mulls-20-billion-bond-sale-openai-stake",
       "date": "2026-08-26",
       "severity": "medium",
-      "note": "SoftBank's existing 8.5% 2036 notes fell ~2.5c on reports it may sell up to $20B in new dollar/euro bonds (its first 144A deal in a decade) to refinance the $40B bridge loan backing its OpenAI stake — continued forced-refinancing stress in the AI shadow-financing chain."
+      "note": "Existing SoftBank 8.5% 2036 notes fell ~2.3c and CDS widened ~11bp on reports it may sell up to $20B in new bonds to refinance the bridge loan backing its OpenAI stake, continued forced-refinancing stress in the AI shadow-financing chain."
+    },
+    {
+      "headline": "Broadcom's 5-year CDS jumps 28bp, bond yields +14bp, as it backs a $60B+ off-balance-sheet AI chip-financing deal",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-24/broadcom-credit-risk-soars-on-mega-ai-debt-financing-backstops",
+      "date": "2026-08-24",
+      "severity": "medium",
+      "note": "Credit markets are pricing in the risk of Broadcom's guarantees on large AI chip-financing backstops, with its CDS move outpacing Oracle's and SpaceX's over the same period."
+    },
+    {
+      "headline": "Nvidia's 5-year CDS spread hits a fresh high (~80.77bp), more than double its late-May level",
+      "source": "Investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/nvidia-credit-risk-gauge-hits-new-peak-as-softbank-readies-record-bond-issue-4866761",
+      "date": "2026-08-24",
+      "severity": "medium",
+      "note": "The move surpasses Nvidia's late-July peak and comes amid scrutiny of its ~$500B compute-collateral financing push with Apollo, Blackstone, BlackRock, Brookfield, Goldman Sachs and KKR."
+    },
+    {
+      "headline": "Data-center CMBS deals from CyrusOne (KKR) and QTS (Blackstone) reprice wider than initial guidance as AAA spreads widen to 168bp over SOFR",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-06/cmbs-investors-push-back-against-ai-as-luddite-trade-spreads",
+      "date": "2026-08-06",
+      "severity": "medium",
+      "note": "Two of the last three data-center CMBS deals had to widen pricing to clear, and AAA spreads are up from 153bp a year earlier, signaling investors are growing more selective on AI-tenant credit quality and leverage."
     }
   ]
 }
