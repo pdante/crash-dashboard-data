@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-08-31T21:31:51+00:00",
- "run_label": "post-close",
+ "generated_at": "2026-09-01T00:41:40+00:00",
+ "run_label": "pre-open",
  "composite": 8.3,
  "base_composite": 8.3,
  "tier": "GREEN",
@@ -187,10 +187,10 @@
    "delta": "-4.1% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-08-31",
-   "value": -0.04807190769427483,
+   "value": -0.048071907694274496,
    "subscores": {
-    "drawdown": -0.04807190769427483,
-    "mom10": -0.04080785765160222
+    "drawdown": -0.048071907694274496,
+    "mom10": -0.040807857651602
    }
   },
   {
