@@ -1,53 +1,13 @@
 {
-  "scanned_at": "2026-08-31T18:11:46Z",
+  "scanned_at": "2026-09-01T15:34:45Z",
   "items": [
     {
-      "headline": "Nvidia pauses 'AI Compute Partnership' revenue-share financing deals with smaller AI cloud providers over antitrust concerns",
-      "source": "WSJ (via U.S. News)",
-      "url": "https://money.usnews.com/investing/news/articles/2026-08-27/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-wsj-reports",
-      "date": "2026-08-27",
-      "severity": "medium",
-      "note": "Nvidia pulled a vendor-financing backstop that smaller neoclouds leaned on to bridge GPU capex ahead of customer contracts, right as scrutiny of circular AI financing intensifies."
-    },
-    {
-      "headline": "IREN posts $639M FY26 impairment charge and debt load surges to $7.6B as it pivots from bitcoin mining to AI cloud",
-      "source": "GlobeNewswire (IREN press release)",
-      "url": "https://www.globenewswire.com/news-release/2026/08/27/3352401/0/en/iren-reports-fy26-results.html",
-      "date": "2026-08-27",
+      "headline": "Nvidia invests $3.5B in MediaTek convertible bonds, reigniting circular-financing scrutiny",
+      "source": "BNN Bloomberg",
+      "url": "https://www.bnnbloomberg.ca/business/technology/2026/08/31/nvidia-invests-us35b-in-mediatek-convertible-bonds/",
+      "date": "2026-08-31",
       "severity": "low",
-      "note": "Non-cash impairments from decommissioning bitcoin-mining hardware plus a jump in total debt to fund GPU buildout illustrate the balance-sheet strain smaller neoclouds are taking on to chase AI compute demand."
-    },
-    {
-      "headline": "SoftBank's dollar bonds post biggest one-day drop since April, CDS widens, as it weighs $10-20B bond sale to refinance $40B OpenAI bridge loan",
-      "source": "Bloomberg (via ZeroHedge/Investing.com)",
-      "url": "https://www.zerohedge.com/markets/softbank-2036-bonds-tumble-firm-mulls-20-billion-bond-sale-openai-stake",
-      "date": "2026-08-26",
-      "severity": "medium",
-      "note": "Existing SoftBank 8.5% 2036 notes fell ~2.3c and CDS widened ~11bp on reports it may sell up to $20B in new bonds to refinance the bridge loan backing its OpenAI stake, continued forced-refinancing stress in the AI shadow-financing chain."
-    },
-    {
-      "headline": "Broadcom's 5-year CDS jumps 28bp, bond yields +14bp, as it backs a $60B+ off-balance-sheet AI chip-financing deal",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-24/broadcom-credit-risk-soars-on-mega-ai-debt-financing-backstops",
-      "date": "2026-08-24",
-      "severity": "medium",
-      "note": "Credit markets are pricing in the risk of Broadcom's guarantees on large AI chip-financing backstops, with its CDS move outpacing Oracle's and SpaceX's over the same period."
-    },
-    {
-      "headline": "Nvidia's 5-year CDS spread hits a fresh high (~80.77bp), more than double its late-May level",
-      "source": "Investing.com",
-      "url": "https://www.investing.com/news/stock-market-news/nvidia-credit-risk-gauge-hits-new-peak-as-softbank-readies-record-bond-issue-4866761",
-      "date": "2026-08-24",
-      "severity": "medium",
-      "note": "The move surpasses Nvidia's late-July peak and comes amid scrutiny of its ~$500B compute-collateral financing push with Apollo, Blackstone, BlackRock, Brookfield, Goldman Sachs and KKR."
-    },
-    {
-      "headline": "Data-center CMBS deals from CyrusOne (KKR) and QTS (Blackstone) reprice wider than initial guidance as AAA spreads widen to 168bp over SOFR",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-06/cmbs-investors-push-back-against-ai-as-luddite-trade-spreads",
-      "date": "2026-08-06",
-      "severity": "medium",
-      "note": "Two of the last three data-center CMBS deals had to widen pricing to clear, and AAA spreads are up from 153bp a year earlier, signaling investors are growing more selective on AI-tenant credit quality and leverage."
+      "note": "Nvidia's first direct stake in a Taiwanese IC designer drew fresh circular-financing criticism (chipmaker funding a partner that buys its own platform tech) and knocked Nvidia shares down ~4.5%, though no credit metric (CDS, rating, spread) moved on it."
     }
   ]
 }

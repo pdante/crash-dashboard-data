@@ -1,16 +1,16 @@
 {
  "schema": 2,
- "generated_at": "2026-09-01T00:41:40+00:00",
- "run_label": "pre-open",
- "composite": 8.3,
- "base_composite": 8.3,
+ "generated_at": "2026-09-01T15:36:08+00:00",
+ "run_label": "mid-day",
+ "composite": 4.2,
+ "base_composite": 4.2,
  "tier": "GREEN",
  "regime": "credit-led",
  "override": null,
  "reasons": [
-  "Amber: CCC credit spread (OAS), Periphery canaries (CRWV, ORCL)",
+  "Amber: CCC credit spread (OAS)",
   "Regime: credit-led \u2014 Credit is involved \u2014 more serious than an equity-only dip.",
-  "Hedge pricing (not in composite): Put skew / cost of tail insurance expensive, Implied vol richness (VIX pctile, IV\u2212RV) moderate"
+  "Hedge pricing (not in composite): Put skew / cost of tail insurance expensive, Implied vol richness (VIX pctile, IV\u2212RV) expensive"
  ],
  "news_escalated": false,
  "unknown_indicators": [],
@@ -21,11 +21,11 @@
    "group": "Credit & funding",
    "weight": 0.16,
    "status": 0,
-   "display": "2.60%",
-   "delta": "-10bp 5d",
-   "detail": "Level 2.60% (amber \u22654.5%), 5d change -10bp (amber \u2265+30bp). A fast widening is the best short-lead credit signal.",
-   "asof": "2026-08-28",
-   "value": 2.6,
+   "display": "2.63%",
+   "delta": "-6bp 5d",
+   "detail": "Level 2.63% (amber \u22654.5%), 5d change -6bp (amber \u2265+30bp). A fast widening is the best short-lead credit signal.",
+   "asof": "2026-08-31",
+   "value": 2.63,
    "subscores": {
     "level": 0,
     "chg5": 0
@@ -37,15 +37,15 @@
    "group": "Credit & funding",
    "weight": 0.08,
    "status": 0,
-   "display": "0.79%",
-   "delta": "-2bp 5d",
-   "detail": "Level 0.79% (amber \u22651.3%), 5d change -2bp (amber \u2265+15bp). Both tiers calm (HY/IG 3.3\u00d7).",
-   "asof": "2026-08-28",
-   "value": 0.79,
+   "display": "0.80%",
+   "delta": "-1bp 5d",
+   "detail": "Level 0.80% (amber \u22651.3%), 5d change -1bp (amber \u2265+15bp). Both tiers calm (HY/IG 3.3\u00d7).",
+   "asof": "2026-08-31",
+   "value": 0.8,
    "subscores": {
     "level": 0,
     "chg5": 0,
-    "hy_ig_ratio": 3.291139240506329
+    "hy_ig_ratio": 3.2874999999999996
    }
   },
   {
@@ -54,11 +54,11 @@
    "group": "Credit & funding",
    "weight": 0.1,
    "status": 1,
-   "display": "10.26%",
-   "delta": "-11bp 5d",
+   "display": "10.42%",
+   "delta": "+6bp 5d",
    "detail": "Junkiest credit tier \u2014 closest public proxy for the leveraged AI periphery.",
-   "asof": "2026-08-28",
-   "value": 10.26,
+   "asof": "2026-08-31",
+   "value": 10.42,
    "subscores": {}
   },
   {
@@ -67,11 +67,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "+0.4% 10d",
-   "delta": "+0.4% 5d",
+   "display": "+0.3% 10d",
+   "delta": "+0.5% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
-   "asof": "2026-08-31",
-   "value": 0.0035931846281860302,
+   "asof": "2026-09-01",
+   "value": 0.0032451225489897872,
    "subscores": {}
   },
   {
@@ -80,11 +80,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "+0.5% 10d",
-   "delta": "+0.3% 5d",
-   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+0.3pp 10d).",
-   "asof": "2026-08-31",
-   "value": 0.00502709059834161,
+   "display": "+0.6% 10d",
+   "delta": "+0.2% 5d",
+   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+1.0pp 10d).",
+   "asof": "2026-09-01",
+   "value": 0.006494703357783127,
    "subscores": {}
   },
   {
@@ -93,11 +93,11 @@
    "group": "Credit & funding",
    "weight": 0.08,
    "status": 0,
-   "display": "-1bp",
+   "display": "+1bp",
    "delta": "3d avg",
    "detail": "Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.",
-   "asof": "2026-08-28",
-   "value": -0.6666666666666524,
+   "asof": "2026-08-31",
+   "value": 0.6666666666666821,
    "subscores": {}
   },
   {
@@ -106,11 +106,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "14bp tail",
+   "display": "17bp tail",
    "delta": "Fed repo ops $0.0bn (3d max)",
-   "detail": "SOFR 99th\u22121st percentile 14bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
-   "asof": "2026-08-28",
-   "value": 14.000000000000012,
+   "detail": "SOFR 99th\u22121st percentile 17bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
+   "asof": "2026-08-31",
+   "value": 16.999999999999993,
    "subscores": {
     "tail": 0,
     "usage": 0,
@@ -136,11 +136,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.85",
-   "delta": "+0.00 5d",
+   "display": "0.86",
+   "delta": "-0.01 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-08-31",
-   "value": 0.851112349793581,
+   "asof": "2026-09-01",
+   "value": 0.8641975242571508,
    "subscores": {}
   },
   {
@@ -150,14 +150,14 @@
    "weight": 0.0,
    "status": 2,
    "display": "SKEW 149",
-   "delta": "VVIX 86 \u00b7 +3 5d",
-   "detail": "SKEW 149 (expensive \u2265145), VVIX 86 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "delta": "VVIX 88 \u00b7 +3 5d",
+   "detail": "SKEW 149 (expensive \u2265145), VVIX 88 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-08-31",
    "value": 148.52999877929688,
    "subscores": {
     "skew": 2,
     "vvix": 0,
-    "vvix_level": 86.29000091552734
+    "vvix_level": 87.9800033569336
    }
   },
   {
@@ -165,16 +165,16 @@
    "label": "Implied vol richness (VIX pctile, IV\u2212RV)",
    "group": "Hedge pricing",
    "weight": 0.0,
-   "status": 1,
-   "display": "9th pctile",
-   "delta": "IV\u2212RV +5.5pt",
-   "detail": "VIX 14.9 sits at the 9th percentile of its trailing year (expensive \u226580th); 20d realized 9.4, so implied carries +5.5 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-08-31",
-   "value": 5.5230060512555745,
+   "status": 2,
+   "display": "15th pctile",
+   "delta": "IV\u2212RV +8.5pt",
+   "detail": "VIX 15.4 sits at the 15th percentile of its trailing year (expensive \u226580th); 20d realized 6.9, so implied carries +8.5 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-09-01",
+   "value": 8.460005618534204,
    "subscores": {
     "pctile": 0,
-    "premium": 1,
-    "realized": 9.39699402503837
+    "premium": 2,
+    "realized": 6.939993999996069
    }
   },
   {
@@ -183,14 +183,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 0,
-   "display": "-4.8% vs 60d high",
-   "delta": "-4.1% 10d",
+   "display": "-6.1% vs 60d high",
+   "delta": "-1.6% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
-   "asof": "2026-08-31",
-   "value": -0.048071907694274496,
+   "asof": "2026-09-01",
+   "value": -0.06117395933045078,
    "subscores": {
-    "drawdown": -0.048071907694274496,
-    "mom10": -0.040807857651602
+    "drawdown": -0.06117395933045078,
+    "mom10": -0.01634587093667572
    }
   },
   {
@@ -198,11 +198,11 @@
    "label": "Periphery canaries (CRWV, ORCL)",
    "group": "AI sector",
    "weight": 0.1,
-   "status": 1,
-   "display": "CRWV -20% \u00b7 ORCL +2% 10d",
+   "status": 0,
+   "display": "CRWV -12% \u00b7 ORCL -0% 10d",
    "delta": "vol \u00d70.9 / \u00d70.6",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
-   "asof": "2026-08-31",
+   "asof": "2026-09-01",
    "value": null,
    "subscores": {}
   },
@@ -212,11 +212,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 0,
-   "display": "RSP/SPY -0.2% 20d",
+   "display": "RSP/SPY +0.1% 20d",
    "delta": "43% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
-   "asof": "2026-08-31",
-   "value": -0.0018555118793668335,
+   "asof": "2026-09-01",
+   "value": 0.0008318121390877842,
    "subscores": {}
   },
   {
@@ -234,55 +234,15 @@
   }
  ],
  "news": {
-  "scanned_at": "2026-08-31T18:11:46Z",
+  "scanned_at": "2026-09-01T15:34:45Z",
   "items": [
    {
-    "headline": "Nvidia pauses 'AI Compute Partnership' revenue-share financing deals with smaller AI cloud providers over antitrust concerns",
-    "source": "WSJ (via U.S. News)",
-    "url": "https://money.usnews.com/investing/news/articles/2026-08-27/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-wsj-reports",
-    "date": "2026-08-27",
-    "severity": "medium",
-    "note": "Nvidia pulled a vendor-financing backstop that smaller neoclouds leaned on to bridge GPU capex ahead of customer contracts, right as scrutiny of circular AI financing intensifies."
-   },
-   {
-    "headline": "IREN posts $639M FY26 impairment charge and debt load surges to $7.6B as it pivots from bitcoin mining to AI cloud",
-    "source": "GlobeNewswire (IREN press release)",
-    "url": "https://www.globenewswire.com/news-release/2026/08/27/3352401/0/en/iren-reports-fy26-results.html",
-    "date": "2026-08-27",
+    "headline": "Nvidia invests $3.5B in MediaTek convertible bonds, reigniting circular-financing scrutiny",
+    "source": "BNN Bloomberg",
+    "url": "https://www.bnnbloomberg.ca/business/technology/2026/08/31/nvidia-invests-us35b-in-mediatek-convertible-bonds/",
+    "date": "2026-08-31",
     "severity": "low",
-    "note": "Non-cash impairments from decommissioning bitcoin-mining hardware plus a jump in total debt to fund GPU buildout illustrate the balance-sheet strain smaller neoclouds are taking on to chase AI compute demand."
-   },
-   {
-    "headline": "SoftBank's dollar bonds post biggest one-day drop since April, CDS widens, as it weighs $10-20B bond sale to refinance $40B OpenAI bridge loan",
-    "source": "Bloomberg (via ZeroHedge/Investing.com)",
-    "url": "https://www.zerohedge.com/markets/softbank-2036-bonds-tumble-firm-mulls-20-billion-bond-sale-openai-stake",
-    "date": "2026-08-26",
-    "severity": "medium",
-    "note": "Existing SoftBank 8.5% 2036 notes fell ~2.3c and CDS widened ~11bp on reports it may sell up to $20B in new bonds to refinance the bridge loan backing its OpenAI stake, continued forced-refinancing stress in the AI shadow-financing chain."
-   },
-   {
-    "headline": "Broadcom's 5-year CDS jumps 28bp, bond yields +14bp, as it backs a $60B+ off-balance-sheet AI chip-financing deal",
-    "source": "Bloomberg",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-24/broadcom-credit-risk-soars-on-mega-ai-debt-financing-backstops",
-    "date": "2026-08-24",
-    "severity": "medium",
-    "note": "Credit markets are pricing in the risk of Broadcom's guarantees on large AI chip-financing backstops, with its CDS move outpacing Oracle's and SpaceX's over the same period."
-   },
-   {
-    "headline": "Nvidia's 5-year CDS spread hits a fresh high (~80.77bp), more than double its late-May level",
-    "source": "Investing.com",
-    "url": "https://www.investing.com/news/stock-market-news/nvidia-credit-risk-gauge-hits-new-peak-as-softbank-readies-record-bond-issue-4866761",
-    "date": "2026-08-24",
-    "severity": "medium",
-    "note": "The move surpasses Nvidia's late-July peak and comes amid scrutiny of its ~$500B compute-collateral financing push with Apollo, Blackstone, BlackRock, Brookfield, Goldman Sachs and KKR."
-   },
-   {
-    "headline": "Data-center CMBS deals from CyrusOne (KKR) and QTS (Blackstone) reprice wider than initial guidance as AAA spreads widen to 168bp over SOFR",
-    "source": "Bloomberg",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-06/cmbs-investors-push-back-against-ai-as-luddite-trade-spreads",
-    "date": "2026-08-06",
-    "severity": "medium",
-    "note": "Two of the last three data-center CMBS deals had to widen pricing to clear, and AAA spreads are up from 153bp a year earlier, signaling investors are growing more selective on AI-tenant credit quality and leverage."
+    "note": "Nvidia's first direct stake in a Taiwanese IC designer drew fresh circular-financing criticism (chipmaker funding a partner that buys its own platform tech) and knocked Nvidia shares down ~4.5%, though no credit metric (CDS, rating, spread) moved on it."
    }
   ]
  },
