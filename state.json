@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-09-01T16:42:14+00:00",
- "run_label": "mid-day",
+ "generated_at": "2026-09-01T19:27:19+00:00",
+ "run_label": "post-close",
  "composite": 11.7,
  "base_composite": 11.7,
  "tier": "GREEN",
@@ -67,11 +67,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "+0.4% 10d",
-   "delta": "+0.5% 5d",
+   "display": "+0.2% 10d",
+   "delta": "+0.2% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
    "asof": "2026-09-01",
-   "value": 0.0036322947296156816,
+   "value": 0.0015245844408835474,
    "subscores": {}
   },
   {
@@ -80,11 +80,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "+0.6% 10d",
-   "delta": "+0.1% 5d",
+   "display": "+0.4% 10d",
+   "delta": "+0.2% 5d",
    "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+1.0pp 10d).",
    "asof": "2026-09-01",
-   "value": 0.005515693844630576,
+   "value": 0.003561383922330963,
    "subscores": {}
   },
   {
@@ -114,7 +114,7 @@
    "subscores": {
     "tail": 0,
     "usage": 0,
-    "usage_bn": 0.002
+    "usage_bn": 0.005
    }
   },
   {
@@ -136,11 +136,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.87",
-   "delta": "-0.00 5d",
+   "display": "0.89",
+   "delta": "+0.02 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
    "asof": "2026-09-01",
-   "value": 0.8717379017068387,
+   "value": 0.888888854089608,
    "subscores": {}
   },
   {
@@ -150,14 +150,14 @@
    "weight": 0.0,
    "status": 2,
    "display": "SKEW 149",
-   "delta": "VVIX 89 \u00b7 +3 5d",
-   "detail": "SKEW 149 (expensive \u2265145), VVIX 89 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "delta": "VVIX 91 \u00b7 +5 5d",
+   "detail": "SKEW 149 (expensive \u2265145), VVIX 91 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-08-31",
    "value": 148.52999877929688,
    "subscores": {
     "skew": 2,
     "vvix": 0,
-    "vvix_level": 88.7699966430664
+    "vvix_level": 91.25
    }
   },
   {
@@ -166,15 +166,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 2,
-   "display": "19th pctile",
-   "delta": "IV\u2212RV +8.6pt",
-   "detail": "VIX 15.7 sits at the 19th percentile of its trailing year (expensive \u226580th); 20d realized 7.1, so implied carries +8.6 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "display": "30th pctile",
+   "delta": "IV\u2212RV +9.0pt",
+   "detail": "VIX 16.2 sits at the 30th percentile of its trailing year (expensive \u226580th); 20d realized 7.3, so implied carries +9.0 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-09-01",
-   "value": 8.589067911234583,
+   "value": 8.972371053560657,
    "subscores": {
     "pctile": 0,
     "premium": 2,
-    "realized": 7.110931898030554
+    "realized": 7.267628717557506
    }
   },
   {
@@ -183,14 +183,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 0,
-   "display": "-6.4% vs 60d high",
-   "delta": "-1.9% 10d",
+   "display": "-6.1% vs 60d high",
+   "delta": "-1.6% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-09-01",
-   "value": -0.06416177598791617,
+   "value": -0.06071464400862303,
    "subscores": {
-    "drawdown": -0.06416177598791617,
-    "mom10": -0.019476353118341727
+    "drawdown": -0.06071464400862303,
+    "mom10": -0.015864623726558058
    }
   },
   {
@@ -212,11 +212,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 1,
-   "display": "RSP/SPY +0.0% 20d",
+   "display": "RSP/SPY -0.3% 20d",
    "delta": "36% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
    "asof": "2026-09-01",
-   "value": 7.067285810569146e-05,
+   "value": -0.0030688699901105787,
    "subscores": {}
   },
   {
