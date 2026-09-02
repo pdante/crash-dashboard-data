@@ -1,6 +1,14 @@
 {
-  "scanned_at": "2026-09-01T15:34:45Z",
+  "scanned_at": "2026-09-02T15:18:48Z",
   "items": [
+    {
+      "headline": "Barclays: Asia data-center debt binge is hitting banks' lending limits",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-31/asia-data-center-debt-binge-hitting-banks-limits-barclays-says",
+      "date": "2026-08-31",
+      "severity": "medium",
+      "note": "Barclays' Asia-Pacific loan syndicate head says regional lenders are already heavily exposed to data centers and growing selective, with banks unable to absorb the financing volume the buildout will need — a concrete sign lenders are pulling back, not just commentary."
+    },
     {
       "headline": "Nvidia invests $3.5B in MediaTek convertible bonds, reigniting circular-financing scrutiny",
       "source": "BNN Bloomberg",

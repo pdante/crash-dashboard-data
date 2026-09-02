@@ -1,14 +1,14 @@
 {
  "schema": 2,
- "generated_at": "2026-09-01T23:26:21+00:00",
- "run_label": "post-close",
- "composite": 11.7,
- "base_composite": 11.7,
+ "generated_at": "2026-09-02T15:19:02+00:00",
+ "run_label": "mid-day",
+ "composite": 4.2,
+ "base_composite": 4.2,
  "tier": "GREEN",
  "regime": "credit-led",
  "override": null,
  "reasons": [
-  "Amber: CCC credit spread (OAS), Periphery canaries (CRWV, ORCL), Breadth (RSP/SPY, % above 50dma)",
+  "Amber: CCC credit spread (OAS)",
   "Regime: credit-led \u2014 Credit is involved \u2014 more serious than an equity-only dip.",
   "Hedge pricing (not in composite): Put skew / cost of tail insurance expensive, Implied vol richness (VIX pctile, IV\u2212RV) expensive"
  ],
@@ -21,11 +21,11 @@
    "group": "Credit & funding",
    "weight": 0.16,
    "status": 0,
-   "display": "2.63%",
-   "delta": "-6bp 5d",
-   "detail": "Level 2.63% (amber \u22654.5%), 5d change -6bp (amber \u2265+30bp). A fast widening is the best short-lead credit signal.",
-   "asof": "2026-08-31",
-   "value": 2.63,
+   "display": "2.65%",
+   "delta": "-5bp 5d",
+   "detail": "Level 2.65% (amber \u22654.5%), 5d change -5bp (amber \u2265+30bp). A fast widening is the best short-lead credit signal.",
+   "asof": "2026-09-01",
+   "value": 2.65,
    "subscores": {
     "level": 0,
     "chg5": 0
@@ -37,15 +37,15 @@
    "group": "Credit & funding",
    "weight": 0.08,
    "status": 0,
-   "display": "0.80%",
-   "delta": "-1bp 5d",
-   "detail": "Level 0.80% (amber \u22651.3%), 5d change -1bp (amber \u2265+15bp). Both tiers calm (HY/IG 3.3\u00d7).",
-   "asof": "2026-08-31",
-   "value": 0.8,
+   "display": "0.81%",
+   "delta": "+0bp 5d",
+   "detail": "Level 0.81% (amber \u22651.3%), 5d change +0bp (amber \u2265+15bp). Both tiers calm (HY/IG 3.3\u00d7).",
+   "asof": "2026-09-01",
+   "value": 0.81,
    "subscores": {
     "level": 0,
     "chg5": 0,
-    "hy_ig_ratio": 3.2874999999999996
+    "hy_ig_ratio": 3.271604938271605
    }
   },
   {
@@ -54,11 +54,11 @@
    "group": "Credit & funding",
    "weight": 0.1,
    "status": 1,
-   "display": "10.42%",
-   "delta": "+6bp 5d",
+   "display": "10.49%",
+   "delta": "+10bp 5d",
    "detail": "Junkiest credit tier \u2014 closest public proxy for the leveraged AI periphery.",
-   "asof": "2026-08-31",
-   "value": 10.42,
+   "asof": "2026-09-01",
+   "value": 10.49,
    "subscores": {}
   },
   {
@@ -67,11 +67,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "+0.2% 10d",
-   "delta": "+0.2% 5d",
+   "display": "+0.9% 10d",
+   "delta": "+0.6% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
-   "asof": "2026-09-01",
-   "value": 0.0015769921294261913,
+   "asof": "2026-09-02",
+   "value": 0.008751101979427078,
    "subscores": {}
   },
   {
@@ -80,11 +80,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "+0.4% 10d",
+   "display": "+0.6% 10d",
    "delta": "+0.2% 5d",
-   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+1.0pp 10d).",
-   "asof": "2026-09-01",
-   "value": 0.00404989068705941,
+   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+0.7pp 10d).",
+   "asof": "2026-09-02",
+   "value": 0.005520609585839109,
    "subscores": {}
   },
   {
@@ -96,8 +96,8 @@
    "display": "+1bp",
    "delta": "3d avg",
    "detail": "Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.",
-   "asof": "2026-08-31",
-   "value": 0.6666666666666821,
+   "asof": "2026-09-01",
+   "value": 1.3333333333333492,
    "subscores": {}
   },
   {
@@ -106,11 +106,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "17bp tail",
+   "display": "13bp tail",
    "delta": "Fed repo ops $0.0bn (3d max)",
-   "detail": "SOFR 99th\u22121st percentile 17bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
-   "asof": "2026-08-31",
-   "value": 16.999999999999993,
+   "detail": "SOFR 99th\u22121st percentile 13bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
+   "asof": "2026-09-01",
+   "value": 13.000000000000034,
    "subscores": {
     "tail": 0,
     "usage": 0,
@@ -123,11 +123,11 @@
    "group": "Credit & funding",
    "weight": 0.04,
    "status": 0,
-   "display": "-0.57",
-   "delta": "-0.03 4w",
+   "display": "-0.56",
+   "delta": "-0.01 4w",
    "detail": "Weekly financial-conditions composite; positive = tighter than average.",
-   "asof": "2026-08-21",
-   "value": -0.566,
+   "asof": "2026-08-28",
+   "value": -0.558,
    "subscores": {}
   },
   {
@@ -136,11 +136,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.89",
-   "delta": "+0.02 5d",
+   "display": "0.86",
+   "delta": "-0.01 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-09-01",
-   "value": 0.8914348183632826,
+   "asof": "2026-09-02",
+   "value": 0.8631052210088569,
    "subscores": {}
   },
   {
@@ -150,14 +150,14 @@
    "weight": 0.0,
    "status": 2,
    "display": "SKEW 149",
-   "delta": "VVIX 91 \u00b7 +4 5d",
-   "detail": "SKEW 149 (expensive \u2265145), VVIX 91 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "delta": "VVIX 88 \u00b7 +6 5d",
+   "detail": "SKEW 149 (expensive \u2265145), VVIX 88 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-09-01",
    "value": 149.22999572753906,
    "subscores": {
     "skew": 2,
     "vvix": 0,
-    "vvix_level": 91.25
+    "vvix_level": 88.30999755859375
    }
   },
   {
@@ -166,15 +166,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 2,
-   "display": "32th pctile",
-   "delta": "IV\u2212RV +9.2pt",
-   "detail": "VIX 16.3 sits at the 32th percentile of its trailing year (expensive \u226580th); 20d realized 7.2, so implied carries +9.2 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-09-01",
-   "value": 9.162578692732025,
+   "display": "18th pctile",
+   "delta": "IV\u2212RV +8.0pt",
+   "detail": "VIX 15.5 sits at the 18th percentile of its trailing year (expensive \u226580th); 20d realized 7.5, so implied carries +8.0 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-09-02",
+   "value": 8.04695954083081,
    "subscores": {
     "pctile": 0,
     "premium": 2,
-    "realized": 7.177421459855866
+    "realized": 7.463040688051025
    }
   },
   {
@@ -183,14 +183,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 0,
-   "display": "-6.1% vs 60d high",
-   "delta": "-1.6% 10d",
+   "display": "-5.8% vs 60d high",
+   "delta": "-0.2% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
-   "asof": "2026-09-01",
-   "value": -0.060818458475073944,
+   "asof": "2026-09-02",
+   "value": -0.0582692259771177,
    "subscores": {
-    "drawdown": -0.060818458475073944,
-    "mom10": -0.01597339523923147
+    "drawdown": -0.0582692259771177,
+    "mom10": -0.0017688540953615384
    }
   },
   {
@@ -198,11 +198,11 @@
    "label": "Periphery canaries (CRWV, ORCL)",
    "group": "AI sector",
    "weight": 0.1,
-   "status": 1,
-   "display": "CRWV -12% \u00b7 ORCL -1% 10d",
+   "status": 0,
+   "display": "CRWV -11% \u00b7 ORCL +1% 10d",
    "delta": "vol \u00d70.9 / \u00d70.7",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
-   "asof": "2026-09-01",
+   "asof": "2026-09-02",
    "value": null,
    "subscores": {}
   },
@@ -211,12 +211,12 @@
    "label": "Breadth (RSP/SPY, % above 50dma)",
    "group": "Backdrop",
    "weight": 0.08,
-   "status": 1,
-   "display": "RSP/SPY -0.3% 20d",
-   "delta": "36% of basket > 50dma",
+   "status": 0,
+   "display": "RSP/SPY +0.1% 20d",
+   "delta": "43% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
-   "asof": "2026-09-01",
-   "value": -0.0031964061833893442,
+   "asof": "2026-09-02",
+   "value": 0.0007408656509082512,
    "subscores": {}
   },
   {
@@ -234,8 +234,16 @@
   }
  ],
  "news": {
-  "scanned_at": "2026-09-01T15:34:45Z",
+  "scanned_at": "2026-09-02T15:18:48Z",
   "items": [
+   {
+    "headline": "Barclays: Asia data-center debt binge is hitting banks' lending limits",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-31/asia-data-center-debt-binge-hitting-banks-limits-barclays-says",
+    "date": "2026-08-31",
+    "severity": "medium",
+    "note": "Barclays' Asia-Pacific loan syndicate head says regional lenders are already heavily exposed to data centers and growing selective, with banks unable to absorb the financing volume the buildout will need \u2014 a concrete sign lenders are pulling back, not just commentary."
+   },
    {
     "headline": "Nvidia invests $3.5B in MediaTek convertible bonds, reigniting circular-financing scrutiny",
     "source": "BNN Bloomberg",
