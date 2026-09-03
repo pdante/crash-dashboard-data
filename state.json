@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-09-02T23:26:31+00:00",
- "run_label": "post-close",
+ "generated_at": "2026-09-03T15:14:53+00:00",
+ "run_label": "mid-day",
  "composite": 4.2,
  "base_composite": 4.2,
  "tier": "GREEN",
@@ -21,11 +21,11 @@
    "group": "Credit & funding",
    "weight": 0.16,
    "status": 0,
-   "display": "2.65%",
-   "delta": "-5bp 5d",
-   "detail": "Level 2.65% (amber \u22654.5%), 5d change -5bp (amber \u2265+30bp). A fast widening is the best short-lead credit signal.",
-   "asof": "2026-09-01",
-   "value": 2.65,
+   "display": "2.66%",
+   "delta": "-1bp 5d",
+   "detail": "Level 2.66% (amber \u22654.5%), 5d change -1bp (amber \u2265+30bp). A fast widening is the best short-lead credit signal.",
+   "asof": "2026-09-02",
+   "value": 2.66,
    "subscores": {
     "level": 0,
     "chg5": 0
@@ -38,14 +38,14 @@
    "weight": 0.08,
    "status": 0,
    "display": "0.81%",
-   "delta": "+0bp 5d",
-   "detail": "Level 0.81% (amber \u22651.3%), 5d change +0bp (amber \u2265+15bp). Both tiers calm (HY/IG 3.3\u00d7).",
-   "asof": "2026-09-01",
+   "delta": "+1bp 5d",
+   "detail": "Level 0.81% (amber \u22651.3%), 5d change +1bp (amber \u2265+15bp). Both tiers calm (HY/IG 3.3\u00d7).",
+   "asof": "2026-09-02",
    "value": 0.81,
    "subscores": {
     "level": 0,
     "chg5": 0,
-    "hy_ig_ratio": 3.271604938271605
+    "hy_ig_ratio": 3.2839506172839505
    }
   },
   {
@@ -54,11 +54,11 @@
    "group": "Credit & funding",
    "weight": 0.1,
    "status": 1,
-   "display": "10.49%",
-   "delta": "+10bp 5d",
+   "display": "10.53%",
+   "delta": "+22bp 5d",
    "detail": "Junkiest credit tier \u2014 closest public proxy for the leveraged AI periphery.",
-   "asof": "2026-09-01",
-   "value": 10.49,
+   "asof": "2026-09-02",
+   "value": 10.53,
    "subscores": {}
   },
   {
@@ -67,11 +67,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "+0.7% 10d",
-   "delta": "+0.4% 5d",
+   "display": "+0.6% 10d",
+   "delta": "+0.3% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
-   "asof": "2026-09-02",
-   "value": 0.007283684499223675,
+   "asof": "2026-09-03",
+   "value": 0.006427583975197271,
    "subscores": {}
   },
   {
@@ -80,11 +80,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "+0.5% 10d",
-   "delta": "+0.1% 5d",
-   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+0.7pp 10d).",
-   "asof": "2026-09-02",
-   "value": 0.005026830585879605,
+   "display": "+0.4% 10d",
+   "delta": "+0.2% 5d",
+   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+0.4pp 10d).",
+   "asof": "2026-09-03",
+   "value": 0.004294852938847793,
    "subscores": {}
   },
   {
@@ -96,7 +96,7 @@
    "display": "+1bp",
    "delta": "3d avg",
    "detail": "Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.",
-   "asof": "2026-09-01",
+   "asof": "2026-09-02",
    "value": 1.3333333333333492,
    "subscores": {}
   },
@@ -109,8 +109,8 @@
    "display": "13bp tail",
    "delta": "Fed repo ops $0.0bn (3d max)",
    "detail": "SOFR 99th\u22121st percentile 13bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
-   "asof": "2026-09-01",
-   "value": 13.000000000000034,
+   "asof": "2026-09-02",
+   "value": 12.99999999999999,
    "subscores": {
     "tail": 0,
     "usage": 0,
@@ -136,11 +136,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.86",
-   "delta": "-0.02 5d",
+   "display": "0.84",
+   "delta": "-0.03 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-09-02",
-   "value": 0.8573040158887631,
+   "asof": "2026-09-03",
+   "value": 0.8441043570591364,
    "subscores": {}
   },
   {
@@ -157,7 +157,7 @@
    "subscores": {
     "skew": 1,
     "vvix": 0,
-    "vvix_level": 86.25
+    "vvix_level": 86.30000305175781
    }
   },
   {
@@ -166,15 +166,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 1,
-   "display": "12th pctile",
-   "delta": "IV\u2212RV +7.8pt",
-   "detail": "VIX 15.2 sits at the 12th percentile of its trailing year (expensive \u226580th); 20d realized 7.4, so implied carries +7.8 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-09-02",
-   "value": 7.826443613980642,
+   "display": "7th pctile",
+   "delta": "IV\u2212RV +6.9pt",
+   "detail": "VIX 14.9 sits at the 7th percentile of its trailing year (expensive \u226580th); 20d realized 8.0, so implied carries +6.9 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-09-03",
+   "value": 6.930670081574128,
    "subscores": {
     "pctile": 0,
     "premium": 1,
-    "realized": 7.373556195284495
+    "realized": 7.959330261748626
    }
   },
   {
@@ -183,14 +183,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 0,
-   "display": "-5.7% vs 60d high",
-   "delta": "-0.0% 10d",
+   "display": "-4.5% vs 60d high",
+   "delta": "+1.1% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
-   "asof": "2026-09-02",
-   "value": -0.05679578910324812,
+   "asof": "2026-09-03",
+   "value": -0.04527814793238627,
    "subscores": {
-    "drawdown": -0.05679578910324812,
-    "mom10": -0.00020701644537390873
+    "drawdown": -0.04527814793238627,
+    "mom10": 0.011358456779289483
    }
   },
   {
@@ -199,10 +199,10 @@
    "group": "AI sector",
    "weight": 0.1,
    "status": 0,
-   "display": "CRWV -11% \u00b7 ORCL +1% 10d",
+   "display": "CRWV -9% \u00b7 ORCL +7% 10d",
    "delta": "vol \u00d70.9 / \u00d70.7",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
-   "asof": "2026-09-02",
+   "asof": "2026-09-03",
    "value": null,
    "subscores": {}
   },
@@ -212,11 +212,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 0,
-   "display": "RSP/SPY +0.1% 20d",
-   "delta": "43% of basket > 50dma",
+   "display": "RSP/SPY -0.4% 20d",
+   "delta": "50% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
-   "asof": "2026-09-02",
-   "value": 0.0008772824335061546,
+   "asof": "2026-09-03",
+   "value": -0.00435042349360848,
    "subscores": {}
   },
   {
@@ -234,23 +234,15 @@
   }
  ],
  "news": {
-  "scanned_at": "2026-09-02T15:18:48Z",
+  "scanned_at": "2026-09-03T15:14:38Z",
   "items": [
    {
-    "headline": "Barclays: Asia data-center debt binge is hitting banks' lending limits",
-    "source": "Bloomberg",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-31/asia-data-center-debt-binge-hitting-banks-limits-barclays-says",
-    "date": "2026-08-31",
+    "headline": "SpaceX's AI data-center buildout shows operational cracks ahead of Google's Sept. 30 GPU deadline",
+    "source": "Benzinga",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61586563/spacex-ai-buildout-google-deadline",
+    "date": "2026-09-02",
     "severity": "medium",
-    "note": "Barclays' Asia-Pacific loan syndicate head says regional lenders are already heavily exposed to data centers and growing selective, with banks unable to absorb the financing volume the buildout will need \u2014 a concrete sign lenders are pulling back, not just commentary."
-   },
-   {
-    "headline": "Nvidia invests $3.5B in MediaTek convertible bonds, reigniting circular-financing scrutiny",
-    "source": "BNN Bloomberg",
-    "url": "https://www.bnnbloomberg.ca/business/technology/2026/08/31/nvidia-invests-us35b-in-mediatek-convertible-bonds/",
-    "date": "2026-08-31",
-    "severity": "low",
-    "note": "Nvidia's first direct stake in a Taiwanese IC designer drew fresh circular-financing criticism (chipmaker funding a partner that buys its own platform tech) and knocked Nvidia shares down ~4.5%, though no credit metric (CDS, rating, spread) moved on it."
+    "note": "SpaceX must deliver 110,000 Nvidia GPUs to Google by Sept. 30 under its $920M/month xAI compute-lease deal or face proportional payment cuts/termination after a grace period, and reports of cooling/power outages plus a data-center leadership exodus raise real doubt it hits that deadline."
    }
   ]
  },

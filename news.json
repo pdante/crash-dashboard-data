@@ -1,21 +1,13 @@
 {
-  "scanned_at": "2026-09-02T15:18:48Z",
+  "scanned_at": "2026-09-03T15:14:38Z",
   "items": [
     {
-      "headline": "Barclays: Asia data-center debt binge is hitting banks' lending limits",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-31/asia-data-center-debt-binge-hitting-banks-limits-barclays-says",
-      "date": "2026-08-31",
+      "headline": "SpaceX's AI data-center buildout shows operational cracks ahead of Google's Sept. 30 GPU deadline",
+      "source": "Benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61586563/spacex-ai-buildout-google-deadline",
+      "date": "2026-09-02",
       "severity": "medium",
-      "note": "Barclays' Asia-Pacific loan syndicate head says regional lenders are already heavily exposed to data centers and growing selective, with banks unable to absorb the financing volume the buildout will need — a concrete sign lenders are pulling back, not just commentary."
-    },
-    {
-      "headline": "Nvidia invests $3.5B in MediaTek convertible bonds, reigniting circular-financing scrutiny",
-      "source": "BNN Bloomberg",
-      "url": "https://www.bnnbloomberg.ca/business/technology/2026/08/31/nvidia-invests-us35b-in-mediatek-convertible-bonds/",
-      "date": "2026-08-31",
-      "severity": "low",
-      "note": "Nvidia's first direct stake in a Taiwanese IC designer drew fresh circular-financing criticism (chipmaker funding a partner that buys its own platform tech) and knocked Nvidia shares down ~4.5%, though no credit metric (CDS, rating, spread) moved on it."
+      "note": "SpaceX must deliver 110,000 Nvidia GPUs to Google by Sept. 30 under its $920M/month xAI compute-lease deal or face proportional payment cuts/termination after a grace period, and reports of cooling/power outages plus a data-center leadership exodus raise real doubt it hits that deadline."
     }
   ]
 }
