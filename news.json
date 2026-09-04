@@ -1,13 +1,29 @@
 {
-  "scanned_at": "2026-09-03T15:14:38Z",
+  "scanned_at": "2026-09-04T15:09:47Z",
   "items": [
     {
-      "headline": "SpaceX's AI data-center buildout shows operational cracks ahead of Google's Sept. 30 GPU deadline",
-      "source": "Benzinga",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61586563/spacex-ai-buildout-google-deadline",
-      "date": "2026-09-02",
+      "headline": "SoftBank prices record ¥1 trillion ($6.3B) retail bond at high end of range to fund OpenAI stake",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-04/softbank-group-prices-1-trillion-retail-bond-at-4-75",
+      "date": "2026-09-04",
       "severity": "medium",
-      "note": "SpaceX must deliver 110,000 Nvidia GPUs to Google by Sept. 30 under its $920M/month xAI compute-lease deal or face proportional payment cuts/termination after a grace period, and reports of cooling/power outages plus a data-center leadership exodus raise real doubt it hits that deadline."
+      "note": "Japan's biggest-ever retail bond priced at 4.75%, the top of the 4.3-4.9% guided range, with proceeds earmarked to refinance part of the $40B bridge loan backing SoftBank's OpenAI investment -- pricing at the high end signals investors are demanding a bigger premium for this debt-on-debt AI financing chain."
+    },
+    {
+      "headline": "Blackstone's flagship $77B private credit fund gates redemptions again as withdrawal requests double the cap",
+      "source": "Reuters (via Investing.com)",
+      "url": "https://www.investing.com/news/stock-market-news/blackstone-private-credit-fund-maintains-5-cap-as-redemption-requests-remain-high-4887791",
+      "date": "2026-09-03",
+      "severity": "medium",
+      "note": "BCRED received ~$4.3B (10% of shares) in Q3 repurchase requests but will only honor the standard 5% quarterly limit, showing sustained investor demand to exit private credit even as the sector's default rate sits at a five-year high with AI-exposed borrowers a growing share of the stress."
+    },
+    {
+      "headline": "Oracle falls 4-5%, Nebius slips as bond-market selloff raises cost of debt-funded AI buildouts",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/09/01/oracle-falls-4-as-bond-selloff-tests-its-debt-funded-ai-buildout-nebius-slips/",
+      "date": "2026-09-01",
+      "severity": "low",
+      "note": "10-year Treasury yields hit a one-year high (~4.78%) in a broader bond selloff, hitting Oracle ($122B in long-term debt, $43B raised in FY26) and fellow debt-funded neocloud Nebius hardest -- a macro rate move rather than an issuer-specific credit event, but it directly raises refinancing costs for the most leveraged AI builders."
     }
   ]
 }

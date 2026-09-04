@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-09-03T23:22:47+00:00",
- "run_label": "post-close",
+ "generated_at": "2026-09-04T15:10:10+00:00",
+ "run_label": "mid-day",
  "composite": 4.2,
  "base_composite": 4.2,
  "tier": "GREEN",
@@ -21,11 +21,11 @@
    "group": "Credit & funding",
    "weight": 0.16,
    "status": 0,
-   "display": "2.66%",
-   "delta": "-1bp 5d",
-   "detail": "Level 2.66% (amber \u22654.5%), 5d change -1bp (amber \u2265+30bp). A fast widening is the best short-lead credit signal.",
-   "asof": "2026-09-02",
-   "value": 2.66,
+   "display": "2.65%",
+   "delta": "+2bp 5d",
+   "detail": "Level 2.65% (amber \u22654.5%), 5d change +2bp (amber \u2265+30bp). A fast widening is the best short-lead credit signal.",
+   "asof": "2026-09-03",
+   "value": 2.65,
    "subscores": {
     "level": 0,
     "chg5": 0
@@ -38,14 +38,14 @@
    "weight": 0.08,
    "status": 0,
    "display": "0.81%",
-   "delta": "+1bp 5d",
-   "detail": "Level 0.81% (amber \u22651.3%), 5d change +1bp (amber \u2265+15bp). Both tiers calm (HY/IG 3.3\u00d7).",
-   "asof": "2026-09-02",
+   "delta": "+2bp 5d",
+   "detail": "Level 0.81% (amber \u22651.3%), 5d change +2bp (amber \u2265+15bp). Both tiers calm (HY/IG 3.3\u00d7).",
+   "asof": "2026-09-03",
    "value": 0.81,
    "subscores": {
     "level": 0,
     "chg5": 0,
-    "hy_ig_ratio": 3.2839506172839505
+    "hy_ig_ratio": 3.271604938271605
    }
   },
   {
@@ -54,11 +54,11 @@
    "group": "Credit & funding",
    "weight": 0.1,
    "status": 1,
-   "display": "10.53%",
-   "delta": "+22bp 5d",
+   "display": "10.51%",
+   "delta": "+20bp 5d",
    "detail": "Junkiest credit tier \u2014 closest public proxy for the leveraged AI periphery.",
-   "asof": "2026-09-02",
-   "value": 10.53,
+   "asof": "2026-09-03",
+   "value": 10.51,
    "subscores": {}
   },
   {
@@ -67,11 +67,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "+0.5% 10d",
-   "delta": "+0.4% 5d",
+   "display": "+0.2% 10d",
+   "delta": "+0.1% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
-   "asof": "2026-09-03",
-   "value": 0.00525600412253735,
+   "asof": "2026-09-04",
+   "value": 0.001947588574461756,
    "subscores": {}
   },
   {
@@ -80,11 +80,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "+0.6% 10d",
-   "delta": "+0.3% 5d",
-   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+0.4pp 10d).",
-   "asof": "2026-09-03",
-   "value": 0.0055157130197318605,
+   "display": "+0.5% 10d",
+   "delta": "+0.4% 5d",
+   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+0.5pp 10d).",
+   "asof": "2026-09-04",
+   "value": 0.005271532523378308,
    "subscores": {}
   },
   {
@@ -96,8 +96,8 @@
    "display": "+1bp",
    "delta": "3d avg",
    "detail": "Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.",
-   "asof": "2026-09-02",
-   "value": 1.3333333333333492,
+   "asof": "2026-09-03",
+   "value": 0.6666666666666821,
    "subscores": {}
   },
   {
@@ -106,11 +106,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "13bp tail",
+   "display": "14bp tail",
    "delta": "Fed repo ops $0.0bn (3d max)",
-   "detail": "SOFR 99th\u22121st percentile 13bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
-   "asof": "2026-09-02",
-   "value": 12.99999999999999,
+   "detail": "SOFR 99th\u22121st percentile 14bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
+   "asof": "2026-09-03",
+   "value": 14.000000000000012,
    "subscores": {
     "tail": 0,
     "usage": 0,
@@ -139,8 +139,8 @@
    "display": "0.82",
    "delta": "-0.05 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-09-03",
-   "value": 0.8220436068947915,
+   "asof": "2026-09-04",
+   "value": 0.8205865991150078,
    "subscores": {}
   },
   {
@@ -150,14 +150,14 @@
    "weight": 0.0,
    "status": 2,
    "display": "SKEW 151",
-   "delta": "VVIX 84 \u00b7 +7 5d",
-   "detail": "SKEW 151 (expensive \u2265145), VVIX 84 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "delta": "VVIX 83 \u00b7 +7 5d",
+   "detail": "SKEW 151 (expensive \u2265145), VVIX 83 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-09-03",
    "value": 150.6300048828125,
    "subscores": {
     "skew": 2,
     "vvix": 0,
-    "vvix_level": 83.80000305175781
+    "vvix_level": 83.08000183105469
    }
   },
   {
@@ -167,14 +167,14 @@
    "weight": 0.0,
    "status": 1,
    "display": "3th pctile",
-   "delta": "IV\u2212RV +6.0pt",
-   "detail": "VIX 14.3 sits at the 3th percentile of its trailing year (expensive \u226580th); 20d realized 8.3, so implied carries +6.0 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-09-03",
-   "value": 6.041564132298424,
+   "delta": "IV\u2212RV +6.1pt",
+   "detail": "VIX 14.3 sits at the 3th percentile of its trailing year (expensive \u226580th); 20d realized 8.2, so implied carries +6.1 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-09-04",
+   "value": 6.106285616133375,
    "subscores": {
     "pctile": 0,
     "premium": 1,
-    "realized": 8.278435562525795
+    "realized": 8.163714841630297
    }
   },
   {
@@ -183,14 +183,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 0,
-   "display": "-3.9% vs 60d high",
-   "delta": "+1.8% 10d",
+   "display": "-2.5% vs 60d high",
+   "delta": "+3.0% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
-   "asof": "2026-09-03",
-   "value": -0.039355689531315075,
+   "asof": "2026-09-04",
+   "value": -0.02457001394345748,
    "subscores": {
-    "drawdown": -0.039355689531315075,
-    "mom10": 0.0176322509486333
+    "drawdown": -0.02457001394345748,
+    "mom10": 0.030064902148119854
    }
   },
   {
@@ -199,10 +199,10 @@
    "group": "AI sector",
    "weight": 0.1,
    "status": 0,
-   "display": "CRWV -6% \u00b7 ORCL +8% 10d",
+   "display": "CRWV -1% \u00b7 ORCL +8% 10d",
    "delta": "vol \u00d70.9 / \u00d70.7",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
-   "asof": "2026-09-03",
+   "asof": "2026-09-04",
    "value": null,
    "subscores": {}
   },
@@ -212,11 +212,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 0,
-   "display": "RSP/SPY +0.1% 20d",
-   "delta": "50% of basket > 50dma",
+   "display": "RSP/SPY -0.0% 20d",
+   "delta": "64% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
-   "asof": "2026-09-03",
-   "value": 0.0007226857517168561,
+   "asof": "2026-09-04",
+   "value": -0.00011641306107001981,
    "subscores": {}
   },
   {
@@ -234,15 +234,31 @@
   }
  ],
  "news": {
-  "scanned_at": "2026-09-03T15:14:38Z",
+  "scanned_at": "2026-09-04T15:09:47Z",
   "items": [
    {
-    "headline": "SpaceX's AI data-center buildout shows operational cracks ahead of Google's Sept. 30 GPU deadline",
-    "source": "Benzinga",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61586563/spacex-ai-buildout-google-deadline",
-    "date": "2026-09-02",
+    "headline": "SoftBank prices record \u00a51 trillion ($6.3B) retail bond at high end of range to fund OpenAI stake",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-04/softbank-group-prices-1-trillion-retail-bond-at-4-75",
+    "date": "2026-09-04",
     "severity": "medium",
-    "note": "SpaceX must deliver 110,000 Nvidia GPUs to Google by Sept. 30 under its $920M/month xAI compute-lease deal or face proportional payment cuts/termination after a grace period, and reports of cooling/power outages plus a data-center leadership exodus raise real doubt it hits that deadline."
+    "note": "Japan's biggest-ever retail bond priced at 4.75%, the top of the 4.3-4.9% guided range, with proceeds earmarked to refinance part of the $40B bridge loan backing SoftBank's OpenAI investment -- pricing at the high end signals investors are demanding a bigger premium for this debt-on-debt AI financing chain."
+   },
+   {
+    "headline": "Blackstone's flagship $77B private credit fund gates redemptions again as withdrawal requests double the cap",
+    "source": "Reuters (via Investing.com)",
+    "url": "https://www.investing.com/news/stock-market-news/blackstone-private-credit-fund-maintains-5-cap-as-redemption-requests-remain-high-4887791",
+    "date": "2026-09-03",
+    "severity": "medium",
+    "note": "BCRED received ~$4.3B (10% of shares) in Q3 repurchase requests but will only honor the standard 5% quarterly limit, showing sustained investor demand to exit private credit even as the sector's default rate sits at a five-year high with AI-exposed borrowers a growing share of the stress."
+   },
+   {
+    "headline": "Oracle falls 4-5%, Nebius slips as bond-market selloff raises cost of debt-funded AI buildouts",
+    "source": "24/7 Wall St.",
+    "url": "https://247wallst.com/investing/2026/09/01/oracle-falls-4-as-bond-selloff-tests-its-debt-funded-ai-buildout-nebius-slips/",
+    "date": "2026-09-01",
+    "severity": "low",
+    "note": "10-year Treasury yields hit a one-year high (~4.78%) in a broader bond selloff, hitting Oracle ($122B in long-term debt, $43B raised in FY26) and fellow debt-funded neocloud Nebius hardest -- a macro rate move rather than an issuer-specific credit event, but it directly raises refinancing costs for the most leveraged AI builders."
    }
   ]
  },
