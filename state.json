@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-09-04T23:07:26+00:00",
- "run_label": "post-close",
+ "generated_at": "2026-09-07T16:43:55+00:00",
+ "run_label": "mid-day",
  "composite": 4.2,
  "base_composite": 4.2,
  "tier": "GREEN",
@@ -136,11 +136,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.83",
-   "delta": "-0.05 5d",
+   "display": "0.91",
+   "delta": "+0.10 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-09-04",
-   "value": 0.8250993315940105,
+   "asof": "2026-07-17",
+   "value": 0.9138266612040106,
    "subscores": {}
   },
   {
@@ -166,11 +166,11 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 1,
-   "display": "5th pctile",
-   "delta": "IV\u2212RV +6.4pt",
-   "detail": "VIX 14.5 sits at the 5th percentile of its trailing year (expensive \u226580th); 20d realized 8.1, so implied carries +6.4 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-09-04",
-   "value": 6.423918090096857,
+   "display": "14th pctile",
+   "delta": "IV\u2212RV +7.2pt",
+   "detail": "VIX 15.3 sits at the 14th percentile of its trailing year (expensive \u226580th); 20d realized 8.1, so implied carries +7.2 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-09-07",
+   "value": 7.1939185478605285,
    "subscores": {
     "pctile": 0,
     "premium": 1,
@@ -187,10 +187,10 @@
    "delta": "+3.8% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-09-04",
-   "value": -0.01700515762976218,
+   "value": -0.016960611208161835,
    "subscores": {
-    "drawdown": -0.01700515762976218,
-    "mom10": 0.03805347445973584
+    "drawdown": -0.016960611208161835,
+    "mom10": 0.038100518590556964
    }
   },
   {
@@ -234,33 +234,8 @@
   }
  ],
  "news": {
-  "scanned_at": "2026-09-04T15:09:47Z",
-  "items": [
-   {
-    "headline": "SoftBank prices record \u00a51 trillion ($6.3B) retail bond at high end of range to fund OpenAI stake",
-    "source": "Bloomberg",
-    "url": "https://www.bloomberg.com/news/articles/2026-09-04/softbank-group-prices-1-trillion-retail-bond-at-4-75",
-    "date": "2026-09-04",
-    "severity": "medium",
-    "note": "Japan's biggest-ever retail bond priced at 4.75%, the top of the 4.3-4.9% guided range, with proceeds earmarked to refinance part of the $40B bridge loan backing SoftBank's OpenAI investment -- pricing at the high end signals investors are demanding a bigger premium for this debt-on-debt AI financing chain."
-   },
-   {
-    "headline": "Blackstone's flagship $77B private credit fund gates redemptions again as withdrawal requests double the cap",
-    "source": "Reuters (via Investing.com)",
-    "url": "https://www.investing.com/news/stock-market-news/blackstone-private-credit-fund-maintains-5-cap-as-redemption-requests-remain-high-4887791",
-    "date": "2026-09-03",
-    "severity": "medium",
-    "note": "BCRED received ~$4.3B (10% of shares) in Q3 repurchase requests but will only honor the standard 5% quarterly limit, showing sustained investor demand to exit private credit even as the sector's default rate sits at a five-year high with AI-exposed borrowers a growing share of the stress."
-   },
-   {
-    "headline": "Oracle falls 4-5%, Nebius slips as bond-market selloff raises cost of debt-funded AI buildouts",
-    "source": "24/7 Wall St.",
-    "url": "https://247wallst.com/investing/2026/09/01/oracle-falls-4-as-bond-selloff-tests-its-debt-funded-ai-buildout-nebius-slips/",
-    "date": "2026-09-01",
-    "severity": "low",
-    "note": "10-year Treasury yields hit a one-year high (~4.78%) in a broader bond selloff, hitting Oracle ($122B in long-term debt, $43B raised in FY26) and fellow debt-funded neocloud Nebius hardest -- a macro rate move rather than an issuer-specific credit event, but it directly raises refinancing costs for the most leveraged AI builders."
-   }
-  ]
+  "scanned_at": "2026-09-07T16:43:46Z",
+  "items": []
  },
  "data_issues": [],
  "disclaimer": "Not financial advice. No indicator reliably times crashes; this composite raises the odds of a short heads-up, nothing more."
