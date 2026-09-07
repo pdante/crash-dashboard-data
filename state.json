@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-09-07T17:45:31+00:00",
- "run_label": "mid-day",
+ "generated_at": "2026-09-07T20:03:10+00:00",
+ "run_label": "post-close",
  "composite": 4.2,
  "base_composite": 4.2,
  "tier": "GREEN",
@@ -190,7 +190,7 @@
    "value": -0.016960611208161724,
    "subscores": {
     "drawdown": -0.016960611208161724,
-    "mom10": 0.038100518590556964
+    "mom10": 0.038100518590557186
    }
   },
   {
