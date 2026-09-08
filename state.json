@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-09-08T15:22:00+00:00",
+ "generated_at": "2026-09-08T16:40:48+00:00",
  "run_label": "mid-day",
  "composite": 4.2,
  "base_composite": 4.2,
@@ -21,11 +21,11 @@
    "group": "Credit & funding",
    "weight": 0.16,
    "status": 0,
-   "display": "2.65%",
-   "delta": "+2bp 5d",
-   "detail": "Level 2.65% (amber \u22654.5%), 5d change +2bp (amber \u2265+30bp). A fast widening is the best short-lead credit signal.",
-   "asof": "2026-09-03",
-   "value": 2.65,
+   "display": "2.68%",
+   "delta": "+5bp 5d",
+   "detail": "Level 2.68% (amber \u22654.5%), 5d change +5bp (amber \u2265+30bp). A fast widening is the best short-lead credit signal.",
+   "asof": "2026-09-07",
+   "value": 2.68,
    "subscores": {
     "level": 0,
     "chg5": 0
@@ -38,14 +38,14 @@
    "weight": 0.08,
    "status": 0,
    "display": "0.81%",
-   "delta": "+2bp 5d",
-   "detail": "Level 0.81% (amber \u22651.3%), 5d change +2bp (amber \u2265+15bp). Both tiers calm (HY/IG 3.3\u00d7).",
-   "asof": "2026-09-03",
+   "delta": "+1bp 5d",
+   "detail": "Level 0.81% (amber \u22651.3%), 5d change +1bp (amber \u2265+15bp). Both tiers calm (HY/IG 3.3\u00d7).",
+   "asof": "2026-09-07",
    "value": 0.81,
    "subscores": {
     "level": 0,
     "chg5": 0,
-    "hy_ig_ratio": 3.271604938271605
+    "hy_ig_ratio": 3.308641975308642
    }
   },
   {
@@ -54,11 +54,11 @@
    "group": "Credit & funding",
    "weight": 0.1,
    "status": 1,
-   "display": "10.51%",
-   "delta": "+20bp 5d",
+   "display": "10.55%",
+   "delta": "+13bp 5d",
    "detail": "Junkiest credit tier \u2014 closest public proxy for the leveraged AI periphery.",
-   "asof": "2026-09-03",
-   "value": 10.51,
+   "asof": "2026-09-07",
+   "value": 10.55,
    "subscores": {}
   },
   {
@@ -68,10 +68,10 @@
    "weight": 0.12,
    "status": 0,
    "display": "+0.4% 10d",
-   "delta": "+0.0% 5d",
+   "delta": "-0.0% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
    "asof": "2026-09-08",
-   "value": 0.004339934379019583,
+   "value": 0.004170499476917611,
    "subscores": {}
   },
   {
@@ -136,11 +136,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.85",
+   "display": "0.84",
    "delta": "-0.03 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
    "asof": "2026-09-08",
-   "value": 0.8484848453003612,
+   "value": 0.8439051792039864,
    "subscores": {}
   },
   {
@@ -157,7 +157,7 @@
    "subscores": {
     "skew": 2,
     "vvix": 0,
-    "vvix_level": 88.43000030517578
+    "vvix_level": 88.19999694824219
    }
   },
   {
@@ -166,15 +166,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 1,
-   "display": "15th pctile",
-   "delta": "IV\u2212RV +7.2pt",
-   "detail": "VIX 15.4 sits at the 15th percentile of its trailing year (expensive \u226580th); 20d realized 8.2, so implied carries +7.2 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "display": "14th pctile",
+   "delta": "IV\u2212RV +7.1pt",
+   "detail": "VIX 15.3 sits at the 14th percentile of its trailing year (expensive \u226580th); 20d realized 8.2, so implied carries +7.1 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-09-08",
-   "value": 7.208551233364187,
+   "value": 7.07533252490412,
    "subscores": {
     "pctile": 0,
     "premium": 1,
-    "realized": 8.191448385166087
+    "realized": 8.224667665830744
    }
   },
   {
@@ -184,13 +184,13 @@
    "weight": 0.12,
    "status": 0,
    "display": "+0.0% vs 60d high",
-   "delta": "+8.6% 10d",
+   "delta": "+8.4% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-09-08",
    "value": 0.0,
    "subscores": {
     "drawdown": 0.0,
-    "mom10": 0.08608765198545743
+    "mom10": 0.08441371808983633
    }
   },
   {
@@ -199,8 +199,8 @@
    "group": "AI sector",
    "weight": 0.1,
    "status": 0,
-   "display": "CRWV +17% \u00b7 ORCL +15% 10d",
-   "delta": "vol \u00d71.0 / \u00d70.8",
+   "display": "CRWV +20% \u00b7 ORCL +14% 10d",
+   "delta": "vol \u00d71.0 / \u00d70.7",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
    "asof": "2026-09-08",
    "value": null,
@@ -212,11 +212,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 0,
-   "display": "RSP/SPY -0.6% 20d",
+   "display": "RSP/SPY -0.5% 20d",
    "delta": "86% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
    "asof": "2026-09-08",
-   "value": -0.005633676357738149,
+   "value": -0.005449252171006669,
    "subscores": {}
   },
   {
