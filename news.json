@@ -1,4 +1,21 @@
 {
-  "scanned_at": "2026-09-08T15:21:51Z",
-  "items": []
+  "scanned_at": "2026-09-09T15:19:34Z",
+  "items": [
+    {
+      "headline": "SoftBank to meet investors in New York for potential $10-20B junk-bond sale",
+      "source": "Bloomberg / The Japan Times",
+      "url": "https://www.japantimes.co.jp/business/2026/09/09/softbank-jumbo-bond-sale/",
+      "date": "2026-09-08",
+      "severity": "medium",
+      "note": "SoftBank CFO and execs will pitch a $10-20B dollar/euro junk-bond sale Sept 14-17 to refinance the $40B bridge loan backing its OpenAI bet, a concrete sign its AI leverage is straining toward high-yield debt markets."
+    },
+    {
+      "headline": "Analysis warns AI data-center circular financing is building systemic leverage risk",
+      "source": "Pivot to AI",
+      "url": "https://pivot-to-ai.com/2026/09/07/ai-data-centre-finance-building-a-bigger-and-bigger-bomb/",
+      "date": "2026-09-07",
+      "severity": "low",
+      "note": "Cites BIS warnings that AI capex financed via overlapping vendor-financing/SPV loops could produce correlated losses across lenders if demand disappoints; commentary, not a realized event, but relevant color on the credit thesis."
+    }
+  ]
 }
