@@ -1,21 +1,29 @@
 {
-  "scanned_at": "2026-09-09T15:19:34Z",
+  "scanned_at": "2026-09-10T16:00:00Z",
   "items": [
     {
-      "headline": "SoftBank to meet investors in New York for potential $10-20B junk-bond sale",
-      "source": "Bloomberg / The Japan Times",
-      "url": "https://www.japantimes.co.jp/business/2026/09/09/softbank-jumbo-bond-sale/",
-      "date": "2026-09-08",
-      "severity": "medium",
-      "note": "SoftBank CFO and execs will pitch a $10-20B dollar/euro junk-bond sale Sept 14-17 to refinance the $40B bridge loan backing its OpenAI bet, a concrete sign its AI leverage is straining toward high-yield debt markets."
+      "headline": "Oracle reports Q1 FY2027 results tonight as it seeks up to $40B in debt and equity for AI buildout",
+      "source": "TradersUnion / Yahoo Finance",
+      "url": "https://tradersunion.com/news/financial-news/show/2324241-oracle-40bn-ai-data-centre-capex/",
+      "date": "2026-09-10",
+      "severity": "low",
+      "note": "Oracle prints fiscal Q1 results after the close with its CDS already elevated and a Scotiabank price-target trim ahead of print; the company has flagged plans to raise ~$40B this fiscal year via debt and equity, underscoring how far capex has outrun operating cash flow and its concentration risk to OpenAI. Pre-event positioning, not yet a realized outcome."
     },
     {
-      "headline": "Analysis warns AI data-center circular financing is building systemic leverage risk",
-      "source": "Pivot to AI",
-      "url": "https://pivot-to-ai.com/2026/09/07/ai-data-centre-finance-building-a-bigger-and-bigger-bomb/",
-      "date": "2026-09-07",
+      "headline": "SoftBank confirms early payoff of $25.9B OpenAI bridge loan, launches $10-20B junk-bond roadshow",
+      "source": "Reuters / The Spokesman-Review",
+      "url": "https://www.spokesman.com/stories/2026/sep/09/softbank-to-repay-40-billion-bridge-loan-for-opena/",
+      "date": "2026-09-09",
+      "severity": "medium",
+      "note": "SoftBank must retire the $25.9B outstanding balance on its $40B OpenAI-investment bridge loan by Sept 15 and is meeting investors Sept 14-17 to test demand for a $10-20B BB+-rated dollar/euro junk-bond sale — a concrete sign the OpenAI bet is being pushed onto high-yield markets rather than absorbed on balance sheet."
+    },
+    {
+      "headline": "Hyperscalers rush $50-60B of bonds to market post-Labor Day as rising yields squeeze AI debt pipeline",
+      "source": "Advisor Perspectives / Bloomberg",
+      "url": "https://www.advisorperspectives.com/articles/2026/09/03/rising-yields-pushing-companies-sell-bonds",
+      "date": "2026-09-03",
       "severity": "low",
-      "note": "Cites BIS warnings that AI capex financed via overlapping vendor-financing/SPV loops could produce correlated losses across lenders if demand disappoints; commentary, not a realized event, but relevant color on the credit thesis."
+      "note": "Bankers expect a record wave of hyperscaler bond supply immediately after Labor Day, with some issuers pulling sales forward to get ahead of further yield increases — a sign AI-linked issuers see financing conditions as more likely to worsen than improve from here."
     }
   ]
 }
