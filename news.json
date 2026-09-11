@@ -1,13 +1,21 @@
 {
-  "scanned_at": "2026-09-10T16:00:00Z",
+  "scanned_at": "2026-09-11T15:14:55Z",
   "items": [
     {
-      "headline": "Oracle reports Q1 FY2027 results tonight as it seeks up to $40B in debt and equity for AI buildout",
-      "source": "TradersUnion / Yahoo Finance",
-      "url": "https://tradersunion.com/news/financial-news/show/2324241-oracle-40bn-ai-data-centre-capex/",
+      "headline": "CoreWeave's interest bill jumps toward $860-940M for Q3 as refinancing risk on $51.6B debt stack draws scrutiny",
+      "source": "Foreign Policy Journal / 24/7 Wall St",
+      "url": "https://www.foreignpolicyjournal.com/2026/09/11/nebius-group-nasdaq-nbis-screens-more-defensively-than-coreweave-nasdaq-crwv-as-rate-hike-odds-rise/",
+      "date": "2026-09-11",
+      "severity": "low",
+      "note": "Analysts flag CoreWeave's Q2 interest expense of $640M (guided to $860-940M in Q3) against its debt load just as the 10-year Treasury sits at a cycle-high 4.80% and rate-hike odds creep back into pricing, versus Nebius's ~$8B cash and prepayment-funded capex — a widening credit-quality gap within the neocloud cohort, not yet a realized event."
+    },
+    {
+      "headline": "Oracle Q1 FY2027 beats on revenue and EPS, but capex hits $28.5B and free cash flow swings to -$5.4B",
+      "source": "Reuters / CNBC / Investing.com",
+      "url": "https://www.cnbc.com/2026/09/10/oracle-orcl-q1-earnings-report-2027.html",
       "date": "2026-09-10",
       "severity": "low",
-      "note": "Oracle prints fiscal Q1 results after the close with its CDS already elevated and a Scotiabank price-target trim ahead of print; the company has flagged plans to raise ~$40B this fiscal year via debt and equity, underscoring how far capex has outrun operating cash flow and its concentration risk to OpenAI. Pre-event positioning, not yet a realized outcome."
+      "note": "Cloud infrastructure revenue surged 121% and RPO backlog grew to $664B, but capex jumped from $8.5B to $28.5B y/y, driving free cash flow to -$5.4B (from -$362M a year ago) on a debt load of ~$125B; the beat resolves the pending item from the prior scan without changing the underlying cash-burn-funds-AI-buildout thesis."
     },
     {
       "headline": "SoftBank confirms early payoff of $25.9B OpenAI bridge loan, launches $10-20B junk-bond roadshow",
@@ -16,14 +24,6 @@
       "date": "2026-09-09",
       "severity": "medium",
       "note": "SoftBank must retire the $25.9B outstanding balance on its $40B OpenAI-investment bridge loan by Sept 15 and is meeting investors Sept 14-17 to test demand for a $10-20B BB+-rated dollar/euro junk-bond sale — a concrete sign the OpenAI bet is being pushed onto high-yield markets rather than absorbed on balance sheet."
-    },
-    {
-      "headline": "Hyperscalers rush $50-60B of bonds to market post-Labor Day as rising yields squeeze AI debt pipeline",
-      "source": "Advisor Perspectives / Bloomberg",
-      "url": "https://www.advisorperspectives.com/articles/2026/09/03/rising-yields-pushing-companies-sell-bonds",
-      "date": "2026-09-03",
-      "severity": "low",
-      "note": "Bankers expect a record wave of hyperscaler bond supply immediately after Labor Day, with some issuers pulling sales forward to get ahead of further yield increases — a sign AI-linked issuers see financing conditions as more likely to worsen than improve from here."
     }
   ]
 }
