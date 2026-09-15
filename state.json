@@ -1,14 +1,14 @@
 {
  "schema": 2,
- "generated_at": "2026-09-14T23:55:19+00:00",
- "run_label": "post-close",
- "composite": 7.5,
- "base_composite": 7.5,
+ "generated_at": "2026-09-15T15:45:18+00:00",
+ "run_label": "mid-day",
+ "composite": 4.2,
+ "base_composite": 4.2,
  "tier": "GREEN",
  "regime": "credit-led",
  "override": null,
  "reasons": [
-  "Amber: CCC credit spread (OAS), Breadth (RSP/SPY, % above 50dma)",
+  "Amber: CCC credit spread (OAS)",
   "Regime: credit-led \u2014 Credit is involved \u2014 more serious than an equity-only dip.",
   "Hedge pricing (not in composite): Put skew / cost of tail insurance expensive, Implied vol richness (VIX pctile, IV\u2212RV) expensive"
  ],
@@ -21,11 +21,11 @@
    "group": "Credit & funding",
    "weight": 0.16,
    "status": 0,
-   "display": "2.65%",
-   "delta": "-3bp 5d",
-   "detail": "Level 2.65% (amber \u22654.5%), 5d change -3bp (amber \u2265+30bp). A fast widening is the best short-lead credit signal.",
-   "asof": "2026-09-11",
-   "value": 2.65,
+   "display": "2.71%",
+   "delta": "+3bp 5d",
+   "detail": "Level 2.71% (amber \u22654.5%), 5d change +3bp (amber \u2265+30bp). A fast widening is the best short-lead credit signal.",
+   "asof": "2026-09-14",
+   "value": 2.71,
    "subscores": {
     "level": 0,
     "chg5": 0
@@ -39,13 +39,13 @@
    "status": 0,
    "display": "0.80%",
    "delta": "-1bp 5d",
-   "detail": "Level 0.80% (amber \u22651.3%), 5d change -1bp (amber \u2265+15bp). Both tiers calm (HY/IG 3.3\u00d7).",
-   "asof": "2026-09-11",
+   "detail": "Level 0.80% (amber \u22651.3%), 5d change -1bp (amber \u2265+15bp). Both tiers calm (HY/IG 3.4\u00d7).",
+   "asof": "2026-09-14",
    "value": 0.8,
    "subscores": {
     "level": 0,
     "chg5": 0,
-    "hy_ig_ratio": 3.3124999999999996
+    "hy_ig_ratio": 3.3874999999999997
    }
   },
   {
@@ -54,11 +54,11 @@
    "group": "Credit & funding",
    "weight": 0.1,
    "status": 1,
-   "display": "10.76%",
-   "delta": "+22bp 5d",
+   "display": "10.81%",
+   "delta": "+26bp 5d",
    "detail": "Junkiest credit tier \u2014 closest public proxy for the leveraged AI periphery.",
-   "asof": "2026-09-11",
-   "value": 10.76,
+   "asof": "2026-09-14",
+   "value": 10.81,
    "subscores": {}
   },
   {
@@ -67,11 +67,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "+0.8% 10d",
-   "delta": "+0.6% 5d",
+   "display": "+0.5% 10d",
+   "delta": "+0.5% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
-   "asof": "2026-09-14",
-   "value": 0.007511706410580743,
+   "asof": "2026-09-15",
+   "value": 0.004888331105171728,
    "subscores": {}
   },
   {
@@ -80,11 +80,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "+0.4% 10d",
-   "delta": "+0.0% 5d",
+   "display": "+0.3% 10d",
+   "delta": "+0.1% 5d",
    "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+1.4pp 10d).",
-   "asof": "2026-09-14",
-   "value": 0.004385972250494641,
+   "asof": "2026-09-15",
+   "value": 0.0026738116670765866,
    "subscores": {}
   },
   {
@@ -93,11 +93,11 @@
    "group": "Credit & funding",
    "weight": 0.08,
    "status": 0,
-   "display": "-2bp",
+   "display": "-3bp",
    "delta": "3d avg",
    "detail": "Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.",
-   "asof": "2026-09-11",
-   "value": -2.333333333333313,
+   "asof": "2026-09-14",
+   "value": -2.9999999999999805,
    "subscores": {}
   },
   {
@@ -106,11 +106,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "12bp tail",
+   "display": "13bp tail",
    "delta": "Fed repo ops $0.0bn (3d max)",
-   "detail": "SOFR 99th\u22121st percentile 12bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
-   "asof": "2026-09-11",
-   "value": 12.00000000000001,
+   "detail": "SOFR 99th\u22121st percentile 13bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
+   "asof": "2026-09-14",
+   "value": 13.000000000000034,
    "subscores": {
     "tail": 0,
     "usage": 0,
@@ -136,11 +136,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.89",
-   "delta": "+0.01 5d",
+   "display": "0.90",
+   "delta": "+0.02 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-09-14",
-   "value": 0.8869294487792326,
+   "asof": "2026-09-15",
+   "value": 0.896341418501359,
    "subscores": {}
   },
   {
@@ -150,14 +150,14 @@
    "weight": 0.0,
    "status": 2,
    "display": "SKEW 152",
-   "delta": "VVIX 95 \u00b7 +1 5d",
-   "detail": "SKEW 152 (expensive \u2265145), VVIX 95 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "delta": "VVIX 96 \u00b7 +1 5d",
+   "detail": "SKEW 152 (expensive \u2265145), VVIX 96 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-09-14",
    "value": 152.08999633789062,
    "subscores": {
     "skew": 2,
-    "vvix": 0,
-    "vvix_level": 94.88999938964844
+    "vvix": 1,
+    "vvix_level": 96.33000183105469
    }
   },
   {
@@ -166,15 +166,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 2,
-   "display": "49th pctile",
-   "delta": "IV\u2212RV +8.3pt",
-   "detail": "VIX 17.1 sits at the 49th percentile of its trailing year (expensive \u226580th); 20d realized 8.8, so implied carries +8.3 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-09-14",
-   "value": 8.272088483151402,
+   "display": "57th pctile",
+   "delta": "IV\u2212RV +8.8pt",
+   "detail": "VIX 17.6 sits at the 57th percentile of its trailing year (expensive \u226580th); 20d realized 8.8, so implied carries +8.8 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-09-15",
+   "value": 8.82337216200935,
    "subscores": {
     "pctile": 0,
     "premium": 2,
-    "realized": 8.827911898318325
+    "realized": 8.816627227639087
    }
   },
   {
@@ -183,14 +183,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 0,
-   "display": "-5.5% vs 60d high",
-   "delta": "-0.6% 10d",
+   "display": "-5.9% vs 60d high",
+   "delta": "-1.0% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
-   "asof": "2026-09-14",
-   "value": -0.054916139021732535,
+   "asof": "2026-09-15",
+   "value": -0.05852064115838518,
    "subscores": {
-    "drawdown": -0.054916139021732535,
-    "mom10": -0.006012824087227142
+    "drawdown": -0.05852064115838518,
+    "mom10": -0.009746752335339504
    }
   },
   {
@@ -199,10 +199,10 @@
    "group": "AI sector",
    "weight": 0.1,
    "status": 0,
-   "display": "CRWV -1% \u00b7 ORCL -4% 10d",
+   "display": "CRWV -3% \u00b7 ORCL -4% 10d",
    "delta": "vol \u00d70.7 / \u00d70.7",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
-   "asof": "2026-09-14",
+   "asof": "2026-09-15",
    "value": null,
    "subscores": {}
   },
@@ -211,12 +211,12 @@
    "label": "Breadth (RSP/SPY, % above 50dma)",
    "group": "Backdrop",
    "weight": 0.08,
-   "status": 1,
-   "display": "RSP/SPY -1.5% 20d",
-   "delta": "36% of basket > 50dma",
+   "status": 0,
+   "display": "RSP/SPY -1.0% 20d",
+   "delta": "43% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
-   "asof": "2026-09-14",
-   "value": -0.015223351755016323,
+   "asof": "2026-09-15",
+   "value": -0.010409620289131283,
    "subscores": {}
   },
   {
@@ -234,23 +234,23 @@
   }
  ],
  "news": {
-  "scanned_at": "2026-09-14T17:05:17Z",
+  "scanned_at": "2026-09-15T15:45:05Z",
   "items": [
    {
-    "headline": "SoftBank's $20B junk-bond roadshow launches into a 'congested' AI-debt market as funding costs climb",
-    "source": "Bloomberg / Japan Times / ad-hoc-news",
-    "url": "https://www.japantimes.co.jp/business/2026/09/09/softbank-jumbo-bond-sale/",
+    "headline": "SoftBank closes upsized $11.9B loan, repays $25.9B OpenAI bridge loan, while $10-20B junk-bond roadshow runs through Sept 17",
+    "source": "Bloomberg / Japan Times",
+    "url": "https://www.japantimes.co.jp/business/2026/09/14/companies/softbank-loan-openai/",
     "date": "2026-09-14",
     "severity": "medium",
-    "note": "Citi/Goldman/JPMorgan/Morgan Stanley began marketing SoftBank's up-to-$20B BB+ bond in New York on Sept 14 to refinance the $25.9B OpenAI bridge-loan balance due Sept 15, right after SoftBank's \u00a51tn retail bond priced at the top of its range (4.75%) \u2014 a concrete sign that AI-megadeal debt is getting pricier and harder to place as ~$220B of AI-adjacent supply has already hit the market this year."
+    "note": "SoftBank secured a two-year $11.87B loan (upsized from a $10B target, ~20 banks) and a separate $10B margin loan collateralized by its OpenAI stake, while retiring the $25.9B OpenAI bridge loan due Sept 15 \u2014 rapid re-leveraging via volatile-equity-backed debt that Bloomberg Intelligence framed as a move to get ahead of AI-leverage concerns before they worsen."
    },
    {
-    "headline": "Oracle raises FY2026 restructuring/layoff cost estimate by $700M, tied to AI-driven headcount cuts",
-    "source": "24/7 Wall St / TechCrunch",
-    "url": "https://247wallst.com/investing/2026/09/14/oracle-slides-5-as-layoff-costs-outweigh-ellisons-canceled-7-5b-stock-sale-nebius-and-coreweave-fall-5/",
+    "headline": "Bernstein warns AI-training slowdown could crimp neocloud demand, pressuring highly-levered CoreWeave",
+    "source": "Benzinga / Schaeffer's Investment Research",
+    "url": "https://www.benzinga.com/markets/tech/26/09/61761291/why-is-coreweave-stock-falling-monday",
     "date": "2026-09-14",
     "severity": "low",
-    "note": "Oracle disclosed on Sept 12 that severance/exit costs will push its restructuring plan about $700M higher (~$2.8B total), adding to cash outflows at a company already running deeply negative free cash flow (-$5.4B in Q1) while funding its AI data-center buildout with debt."
+    "note": "Following Amodei's 'pace the frontier' call for slower AI development, Bernstein flagged risk to data-center demand growth right as CoreWeave carries roughly 14x debt-to-equity leverage and rising interest costs \u2014 a demand-side warning for an already debt-heavy neocloud, not yet a realized credit event."
    }
   ]
  },
