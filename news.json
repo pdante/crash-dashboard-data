@@ -1,13 +1,21 @@
 {
-  "scanned_at": "2026-09-16T15:34:36Z",
+  "scanned_at": "2026-09-17T15:40:40Z",
   "items": [
     {
-      "headline": "SoftBank CDS near three-year high as OpenAI IPO delay exposes $20B funding gap",
+      "headline": "CoreWeave launches $3B convertible bond sale plus 35M-share ATM program, stock dips on dilution",
+      "source": "Bloomberg / CNBC",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-17/coreweave-plans-to-raise-3-billion-from-convertible-bonds",
+      "date": "2026-09-17",
+      "severity": "medium",
+      "note": "Fresh dilutive capital raise (convertible senior notes plus an at-the-market equity program) to fund GPU buildout comes on top of CoreWeave's already-heavy debt load, underscoring continued reliance on external capital markets rather than internally generated cash."
+    },
+    {
+      "headline": "SoftBank CDS hovers near three-year high as OpenAI IPO delay exposes funding gap",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-09-16/softbank-cds-hovers-near-3-year-high-on-openai-funding-concerns",
       "date": "2026-09-16",
       "severity": "medium",
-      "note": "SoftBank's 5Y CDS jumped to ~385bps (highest since 2023) after Altman said an OpenAI IPO won't happen before 2027, leaving SoftBank without the listing proceeds it needs to refinance a $40B bridge loan backing its $64.6B OpenAI stake — a concrete refinancing/funding-gap risk in the OpenAI-SoftBank deal web."
+      "note": "SoftBank's 5Y CDS jumped to ~385bps (highest since 2023) after reports OpenAI's IPO may slip to 2027, leaving SoftBank leaning on an upsized $11.87B loan (closed Sept 14) to keep funding its ~$64.6B OpenAI stake while shares plunged as much as 13% — a concrete refinancing/funding-gap risk in the OpenAI-SoftBank deal web."
     },
     {
       "headline": "Oracle-led hyperscaler CDS spreads hit record wides as BofA survey names AI capex top systemic credit risk",
@@ -15,15 +23,7 @@
       "url": "https://www.benzinga.com/markets/large-cap/26/09/61814464/bofa-survey-ai-capex-crowded-trade-credit-risk-apollo-slok",
       "date": "2026-09-16",
       "severity": "medium",
-      "note": "5Y CDS on a basket of Amazon/Google/Microsoft/Oracle broke above 100bps (Apollo's Slok says highest in his 8-year series) with Oracle's own CDS near record wides, while 42% of BofA's September fund-manager survey (up from 38% in August) now flags AI capex as the likeliest source of a systemic credit event — concrete, materially widening credit-market stress, not just equity chatter."
-    },
-    {
-      "headline": "Bernstein reiterates Sell on CoreWeave, warns an AI training slowdown would hit neoclouds hardest",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-shares-sink-bernstein-warns-182553714.html",
-      "date": "2026-09-14",
-      "severity": "low",
-      "note": "Bernstein kept its Sell rating and $74 price target on CoreWeave, arguing that any pullback in frontier-model training (following Amodei/Altman's slowdown remarks) would disproportionately hurt GPU-debt-heavy neoclouds built around training workloads — a bearish analyst read on the most credit-levered segment of the AI buildout, not yet a realized event."
+      "note": "5Y CDS on a basket of Amazon/Google/Microsoft/Oracle broke above 100bps (highest in Apollo's 8-year series) with Oracle's own CDS near record wides, while 42% of BofA's September fund-manager survey (up from 38% in August) now flags AI capex as the likeliest source of a systemic credit event."
     }
   ]
 }
