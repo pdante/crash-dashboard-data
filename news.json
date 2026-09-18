@@ -1,29 +1,21 @@
 {
-  "scanned_at": "2026-09-17T15:40:40Z",
+  "scanned_at": "2026-09-18T15:09:43Z",
   "items": [
     {
-      "headline": "CoreWeave launches $3B convertible bond sale plus 35M-share ATM program, stock dips on dilution",
-      "source": "Bloomberg / CNBC",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-17/coreweave-plans-to-raise-3-billion-from-convertible-bonds",
+      "headline": "S&P kept Oracle investment grade despite negative free cash flow and record CDS spreads",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/09/18/sp-kept-oracle-investment-grade-its-own-numbers-dont-support-that-call/",
+      "date": "2026-09-18",
+      "severity": "medium",
+      "note": "Analysis argues S&P's BBB- call is inconsistent with its own numbers (debt +412% vs. interest costs +271% through 2028, FCF negative 2025-2027) while Oracle's 5-year CDS trades above 200bp, levels last seen in 2008 — keeps the junk-downgrade tail risk live."
+    },
+    {
+      "headline": "CoreWeave shares drop ~7% after surprise $3B convertible note and share sale to shore up balance sheet",
+      "source": "Barchart / Money Morning",
+      "url": "https://www.barchart.com/story/news/4664376/a-3-billion-reason-why-coreweave-stock-is-down-today",
       "date": "2026-09-17",
       "severity": "medium",
-      "note": "Fresh dilutive capital raise (convertible senior notes plus an at-the-market equity program) to fund GPU buildout comes on top of CoreWeave's already-heavy debt load, underscoring continued reliance on external capital markets rather than internally generated cash."
-    },
-    {
-      "headline": "SoftBank CDS hovers near three-year high as OpenAI IPO delay exposes funding gap",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-16/softbank-cds-hovers-near-3-year-high-on-openai-funding-concerns",
-      "date": "2026-09-16",
-      "severity": "medium",
-      "note": "SoftBank's 5Y CDS jumped to ~385bps (highest since 2023) after reports OpenAI's IPO may slip to 2027, leaving SoftBank leaning on an upsized $11.87B loan (closed Sept 14) to keep funding its ~$64.6B OpenAI stake while shares plunged as much as 13% — a concrete refinancing/funding-gap risk in the OpenAI-SoftBank deal web."
-    },
-    {
-      "headline": "Oracle-led hyperscaler CDS spreads hit record wides as BofA survey names AI capex top systemic credit risk",
-      "source": "Benzinga",
-      "url": "https://www.benzinga.com/markets/large-cap/26/09/61814464/bofa-survey-ai-capex-crowded-trade-credit-risk-apollo-slok",
-      "date": "2026-09-16",
-      "severity": "medium",
-      "note": "5Y CDS on a basket of Amazon/Google/Microsoft/Oracle broke above 100bps (highest in Apollo's 8-year series) with Oracle's own CDS near record wides, while 42% of BofA's September fund-manager survey (up from 38% in August) now flags AI capex as the likeliest source of a systemic credit event."
+      "note": "CoreWeave priced $3B of convertible senior notes (option for $500M more) plus a 35M-share ATM equity program, explicitly framed as migrating its credit profile toward investment grade — a dilutive scramble for balance-sheet flexibility that the market read as a stress signal despite the company also touting $25B in new customer commitments."
     }
   ]
 }
