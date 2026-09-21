@@ -1,21 +1,29 @@
 {
-  "scanned_at": "2026-09-18T15:09:43Z",
+  "scanned_at": "2026-09-21T17:14:07Z",
   "items": [
     {
-      "headline": "S&P kept Oracle investment grade despite negative free cash flow and record CDS spreads",
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/09/18/sp-kept-oracle-investment-grade-its-own-numbers-dont-support-that-call/",
-      "date": "2026-09-18",
+      "headline": "SoftBank launches $11B+ junk bond sale to fund next OpenAI investment tranche",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-21/softbank-seeks-over-11-billion-in-junk-bond-deal-for-openai-bet",
+      "date": "2026-09-21",
       "severity": "medium",
-      "note": "Analysis argues S&P's BBB- call is inconsistent with its own numbers (debt +412% vs. interest costs +271% through 2028, FCF negative 2025-2027) while Oracle's 5-year CDS trades above 200bp, levels last seen in 2008 — keeps the junk-downgrade tail risk live."
+      "note": "SoftBank is issuing over $11B in senior unsecured bonds (on top of an already-secured $11.87B loan) to fund the $10B follow-on OpenAI payment due Oct 1, coming right after S&P moved its outlook to negative and its CDS widened to multi-year highs — concrete evidence SoftBank is loading junk-rated debt onto what S&P calls one of its weakest-credit holdings."
     },
     {
-      "headline": "CoreWeave shares drop ~7% after surprise $3B convertible note and share sale to shore up balance sheet",
-      "source": "Barchart / Money Morning",
-      "url": "https://www.barchart.com/story/news/4664376/a-3-billion-reason-why-coreweave-stock-is-down-today",
-      "date": "2026-09-17",
+      "headline": "CoreWeave upsizes convertible note sale to $3.7B, prices coupon at 2.875% — up from 1.75% in April",
+      "source": "Businesswire / CoreWeave IR",
+      "url": "https://www.businesswire.com/news/home/20260917137088/en/CoreWeave-Prices-Upsized-$3.7-Billion-Convertible-Senior-Notes-Offering",
+      "date": "2026-09-18",
       "severity": "medium",
-      "note": "CoreWeave priced $3B of convertible senior notes (option for $500M more) plus a 35M-share ATM equity program, explicitly framed as migrating its credit profile toward investment grade — a dilutive scramble for balance-sheet flexibility that the market read as a stress signal despite the company also touting $25B in new customer commitments."
+      "note": "The upsized deal priced with a coupon roughly 64% higher than CoreWeave's prior 2032 convertible from April, and the initial announcement knocked the stock down ~7%, despite the company also touting $25B of new customer commitments — a real-time read on CoreWeave's rising cost of capital."
+    },
+    {
+      "headline": "CleanSpark's debut junk bond for Meta-anchored data center prices at 8.25% yield despite 4x oversubscription",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-18/meta-tied-data-center-draws-blowout-demand-for-debut-junk-bond",
+      "date": "2026-09-18",
+      "severity": "low",
+      "note": "First-ever junk bond backed by a Meta data-center lease (Sandersville, GA; $6.6B/20-yr lease) priced to yield 8.25%, about 1.75pp over the average BB-rated yield — a data point that even Meta-anchored AI infrastructure debt is clearing at speculative-grade pricing."
     }
   ]
 }
