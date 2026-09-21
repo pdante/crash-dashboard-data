@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-09-21T17:15:13+00:00",
+ "generated_at": "2026-09-21T18:13:04+00:00",
  "run_label": "mid-day",
  "composite": 10.8,
  "base_composite": 10.8,
@@ -69,10 +69,10 @@
    "weight": 0.12,
    "status": 0,
    "display": "+0.7% 10d",
-   "delta": "+0.0% 5d",
+   "delta": "+0.1% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
    "asof": "2026-09-21",
-   "value": 0.006922233694437008,
+   "value": 0.007027304425303971,
    "subscores": {}
   },
   {
@@ -83,7 +83,7 @@
    "status": 0,
    "display": "-0.2% 10d",
    "delta": "-0.2% 5d",
-   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+0.3pp 10d).",
+   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+0.4pp 10d).",
    "asof": "2026-09-21",
    "value": -0.0024260622478616822,
    "subscores": {}
@@ -115,7 +115,7 @@
    "subscores": {
     "tail": 0,
     "usage": 0,
-    "usage_bn": 0.001
+    "usage_bn": 0.002
    }
   },
   {
@@ -141,7 +141,7 @@
    "delta": "-0.06 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
    "asof": "2026-09-21",
-   "value": 0.8284611777736327,
+   "value": 0.8292011298650133,
    "subscores": {}
   },
   {
@@ -151,14 +151,14 @@
    "weight": 0.0,
    "status": 2,
    "display": "SKEW 148",
-   "delta": "VVIX 87 \u00b7 -6 5d",
-   "detail": "SKEW 148 (expensive \u2265145), VVIX 87 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "delta": "VVIX 86 \u00b7 -6 5d",
+   "detail": "SKEW 148 (expensive \u2265145), VVIX 86 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-09-18",
    "value": 148.10000610351562,
    "subscores": {
     "skew": 2,
     "vvix": 0,
-    "vvix_level": 86.66000366210938
+    "vvix_level": 86.1500015258789
    }
   },
   {
@@ -168,14 +168,14 @@
    "weight": 0.0,
    "status": 1,
    "display": "10th pctile",
-   "delta": "IV\u2212RV +4.6pt",
-   "detail": "VIX 15.0 sits at the 10th percentile of its trailing year (expensive \u226580th); 20d realized 10.4, so implied carries +4.6 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "delta": "IV\u2212RV +4.5pt",
+   "detail": "VIX 15.1 sits at the 10th percentile of its trailing year (expensive \u226580th); 20d realized 10.5, so implied carries +4.5 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-09-21",
-   "value": 4.588902609146558,
+   "value": 4.501454262343264,
    "subscores": {
     "pctile": 0,
     "premium": 1,
-    "realized": 10.431097848617114
+    "realized": 10.548545928391599
    }
   },
   {
@@ -185,13 +185,13 @@
    "weight": 0.12,
    "status": 0,
    "display": "+0.0% vs 60d high",
-   "delta": "+3.3% 10d",
+   "delta": "+3.4% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-09-21",
    "value": 0.0,
    "subscores": {
     "drawdown": 0.0,
-    "mom10": 0.0325489143630302
+    "mom10": 0.03391956092075987
    }
   },
   {
@@ -201,7 +201,7 @@
    "weight": 0.1,
    "status": 0,
    "display": "CRWV -3% \u00b7 ORCL -6% 10d",
-   "delta": "vol \u00d70.7 / \u00d70.7",
+   "delta": "vol \u00d70.7 / \u00d70.8",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
    "asof": "2026-09-21",
    "value": null,
@@ -213,11 +213,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 2,
-   "display": "RSP/SPY -5.0% 20d",
+   "display": "RSP/SPY -5.1% 20d",
    "delta": "86% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
    "asof": "2026-09-21",
-   "value": -0.050163159916301825,
+   "value": -0.05099893881666939,
    "subscores": {}
   },
   {
