@@ -1,29 +1,45 @@
 {
-  "scanned_at": "2026-09-21T17:14:07Z",
+  "scanned_at": "2026-09-22T00:00:00Z",
   "items": [
     {
-      "headline": "SoftBank launches $11B+ junk bond sale to fund next OpenAI investment tranche",
+      "headline": "SoftBank draws over $20B of early interest in its $11B+ junk bond deal for OpenAI funding",
       "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-21/softbank-seeks-over-11-billion-in-junk-bond-deal-for-openai-bet",
-      "date": "2026-09-21",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-22/softbank-draws-over-20-billion-of-early-interest-in-junk-bond",
+      "date": "2026-09-22",
       "severity": "medium",
-      "note": "SoftBank is issuing over $11B in senior unsecured bonds (on top of an already-secured $11.87B loan) to fund the $10B follow-on OpenAI payment due Oct 1, coming right after S&P moved its outlook to negative and its CDS widened to multi-year highs — concrete evidence SoftBank is loading junk-rated debt onto what S&P calls one of its weakest-credit holdings."
+      "note": "Order book has grown to 2x+ the deal size ahead of Thursday pricing, on track to be the biggest non-financial APAC corporate bond ever — SoftBank is loading record junk debt onto its balance sheet specifically to fund its OpenAI commitments."
     },
     {
-      "headline": "CoreWeave upsizes convertible note sale to $3.7B, prices coupon at 2.875% — up from 1.75% in April",
-      "source": "Businesswire / CoreWeave IR",
+      "headline": "CoreWeave prices upsized $3.7B convertible notes at 2.875% coupon; stock fell on announcement",
+      "source": "CoreWeave IR / Businesswire",
       "url": "https://www.businesswire.com/news/home/20260917137088/en/CoreWeave-Prices-Upsized-$3.7-Billion-Convertible-Senior-Notes-Offering",
       "date": "2026-09-18",
       "severity": "medium",
-      "note": "The upsized deal priced with a coupon roughly 64% higher than CoreWeave's prior 2032 convertible from April, and the initial announcement knocked the stock down ~7%, despite the company also touting $25B of new customer commitments — a real-time read on CoreWeave's rising cost of capital."
+      "note": "Deal was upsized from a $3B target and priced with a coupon roughly 64% higher than CoreWeave's April convertible, a live read on the company's rising cost of capital as its debt load approaches $36B."
     },
     {
-      "headline": "CleanSpark's debut junk bond for Meta-anchored data center prices at 8.25% yield despite 4x oversubscription",
+      "headline": "Sona Asset Management maps $3.6T of AI financing, flags ~120 of 176 deals as 'highly circular'",
+      "source": "Yahoo Finance / Benzinga",
+      "url": "https://finance.yahoo.com/technology/ai/articles/oracle-coreweave-dump-ais-3-134326308.html",
+      "date": "2026-09-18",
+      "severity": "medium",
+      "note": "Research names Oracle ($125.3B debt + $288B undisclosed data-center leases) and CoreWeave ($35.6B debt) as the most leveraged nodes in a circular Nvidia-OpenAI-cloud financing web where an OpenAI spending slowdown could cascade through suppliers."
+    },
+    {
+      "headline": "Oracle's 5-year CDS spread tops 200bps, matching 2008 crisis levels, as critics say BBB- rating is too generous",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/09/18/sp-kept-oracle-investment-grade-its-own-numbers-dont-support-that-call/",
+      "date": "2026-09-18",
+      "severity": "low",
+      "note": "S&P's own projections show Oracle free cash flow declining 32% and staying negative through 2027, yet it kept Oracle one notch above junk — a growing gap between rating-agency assessment and market-implied credit risk."
+    },
+    {
+      "headline": "CleanSpark's debut junk bond for a Meta-anchored data center prices at 8.25% yield despite 4x oversubscription",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-09-18/meta-tied-data-center-draws-blowout-demand-for-debut-junk-bond",
       "date": "2026-09-18",
       "severity": "low",
-      "note": "First-ever junk bond backed by a Meta data-center lease (Sandersville, GA; $6.6B/20-yr lease) priced to yield 8.25%, about 1.75pp over the average BB-rated yield — a data point that even Meta-anchored AI infrastructure debt is clearing at speculative-grade pricing."
+      "note": "First-ever junk bond backed by a Meta data-center lease cleared at speculative-grade pricing even with heavy demand, a data point on rising financing costs for AI data-center debt generally."
     }
   ]
 }
