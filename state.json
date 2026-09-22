@@ -1,17 +1,16 @@
 {
  "schema": 2,
- "generated_at": "2026-09-21T20:29:00+00:00",
- "run_label": "post-close",
- "composite": 10.8,
- "base_composite": 10.8,
+ "generated_at": "2026-09-22T00:11:58+00:00",
+ "run_label": "pre-open",
+ "composite": 7.5,
+ "base_composite": 7.5,
  "tier": "GREEN",
  "regime": "credit-led",
  "override": null,
  "reasons": [
-  "Red: Breadth (RSP/SPY, % above 50dma)",
-  "Amber: CCC credit spread (OAS)",
+  "Amber: CCC credit spread (OAS), Breadth (RSP/SPY, % above 50dma)",
   "Regime: credit-led \u2014 Credit is involved \u2014 more serious than an equity-only dip.",
-  "Hedge pricing (not in composite): Put skew / cost of tail insurance expensive, Implied vol richness (VIX pctile, IV\u2212RV) moderate"
+  "Hedge pricing (not in composite): Put skew / cost of tail insurance moderate, Implied vol richness (VIX pctile, IV\u2212RV) moderate"
  ],
  "news_escalated": false,
  "unknown_indicators": [],
@@ -68,11 +67,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "+0.6% 10d",
-   "delta": "-0.1% 5d",
+   "display": "+0.8% 10d",
+   "delta": "+0.1% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
-   "asof": "2026-09-21",
-   "value": 0.005931115282378219,
+   "asof": "2026-09-18",
+   "value": 0.007574805567657883,
    "subscores": {}
   },
   {
@@ -81,11 +80,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "-0.2% 10d",
-   "delta": "-0.2% 5d",
-   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+0.4pp 10d).",
-   "asof": "2026-09-21",
-   "value": -0.0024260622478616822,
+   "display": "+0.3% 10d",
+   "delta": "+0.3% 5d",
+   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+1.2pp 10d).",
+   "asof": "2026-09-18",
+   "value": 0.003399693749658317,
    "subscores": {}
   },
   {
@@ -138,10 +137,10 @@
    "weight": 0.16,
    "status": 0,
    "display": "0.82",
-   "delta": "-0.07 5d",
+   "delta": "-0.06 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
    "asof": "2026-09-21",
-   "value": 0.8205980140127818,
+   "value": 0.8224557493532896,
    "subscores": {}
   },
   {
@@ -149,16 +148,16 @@
    "label": "Put skew / cost of tail insurance",
    "group": "Hedge pricing",
    "weight": 0.0,
-   "status": 2,
-   "display": "SKEW 148",
-   "delta": "VVIX 86 \u00b7 -6 5d",
-   "detail": "SKEW 148 (expensive \u2265145), VVIX 86 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-09-18",
-   "value": 148.10000610351562,
+   "status": 1,
+   "display": "SKEW 142",
+   "delta": "VVIX 86 \u00b7 -10 5d",
+   "detail": "SKEW 142 (expensive \u2265145), VVIX 86 (expensive \u2265110). Tail insurance is moderately priced. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-09-21",
+   "value": 142.19000244140625,
    "subscores": {
-    "skew": 2,
+    "skew": 1,
     "vvix": 0,
-    "vvix_level": 85.83000183105469
+    "vvix_level": 85.7699966430664
    }
   },
   {
@@ -168,14 +167,14 @@
    "weight": 0.0,
    "status": 1,
    "display": "7th pctile",
-   "delta": "IV\u2212RV +4.2pt",
-   "detail": "VIX 14.8 sits at the 7th percentile of its trailing year (expensive \u226580th); 20d realized 10.6, so implied carries +4.2 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "delta": "IV\u2212RV +5.7pt",
+   "detail": "VIX 14.9 sits at the 7th percentile of its trailing year (expensive \u226580th); 20d realized 9.2, so implied carries +5.7 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-09-21",
-   "value": 4.201201851985935,
+   "value": 5.693934943734044,
    "subscores": {
     "pctile": 0,
     "premium": 1,
-    "realized": 10.618797842838283
+    "realized": 9.176064941825038
    }
   },
   {
@@ -184,14 +183,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 0,
-   "display": "+0.0% vs 60d high",
-   "delta": "+3.5% 10d",
+   "display": "-2.0% vs 60d high",
+   "delta": "+2.2% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
-   "asof": "2026-09-21",
-   "value": 0.0,
+   "asof": "2026-09-18",
+   "value": -0.01988589371877414,
    "subscores": {
-    "drawdown": 0.0,
-    "mom10": 0.03451614003385206
+    "drawdown": -0.01988589371877414,
+    "mom10": 0.02153591612679273
    }
   },
   {
@@ -200,10 +199,10 @@
    "group": "AI sector",
    "weight": 0.1,
    "status": 0,
-   "display": "CRWV -4% \u00b7 ORCL -6% 10d",
-   "delta": "vol \u00d70.6 / \u00d70.7",
+   "display": "CRWV -4% \u00b7 ORCL -4% 10d",
+   "delta": "vol \u00d70.6 / \u00d70.8",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
-   "asof": "2026-09-21",
+   "asof": "2026-09-18",
    "value": null,
    "subscores": {}
   },
@@ -212,12 +211,12 @@
    "label": "Breadth (RSP/SPY, % above 50dma)",
    "group": "Backdrop",
    "weight": 0.08,
-   "status": 2,
-   "display": "RSP/SPY -5.3% 20d",
-   "delta": "86% of basket > 50dma",
+   "status": 1,
+   "display": "RSP/SPY -3.8% 20d",
+   "delta": "71% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
-   "asof": "2026-09-21",
-   "value": -0.05255879149072196,
+   "asof": "2026-09-18",
+   "value": -0.03751072685400392,
    "subscores": {}
   },
   {
@@ -226,11 +225,11 @@
    "group": "Backdrop",
    "weight": 0.04,
    "status": 0,
-   "display": "+0.87%",
-   "delta": "-0.02 5d",
+   "display": "+0.79%",
+   "delta": "-0.07 5d",
    "detail": "Inversion is a 6\u201318 month gauge, not a timing signal \u2014 capped at amber.",
-   "asof": "2026-09-18",
-   "value": 0.87,
+   "asof": "2026-09-21",
+   "value": 0.79,
    "subscores": {}
   }
  ],
