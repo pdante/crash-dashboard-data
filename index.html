@@ -91,7 +91,7 @@
 <main>
   <header>
     <h1>AI Crash Monitor</h1>
-    <span class="asof">post-close · <time id="gen-time">2026-09-23T19:44Z</time>
+    <span class="asof">post-close · <time id="gen-time">2026-09-23T23:49Z</time>
     <span class="stale-badge">STALE DATA</span></span>
   </header>
 
@@ -103,7 +103,7 @@
     </div>
     <div class="blurb">No unusual stress in the monitored signals.</div>
     <div class="regime">Regime: credit-led <span>— credit is involved — more serious than an equity-only dip</span></div>
-    <ul><li>Red: Breadth (RSP/SPY, % above 50dma)</li><li>Amber: CCC credit spread (OAS), Periphery canaries (CRWV, ORCL)</li><li>Regime: credit-led — Credit is involved — more serious than an equity-only dip.</li><li>Hedge pricing (not in composite): Put skew / cost of tail insurance moderate, Implied vol richness (VIX pctile, IV−RV) moderate</li></ul>
+    <ul><li>Red: Breadth (RSP/SPY, % above 50dma)</li><li>Amber: CCC credit spread (OAS), Periphery canaries (CRWV, ORCL)</li><li>Regime: credit-led — Credit is involved — more serious than an equity-only dip.</li><li>Hedge pricing (not in composite): Put skew / cost of tail insurance expensive, Implied vol richness (VIX pctile, IV−RV) moderate</li></ul>
   </div>
 
   <div class="tiles">
@@ -125,17 +125,17 @@
       <div class="tile">
         <div class="tile-label">HYG/IEF ratio (credit vs safety)</div>
         <div class="tile-value">+0.9% 10d</div>
-        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+0.4% 5d</span></div>
+        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+0.3% 5d</span></div>
       </div>
       <div class="tile">
         <div class="tile-label">AI basket drawdown / momentum</div>
-        <div class="tile-value">-1.3% vs 60d high</div>
+        <div class="tile-value">-1.4% vs 60d high</div>
         <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+2.0% 10d</span></div>
       </div>
       <div class="tile">
         <div class="tile-label">Put skew / cost of tail insurance</div>
-        <div class="tile-value">SKEW 142</div>
-        <div class="tile-foot"><span class="badge warning"><span class="icon">▲</span>MODERATE</span><span class="delta">VVIX 89 · -10 5d</span></div>
+        <div class="tile-value">SKEW 146</div>
+        <div class="tile-foot"><span class="badge critical"><span class="icon">■</span>EXPENSIVE</span><span class="delta">VVIX 89 · -0 5d</span></div>
       </div>
   </div>
 
@@ -159,12 +159,12 @@
         </tr>
         <tr>
           <td class="ind-label">HYG/IEF ratio (credit vs safety)<div class="detail">High-yield ETF vs Treasuries — a same-day credit read with no FRED lag.</div></td>
-          <td class="num">+0.9% 10d<div class="delta">+0.4% 5d</div></td>
+          <td class="num">+0.9% 10d<div class="delta">+0.3% 5d</div></td>
           <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-09-23</div></td>
         </tr>
         <tr>
-          <td class="ind-label">Leveraged loans (BKLN)<div class="detail">Floating-rate senior secured loans — isolates credit risk from rate moves. Loans outperforming HY by 1.6pp over 10d — that HY weakness is more rates than credit.</div></td>
-          <td class="num">+0.3% 10d<div class="delta">+0.1% 5d</div></td>
+          <td class="ind-label">Leveraged loans (BKLN)<div class="detail">Floating-rate senior secured loans — isolates credit risk from rate moves. Loans outperforming HY by 1.5pp over 10d — that HY weakness is more rates than credit.</div></td>
+          <td class="num">+0.2% 10d<div class="delta">-0.0% 5d</div></td>
           <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-09-23</div></td>
         </tr>
         <tr>
@@ -189,7 +189,7 @@
         </tr><tr class="group-row"><td colspan="3">AI sector</td></tr>
         <tr>
           <td class="ind-label">AI basket drawdown / momentum<div class="detail">Equal-weight basket of 14 AI-exposed names.</div></td>
-          <td class="num">-1.3% vs 60d high<div class="delta">+2.0% 10d</div></td>
+          <td class="num">-1.4% vs 60d high<div class="delta">+2.0% 10d</div></td>
           <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-09-23</div></td>
         </tr>
         <tr>
@@ -199,18 +199,18 @@
         </tr><tr class="group-row"><td colspan="3">Backdrop</td></tr>
         <tr>
           <td class="ind-label">Breadth (RSP/SPY, % above 50dma)<div class="detail">Narrowing breadth = fragility backdrop; slow signal, low weight.</div></td>
-          <td class="num">RSP/SPY -5.1% 20d<div class="delta">71% of basket &gt; 50dma</div></td>
+          <td class="num">RSP/SPY -5.2% 20d<div class="delta">71% of basket &gt; 50dma</div></td>
           <td class="status-cell"><span class="badge critical"><span class="icon">■</span>ALERT</span><div class="asof">2026-09-23</div></td>
         </tr>
         <tr>
           <td class="ind-label">Yield curve (10y−3m)<div class="detail">Inversion is a 6–18 month gauge, not a timing signal — capped at amber.</div></td>
-          <td class="num">+0.80%<div class="delta">-0.09 5d</div></td>
-          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-09-22</div></td>
+          <td class="num">+0.92%<div class="delta">+0.05 5d</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-09-23</div></td>
         </tr><tr class="group-row"><td colspan="3">Hedge pricing <span class="group-note">cost of protection · not part of the composite</span></td></tr>
         <tr>
-          <td class="ind-label">Put skew / cost of tail insurance<div class="detail">SKEW 142 (expensive ≥145), VVIX 89 (expensive ≥110). Tail insurance is moderately priced. Cost tier, not a risk tier — excluded from the composite.</div></td>
-          <td class="num">SKEW 142<div class="delta">VVIX 89 · -10 5d</div></td>
-          <td class="status-cell"><span class="badge warning"><span class="icon">▲</span>MODERATE</span><div class="asof">2026-09-21</div></td>
+          <td class="ind-label">Put skew / cost of tail insurance<div class="detail">SKEW 146 (expensive ≥145), VVIX 89 (expensive ≥110). Tail insurance is expensive — you would be paying up for the tail. Cost tier, not a risk tier — excluded from the composite.</div></td>
+          <td class="num">SKEW 146<div class="delta">VVIX 89 · -0 5d</div></td>
+          <td class="status-cell"><span class="badge critical"><span class="icon">■</span>EXPENSIVE</span><div class="asof">2026-09-23</div></td>
         </tr>
         <tr>
           <td class="ind-label">Implied vol richness (VIX pctile, IV−RV)<div class="detail">VIX 15.2 sits at the 12th percentile of its trailing year (expensive ≥80th); 20d realized 10.9, so implied carries +4.3 vol points of premium (expensive ≥8). Cost tier, not a risk tier — excluded from the composite.</div></td>
@@ -245,7 +245,7 @@
 </main>
 <script>
   (function () {
-    var age = Date.now() - 1790192641000;
+    var age = Date.now() - 1790207342000;
     if (age > 30 * 3600 * 1000) { document.body.classList.add("stale"); }
   })();
 </script>
