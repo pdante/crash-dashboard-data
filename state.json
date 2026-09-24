@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-09-24T15:57:48+00:00",
+ "generated_at": "2026-09-24T17:14:47+00:00",
  "run_label": "mid-day",
  "composite": 30.0,
  "base_composite": 15.0,
@@ -69,11 +69,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "+0.9% 10d",
-   "delta": "+0.3% 5d",
+   "display": "+0.8% 10d",
+   "delta": "+0.2% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
    "asof": "2026-09-24",
-   "value": 0.00853158253372377,
+   "value": 0.007941065907711486,
    "subscores": {}
   },
   {
@@ -82,11 +82,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "+0.1% 10d",
+   "display": "+0.2% 10d",
    "delta": "-0.0% 5d",
-   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Loans outperforming HY by 1.5pp over 10d \u2014 that HY weakness is more rates than credit.",
+   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+1.5pp 10d).",
    "asof": "2026-09-24",
-   "value": 0.0014461107176422239,
+   "value": 0.0019345130941301747,
    "subscores": {}
   },
   {
@@ -138,11 +138,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.87",
-   "delta": "-0.03 5d",
+   "display": "0.84",
+   "delta": "-0.05 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
    "asof": "2026-09-24",
-   "value": 0.866950512070806,
+   "value": 0.8448464934639324,
    "subscores": {}
   },
   {
@@ -152,14 +152,14 @@
    "weight": 0.0,
    "status": 2,
    "display": "SKEW 146",
-   "delta": "VVIX 93 \u00b7 -0 5d",
-   "detail": "SKEW 146 (expensive \u2265145), VVIX 93 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "delta": "VVIX 89 \u00b7 -0 5d",
+   "detail": "SKEW 146 (expensive \u2265145), VVIX 89 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-09-23",
    "value": 146.14999389648438,
    "subscores": {
     "skew": 2,
     "vvix": 0,
-    "vvix_level": 92.94000244140625
+    "vvix_level": 89.41000366210938
    }
   },
   {
@@ -168,15 +168,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 1,
-   "display": "30th pctile",
-   "delta": "IV\u2212RV +5.3pt",
-   "detail": "VIX 16.3 sits at the 30th percentile of its trailing year (expensive \u226580th); 20d realized 11.0, so implied carries +5.3 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "display": "16th pctile",
+   "delta": "IV\u2212RV +4.5pt",
+   "detail": "VIX 15.4 sits at the 16th percentile of its trailing year (expensive \u226580th); 20d realized 10.9, so implied carries +4.5 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-09-24",
-   "value": 5.28287322942842,
+   "value": 4.542180229191905,
    "subscores": {
     "pctile": 0,
     "premium": 1,
-    "realized": 11.007127686098924
+    "realized": 10.867819618220205
    }
   },
   {
@@ -185,14 +185,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 0,
-   "display": "-2.5% vs 60d high",
-   "delta": "+3.6% 10d",
+   "display": "-1.0% vs 60d high",
+   "delta": "+5.1% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-09-24",
-   "value": -0.024642582288033732,
+   "value": -0.010095201567907663,
    "subscores": {
-    "drawdown": -0.024642582288033732,
-    "mom10": 0.03591275795616067
+    "drawdown": -0.010095201567907663,
+    "mom10": 0.05136331690938567
    }
   },
   {
@@ -201,7 +201,7 @@
    "group": "AI sector",
    "weight": 0.1,
    "status": 1,
-   "display": "CRWV -3% \u00b7 ORCL -10% 10d",
+   "display": "CRWV +2% \u00b7 ORCL -9% 10d",
    "delta": "vol \u00d70.7 / \u00d70.9",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
    "asof": "2026-09-24",
@@ -214,11 +214,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 2,
-   "display": "RSP/SPY -5.0% 20d",
+   "display": "RSP/SPY -5.1% 20d",
    "delta": "64% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
    "asof": "2026-09-24",
-   "value": -0.04965817460249089,
+   "value": -0.05143461912457048,
    "subscores": {}
   },
   {
