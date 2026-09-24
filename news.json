@@ -1,21 +1,37 @@
 {
-  "scanned_at": "2026-09-23T15:38:31Z",
+  "scanned_at": "2026-09-24T18:00:00Z",
   "items": [
     {
-      "headline": "Jane Street-linked Zenith Arc data-center bonds sour, secondary yield jumps to ~11.3% a month after 9% pricing",
-      "source": "The Information",
-      "url": "https://www.theinformation.com/articles/jane-street-linked-data-center-debt-sours",
-      "date": "2026-09-21",
-      "severity": "medium",
-      "note": "The $2.25B BB-rated Zenith Arc notes (Fluidstack/Coatue, backing an Oklahoma data center leased to Jane Street) priced near 9% in August and are already trading roughly 230bps wider, a concrete markdown signal for non-investment-grade AI data-center paper."
+      "headline": "Oracle invokes 'force majeure' on Blue Owl's $165B Project Jupiter data center, stock sinks 5-7%",
+      "source": "CNBC / Bloomberg",
+      "url": "https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html",
+      "date": "2026-09-24",
+      "severity": "high",
+      "note": "Oracle sent a force-majeure notice seeking the right to defer payments if the Stargate-adjacent New Mexico campus misses its 2028 open date after regulators repeatedly denied a required pipeline right-of-way; the $18B of debt already backing the project is trading at stressed levels — a realized, forced protective action, not commentary."
     },
     {
-      "headline": "Goldman kicks off $1.1B junk-bond sale for a Blue Owl-sponsored, CoreWeave-leased data center",
+      "headline": "Blue Owl-sponsored, CoreWeave-leased 'Digital Drive' data center closes $1.1B junk bond at 9.25%, BB-",
       "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-21/coreweave-tied-data-center-project-kicks-off-junk-bond-offering",
-      "date": "2026-09-21",
-      "severity": "low",
-      "note": "Early yield talk of low-to-mid 9% on the Digital Drive campus deal (fully leased to CoreWeave on a 15-year, $2.94B contract) is another live read on the junk-level cost of capital financing the neocloud buildout, from the same Blue Owl-CoreWeave pairing whose $4B financing collapsed in February."
+      "url": "https://www.bloomberg.com/news/articles/2026-09-23/coreweave-tied-data-center-raises-1-1-billion-in-junk-bonds",
+      "date": "2026-09-23",
+      "severity": "medium",
+      "note": "The five-year notes priced at 98.5c to yield 9.25%, roughly 2.7pp above comparable debt, with S&P rating the deal BB- and flagging 'exposure to a single, speculative-grade tenant' as the key risk — concrete evidence lenders are pricing in real CoreWeave counterparty risk even as the deal got done."
+    },
+    {
+      "headline": "Jane Street-linked Zenith Arc data-center bonds keep souring, secondary yield near 11.3% a month after 9% pricing",
+      "source": "The Information",
+      "url": "https://www.theinformation.com/articles/jane-street-linked-data-center-debt-sours",
+      "date": "2026-09-23",
+      "severity": "medium",
+      "note": "The $2.25B BB-rated Zenith Arc green notes (Oklahoma data center leased to Jane Street) priced near 9% in August and are still trading markedly wider in FINRA data as of Sept 23-24, a persistent markdown signal for non-investment-grade AI data-center paper rather than a one-day blip."
+    },
+    {
+      "headline": "Alphabet, Meta and Nvidia bond spreads widen 15-19bps as AI-linked issuance scales up",
+      "source": "Benzinga",
+      "url": "https://www.benzinga.com/markets/bonds/26/09/61914657/big-techs-ai-debt-spree-hits-a-wall-as-bond-investors-demand-higher-yields-from-alphabet-meta-and-nvidia",
+      "date": "2026-09-20",
+      "severity": "medium",
+      "note": "Alphabet's spread widened from 56 to 71bps as deal size grew from $1.25B to $3.5B, with Meta and Nvidia seeing similar 15-19bps widening on $4B offerings; AI-linked issuer spreads (~115bps) now trade well wide of the broad IG market (~78bps) — a market-wide repricing of AI infrastructure credit risk, not a single-name story."
     }
   ]
 }
