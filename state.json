@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-09-25T20:04:05+00:00",
+ "generated_at": "2026-09-25T23:59:19+00:00",
  "run_label": "post-close",
  "composite": 30.0,
  "base_composite": 15.0,
@@ -12,7 +12,7 @@
   "Red: Breadth (RSP/SPY, % above 50dma)",
   "Amber: CCC credit spread (OAS), Periphery canaries (CRWV, ORCL)",
   "Regime: credit-led \u2014 Credit is involved \u2014 more serious than an equity-only dip.",
-  "Hedge pricing (not in composite): Put skew / cost of tail insurance expensive, Implied vol richness (VIX pctile, IV\u2212RV) cheap"
+  "Hedge pricing (not in composite): Put skew / cost of tail insurance moderate, Implied vol richness (VIX pctile, IV\u2212RV) moderate"
  ],
  "news_escalated": true,
  "unknown_indicators": [],
@@ -73,7 +73,7 @@
    "delta": "+0.0% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
    "asof": "2026-09-25",
-   "value": 0.0016375684739531327,
+   "value": 0.0017018602541445382,
    "subscores": {}
   },
   {
@@ -142,7 +142,7 @@
    "delta": "+0.02 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
    "asof": "2026-09-25",
-   "value": 0.8308989098752015,
+   "value": 0.8293362873656293,
    "subscores": {}
   },
   {
@@ -150,16 +150,16 @@
    "label": "Put skew / cost of tail insurance",
    "group": "Hedge pricing",
    "weight": 0.0,
-   "status": 2,
-   "display": "SKEW 146",
-   "delta": "VVIX 88 \u00b7 +0 5d",
-   "detail": "SKEW 146 (expensive \u2265145), VVIX 88 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-09-24",
-   "value": 146.0399932861328,
+   "status": 1,
+   "display": "SKEW 145",
+   "delta": "VVIX 88 \u00b7 -3 5d",
+   "detail": "SKEW 145 (expensive \u2265145), VVIX 88 (expensive \u2265110). Tail insurance is moderately priced. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-09-25",
+   "value": 144.91000366210938,
    "subscores": {
-    "skew": 2,
+    "skew": 1,
     "vvix": 0,
-    "vvix_level": 87.7699966430664
+    "vvix_level": 87.83999633789062
    }
   },
   {
@@ -167,16 +167,16 @@
    "label": "Implied vol richness (VIX pctile, IV\u2212RV)",
    "group": "Hedge pricing",
    "weight": 0.0,
-   "status": 0,
-   "display": "7th pctile",
-   "delta": "IV\u2212RV +4.0pt",
-   "detail": "VIX 14.8 sits at the 7th percentile of its trailing year (expensive \u226580th); 20d realized 10.8, so implied carries +4.0 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "status": 1,
+   "display": "8th pctile",
+   "delta": "IV\u2212RV +4.1pt",
+   "detail": "VIX 14.9 sits at the 8th percentile of its trailing year (expensive \u226580th); 20d realized 10.8, so implied carries +4.1 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-09-25",
-   "value": 3.995548641866998,
+   "value": 4.076394991360473,
    "subscores": {
     "pctile": 0,
-    "premium": 0,
-    "realized": 10.79445131998603
+    "premium": 1,
+    "realized": 10.793604894198609
    }
   },
   {
@@ -189,10 +189,10 @@
    "delta": "+4.3% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-09-25",
-   "value": -0.005001869995554742,
+   "value": -0.004959848543522605,
    "subscores": {
-    "drawdown": -0.005001869995554742,
-    "mom10": 0.04269638341982174
+    "drawdown": -0.004959848543522605,
+    "mom10": 0.04274041929761774
    }
   },
   {
@@ -218,7 +218,7 @@
    "delta": "64% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
    "asof": "2026-09-25",
-   "value": -0.04580074050080041,
+   "value": -0.04578835791021307,
    "subscores": {}
   },
   {
@@ -227,11 +227,11 @@
    "group": "Backdrop",
    "weight": 0.04,
    "status": 0,
-   "display": "+0.94%",
-   "delta": "+0.12 5d",
+   "display": "+0.93%",
+   "delta": "+0.06 5d",
    "detail": "Inversion is a 6\u201318 month gauge, not a timing signal \u2014 capped at amber.",
-   "asof": "2026-09-24",
-   "value": 0.94,
+   "asof": "2026-09-25",
+   "value": 0.93,
    "subscores": {}
   }
  ],
