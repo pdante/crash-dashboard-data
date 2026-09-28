@@ -1,15 +1,15 @@
 {
  "schema": 2,
- "generated_at": "2026-09-28T18:43:22+00:00",
- "run_label": "mid-day",
- "composite": 10.8,
- "base_composite": 10.8,
+ "generated_at": "2026-09-28T19:41:47+00:00",
+ "run_label": "post-close",
+ "composite": 15.0,
+ "base_composite": 15.0,
  "tier": "GREEN",
  "regime": "credit-led",
  "override": null,
  "reasons": [
   "Red: Breadth (RSP/SPY, % above 50dma)",
-  "Amber: CCC credit spread (OAS)",
+  "Amber: CCC credit spread (OAS), Periphery canaries (CRWV, ORCL)",
   "Regime: credit-led \u2014 Credit is involved \u2014 more serious than an equity-only dip.",
   "Hedge pricing (not in composite): Put skew / cost of tail insurance moderate, Implied vol richness (VIX pctile, IV\u2212RV) moderate"
  ],
@@ -68,11 +68,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "+0.3% 10d",
+   "display": "+0.2% 10d",
    "delta": "+0.3% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
    "asof": "2026-09-28",
-   "value": 0.0028618866513927532,
+   "value": 0.002096053122264019,
    "subscores": {}
   },
   {
@@ -83,7 +83,7 @@
    "status": 0,
    "display": "-0.1% 10d",
    "delta": "-0.4% 5d",
-   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+1.2pp 10d).",
+   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+1.3pp 10d).",
    "asof": "2026-09-28",
    "value": -0.0009894439765969487,
    "subscores": {}
@@ -138,10 +138,10 @@
    "weight": 0.16,
    "status": 0,
    "display": "0.88",
-   "delta": "+0.05 5d",
+   "delta": "+0.06 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
    "asof": "2026-09-28",
-   "value": 0.8774157817664638,
+   "value": 0.8800219980174911,
    "subscores": {}
   },
   {
@@ -151,14 +151,14 @@
    "weight": 0.0,
    "status": 1,
    "display": "SKEW 145",
-   "delta": "VVIX 90 \u00b7 -3 5d",
-   "detail": "SKEW 145 (expensive \u2265145), VVIX 90 (expensive \u2265110). Tail insurance is moderately priced. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "delta": "VVIX 91 \u00b7 -3 5d",
+   "detail": "SKEW 145 (expensive \u2265145), VVIX 91 (expensive \u2265110). Tail insurance is moderately priced. Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-09-25",
    "value": 144.91000366210938,
    "subscores": {
     "skew": 1,
     "vvix": 0,
-    "vvix_level": 90.4800033569336
+    "vvix_level": 90.83000183105469
    }
   },
   {
@@ -169,13 +169,13 @@
    "status": 1,
    "display": "26th pctile",
    "delta": "IV\u2212RV +4.9pt",
-   "detail": "VIX 15.9 sits at the 26th percentile of its trailing year (expensive \u226580th); 20d realized 11.0, so implied carries +4.9 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "detail": "VIX 16.0 sits at the 26th percentile of its trailing year (expensive \u226580th); 20d realized 11.1, so implied carries +4.9 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-09-28",
-   "value": 4.916314239554861,
+   "value": 4.8581141458326975,
    "subscores": {
     "pctile": 0,
     "premium": 1,
-    "realized": 10.973686103767893
+    "realized": 11.131885625285467
    }
   },
   {
@@ -184,14 +184,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 0,
-   "display": "-2.1% vs 60d high",
-   "delta": "+6.0% 10d",
+   "display": "-2.4% vs 60d high",
+   "delta": "+5.8% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-09-28",
-   "value": -0.021234016488620444,
+   "value": -0.023855348566283685,
    "subscores": {
-    "drawdown": -0.021234016488620444,
-    "mom10": 0.06039793964404372
+    "drawdown": -0.023855348566283685,
+    "mom10": 0.05755798077634289
    }
   },
   {
@@ -199,8 +199,8 @@
    "label": "Periphery canaries (CRWV, ORCL)",
    "group": "AI sector",
    "weight": 0.1,
-   "status": 0,
-   "display": "CRWV +4% \u00b7 ORCL -8% 10d",
+   "status": 1,
+   "display": "CRWV +3% \u00b7 ORCL -8% 10d",
    "delta": "vol \u00d70.7 / \u00d70.9",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
    "asof": "2026-09-28",
@@ -213,11 +213,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 2,
-   "display": "RSP/SPY -4.4% 20d",
-   "delta": "64% of basket > 50dma",
+   "display": "RSP/SPY -4.3% 20d",
+   "delta": "57% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
    "asof": "2026-09-28",
-   "value": -0.044063987300265284,
+   "value": -0.04316152849678223,
    "subscores": {}
   },
   {
