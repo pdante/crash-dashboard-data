@@ -1,20 +1,19 @@
 {
  "schema": 2,
- "generated_at": "2026-09-25T23:59:19+00:00",
- "run_label": "post-close",
- "composite": 30.0,
- "base_composite": 15.0,
- "tier": "AMBER",
+ "generated_at": "2026-09-28T18:43:22+00:00",
+ "run_label": "mid-day",
+ "composite": 10.8,
+ "base_composite": 10.8,
+ "tier": "GREEN",
  "regime": "credit-led",
  "override": null,
  "reasons": [
-  "High-severity credit-event news in the last 48h (+15 pts): Oracle invokes 'force majeure' on Blue Owl's $165B Project Jupiter data center, stock falls 3%",
   "Red: Breadth (RSP/SPY, % above 50dma)",
-  "Amber: CCC credit spread (OAS), Periphery canaries (CRWV, ORCL)",
+  "Amber: CCC credit spread (OAS)",
   "Regime: credit-led \u2014 Credit is involved \u2014 more serious than an equity-only dip.",
   "Hedge pricing (not in composite): Put skew / cost of tail insurance moderate, Implied vol richness (VIX pctile, IV\u2212RV) moderate"
  ],
- "news_escalated": true,
+ "news_escalated": false,
  "unknown_indicators": [],
  "indicators": [
   {
@@ -23,11 +22,11 @@
    "group": "Credit & funding",
    "weight": 0.16,
    "status": 0,
-   "display": "2.80%",
-   "delta": "+10bp 5d",
-   "detail": "Level 2.80% (amber \u22654.5%), 5d change +10bp (amber \u2265+30bp). A fast widening is the best short-lead credit signal.",
-   "asof": "2026-09-24",
-   "value": 2.8,
+   "display": "2.93%",
+   "delta": "+25bp 5d",
+   "detail": "Level 2.93% (amber \u22654.5%), 5d change +25bp (amber \u2265+30bp). A fast widening is the best short-lead credit signal.",
+   "asof": "2026-09-25",
+   "value": 2.93,
    "subscores": {
     "level": 0,
     "chg5": 0
@@ -39,15 +38,15 @@
    "group": "Credit & funding",
    "weight": 0.08,
    "status": 0,
-   "display": "0.79%",
-   "delta": "+1bp 5d",
-   "detail": "Level 0.79% (amber \u22651.3%), 5d change +1bp (amber \u2265+15bp). Both tiers calm (HY/IG 3.5\u00d7).",
-   "asof": "2026-09-24",
-   "value": 0.79,
+   "display": "0.81%",
+   "delta": "+4bp 5d",
+   "detail": "Level 0.81% (amber \u22651.3%), 5d change +4bp (amber \u2265+15bp). Both tiers calm (HY/IG 3.6\u00d7).",
+   "asof": "2026-09-25",
+   "value": 0.81,
    "subscores": {
     "level": 0,
     "chg5": 0,
-    "hy_ig_ratio": 3.5443037974683542
+    "hy_ig_ratio": 3.617283950617284
    }
   },
   {
@@ -56,11 +55,11 @@
    "group": "Credit & funding",
    "weight": 0.1,
    "status": 1,
-   "display": "11.12%",
-   "delta": "+36bp 5d",
+   "display": "11.28%",
+   "delta": "+45bp 5d",
    "detail": "Junkiest credit tier \u2014 closest public proxy for the leveraged AI periphery.",
-   "asof": "2026-09-24",
-   "value": 11.12,
+   "asof": "2026-09-25",
+   "value": 11.28,
    "subscores": {}
   },
   {
@@ -69,11 +68,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "+0.2% 10d",
-   "delta": "+0.0% 5d",
+   "display": "+0.3% 10d",
+   "delta": "+0.3% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
-   "asof": "2026-09-25",
-   "value": 0.0017018602541445382,
+   "asof": "2026-09-28",
+   "value": 0.0028618866513927532,
    "subscores": {}
   },
   {
@@ -82,11 +81,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "+0.3% 10d",
-   "delta": "-0.1% 5d",
+   "display": "-0.1% 10d",
+   "delta": "-0.4% 5d",
    "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+1.2pp 10d).",
-   "asof": "2026-09-25",
-   "value": 0.002667163235476222,
+   "asof": "2026-09-28",
+   "value": -0.0009894439765969487,
    "subscores": {}
   },
   {
@@ -95,11 +94,11 @@
    "group": "Credit & funding",
    "weight": 0.08,
    "status": 0,
-   "display": "-3bp",
+   "display": "-2bp",
    "delta": "3d avg",
    "detail": "Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.",
-   "asof": "2026-09-24",
-   "value": -2.666666666666654,
+   "asof": "2026-09-25",
+   "value": -1.6666666666666607,
    "subscores": {}
   },
   {
@@ -108,11 +107,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "15bp tail",
+   "display": "16bp tail",
    "delta": "Fed repo ops $0.0bn (3d max)",
-   "detail": "SOFR 99th\u22121st percentile 15bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
-   "asof": "2026-09-24",
-   "value": 14.999999999999991,
+   "detail": "SOFR 99th\u22121st percentile 16bp (amber \u226530bp); Fed repo ops $0.0bn (3d max) (amber \u2265$5bn). Needs both legs to confirm stress over calendar effects.",
+   "asof": "2026-09-25",
+   "value": 16.000000000000014,
    "subscores": {
     "tail": 0,
     "usage": 0,
@@ -138,11 +137,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.83",
-   "delta": "+0.02 5d",
+   "display": "0.88",
+   "delta": "+0.05 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-09-25",
-   "value": 0.8293362873656293,
+   "asof": "2026-09-28",
+   "value": 0.8774157817664638,
    "subscores": {}
   },
   {
@@ -152,14 +151,14 @@
    "weight": 0.0,
    "status": 1,
    "display": "SKEW 145",
-   "delta": "VVIX 88 \u00b7 -3 5d",
-   "detail": "SKEW 145 (expensive \u2265145), VVIX 88 (expensive \u2265110). Tail insurance is moderately priced. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "delta": "VVIX 90 \u00b7 -3 5d",
+   "detail": "SKEW 145 (expensive \u2265145), VVIX 90 (expensive \u2265110). Tail insurance is moderately priced. Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-09-25",
    "value": 144.91000366210938,
    "subscores": {
     "skew": 1,
     "vvix": 0,
-    "vvix_level": 87.83999633789062
+    "vvix_level": 90.4800033569336
    }
   },
   {
@@ -168,15 +167,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 1,
-   "display": "8th pctile",
-   "delta": "IV\u2212RV +4.1pt",
-   "detail": "VIX 14.9 sits at the 8th percentile of its trailing year (expensive \u226580th); 20d realized 10.8, so implied carries +4.1 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-09-25",
-   "value": 4.076394991360473,
+   "display": "26th pctile",
+   "delta": "IV\u2212RV +4.9pt",
+   "detail": "VIX 15.9 sits at the 26th percentile of its trailing year (expensive \u226580th); 20d realized 11.0, so implied carries +4.9 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-09-28",
+   "value": 4.916314239554861,
    "subscores": {
     "pctile": 0,
     "premium": 1,
-    "realized": 10.793604894198609
+    "realized": 10.973686103767893
    }
   },
   {
@@ -185,14 +184,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 0,
-   "display": "-0.5% vs 60d high",
-   "delta": "+4.3% 10d",
+   "display": "-2.1% vs 60d high",
+   "delta": "+6.0% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
-   "asof": "2026-09-25",
-   "value": -0.004959848543522605,
+   "asof": "2026-09-28",
+   "value": -0.021234016488620444,
    "subscores": {
-    "drawdown": -0.004959848543522605,
-    "mom10": 0.04274041929761774
+    "drawdown": -0.021234016488620444,
+    "mom10": 0.06039793964404372
    }
   },
   {
@@ -200,11 +199,11 @@
    "label": "Periphery canaries (CRWV, ORCL)",
    "group": "AI sector",
    "weight": 0.1,
-   "status": 1,
-   "display": "CRWV -2% \u00b7 ORCL -9% 10d",
+   "status": 0,
+   "display": "CRWV +4% \u00b7 ORCL -8% 10d",
    "delta": "vol \u00d70.7 / \u00d70.9",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
-   "asof": "2026-09-25",
+   "asof": "2026-09-28",
    "value": null,
    "subscores": {}
   },
@@ -214,11 +213,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 2,
-   "display": "RSP/SPY -4.6% 20d",
+   "display": "RSP/SPY -4.4% 20d",
    "delta": "64% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
-   "asof": "2026-09-25",
-   "value": -0.04578835791021307,
+   "asof": "2026-09-28",
+   "value": -0.044063987300265284,
    "subscores": {}
   },
   {
@@ -236,47 +235,23 @@
   }
  ],
  "news": {
-  "scanned_at": "2026-09-25T15:59:07Z",
+  "scanned_at": "2026-09-28T12:00:00Z",
   "items": [
    {
-    "headline": "Oracle invokes 'force majeure' on Blue Owl's $165B Project Jupiter data center, stock falls 3%",
-    "source": "CNBC / Bloomberg",
-    "url": "https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html",
-    "date": "2026-09-24",
-    "severity": "high",
-    "note": "Oracle sent a force-majeure notice to shield itself from cost overruns and delay payments after the New Mexico campus's natural-gas pipeline was pushed back ~6 months by repeated state permit denials; the $18B of loans backing the project are now quoted at 89-91 cents on the dollar \u2014 a realized, forced protective action, not commentary."
-   },
-   {
-    "headline": "SoftBank raises record $11.1B junk bond to fund final OpenAI tranche as CDS hits 3-year high",
-    "source": "Bloomberg / Reuters",
-    "url": "https://money.usnews.com/investing/news/articles/2026-09-23/softbank-issues-11-1-billion-in-bonds-in-openai-financing-push",
-    "date": "2026-09-24",
-    "severity": "medium",
-    "note": "The largest high-yield corporate bond sale on record by an Asia-Pacific issuer priced tranches at 8.625%-9.75% to fund SoftBank's $64.6B OpenAI bet; its 5-year CDS spread topped 400bps this week, up from ~200bps in October 2025, concrete evidence of widening credit risk around the OpenAI financing web."
-   },
-   {
-    "headline": "Blue Owl-sponsored, CoreWeave-leased 'Digital Drive' data center closes $1.1B junk bond at 9.25%, BB-",
+    "headline": "Oracle force majeure notice on New Mexico data center to weigh on data center debt, Morgan Stanley says",
     "source": "Bloomberg",
-    "url": "https://www.bloomberg.com/news/articles/2026-09-23/coreweave-tied-data-center-raises-1-1-billion-in-junk-bonds",
-    "date": "2026-09-23",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-25/oracle-notice-to-weigh-on-data-center-debt-morgan-stanley-says",
+    "date": "2026-09-25",
     "severity": "medium",
-    "note": "The five-year notes priced at 98.5c to yield 9.25%, roughly 2.7pp above comparable debt, with S&P flagging 'exposure to a single, speculative-grade tenant' as the key risk \u2014 concrete evidence lenders are pricing in real CoreWeave counterparty risk even as the deal got done."
+    "note": "Oracle's notice puts loan and lease documents for roughly $18B of loans tied to the leased site under scrutiny, which could complicate other data-center financings."
    },
    {
-    "headline": "Jane Street-linked Zenith Arc data-center bonds keep souring, secondary yield near 11.3% a month after 9% pricing",
-    "source": "The Information / Gurufocus",
-    "url": "https://www.theinformation.com/articles/jane-street-linked-data-center-debt-sours",
-    "date": "2026-09-23",
-    "severity": "medium",
-    "note": "The $2.25B BB-rated Zenith Arc green notes (Oklahoma data center leased to Jane Street) priced near 9% in August and are still trading markedly wider in secondary markets as of Sept 23-24, a persistent markdown signal for non-investment-grade AI data-center paper rather than a one-day blip."
-   },
-   {
-    "headline": "Alphabet, Meta and Nvidia bond spreads widen 15-19bps as bond buyers get picky with AI debt flood",
-    "source": "Benzinga / Bloomberg",
-    "url": "https://www.benzinga.com/markets/bonds/26/09/61914657/big-techs-ai-debt-spree-hits-a-wall-as-bond-investors-demand-higher-yields-from-alphabet-meta-and-nvidia",
-    "date": "2026-09-22",
-    "severity": "medium",
-    "note": "Alphabet's spread widened from 56 to 71bps as deal size grew from $1.25B to $3.5B, with Meta and Nvidia seeing similar 15-19bps widening on $4B offerings; AI-linked issuer spreads (~115bps) now trade well wide of the broad IG market (~78bps) \u2014 a market-wide repricing of AI infrastructure credit risk, not a single-name story."
+    "headline": "Could AI data centre financing become a systemic risk?",
+    "source": "Disruption Banking",
+    "url": "https://www.disruptionbanking.com/2026/09/24/could-ai-data-centre-financing-become-a-systemic-risk/",
+    "date": "2026-09-24",
+    "severity": "low",
+    "note": "Analyst commentary on contagion risk from concentrated AI data-center debt; it describes no realized credit event."
    }
   ]
  },
