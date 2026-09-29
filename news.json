@@ -1,21 +1,13 @@
 {
-  "scanned_at": "2026-09-28T12:00:00Z",
+  "scanned_at": "2026-09-29T12:00:00Z",
   "items": [
     {
-      "headline": "Oracle force majeure notice on New Mexico data center to weigh on data center debt, Morgan Stanley says",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-25/oracle-notice-to-weigh-on-data-center-debt-morgan-stanley-says",
+      "headline": "Oracle rekindles the data center debt risks (Project Jupiter force majeure notice)",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/09/25/oracle-debt-data-centers",
       "date": "2026-09-25",
       "severity": "medium",
-      "note": "Oracle's notice puts loan and lease documents for roughly $18B of loans tied to the leased site under scrutiny, which could complicate other data-center financings."
-    },
-    {
-      "headline": "Could AI data centre financing become a systemic risk?",
-      "source": "Disruption Banking",
-      "url": "https://www.disruptionbanking.com/2026/09/24/could-ai-data-centre-financing-become-a-systemic-risk/",
-      "date": "2026-09-24",
-      "severity": "low",
-      "note": "Analyst commentary on contagion risk from concentrated AI data-center debt; it describes no realized credit event."
+      "note": "Oracle reportedly sent the New Mexico Project Jupiter developer a force majeure notice reserving the right to delay payments, adding stress to an already BBB- rated, heavily levered data-center lessee."
     }
   ]
 }
