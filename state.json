@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-09-29T17:00:59+00:00",
+ "generated_at": "2026-09-29T18:06:19+00:00",
  "run_label": "mid-day",
  "composite": 17.5,
  "base_composite": 17.5,
@@ -72,7 +72,7 @@
    "delta": "+0.2% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
    "asof": "2026-09-29",
-   "value": 0.0023670919034164406,
+   "value": 0.001841965668534895,
    "subscores": {}
   },
   {
@@ -81,11 +81,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "-0.3% 10d",
+   "display": "-0.4% 10d",
    "delta": "-0.5% 5d",
-   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+1.2pp 10d).",
+   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+1.0pp 10d).",
    "asof": "2026-09-29",
-   "value": -0.0030949400085433787,
+   "value": -0.003655021886383669,
    "subscores": {}
   },
   {
@@ -115,7 +115,7 @@
    "subscores": {
     "tail": 0,
     "usage": 0,
-    "usage_bn": 0.001
+    "usage_bn": 0.002
    }
   },
   {
@@ -137,11 +137,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.90",
+   "display": "0.89",
    "delta": "+0.09 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
    "asof": "2026-09-29",
-   "value": 0.8957190071276427,
+   "value": 0.8946790935542496,
    "subscores": {}
   },
   {
@@ -151,14 +151,14 @@
    "weight": 0.0,
    "status": 2,
    "display": "SKEW 146",
-   "delta": "VVIX 91 \u00b7 +4 5d",
-   "detail": "SKEW 146 (expensive \u2265145), VVIX 91 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "delta": "VVIX 92 \u00b7 +4 5d",
+   "detail": "SKEW 146 (expensive \u2265145), VVIX 92 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-09-28",
    "value": 146.25,
    "subscores": {
     "skew": 2,
     "vvix": 0,
-    "vvix_level": 91.37999725341797
+    "vvix_level": 91.51000213623047
    }
   },
   {
@@ -171,11 +171,11 @@
    "delta": "IV\u2212RV +5.2pt",
    "detail": "VIX 16.3 sits at the 32th percentile of its trailing year (expensive \u226580th); 20d realized 11.1, so implied carries +5.2 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-09-29",
-   "value": 5.186040187288183,
+   "value": 5.227300166407403,
    "subscores": {
     "pctile": 0,
     "premium": 1,
-    "realized": 11.133959507536035
+    "realized": 11.08269929953498
    }
   },
   {
@@ -184,14 +184,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 0,
-   "display": "-1.7% vs 60d high",
-   "delta": "+7.6% 10d",
+   "display": "-1.4% vs 60d high",
+   "delta": "+7.8% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-09-29",
-   "value": -0.016703155400951686,
+   "value": -0.014092361238846274,
    "subscores": {
-    "drawdown": -0.016703155400951686,
-    "mom10": 0.07550833473347773
+    "drawdown": -0.014092361238846274,
+    "mom10": 0.07836396362829312
    }
   },
   {
@@ -200,7 +200,7 @@
    "group": "AI sector",
    "weight": 0.1,
    "status": 0,
-   "display": "CRWV +6% \u00b7 ORCL -2% 10d",
+   "display": "CRWV +7% \u00b7 ORCL -2% 10d",
    "delta": "vol \u00d70.7 / \u00d70.9",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
    "asof": "2026-09-29",
@@ -213,11 +213,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 2,
-   "display": "RSP/SPY -4.3% 20d",
-   "delta": "57% of basket > 50dma",
+   "display": "RSP/SPY -4.2% 20d",
+   "delta": "64% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
    "asof": "2026-09-29",
-   "value": -0.04258353568543127,
+   "value": -0.04187479485859946,
    "subscores": {}
   },
   {
