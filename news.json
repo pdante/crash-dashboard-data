@@ -1,13 +1,29 @@
 {
-  "scanned_at": "2026-09-29T12:00:00Z",
+  "scanned_at": "2026-09-30T12:00:00Z",
   "items": [
     {
-      "headline": "Oracle rekindles the data center debt risks (Project Jupiter force majeure notice)",
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/09/25/oracle-debt-data-centers",
+      "headline": "Oracle force majeure notice on New Mexico data center puts loan and lease documents under scrutiny",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-25/oracle-notice-to-weigh-on-data-center-debt-morgan-stanley-says",
       "date": "2026-09-25",
       "severity": "medium",
-      "note": "Oracle reportedly sent the New Mexico Project Jupiter developer a force majeure notice reserving the right to delay payments, adding stress to an already BBB- rated, heavily levered data-center lessee."
+      "note": "A force majeure notice on the Oracle-leased Project Jupiter site raises lease-payment and covenant risk for the roughly $18B of project-finance loans backing it."
+    },
+    {
+      "headline": "Oracle-linked $18B New Mexico data center loans quoted at 89-91 cents as placement stalls",
+      "source": "Financial Times (via Ground News)",
+      "url": "https://ground.news/article/oracles-18-billion-data-center-debt-under-pressure-ft-reports_8ba394",
+      "date": "2026-09-25",
+      "severity": "medium",
+      "note": "Syndicate banks struggling to place the debt with a wider investor base, amid permitting and litigation delays, is a stressed-syndication signal for Stargate-type financings."
+    },
+    {
+      "headline": "CoreWeave plans $3B convertible debt offering; stock falls nearly 5%",
+      "source": "FX Leaders",
+      "url": "https://www.fxleaders.com/news/2026/09/17/crwv-stock-drops-to-81-on-soaring-costs-as-coreweave-plans-a-3-billion-convertible-debt-offering/",
+      "date": "2026-09-17",
+      "severity": "low",
+      "note": "CoreWeave's continued reliance on new debt to fund $31-35B of 2026 capex, after earlier junk-rated facilities and CDS near 855bp, keeps neocloud refinancing risk in focus."
     }
   ]
 }
