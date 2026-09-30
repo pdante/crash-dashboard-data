@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-09-30T16:59:49+00:00",
+ "generated_at": "2026-09-30T18:00:49+00:00",
  "run_label": "mid-day",
  "composite": 17.5,
  "base_composite": 17.5,
@@ -72,7 +72,7 @@
    "delta": "+0.1% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
    "asof": "2026-09-30",
-   "value": 0.002671297405619555,
+   "value": 0.002638469467816318,
    "subscores": {}
   },
   {
@@ -83,7 +83,7 @@
    "status": 0,
    "display": "-0.3% 10d",
    "delta": "-0.4% 5d",
-   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+1.1pp 10d).",
+   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+1.2pp 10d).",
    "asof": "2026-09-30",
    "value": -0.0029328209674803762,
    "subscores": {}
@@ -141,7 +141,7 @@
    "delta": "+0.04 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
    "asof": "2026-09-30",
-   "value": 0.8781838386311193,
+   "value": 0.8779005529519486,
    "subscores": {}
   },
   {
@@ -158,7 +158,7 @@
    "subscores": {
     "skew": 1,
     "vvix": 0,
-    "vvix_level": 88.93000030517578
+    "vvix_level": 88.88999938964844
    }
   },
   {
@@ -167,15 +167,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 1,
-   "display": "25th pctile",
-   "delta": "IV\u2212RV +4.9pt",
-   "detail": "VIX 15.9 sits at the 25th percentile of its trailing year (expensive \u226580th); 20d realized 10.9, so implied carries +4.9 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "display": "26th pctile",
+   "delta": "IV\u2212RV +5.0pt",
+   "detail": "VIX 15.9 sits at the 26th percentile of its trailing year (expensive \u226580th); 20d realized 10.9, so implied carries +5.0 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-09-30",
-   "value": 4.94472201601584,
+   "value": 5.0341450768119245,
    "subscores": {
     "pctile": 0,
     "premium": 1,
-    "realized": 10.915277640661406
+    "realized": 10.85585526651083
    }
   },
   {
@@ -184,14 +184,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 0,
-   "display": "-1.1% vs 60d high",
-   "delta": "+7.2% 10d",
+   "display": "-1.2% vs 60d high",
+   "delta": "+7.1% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-09-30",
-   "value": -0.011199609728775428,
+   "value": -0.012296555972826195,
    "subscores": {
-    "drawdown": -0.011199609728775428,
-    "mom10": 0.07217234371214842
+    "drawdown": -0.012296555972826195,
+    "mom10": 0.07098290706044197
    }
   },
   {
@@ -217,7 +217,7 @@
    "delta": "71% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
    "asof": "2026-09-30",
-   "value": -0.045336706137345306,
+   "value": -0.045080789572998436,
    "subscores": {}
   },
   {
