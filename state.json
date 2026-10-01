@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-10-01T18:26:40+00:00",
- "run_label": "mid-day",
+ "generated_at": "2026-10-01T21:08:56+00:00",
+ "run_label": "post-close",
  "composite": 21.7,
  "base_composite": 21.7,
  "tier": "GREEN",
@@ -69,10 +69,10 @@
    "weight": 0.12,
    "status": 0,
    "display": "-0.2% 10d",
-   "delta": "-0.9% 5d",
+   "delta": "-0.8% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
    "asof": "2026-10-01",
-   "value": -0.0022166711103382974,
+   "value": -0.001788300572623136,
    "subscores": {}
   },
   {
@@ -137,11 +137,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.89",
-   "delta": "+0.04 5d",
+   "display": "0.88",
+   "delta": "+0.03 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
    "asof": "2026-10-01",
-   "value": 0.8929142152444404,
+   "value": 0.8821312947766262,
    "subscores": {}
   },
   {
@@ -151,14 +151,14 @@
    "weight": 0.0,
    "status": 1,
    "display": "SKEW 142",
-   "delta": "VVIX 93 \u00b7 -4 5d",
-   "detail": "SKEW 142 (expensive \u2265145), VVIX 93 (expensive \u2265110). Tail insurance is moderately priced. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "delta": "VVIX 92 \u00b7 -4 5d",
+   "detail": "SKEW 142 (expensive \u2265145), VVIX 92 (expensive \u2265110). Tail insurance is moderately priced. Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-09-30",
    "value": 141.9199981689453,
    "subscores": {
     "skew": 1,
     "vvix": 0,
-    "vvix_level": 93.41999816894531
+    "vvix_level": 92.01000213623047
    }
   },
   {
@@ -167,15 +167,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 1,
-   "display": "42th pctile",
-   "delta": "IV\u2212RV +6.1pt",
-   "detail": "VIX 16.8 sits at the 42th percentile of its trailing year (expensive \u226580th); 20d realized 10.7, so implied carries +6.1 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "display": "35th pctile",
+   "delta": "IV\u2212RV +5.7pt",
+   "detail": "VIX 16.4 sits at the 35th percentile of its trailing year (expensive \u226580th); 20d realized 10.7, so implied carries +5.7 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-10-01",
-   "value": 6.055378079478235,
+   "value": 5.685099474350439,
    "subscores": {
     "pctile": 0,
     "premium": 1,
-    "realized": 10.704622149403601
+    "realized": 10.704899915297998
    }
   },
   {
@@ -184,14 +184,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 0,
-   "display": "-1.1% vs 60d high",
+   "display": "-1.0% vs 60d high",
    "delta": "+4.3% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-10-01",
-   "value": -0.01084715337714337,
+   "value": -0.010174673471120776,
    "subscores": {
-    "drawdown": -0.01084715337714337,
-    "mom10": 0.04266489934742235
+    "drawdown": -0.010174673471120776,
+    "mom10": 0.04337375965745438
    }
   },
   {
@@ -200,7 +200,7 @@
    "group": "AI sector",
    "weight": 0.1,
    "status": 1,
-   "display": "CRWV +10% \u00b7 ORCL -8% 10d",
+   "display": "CRWV +11% \u00b7 ORCL -8% 10d",
    "delta": "vol \u00d70.7 / \u00d70.9",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
    "asof": "2026-10-01",
@@ -217,7 +217,7 @@
    "delta": "64% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
    "asof": "2026-10-01",
-   "value": -0.04149576648358988,
+   "value": -0.0412330918781344,
    "subscores": {}
   },
   {
@@ -226,11 +226,11 @@
    "group": "Backdrop",
    "weight": 0.04,
    "status": 0,
-   "display": "+1.09%",
-   "delta": "+0.17 5d",
+   "display": "+1.07%",
+   "delta": "+0.13 5d",
    "detail": "Inversion is a 6\u201318 month gauge, not a timing signal \u2014 capped at amber.",
-   "asof": "2026-09-30",
-   "value": 1.09,
+   "asof": "2026-10-01",
+   "value": 1.07,
    "subscores": {}
   }
  ],
