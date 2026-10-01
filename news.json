@@ -1,29 +1,13 @@
 {
-  "scanned_at": "2026-09-30T12:00:00Z",
+  "scanned_at": "2026-10-01T12:00:00Z",
   "items": [
     {
-      "headline": "Oracle force majeure notice on New Mexico data center puts loan and lease documents under scrutiny",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-25/oracle-notice-to-weigh-on-data-center-debt-morgan-stanley-says",
-      "date": "2026-09-25",
+      "headline": "Oracle 5-year CDS hits record ~227 bps, pricing fallen-angel risk",
+      "source": "Gokhshtein / market reports",
+      "url": "https://gokhshtein.com/news/2026-09-28-oracle-cds-surge-to-227-bps-shows-fallen-angel-risk",
+      "date": "2026-09-28",
       "severity": "medium",
-      "note": "A force majeure notice on the Oracle-leased Project Jupiter site raises lease-payment and covenant risk for the roughly $18B of project-finance loans backing it."
-    },
-    {
-      "headline": "Oracle-linked $18B New Mexico data center loans quoted at 89-91 cents as placement stalls",
-      "source": "Financial Times (via Ground News)",
-      "url": "https://ground.news/article/oracles-18-billion-data-center-debt-under-pressure-ft-reports_8ba394",
-      "date": "2026-09-25",
-      "severity": "medium",
-      "note": "Syndicate banks struggling to place the debt with a wider investor base, amid permitting and litigation delays, is a stressed-syndication signal for Stargate-type financings."
-    },
-    {
-      "headline": "CoreWeave plans $3B convertible debt offering; stock falls nearly 5%",
-      "source": "FX Leaders",
-      "url": "https://www.fxleaders.com/news/2026/09/17/crwv-stock-drops-to-81-on-soaring-costs-as-coreweave-plans-a-3-billion-convertible-debt-offering/",
-      "date": "2026-09-17",
-      "severity": "low",
-      "note": "CoreWeave's continued reliance on new debt to fund $31-35B of 2026 capex, after earlier junk-rated facilities and CDS near 855bp, keeps neocloud refinancing risk in focus."
+      "note": "Oracle is rated BBB- (one notch above junk) with heavy OpenAI concentration; a further downgrade would eject ~$120B of bonds from IG indexes."
     }
   ]
 }
