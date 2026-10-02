@@ -1,13 +1,4 @@
 {
-  "scanned_at": "2026-10-01T12:00:00Z",
-  "items": [
-    {
-      "headline": "Oracle 5-year CDS hits record ~227 bps, pricing fallen-angel risk",
-      "source": "Gokhshtein / market reports",
-      "url": "https://gokhshtein.com/news/2026-09-28-oracle-cds-surge-to-227-bps-shows-fallen-angel-risk",
-      "date": "2026-09-28",
-      "severity": "medium",
-      "note": "Oracle is rated BBB- (one notch above junk) with heavy OpenAI concentration; a further downgrade would eject ~$120B of bonds from IG indexes."
-    }
-  ]
+  "scanned_at": "2026-10-02T12:00:00Z",
+  "items": []
 }
