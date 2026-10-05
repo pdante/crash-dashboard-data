@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-10-05T20:40:21+00:00",
+ "generated_at": "2026-10-05T22:48:02+00:00",
  "run_label": "post-close",
  "composite": 15.0,
  "base_composite": 15.0,
@@ -149,11 +149,11 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 1,
-   "display": "SKEW 145",
-   "delta": "VVIX 85 \u00b7 -0 5d",
-   "detail": "SKEW 145 (expensive \u2265145), VVIX 85 (expensive \u2265110). Tail insurance is moderately priced. Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-10-02",
-   "value": 144.8800048828125,
+   "display": "SKEW 143",
+   "delta": "VVIX 85 \u00b7 -3 5d",
+   "detail": "SKEW 143 (expensive \u2265145), VVIX 85 (expensive \u2265110). Tail insurance is moderately priced. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-10-05",
+   "value": 143.0399932861328,
    "subscores": {
     "skew": 1,
     "vvix": 0,
@@ -190,7 +190,7 @@
    "value": 0.0,
    "subscores": {
     "drawdown": 0.0,
-    "mom10": 0.021268208511739495
+    "mom10": 0.021268208511739273
    }
   },
   {
@@ -226,9 +226,9 @@
    "weight": 0.04,
    "status": 0,
    "display": "+1.09%",
-   "delta": "+0.16 5d",
+   "delta": "+0.13 5d",
    "detail": "Inversion is a 6\u201318 month gauge, not a timing signal \u2014 capped at amber.",
-   "asof": "2026-10-02",
+   "asof": "2026-10-05",
    "value": 1.09,
    "subscores": {}
   }
