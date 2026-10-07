@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-10-07T17:57:35+00:00",
+ "generated_at": "2026-10-07T18:57:54+00:00",
  "run_label": "mid-day",
  "composite": 11.7,
  "base_composite": 11.7,
@@ -68,11 +68,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "+0.1% 10d",
-   "delta": "+0.3% 5d",
+   "display": "+0.0% 10d",
+   "delta": "+0.2% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
    "asof": "2026-10-07",
-   "value": 0.0009133784193060546,
+   "value": 0.0004267781976963203,
    "subscores": {}
   },
   {
@@ -83,9 +83,9 @@
    "status": 0,
    "display": "-0.2% 10d",
    "delta": "+0.3% 5d",
-   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+0.6pp 10d).",
+   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+0.5pp 10d).",
    "asof": "2026-10-07",
-   "value": -0.0019484127710411858,
+   "value": -0.002191917914704078,
    "subscores": {}
   },
   {
@@ -141,7 +141,7 @@
    "delta": "-0.04 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
    "asof": "2026-10-07",
-   "value": 0.8540022443064191,
+   "value": 0.8533559224521297,
    "subscores": {}
   },
   {
@@ -158,7 +158,7 @@
    "subscores": {
     "skew": 1,
     "vvix": 0,
-    "vvix_level": 84.4000015258789
+    "vvix_level": 84.26000213623047
    }
   },
   {
@@ -167,15 +167,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 1,
-   "display": "13th pctile",
+   "display": "12th pctile",
    "delta": "IV\u2212RV +4.9pt",
-   "detail": "VIX 15.1 sits at the 13th percentile of its trailing year (expensive \u226580th); 20d realized 10.3, so implied carries +4.9 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "detail": "VIX 15.1 sits at the 12th percentile of its trailing year (expensive \u226580th); 20d realized 10.3, so implied carries +4.9 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-10-07",
-   "value": 4.851660910915584,
+   "value": 4.860178600289604,
    "subscores": {
     "pctile": 0,
     "premium": 1,
-    "realized": 10.29833870761469
+    "realized": 10.269821514151314
    }
   },
   {
@@ -184,14 +184,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 0,
-   "display": "-0.6% vs 60d high",
-   "delta": "+3.1% 10d",
+   "display": "-0.5% vs 60d high",
+   "delta": "+3.3% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-10-07",
-   "value": -0.006275742106262583,
+   "value": -0.004539309389415713,
    "subscores": {
-    "drawdown": -0.006275742106262583,
-    "mom10": 0.031053637120872946
+    "drawdown": -0.004539309389415713,
+    "mom10": 0.03285529915548557
    }
   },
   {
@@ -213,11 +213,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 1,
-   "display": "RSP/SPY -3.4% 20d",
-   "delta": "79% of basket > 50dma",
+   "display": "RSP/SPY -3.5% 20d",
+   "delta": "86% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
    "asof": "2026-10-07",
-   "value": -0.034440286964874,
+   "value": -0.03458524640099103,
    "subscores": {}
   },
   {
