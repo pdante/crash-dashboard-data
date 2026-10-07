@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-10-06T21:04:57+00:00",
- "run_label": "post-close",
+ "generated_at": "2026-10-07T00:51:39+00:00",
+ "run_label": "pre-open",
  "composite": 11.7,
  "base_composite": 11.7,
  "tier": "GREEN",
@@ -72,7 +72,7 @@
    "delta": "+0.3% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
    "asof": "2026-10-06",
-   "value": 0.005631912599291633,
+   "value": 0.005575529813840019,
    "subscores": {}
   },
   {
@@ -150,11 +150,11 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 1,
-   "display": "SKEW 143",
+   "display": "SKEW 141",
    "delta": "VVIX 83 \u00b7 -3 5d",
-   "detail": "SKEW 143 (expensive \u2265145), VVIX 83 (expensive \u2265110). Tail insurance is moderately priced. Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-10-05",
-   "value": 143.0399932861328,
+   "detail": "SKEW 141 (expensive \u2265145), VVIX 83 (expensive \u2265110). Tail insurance is moderately priced. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-10-06",
+   "value": 141.2100067138672,
    "subscores": {
     "skew": 1,
     "vvix": 0,
@@ -185,13 +185,13 @@
    "weight": 0.12,
    "status": 0,
    "display": "+0.0% vs 60d high",
-   "delta": "+2.3% 10d",
+   "delta": "+2.2% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-10-06",
    "value": 0.0,
    "subscores": {
     "drawdown": 0.0,
-    "mom10": 0.02311224058875805
+    "mom10": 0.02178334230654433
    }
   },
   {
@@ -200,8 +200,8 @@
    "group": "AI sector",
    "weight": 0.1,
    "status": 0,
-   "display": "CRWV +6% \u00b7 ORCL -3% 10d",
-   "delta": "vol \u00d70.5 / \u00d70.8",
+   "display": "CRWV +2% \u00b7 ORCL -3% 10d",
+   "delta": "vol \u00d70.6 / \u00d70.8",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
    "asof": "2026-10-06",
    "value": null,
