@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-10-12T20:25:20+00:00",
+ "generated_at": "2026-10-12T21:17:21+00:00",
  "run_label": "post-close",
  "composite": 11.7,
  "base_composite": 11.7,
@@ -150,15 +150,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 2,
-   "display": "SKEW 154",
-   "delta": "VVIX 86 \u00b7 +9 5d",
-   "detail": "SKEW 154 (expensive \u2265145), VVIX 86 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-10-09",
-   "value": 154.33999633789062,
+   "display": "SKEW 155",
+   "delta": "VVIX 86 \u00b7 +12 5d",
+   "detail": "SKEW 155 (expensive \u2265145), VVIX 86 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-10-12",
+   "value": 155.05999755859375,
    "subscores": {
     "skew": 2,
     "vvix": 0,
-    "vvix_level": 85.91999816894531
+    "vvix_level": 85.93000030517578
    }
   },
   {
