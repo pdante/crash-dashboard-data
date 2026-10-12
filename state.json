@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-10-10T01:03:07+00:00",
- "run_label": "pre-open",
+ "generated_at": "2026-10-12T20:25:20+00:00",
+ "run_label": "post-close",
  "composite": 11.7,
  "base_composite": 11.7,
  "tier": "GREEN",
@@ -68,11 +68,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "-0.6% 10d",
-   "delta": "+0.1% 5d",
+   "display": "-0.1% 10d",
+   "delta": "-0.2% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
-   "asof": "2026-10-08",
-   "value": -0.005982209215037559,
+   "asof": "2026-10-12",
+   "value": -0.0011152489719491454,
    "subscores": {}
   },
   {
@@ -81,11 +81,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "-0.1% 10d",
-   "delta": "+0.1% 5d",
-   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (+0.4pp 10d).",
-   "asof": "2026-10-08",
-   "value": -0.0009751563891017279,
+   "display": "+0.0% 10d",
+   "delta": "-0.0% 5d",
+   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (-0.1pp 10d).",
+   "asof": "2026-10-12",
+   "value": 0.0004885309827691309,
    "subscores": {}
   },
   {
@@ -137,11 +137,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 0,
-   "display": "0.84",
+   "display": "0.85",
    "delta": "-0.01 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
-   "asof": "2026-10-09",
-   "value": 0.8351153500451559,
+   "asof": "2026-10-12",
+   "value": 0.8482989280126427,
    "subscores": {}
   },
   {
@@ -151,14 +151,14 @@
    "weight": 0.0,
    "status": 2,
    "display": "SKEW 154",
-   "delta": "VVIX 85 \u00b7 +9 5d",
-   "detail": "SKEW 154 (expensive \u2265145), VVIX 85 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "delta": "VVIX 86 \u00b7 +9 5d",
+   "detail": "SKEW 154 (expensive \u2265145), VVIX 86 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-10-09",
    "value": 154.33999633789062,
    "subscores": {
     "skew": 2,
     "vvix": 0,
-    "vvix_level": 84.87999725341797
+    "vvix_level": 85.91999816894531
    }
   },
   {
@@ -167,15 +167,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 1,
-   "display": "7th pctile",
-   "delta": "IV\u2212RV +4.7pt",
-   "detail": "VIX 14.8 sits at the 7th percentile of its trailing year (expensive \u226580th); 20d realized 10.2, so implied carries +4.7 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-10-09",
-   "value": 4.68534743639432,
+   "display": "15th pctile",
+   "delta": "IV\u2212RV +5.5pt",
+   "detail": "VIX 15.2 sits at the 15th percentile of its trailing year (expensive \u226580th); 20d realized 9.8, so implied carries +5.5 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-10-12",
+   "value": 5.4518271322588365,
    "subscores": {
     "pctile": 0,
     "premium": 1,
-    "realized": 10.15465271619357
+    "realized": 9.758172905888136
    }
   },
   {
@@ -184,14 +184,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 0,
-   "display": "-3.5% vs 60d high",
-   "delta": "-0.4% 10d",
+   "display": "-4.6% vs 60d high",
+   "delta": "+0.0% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
-   "asof": "2026-10-08",
-   "value": -0.035142692953419874,
+   "asof": "2026-10-12",
+   "value": -0.04625844487458952,
    "subscores": {
-    "drawdown": -0.035142692953419874,
-    "mom10": -0.0036803149477810937
+    "drawdown": -0.04625844487458952,
+    "mom10": 4.5346889591790784e-05
    }
   },
   {
@@ -200,10 +200,10 @@
    "group": "AI sector",
    "weight": 0.1,
    "status": 0,
-   "display": "CRWV -9% \u00b7 ORCL -3% 10d",
+   "display": "CRWV -6% \u00b7 ORCL +4% 10d",
    "delta": "vol \u00d70.5 / \u00d70.8",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
-   "asof": "2026-10-08",
+   "asof": "2026-10-12",
    "value": null,
    "subscores": {}
   },
@@ -213,11 +213,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 1,
-   "display": "RSP/SPY -2.6% 20d",
-   "delta": "64% of basket > 50dma",
+   "display": "RSP/SPY -2.9% 20d",
+   "delta": "71% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
-   "asof": "2026-10-08",
-   "value": -0.02553595719331181,
+   "asof": "2026-10-12",
+   "value": -0.029174267353349603,
    "subscores": {}
   },
   {
@@ -235,8 +235,17 @@
   }
  ],
  "news": {
-  "scanned_at": "2026-10-09T12:00:00Z",
-  "items": []
+  "scanned_at": "2026-10-12T12:00:00Z",
+  "items": [
+   {
+    "headline": "CoreWeave falls ~8% as OpenAI revenue reports diverge; customer-contract loan clause draws scrutiny",
+    "source": "TIKR",
+    "url": "https://www.tikr.com/blog/coreweave-stock-fell-nearly-8-in-a-day-on-an-openai-revenue-report-heres-why-its-borrowing-model-raises-the-stakes",
+    "date": "2026-10-09",
+    "severity": "low",
+    "note": "Reports of OpenAI annualized revenue near $50B (vs ~$70B earlier) raise questions about the offtake backing CoreWeave's SPV debt; a $2.6B loan clause could trigger a cash trap if a customer gains termination rights, though no breach has occurred."
+   }
+  ]
  },
  "data_issues": [],
  "disclaimer": "Not financial advice. No indicator reliably times crashes; this composite raises the odds of a short heads-up, nothing more."

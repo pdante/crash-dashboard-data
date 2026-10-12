@@ -1,4 +1,13 @@
 {
-  "scanned_at": "2026-10-09T12:00:00Z",
-  "items": []
+  "scanned_at": "2026-10-12T12:00:00Z",
+  "items": [
+    {
+      "headline": "CoreWeave falls ~8% as OpenAI revenue reports diverge; customer-contract loan clause draws scrutiny",
+      "source": "TIKR",
+      "url": "https://www.tikr.com/blog/coreweave-stock-fell-nearly-8-in-a-day-on-an-openai-revenue-report-heres-why-its-borrowing-model-raises-the-stakes",
+      "date": "2026-10-09",
+      "severity": "low",
+      "note": "Reports of OpenAI annualized revenue near $50B (vs ~$70B earlier) raise questions about the offtake backing CoreWeave's SPV debt; a $2.6B loan clause could trigger a cash trap if a customer gains termination rights, though no breach has occurred."
+    }
+  ]
 }
