@@ -91,7 +91,7 @@
 <main>
   <header>
     <h1>AI Crash Monitor</h1>
-    <span class="asof">mid-day · <time id="gen-time">2026-10-13T18:30Z</time>
+    <span class="asof">post-close · <time id="gen-time">2026-10-13T19:19Z</time>
     <span class="stale-badge">STALE DATA</span></span>
   </header>
 
@@ -120,16 +120,16 @@
       <div class="tile">
         <div class="tile-label">VIX term structure (VIX/VIX3M)</div>
         <div class="tile-value">0.86</div>
-        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+0.00 5d</span></div>
+        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+0.01 5d</span></div>
       </div>
       <div class="tile">
         <div class="tile-label">HYG/IEF ratio (credit vs safety)</div>
-        <div class="tile-value">-0.3% 10d</div>
+        <div class="tile-value">-0.4% 10d</div>
         <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">-0.7% 5d</span></div>
       </div>
       <div class="tile">
         <div class="tile-label">AI basket drawdown / momentum</div>
-        <div class="tile-value">-4.8% vs 60d high</div>
+        <div class="tile-value">-4.7% vs 60d high</div>
         <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">-0.9% 10d</span></div>
       </div>
       <div class="tile">
@@ -159,12 +159,12 @@
         </tr>
         <tr>
           <td class="ind-label">HYG/IEF ratio (credit vs safety)<div class="detail">High-yield ETF vs Treasuries — a same-day credit read with no FRED lag.</div></td>
-          <td class="num">-0.3% 10d<div class="delta">-0.7% 5d</div></td>
+          <td class="num">-0.4% 10d<div class="delta">-0.7% 5d</div></td>
           <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-10-13</div></td>
         </tr>
         <tr>
-          <td class="ind-label">Leveraged loans (BKLN)<div class="detail">Floating-rate senior secured loans — isolates credit risk from rate moves. Tracking HY closely (-0.1pp 10d).</div></td>
-          <td class="num">+0.0% 10d<div class="delta">-0.3% 5d</div></td>
+          <td class="ind-label">Leveraged loans (BKLN)<div class="detail">Floating-rate senior secured loans — isolates credit risk from rate moves. Tracking HY closely (-0.2pp 10d).</div></td>
+          <td class="num">-0.0% 10d<div class="delta">-0.3% 5d</div></td>
           <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-10-13</div></td>
         </tr>
         <tr>
@@ -184,12 +184,12 @@
         </tr><tr class="group-row"><td colspan="3">Volatility</td></tr>
         <tr>
           <td class="ind-label">VIX term structure (VIX/VIX3M)<div class="detail">≥1.00 = backwardation — the near-coincident confirmation signal (days of lead at most).</div></td>
-          <td class="num">0.86<div class="delta">+0.00 5d</div></td>
+          <td class="num">0.86<div class="delta">+0.01 5d</div></td>
           <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-10-13</div></td>
         </tr><tr class="group-row"><td colspan="3">AI sector</td></tr>
         <tr>
           <td class="ind-label">AI basket drawdown / momentum<div class="detail">Equal-weight basket of 14 AI-exposed names.</div></td>
-          <td class="num">-4.8% vs 60d high<div class="delta">-0.9% 10d</div></td>
+          <td class="num">-4.7% vs 60d high<div class="delta">-0.9% 10d</div></td>
           <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-10-13</div></td>
         </tr>
         <tr>
@@ -213,8 +213,8 @@
           <td class="status-cell"><span class="badge critical"><span class="icon">■</span>EXPENSIVE</span><div class="asof">2026-10-12</div></td>
         </tr>
         <tr>
-          <td class="ind-label">Implied vol richness (VIX pctile, IV−RV)<div class="detail">VIX 15.4 sits at the 19th percentile of its trailing year (expensive ≥80th); 20d realized 9.5, so implied carries +5.9 vol points of premium (expensive ≥8). Cost tier, not a risk tier — excluded from the composite.</div></td>
-          <td class="num">19th pctile<div class="delta">IV−RV +5.9pt</div></td>
+          <td class="ind-label">Implied vol richness (VIX pctile, IV−RV)<div class="detail">VIX 15.5 sits at the 20th percentile of its trailing year (expensive ≥80th); 20d realized 9.5, so implied carries +6.0 vol points of premium (expensive ≥8). Cost tier, not a risk tier — excluded from the composite.</div></td>
+          <td class="num">20th pctile<div class="delta">IV−RV +6.0pt</div></td>
           <td class="status-cell"><span class="badge warning"><span class="icon">▲</span>MODERATE</span><div class="asof">2026-10-13</div></td>
         </tr>
     </table>
@@ -251,7 +251,7 @@
 </main>
 <script>
   (function () {
-    var age = Date.now() - 1791916208000;
+    var age = Date.now() - 1791919163000;
     if (age > 30 * 3600 * 1000) { document.body.classList.add("stale"); }
   })();
 </script>
