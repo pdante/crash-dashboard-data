@@ -1,13 +1,29 @@
 {
-  "scanned_at": "2026-10-12T12:00:00Z",
+  "scanned_at": "2026-10-13T12:00:00Z",
   "items": [
     {
-      "headline": "CoreWeave falls ~8% as OpenAI revenue reports diverge; customer-contract loan clause draws scrutiny",
-      "source": "TIKR",
-      "url": "https://www.tikr.com/blog/coreweave-stock-fell-nearly-8-in-a-day-on-an-openai-revenue-report-heres-why-its-borrowing-model-raises-the-stakes",
-      "date": "2026-10-09",
+      "headline": "Banks struggle to digest mounting AI data-center debt; Oracle CDS implies >20% five-year default risk",
+      "source": "Naked Capitalism",
+      "url": "https://www.nakedcapitalism.com/2026/10/banks-struggle-to-digest-the-mounting-debt-driving-the-ai-boom.html",
+      "date": "2026-10-13",
+      "severity": "medium",
+      "note": "Oracle-linked credit derivatives pricing material default risk and banks holding unplaced AI debt signal real distribution stress."
+    },
+    {
+      "headline": "AI debt issuance drops ~80% to $23B in September; ~$18B Oracle New Mexico data-center loans trade below par",
+      "source": "KuCoin News (citing FT/Morgan Stanley)",
+      "url": "https://www.kucoin.com/news/flash/ai-debt-issuance-drops-80-to-23b-oracle-loans-trade-below-par",
+      "date": "2026-10-12",
+      "severity": "medium",
+      "note": "Sharp issuance freeze plus sub-par Oracle project loans point to syndication difficulty and a closing funding window for AI buildouts."
+    },
+    {
+      "headline": "KKR warns on ~$600B AI debt pile, about 6% of the US IG market, with interconnected issuers",
+      "source": "The Globe and Mail",
+      "url": "https://www.theglobeandmail.com/business/article-kkr-warns-about-the-growing-pile-of-ai-debt/",
+      "date": "2026-10-12",
       "severity": "low",
-      "note": "Reports of OpenAI annualized revenue near $50B (vs ~$70B earlier) raise questions about the offtake backing CoreWeave's SPV debt; a $2.6B loan clause could trigger a cash trap if a customer gains termination rights, though no breach has occurred."
+      "note": "A large private-credit player flagging concentration and interlinkage risk in AI credit exposure."
     }
   ]
 }
