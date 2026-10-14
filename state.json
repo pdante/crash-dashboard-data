@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-10-14T20:15:41+00:00",
+ "generated_at": "2026-10-14T23:59:21+00:00",
  "run_label": "post-close",
  "composite": 25.0,
  "base_composite": 25.0,
@@ -138,10 +138,10 @@
    "weight": 0.16,
    "status": 0,
    "display": "0.90",
-   "delta": "+0.04 5d",
+   "delta": "+0.05 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
    "asof": "2026-10-14",
-   "value": 0.8959999593098958,
+   "value": 0.8978179892100309,
    "subscores": {}
   },
   {
@@ -150,15 +150,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 2,
-   "display": "SKEW 155",
-   "delta": "VVIX 94 \u00b7 +14 5d",
-   "detail": "SKEW 155 (expensive \u2265145), VVIX 94 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
-   "asof": "2026-10-13",
-   "value": 154.74000549316406,
+   "display": "SKEW 157",
+   "delta": "VVIX 94 \u00b7 +15 5d",
+   "detail": "SKEW 157 (expensive \u2265145), VVIX 94 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "asof": "2026-10-14",
+   "value": 157.3000030517578,
    "subscores": {
     "skew": 2,
     "vvix": 0,
-    "vvix_level": 94.27999877929688
+    "vvix_level": 94.44999694824219
    }
   },
   {
@@ -168,10 +168,10 @@
    "weight": 0.0,
    "status": 1,
    "display": "45th pctile",
-   "delta": "IV\u2212RV +6.5pt",
-   "detail": "VIX 16.8 sits at the 45th percentile of its trailing year (expensive \u226580th); 20d realized 10.3, so implied carries +6.5 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "delta": "IV\u2212RV +6.6pt",
+   "detail": "VIX 16.9 sits at the 45th percentile of its trailing year (expensive \u226580th); 20d realized 10.3, so implied carries +6.6 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-10-14",
-   "value": 6.505693216526726,
+   "value": 6.575694818699578,
    "subscores": {
     "pctile": 0,
     "premium": 1,
@@ -188,10 +188,10 @@
    "delta": "-5.8% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-10-14",
-   "value": -0.09405386547491568,
+   "value": -0.09405386547491579,
    "subscores": {
-    "drawdown": -0.09405386547491568,
-    "mom10": -0.057549454648214815
+    "drawdown": -0.09405386547491579,
+    "mom10": -0.057549454648214926
    }
   },
   {
@@ -226,11 +226,11 @@
    "group": "Backdrop",
    "weight": 0.04,
    "status": 0,
-   "display": "+0.95%",
-   "delta": "-0.14 5d",
+   "display": "+0.91%",
+   "delta": "-0.15 5d",
    "detail": "Inversion is a 6\u201318 month gauge, not a timing signal \u2014 capped at amber.",
-   "asof": "2026-10-13",
-   "value": 0.95,
+   "asof": "2026-10-14",
+   "value": 0.91,
    "subscores": {}
   }
  ],
