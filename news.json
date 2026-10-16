@@ -1,4 +1,29 @@
 {
-  "scanned_at": "2026-10-15T12:00:00Z",
-  "items": []
+  "scanned_at": "2026-10-16T12:00:00Z",
+  "items": [
+    {
+      "headline": "Oracle shares fall nearly 9% as CoreWeave bond scare spreads; Oracle 5y CDS hits record ~288 bps",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/10/15/oracle-fell-nearly-9-as-coreweaves-bond-scare-spread/",
+      "date": "2026-10-15",
+      "severity": "medium",
+      "note": "Record Oracle CDS widening shows CoreWeave distress contagion into a hyperscaler-adjacent investment-grade AI borrower."
+    },
+    {
+      "headline": "CoreWeave bonds trade at distressed levels, yields near 15%; CDS reportedly ~1,000-1,200 bps",
+      "source": "CNBC / Reuters",
+      "url": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html",
+      "date": "2026-10-14",
+      "severity": "medium",
+      "note": "Bonds near 77 cents on the dollar signal the market pricing meaningful default risk for the largest neocloud borrower, though no default or downgrade has occurred."
+    },
+    {
+      "headline": "CoreWeave's debt stress tests private credit's AI financing boom",
+      "source": "Reuters",
+      "url": "https://www.investing.com/news/stock-market-news/private-credit-roundup-coreweaves-debt-stress-tests-private-credits-ai-financing-boom-4954178",
+      "date": "2026-10-15",
+      "severity": "low",
+      "note": "Concentrated counterparty exposure (Microsoft, OpenAI, Meta) makes private-credit AI lending vulnerable if neocloud refinancing tightens."
+    }
+  ]
 }
