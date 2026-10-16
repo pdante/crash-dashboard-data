@@ -1,16 +1,17 @@
 {
  "schema": 2,
- "generated_at": "2026-10-16T16:42:24+00:00",
- "run_label": "mid-day",
- "composite": 33.3,
- "base_composite": 33.3,
+ "generated_at": "2026-10-16T19:36:50+00:00",
+ "run_label": "post-close",
+ "composite": 45.0,
+ "base_composite": 45.0,
  "tier": "AMBER",
  "regime": "credit-led",
  "override": null,
  "reasons": [
   "Red: CCC credit spread (OAS), AI basket drawdown / momentum, Periphery canaries (CRWV, ORCL), Breadth (RSP/SPY, % above 50dma)",
+  "Amber: HYG/IEF ratio (credit vs safety), VIX term structure (VIX/VIX3M)",
   "Regime: credit-led \u2014 Credit is involved \u2014 more serious than an equity-only dip.",
-  "Hedge pricing (not in composite): Put skew / cost of tail insurance expensive, Implied vol richness (VIX pctile, IV\u2212RV) moderate"
+  "Hedge pricing (not in composite): Put skew / cost of tail insurance expensive, Implied vol richness (VIX pctile, IV\u2212RV) expensive"
  ],
  "news_escalated": false,
  "unknown_indicators": [],
@@ -66,12 +67,12 @@
    "label": "HYG/IEF ratio (credit vs safety)",
    "group": "Credit & funding",
    "weight": 0.12,
-   "status": 0,
-   "display": "-1.2% 10d",
-   "delta": "-1.3% 5d",
+   "status": 1,
+   "display": "-1.5% 10d",
+   "delta": "-1.5% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
    "asof": "2026-10-16",
-   "value": -0.012302021832589327,
+   "value": -0.015215550018684687,
    "subscores": {}
   },
   {
@@ -80,11 +81,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "-0.1% 10d",
-   "delta": "-0.1% 5d",
-   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (-0.1pp 10d).",
+   "display": "-0.3% 10d",
+   "delta": "-0.2% 5d",
+   "detail": "Floating-rate senior secured loans \u2014 isolates credit risk from rate moves. Tracking HY closely (-0.3pp 10d).",
    "asof": "2026-10-16",
-   "value": -0.0012206845258329047,
+   "value": -0.002929661488450974,
    "subscores": {}
   },
   {
@@ -135,12 +136,12 @@
    "label": "VIX term structure (VIX/VIX3M)",
    "group": "Volatility",
    "weight": 0.16,
-   "status": 0,
-   "display": "0.91",
-   "delta": "+0.07 5d",
+   "status": 1,
+   "display": "0.98",
+   "delta": "+0.14 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
    "asof": "2026-10-16",
-   "value": 0.9097148393028611,
+   "value": 0.977841956322268,
    "subscores": {}
   },
   {
@@ -150,14 +151,14 @@
    "weight": 0.0,
    "status": 2,
    "display": "SKEW 160",
-   "delta": "VVIX 95 \u00b7 +11 5d",
-   "detail": "SKEW 160 (expensive \u2265145), VVIX 95 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "delta": "VVIX 113 \u00b7 +11 5d",
+   "detail": "SKEW 160 (expensive \u2265145), VVIX 113 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-10-15",
    "value": 160.4499969482422,
    "subscores": {
     "skew": 2,
-    "vvix": 1,
-    "vvix_level": 95.33999633789062
+    "vvix": 2,
+    "vvix_level": 112.95999908447266
    }
   },
   {
@@ -165,16 +166,16 @@
    "label": "Implied vol richness (VIX pctile, IV\u2212RV)",
    "group": "Hedge pricing",
    "weight": 0.0,
-   "status": 1,
-   "display": "53th pctile",
-   "delta": "IV\u2212RV +7.3pt",
-   "detail": "VIX 17.2 sits at the 53th percentile of its trailing year (expensive \u226580th); 20d realized 10.0, so implied carries +7.3 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "status": 2,
+   "display": "84th pctile",
+   "delta": "IV\u2212RV +9.7pt",
+   "detail": "VIX 20.3 sits at the 84th percentile of its trailing year (expensive \u226580th); 20d realized 10.6, so implied carries +9.7 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-10-16",
-   "value": 7.271412767863508,
+   "value": 9.691663750552678,
    "subscores": {
-    "pctile": 0,
-    "premium": 1,
-    "realized": 9.95858677437282
+    "pctile": 2,
+    "premium": 2,
+    "realized": 10.608335486507869
    }
   },
   {
@@ -183,14 +184,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 2,
-   "display": "-12.4% vs 60d high",
-   "delta": "-11.1% 10d",
+   "display": "-13.6% vs 60d high",
+   "delta": "-12.3% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-10-16",
-   "value": -0.12443342253873901,
+   "value": -0.13573975684795192,
    "subscores": {
-    "drawdown": -0.12443342253873901,
-    "mom10": -0.11127018674291234
+    "drawdown": -0.13573975684795192,
+    "mom10": -0.12274650006723342
    }
   },
   {
@@ -199,7 +200,7 @@
    "group": "AI sector",
    "weight": 0.1,
    "status": 2,
-   "display": "CRWV -31% \u00b7 ORCL -8% 10d",
+   "display": "CRWV -33% \u00b7 ORCL -10% 10d",
    "delta": "vol \u00d70.8 / \u00d71.0",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
    "asof": "2026-10-16",
@@ -212,11 +213,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 2,
-   "display": "RSP/SPY +0.7% 20d",
-   "delta": "21% of basket > 50dma",
+   "display": "RSP/SPY +0.9% 20d",
+   "delta": "14% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
    "asof": "2026-10-16",
-   "value": 0.0074173000414345935,
+   "value": 0.009410014523928423,
    "subscores": {}
   },
   {
