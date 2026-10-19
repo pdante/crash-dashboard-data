@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-10-19T17:45:42+00:00",
+ "generated_at": "2026-10-19T18:44:19+00:00",
  "run_label": "mid-day",
  "composite": 30.0,
  "base_composite": 30.0,
@@ -68,11 +68,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "-1.4% 10d",
-   "delta": "-1.2% 5d",
+   "display": "-1.5% 10d",
+   "delta": "-1.3% 5d",
    "detail": "High-yield ETF vs Treasuries \u2014 a same-day credit read with no FRED lag.",
    "asof": "2026-10-19",
-   "value": -0.014175774841199917,
+   "value": -0.014897071211046664,
    "subscores": {}
   },
   {
@@ -141,7 +141,7 @@
    "delta": "+0.09 5d",
    "detail": "\u22651.00 = backwardation \u2014 the near-coincident confirmation signal (days of lead at most).",
    "asof": "2026-10-19",
-   "value": 0.9354346490677312,
+   "value": 0.93842243725381,
    "subscores": {}
   },
   {
@@ -151,14 +151,14 @@
    "weight": 0.0,
    "status": 2,
    "display": "SKEW 169",
-   "delta": "VVIX 106 \u00b7 +14 5d",
-   "detail": "SKEW 169 (expensive \u2265145), VVIX 106 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "delta": "VVIX 105 \u00b7 +14 5d",
+   "detail": "SKEW 169 (expensive \u2265145), VVIX 105 (expensive \u2265110). Tail insurance is expensive \u2014 you would be paying up for the tail. Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-10-16",
    "value": 168.58999633789062,
    "subscores": {
     "skew": 2,
     "vvix": 1,
-    "vvix_level": 105.87999725341797
+    "vvix_level": 105.16000366210938
    }
   },
   {
@@ -167,15 +167,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 2,
-   "display": "68th pctile",
+   "display": "69th pctile",
    "delta": "IV\u2212RV +9.4pt",
-   "detail": "VIX 18.4 sits at the 68th percentile of its trailing year (expensive \u226580th); 20d realized 9.0, so implied carries +9.4 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
+   "detail": "VIX 18.4 sits at the 69th percentile of its trailing year (expensive \u226580th); 20d realized 9.0, so implied carries +9.4 vol points of premium (expensive \u22658). Cost tier, not a risk tier \u2014 excluded from the composite.",
    "asof": "2026-10-19",
-   "value": 9.403893672087515,
+   "value": 9.419497722965858,
    "subscores": {
     "pctile": 1,
     "premium": 2,
-    "realized": 8.996105946442759
+    "realized": 9.02050281109176
    }
   },
   {
@@ -188,10 +188,10 @@
    "delta": "-11.5% 10d",
    "detail": "Equal-weight basket of 14 AI-exposed names.",
    "asof": "2026-10-19",
-   "value": -0.12310138024832806,
+   "value": -0.1234387301486688,
    "subscores": {
-    "drawdown": -0.12310138024832806,
-    "mom10": -0.11457843174269056
+    "drawdown": -0.1234387301486688,
+    "mom10": -0.11491906048937028
    }
   },
   {
@@ -200,7 +200,7 @@
    "group": "AI sector",
    "weight": 0.1,
    "status": 2,
-   "display": "CRWV -31% \u00b7 ORCL -8% 10d",
+   "display": "CRWV -32% \u00b7 ORCL -8% 10d",
    "delta": "vol \u00d70.8 / \u00d71.0",
    "detail": "Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.",
    "asof": "2026-10-19",
@@ -217,7 +217,7 @@
    "delta": "36% of basket > 50dma",
    "detail": "Narrowing breadth = fragility backdrop; slow signal, low weight.",
    "asof": "2026-10-19",
-   "value": 0.01210676011476175,
+   "value": 0.012148104903773493,
    "subscores": {}
   },
   {
