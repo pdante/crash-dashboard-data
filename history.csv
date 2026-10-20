@@ -262,3 +262,4 @@ generated_at,composite,tier,schema,regime,posture,lit,qqq
 2026-10-20T05:38:36+00:00,33.3,AMBER,2,credit-tail,spread-or-collar,ccc_oas=2;ai_basket=2;periphery=2;breadth=2,718.36
 2026-10-20T15:49:31+00:00,35.0,AMBER,2,credit-led,spread-or-collar,ccc_oas=2;hyg_ief=1;ai_basket=2;periphery=2;breadth=1,719.25
 2026-10-20T17:12:45+00:00,35.0,AMBER,2,credit-led,spread-or-collar,ccc_oas=2;hyg_ief=1;ai_basket=2;periphery=2;breadth=1,718.57
+2026-10-20T20:02:56+00:00,38.3,AMBER,2,credit-led,spread-or-collar,ccc_oas=2;hyg_ief=1;ai_basket=2;periphery=2;breadth=2,717.63

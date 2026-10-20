@@ -3,15 +3,51 @@
  "started": "2026-10-19",
  "seed_cash": 1000.0,
  "cash": 0.0,
- "shares": 1.390781897582821,
+ "shares": 1.3799359448957174,
  "bench_shares": 1.390781897582821,
- "positions": [],
+ "positions": [
+  {
+   "id": "put_spread_5_15-2026-10-20",
+   "structure": "Put spread ~5% \u2192 ~15% below",
+   "expiry": "2026-11-20",
+   "qty": 1.3799359448957174,
+   "legs": [
+    {
+     "type": "put",
+     "strike": 682.0,
+     "action": "buy",
+     "open_mid": 7.27
+    },
+    {
+     "type": "put",
+     "strike": 610.0,
+     "action": "sell",
+     "open_mid": 1.63
+    }
+   ],
+   "cost": 7.7828,
+   "opened": "2026-10-20",
+   "opened_posture": "spread-or-collar"
+  }
+ ],
  "trades": [
   {
    "date": "2026-10-19",
    "kind": "seed",
    "text": "BUY 1.3908 QQQ @ 719.02 (seed $1000)",
    "cash_delta": -1000.0
+  },
+  {
+   "date": "2026-10-20",
+   "kind": "fund",
+   "text": "SELL 0.0108 QQQ @ 717.58 to fund protection",
+   "cash_delta": 7.7828
+  },
+  {
+   "date": "2026-10-20",
+   "kind": "open",
+   "text": "OPEN Put spread ~5% \u2192 ~15% below exp 2026-11-20 on 1.3799 sh for $7.78 (0.79% of notional) \u2014 posture: spread-or-collar",
+   "cash_delta": -7.7828
   }
  ],
  "nav_history": [
@@ -24,12 +60,12 @@
   },
   {
    "date": "2026-10-20",
-   "nav": 998.65,
-   "bench": 998.65,
+   "nav": 997.99,
+   "bench": 998.0,
    "posture": "spread-or-collar",
    "tier": "AMBER"
   }
  ],
- "last_trade_date": null,
- "last_posture": null
+ "last_trade_date": "2026-10-20",
+ "last_posture": "spread-or-collar"
 }
