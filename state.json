@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-10-20T02:47:43+00:00",
+ "generated_at": "2026-10-20T02:59:39+00:00",
  "run_label": "pre-open",
  "composite": 33.3,
  "base_composite": 33.3,
@@ -190,12 +190,12 @@
    "status": 1,
    "display": "+7.1 pts skew",
    "delta": "25\u0394 put 25.6% vs ATM 21.5% \u00b7 31d",
-   "detail": "Read straight off the QQQ option chain (expiry 2026-11-20, 31 days): a put 25% likely to pay costs 25.6% implied volatility against 18.5% for the mirror-image call \u2014 +7.1 points more for downside than upside (expensive above 9). Relative to at-the-money (21.5%) that is \u00d71.19 (expensive above 1.25). Nasdaq downside insurance is middling in price. This is the price of the actual instrument, not an S&P proxy. Not part of the score.",
+   "detail": "Read straight off the QQQ option chain (expiry 2026-11-20, 31 days): a put 25% likely to pay costs 25.6% implied volatility against 18.5% for the mirror-image call \u2014 +7.1 points more for downside than upside (expensive above 9). Relative to at-the-money (21.5%) that is \u00d71.19 (expensive above 1.4). Nasdaq downside insurance is middling in price. This is the price of the actual instrument, not an S&P proxy. Not part of the score.",
    "asof": "2026-10-20",
    "value": 7.1,
    "subscores": {
     "rr": 1,
-    "ratio": 1,
+    "ratio": 0,
     "put10_iv": 0.3161
    }
   },
@@ -209,10 +209,10 @@
    "delta": "-11.4%, 2wk",
    "detail": "An equal-weight basket of 14 AI-exposed companies, currently 12.3% below its three-month high, having moved -11.4% over the past two weeks. Equal-weight means a small company counts as much as a giant one, so a single megacap cannot mask the rest.",
    "asof": "2026-10-19",
-   "value": -0.12289292531620188,
+   "value": -0.12289292531620155,
    "subscores": {
-    "drawdown": -0.12289292531620188,
-    "mom10": -0.11436795074892814
+    "drawdown": -0.12289292531620155,
+    "mom10": -0.11436795074892792
    }
   },
   {
@@ -351,7 +351,7 @@
    }
   ],
   "quote_note": "Mid of bid/ask, 15-minute delayed; outside market hours these are the closing quotes and real fills will differ.",
-  "scanned_at": "2026-10-20T02:47:43+00:00",
+  "scanned_at": "2026-10-20T02:59:39+00:00",
   "source": "CBOE delayed quotes"
  },
  "paper": {
