@@ -1,5 +1,8 @@
 {
  "schema": 1,
+ "variant": "5pct",
+ "label": "A \u00b7 5%-below put",
+ "variant_note": "Cheap-protection window always buys the ~5%-below put.",
  "since": "2026-10-19",
  "as_of": "2026-10-19",
  "run_label": "pre-open",

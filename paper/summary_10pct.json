@@ -1,0 +1,36 @@
+{
+ "schema": 1,
+ "variant": "10pct",
+ "label": "B \u00b7 10%-below put when credit confirms",
+ "variant_note": "Cheap-protection window buys the ~10%-below put when the regime is credit-led or funding (the tail is live), the ~5%-below put in an unconfirmed early window.",
+ "since": "2026-10-19",
+ "as_of": "2026-10-19",
+ "run_label": "pre-open",
+ "seed_cash": 1000.0,
+ "nav": 1000.0,
+ "bench_nav": 1000.0,
+ "return_pct": -0.0,
+ "bench_return_pct": -0.0,
+ "vs_bench_pct": 0.0,
+ "cash": 0.0,
+ "shares": 1.3908,
+ "options_value": 0,
+ "premium_paid_total": 0,
+ "settlements_total": 0,
+ "open_position": null,
+ "open_position_value": null,
+ "n_trades": 1,
+ "recent_trades": [
+  "BUY 1.3908 QQQ @ 719.02 (seed $1000)"
+ ],
+ "nav_history": [
+  {
+   "date": "2026-10-19",
+   "nav": 1000.0,
+   "bench": 1000.0,
+   "posture": "spread-or-collar",
+   "tier": "AMBER"
+  }
+ ],
+ "rules": "Fake $1,000 in QQQ from day one. Once per trading day (post-close): cheap-protection window \u2192 buy the ~5%-below put, notional-matched; spreads-or-collars \u2192 open the 5\u219215 put spread; trim \u2192 sell 25% of shares, once per episode; GREEN \u2192 put cash back into QQQ. Options marked at chain mids, settled at intrinsic on expiry. Benchmark: the same shares, never touched."
+}
