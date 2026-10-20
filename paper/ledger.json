@@ -1,0 +1,28 @@
+{
+ "schema": 1,
+ "started": "2026-10-19",
+ "seed_cash": 1000.0,
+ "cash": 0.0,
+ "shares": 1.390781897582821,
+ "bench_shares": 1.390781897582821,
+ "positions": [],
+ "trades": [
+  {
+   "date": "2026-10-19",
+   "kind": "seed",
+   "text": "BUY 1.3908 QQQ @ 719.02 (seed $1000)",
+   "cash_delta": -1000.0
+  }
+ ],
+ "nav_history": [
+  {
+   "date": "2026-10-19",
+   "nav": 1000.0,
+   "bench": 1000.0,
+   "posture": "spread-or-collar",
+   "tier": "AMBER"
+  }
+ ],
+ "last_trade_date": null,
+ "last_posture": null
+}
