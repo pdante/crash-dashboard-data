@@ -1,29 +1,21 @@
 {
-  "scanned_at": "2026-10-19T12:00:00Z",
+  "scanned_at": "2026-10-20T12:00:00Z",
   "items": [
     {
-      "headline": "AI credit fears push tech default insurance to record highs",
-      "source": "BusinessDay (Reuters)",
-      "url": "https://www.businessday.co.za/world/international-companies/2026-10-15-ai-credit-fears-push-tech-default-insurance-hits-record-highs/",
-      "date": "2026-10-15",
-      "severity": "medium",
-      "note": "Amazon, Alphabet, Meta and Nvidia CDS hit record levels alongside Oracle and CoreWeave, showing market-wide repricing of AI-infrastructure credit risk."
-    },
-    {
-      "headline": "CoreWeave 5-year CDS tops 1,000bp; unsecured notes trade at 76-81 cents",
-      "source": "Let's Data Science",
-      "url": "https://letsdatascience.com/news/coreweave-slump-exposes-ai-infrastructure-debt-risks-2691f237",
-      "date": "2026-10-15",
-      "severity": "medium",
-      "note": "Implied multi-year default odds above 60% and 15-16% bond yields signal a sharply higher refinancing cost for the largest neocloud borrower (CDS figures vary by source)."
-    },
-    {
-      "headline": "Oracle 5-year CDS rises to 288bp from 260bp a week earlier",
-      "source": "S&P Global Market Intelligence via roic.ai",
-      "url": "https://www.roic.ai/news/ai-debt-fears-surge-as-tech-default-insurance-hits-record-highs-10-15-2026",
+      "headline": "CoreWeave bonds rebound sharply after recent selloff",
+      "source": "ROIC.ai",
+      "url": "https://www.roic.ai/news/coreweave-bonds-rebound-sharply-after-recent-selloff-10-15-2026",
       "date": "2026-10-15",
       "severity": "low",
-      "note": "Oracle, rated one notch above junk by S&P, continues to see spread drift as data-center capex outpaces cash generation."
+      "note": "2031 notes recovered to ~82.8 cents and 2030 notes to ~91.3 cents, but both remain well below par, so neocloud funding stress has eased only partly."
+    },
+    {
+      "headline": "CoreWeave shares plunge 16% as bond yields near 15%; unsecured notes trade at 76-81 cents",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/coreweave-shares-plunge-bond-yields-15/",
+      "date": "2026-10-14",
+      "severity": "medium",
+      "note": "Unsecured 2031/2032 notes yielding 15-16% and reported record CDS levels signal serious market doubt about neocloud refinancing, with about $4.4B due by end of 2026; Oracle also fell about 9% in the same sell-off."
     }
   ]
 }
