@@ -21,6 +21,13 @@
    "bench": 1000.0,
    "posture": "spread-or-collar",
    "tier": "AMBER"
+  },
+  {
+   "date": "2026-10-20",
+   "nav": 1000.0,
+   "bench": 1000.0,
+   "posture": "spread-or-collar",
+   "tier": "AMBER"
   }
  ],
  "last_trade_date": null,
