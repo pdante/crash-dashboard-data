@@ -1,4 +1,4 @@
-generated_at,composite,tier,schema
+generated_at,composite,tier,schema,regime,posture,lit,qqq
 2026-07-25T00:50:40+00:00,30.0,AMBER
 2026-07-25T01:00:11+00:00,30.0,AMBER
 2026-07-27T14:00:09+00:00,20.8,GREEN
@@ -258,3 +258,4 @@ generated_at,composite,tier,schema
 2026-10-20T05:07:07+00:00,33.3,AMBER,2
 2026-10-20T05:25:23+00:00,33.3,AMBER,2
 2026-10-20T05:29:03+00:00,33.3,AMBER,2
+2026-10-20T05:32:41+00:00,33.3,AMBER,2,credit-tail,spread-or-collar,ccc_oas=2;ai_basket=2;periphery=2;breadth=2,718.36

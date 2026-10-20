@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-10-20T05:29:03+00:00",
+ "generated_at": "2026-10-20T05:32:41+00:00",
  "run_label": "pre-open",
  "composite": 33.3,
  "base_composite": 33.3,
@@ -210,10 +210,10 @@
    "delta": "-11.4%, 2wk",
    "detail": "An equal-weight basket of 14 AI-exposed companies, currently 12.3% below its three-month high, having moved -11.4% over the past two weeks. Equal-weight means a small company counts as much as a giant one, so a single megacap cannot mask the rest.",
    "asof": "2026-10-19",
-   "value": -0.12289292531620166,
+   "value": -0.12289292531620177,
    "subscores": {
-    "drawdown": -0.12289292531620166,
-    "mom10": -0.11436795074892814
+    "drawdown": -0.12289292531620177,
+    "mom10": -0.11436795074892825
    }
   },
   {
@@ -256,6 +256,7 @@
    "subscores": {}
   }
  ],
+ "qqq_close": 718.36,
  "hedge": {
   "underlying": "QQQ",
   "spot": 719.02,
@@ -759,7 +760,7 @@
    }
   ],
   "quote_note": "Mid of bid/ask, 15-minute delayed; outside market hours these are the closing quotes and real fills will differ.",
-  "scanned_at": "2026-10-20T05:29:03+00:00",
+  "scanned_at": "2026-10-20T05:32:41+00:00",
   "source": "CBOE delayed quotes",
   "fit_context": {
    "posture": "spread-or-collar",
