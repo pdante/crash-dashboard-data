@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-10-20T02:11:15+00:00",
+ "generated_at": "2026-10-20T02:27:39+00:00",
  "run_label": "pre-open",
  "composite": 33.3,
  "base_composite": 33.3,
@@ -14,7 +14,7 @@
   "Red: Weakest-borrower risk premium, AI stocks vs their recent highs, Most fragile AI companies, Breadth of the market",
   "Regime: credit-tail \u2014 one corner of the credit market is strained (the weakest borrowers, or a single fund or asset class) while lenders broadly stay calm \u2014 watch, not yet the serious kind",
   "Protection posture: Protection is dear \u2014 spreads or collars rather than outright \u2014 only one corner of credit is strained; lenders broadly are calm, yet AMBER alone has historically doubled the odds of a 10% fall and protection is expensive \u2014 structures that sell the rich vol fit better than outright puts. (Your own rules, applied mechanically \u2014 not advice.)",
-  "Cost of protection (not part of the score): Cost of crash insurance \u2014 expensive, Cost of insurance overall \u2014 expensive"
+  "Cost of protection (not part of the score): Cost of crash insurance \u2014 expensive, Cost of insurance overall \u2014 expensive, Cost of Nasdaq crash insurance \u2014 middling"
  ],
  "news_escalated": false,
  "unknown_indicators": [],
@@ -144,7 +144,7 @@
    "delta": "+0.09, 1wk",
    "detail": "Investors normally expect more turbulence three months out than today, which keeps this below 1.00. Above 1.00 the market is pricing the trouble as happening now \u2014 a confirmation that something is already underway, worth days of warning at most rather than weeks.",
    "asof": "2026-10-19",
-   "value": 0.940816335467585,
+   "value": 0.9408163265306122,
    "subscores": {}
   },
   {
@@ -157,11 +157,11 @@
    "delta": "VVIX 107 \u00b7 +7, 1wk",
    "detail": "How pricey insurance against a big fall is compared with ordinary options: 162, where 145 or more counts as expensive. VVIX 107 measures how pricey it is for that insurance to pay off explosively rather than merely well (expensive above 110). Protection is pricey \u2014 you would be paying up for exactly the outcome you want to insure against. This can read expensive in a perfectly calm market: it is about the price of insurance, not the odds of a crash, which is why it is not part of the score.",
    "asof": "2026-10-19",
-   "value": 161.86000061035156,
+   "value": 161.86,
    "subscores": {
     "skew": 2,
     "vvix": 1,
-    "vvix_level": 106.93000030517578
+    "vvix_level": 106.93
    }
   },
   {
@@ -174,12 +174,29 @@
    "delta": "pricier than 69% of the year \u00b7 Nasdaq",
    "detail": "Priced on the Nasdaq. Two ways to check. The turbulence the market expects is running at 25.6, higher than 69% of the past year (expensive above 80%). And shares have actually been moving about 15.8, so you would be paying +9.8 points for turbulence that has not arrived (expensive above 8). This is a rough market-wide guide \u2014 check the price of the specific option before buying. Not part of the score.",
    "asof": "2026-10-19",
-   "value": 9.795473366680142,
+   "value": 9.795473900737758,
    "subscores": {
     "pctile": 1,
     "premium": 2,
     "realized": 15.764526099262241,
     "market": "Nasdaq"
+   }
+  },
+  {
+   "id": "qqq_skew",
+   "label": "Cost of Nasdaq crash insurance",
+   "group": "Hedge pricing",
+   "weight": 0.0,
+   "status": 1,
+   "display": "+7.1 pts skew",
+   "delta": "25\u0394 put 25.6% vs ATM 21.5% \u00b7 31d",
+   "detail": "Read straight off the QQQ option chain (expiry 2026-11-20, 31 days): a put 25% likely to pay costs 25.6% implied volatility against 18.5% for the mirror-image call \u2014 +7.1 points more for downside than upside (expensive above 9). Relative to at-the-money (21.5%) that is \u00d71.19 (expensive above 1.25). Nasdaq downside insurance is middling in price. This is the price of the actual instrument, not an S&P proxy. Not part of the score.",
+   "asof": "2026-10-20",
+   "value": 7.1,
+   "subscores": {
+    "rr": 1,
+    "ratio": 1,
+    "put10_iv": 0.3161
    }
   },
   {
@@ -192,9 +209,9 @@
    "delta": "-11.4%, 2wk",
    "detail": "An equal-weight basket of 14 AI-exposed companies, currently 12.3% below its three-month high, having moved -11.4% over the past two weeks. Equal-weight means a small company counts as much as a giant one, so a single megacap cannot mask the rest.",
    "asof": "2026-10-19",
-   "value": -0.12289292531620166,
+   "value": -0.12289292531620155,
    "subscores": {
-    "drawdown": -0.12289292531620166,
+    "drawdown": -0.12289292531620155,
     "mom10": -0.11436795074892803
    }
   },

@@ -1,0 +1,19 @@
+{
+ "underlying": "QQQ",
+ "spot": 719.02,
+ "expiry": "2026-11-20",
+ "dte": 31,
+ "atm_strike": 719.0,
+ "atm_iv": 0.2153,
+ "put25_strike": 687.0,
+ "put25_iv": 0.2563,
+ "put25_delta": -0.251,
+ "call25_strike": 750.0,
+ "call25_iv": 0.1853,
+ "put10_strike": 645.0,
+ "put10_iv": 0.3161,
+ "risk_reversal": 7.1,
+ "skew_ratio": 1.1904,
+ "scanned_at": "2026-10-20T02:27:39+00:00",
+ "source": "CBOE delayed quotes"
+}
