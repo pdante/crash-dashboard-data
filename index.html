@@ -48,6 +48,12 @@
   .banner .regime span { font-weight: 400; color: var(--ink-2); }
   .group-note { text-transform: none; letter-spacing: 0; font-weight: 400; }
   .banner ul { margin: 8px 0 0; padding-left: 18px; color: var(--ink-2); font-size: 13px; }
+  .tabs-bar { display: flex; gap: 6px; margin: 6px 0 12px; }
+  .tabs-bar a { text-decoration: none; color: var(--ink-2); font-size: 13px; font-weight: 600;
+    padding: 7px 14px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); }
+  .tabs-bar a.active { color: var(--ink); border-color: var(--tier-color); box-shadow: inset 0 0 0 1px var(--tier-color); }
+  body.tabs .panel { display: none; }
+  body.tabs .panel.active { display: block; }
   .stale-badge { display: none; background: var(--critical-bg); color: var(--critical);
     border: 1px solid var(--critical); border-radius: 6px; padding: 2px 8px; font-size: 12px; font-weight: 700; }
   body.stale .stale-badge { display: inline-block; }
@@ -100,10 +106,16 @@
 <main>
   <header>
     <h1>AI Crash Monitor</h1>
-    <span class="asof">pre-open · <time id="gen-time">2026-10-20T02:59Z</time>
+    <span class="asof">pre-open · <time id="gen-time">2026-10-20T03:22Z</time>
     <span class="stale-badge">STALE DATA</span></span>
   </header>
 
+  <nav class="tabs-bar" role="tablist">
+    <a href="#monitor" role="tab" data-tab="monitor">Monitor</a>
+    <a href="#paper" role="tab" data-tab="paper">Paper account</a>
+  </nav>
+
+  <div class="panel" id="monitor">
   <div class="banner">
     <div class="tier-line">
       <span class="tier-icon">▲</span>
@@ -150,7 +162,7 @@
 
   <section>
     <h2>Score over time <span class="asof">0–100 · lower is calmer</span></h2>
-    <svg class="chart" viewBox="0 0 480 148" role="img" aria-label="Composite score from Oct 20 to Oct 20, currently 33 (AMBER)."><title>Composite score from Oct 20 to Oct 20, currently 33 (AMBER).</title><rect x="30" y="90.6" width="444" height="35.4" fill="var(--good-bg)"/><rect x="30" y="61.1" width="444" height="29.5" fill="var(--warning-bg)"/><rect x="30" y="8.0" width="444" height="53.1" fill="var(--critical-bg)"/><line x1="30" y1="90.6" x2="474" y2="90.6" class="grid-line"/><text x="24" y="94.1" class="ax" text-anchor="end">30</text><line x1="30" y1="61.1" x2="474" y2="61.1" class="grid-line"/><text x="24" y="64.6" class="ax" text-anchor="end">55</text><polyline points="30.0,86.7 207.3,86.7 297.6,86.7 343.9,86.7 381.6,86.7 408.2,86.7 474.0,86.7" class="spark"/><circle cx="474.0" cy="86.7" r="3.5" class="dot warning"/><text x="30" y="144" class="ax">Oct 20</text></svg><p class="detail">7 readings on the current scale. Bands are the GREEN / AMBER / RED thresholds — trend matters as much as level: elevated and rising is a different situation from elevated and fading.</p>
+    <svg class="chart" viewBox="0 0 480 148" role="img" aria-label="Composite score from Oct 20 to Oct 20, currently 33 (AMBER)."><title>Composite score from Oct 20 to Oct 20, currently 33 (AMBER).</title><rect x="30" y="90.6" width="444" height="35.4" fill="var(--good-bg)"/><rect x="30" y="61.1" width="444" height="29.5" fill="var(--warning-bg)"/><rect x="30" y="8.0" width="444" height="53.1" fill="var(--critical-bg)"/><line x1="30" y1="90.6" x2="474" y2="90.6" class="grid-line"/><text x="24" y="94.1" class="ax" text-anchor="end">30</text><line x1="30" y1="61.1" x2="474" y2="61.1" class="grid-line"/><text x="24" y="64.6" class="ax" text-anchor="end">55</text><polyline points="30.0,86.7 168.0,86.7 238.3,86.7 274.3,86.7 303.6,86.7 324.4,86.7 375.6,86.7 474.0,86.7" class="spark"/><circle cx="474.0" cy="86.7" r="3.5" class="dot warning"/><text x="30" y="144" class="ax">Oct 20</text></svg><p class="detail">8 readings on the current scale. Bands are the GREEN / AMBER / RED thresholds — trend matters as much as level: elevated and rising is a different situation from elevated and fading.</p>
   </section>
 
   <section>
@@ -240,21 +252,6 @@
   </section>
   
     <section>
-      <h2>Paper forward-test <span class="asof">fake $1000 since 2026-10-19</span></h2>
-      <div class="tiles" style="margin-bottom:8px">
-        <div class="tile"><div class="tile-label">Following the posture</div><div class="tile-value">$1000.00</div>
-          <div class="tile-foot"><span class="delta">-0.00%</span></div></div>
-        <div class="tile"><div class="tile-label">Unhedged QQQ (benchmark)</div><div class="tile-value">$1000.00</div>
-          <div class="tile-foot"><span class="delta">-0.00%</span></div></div>
-      </div>
-      <p><span class="badge unknown">+0.00% vs benchmark</span>
-         &nbsp; open position: none &nbsp;·&nbsp; premium paid to date $0.00
-         &nbsp;·&nbsp; settlements received $0.00</p>
-      <ul class="detail"><li>BUY 1.3908 QQQ @ 719.02 (seed $1000)</li></ul>
-      <p class="detail">Fake $1,000 in QQQ from day one. Once per trading day (post-close): cheap-protection window → buy the ~5%-below put, notional-matched; spreads-or-collars → open the 5→15 put spread; trim → sell 25% of shares, once per episode; GREEN → put cash back into QQQ. Options marked at chain mids, settled at intrinsic on expiry. Benchmark: the same shares, never touched. Fictional money, mechanical rules, chain mid prices — a live test of the tool, not a portfolio.</p>
-    </section>
-  
-    <section>
       <h2>Hedge price menu <span class="asof">QQQ 719.02 · expiry 2026-11-20 · 31d</span></h2>
       <table><colgroup><col class="c-label"><col class="c-num"><col class="c-num"></colgroup><tr><td class="ind-label">Outright put ~5% below<div class="detail">covers losses below 683 (-5.0%), no cap on recovery. Gives up the full premium if QQQ stays above the strike.</div></td><td class="num">$7.71<div class="delta">per share</div></td><td class="num">1.07%<div class="delta">of notional</div></td></tr><tr><td class="ind-label">Outright put ~10% below<div class="detail">covers losses below 645 (-10.3%) — a crash, not a dip. Gives up the first ~10% of any fall, plus the premium.</div></td><td class="num">$3.60<div class="delta">per share</div></td><td class="num">0.50%<div class="delta">of notional</div></td></tr><tr><td class="ind-label">Put spread ~5% → ~15% below<div class="detail">covers the band 610–683 (-15% to -5%). Gives up protection below 610; the sold put recovers 26% of the premium.</div></td><td class="num">$5.73<div class="delta">per share</div></td><td class="num">0.80%<div class="delta">of notional</div></td></tr><tr><td class="ind-label">Collar: put ~5% below, sell call ~5% above<div class="detail">covers losses below 683 (-5.0%). Gives up gains above 755 (+5.0%) until expiry.</div></td><td class="num">$3.28<div class="delta">per share</div></td><td class="num">0.46%<div class="delta">of notional</div></td></tr></table>
       <p class="detail">Mid of bid/ask, 15-minute delayed; outside market hours these are the closing quotes and real fills will differ. Price tags on standard structures — information, not a recommendation.</p>
@@ -283,6 +280,25 @@
       </li></ul>
     </section>
   
+  </div>
+
+  <div class="panel" id="paper">
+  
+    <section>
+      <h2>Paper forward-test <span class="asof">fake $1000 since 2026-10-19</span></h2>
+      <div class="tiles" style="margin-bottom:8px">
+        <div class="tile"><div class="tile-label">Following the posture</div><div class="tile-value">$1000.00</div>
+          <div class="tile-foot"><span class="delta">-0.00%</span></div></div>
+        <div class="tile"><div class="tile-label">Unhedged QQQ (benchmark)</div><div class="tile-value">$1000.00</div>
+          <div class="tile-foot"><span class="delta">-0.00%</span></div></div>
+      </div>
+      <p><span class="badge unknown">+0.00% vs benchmark</span>
+         &nbsp; open position: none &nbsp;·&nbsp; premium paid to date $0.00
+         &nbsp;·&nbsp; settlements received $0.00</p>
+      <ul class="detail"><li>BUY 1.3908 QQQ @ 719.02 (seed $1000)</li></ul>
+      <p class="detail">Fake $1,000 in QQQ from day one. Once per trading day (post-close): cheap-protection window → buy the ~5%-below put, notional-matched; spreads-or-collars → open the 5→15 put spread; trim → sell 25% of shares, once per episode; GREEN → put cash back into QQQ. Options marked at chain mids, settled at intrinsic on expiry. Benchmark: the same shares, never touched. Fictional money, mechanical rules, chain mid prices — a live test of the tool, not a portfolio.</p>
+    </section>
+  </div>
   <footer>
     Short-lead stress composite from free public data (FRED, Yahoo). It raises the odds of a
     day-to-week heads-up; it cannot guarantee one — 1987/2020-type moves are unpredictable.
@@ -291,8 +307,21 @@
 </main>
 <script>
   (function () {
-    var age = Date.now() - 1792465179000;
+    var age = Date.now() - 1792466556000;
     if (age > 30 * 3600 * 1000) { document.body.classList.add("stale"); }
+
+    // Tabs: the hash picks the panel, so #paper deep-links. Without JS both panels show.
+    var tabs = document.querySelectorAll(".tabs-bar a");
+    var panels = document.querySelectorAll(".panel");
+    function show(name) {
+      var found = false;
+      panels.forEach(function (p) { var on = p.id === name; p.classList.toggle("active", on); found = found || on; });
+      if (!found) { return show("monitor"); }
+      tabs.forEach(function (t) { t.classList.toggle("active", t.dataset.tab === name); });
+    }
+    document.body.classList.add("tabs");
+    show((location.hash || "#monitor").slice(1));
+    window.addEventListener("hashchange", function () { show(location.hash.slice(1)); });
   })();
 </script>
 </body>
