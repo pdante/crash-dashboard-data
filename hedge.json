@@ -14,6 +14,86 @@
  "put10_iv": 0.3161,
  "risk_reversal": 7.1,
  "skew_ratio": 1.1904,
- "scanned_at": "2026-10-20T02:27:39+00:00",
+ "menu": [
+  {
+   "id": "put5",
+   "name": "Outright put ~5% below",
+   "legs": [
+    {
+     "action": "buy",
+     "type": "put",
+     "strike": 683.0,
+     "mid": 7.71
+    }
+   ],
+   "cost_per_share": 7.71,
+   "cost_pct_of_notional": 1.07,
+   "covers": "losses below 683 (-5.0%), no cap on recovery",
+   "gives_up": "the full premium if QQQ stays above the strike"
+  },
+  {
+   "id": "put10",
+   "name": "Outright put ~10% below",
+   "legs": [
+    {
+     "action": "buy",
+     "type": "put",
+     "strike": 645.0,
+     "mid": 3.6
+    }
+   ],
+   "cost_per_share": 3.6,
+   "cost_pct_of_notional": 0.5,
+   "covers": "losses below 645 (-10.3%) \u2014 a crash, not a dip",
+   "gives_up": "the first ~10% of any fall, plus the premium"
+  },
+  {
+   "id": "put_spread_5_15",
+   "name": "Put spread ~5% \u2192 ~15% below",
+   "legs": [
+    {
+     "action": "buy",
+     "type": "put",
+     "strike": 683.0,
+     "mid": 7.71
+    },
+    {
+     "action": "sell",
+     "type": "put",
+     "strike": 610.0,
+     "mid": 1.98
+    }
+   ],
+   "cost_per_share": 5.73,
+   "cost_pct_of_notional": 0.8,
+   "max_payout_per_share": 67.27,
+   "covers": "the band 610\u2013683 (-15% to -5%)",
+   "gives_up": "protection below 610; the sold put recovers 26% of the premium"
+  },
+  {
+   "id": "collar_5_5",
+   "name": "Collar: put ~5% below, sell call ~5% above",
+   "legs": [
+    {
+     "action": "buy",
+     "type": "put",
+     "strike": 683.0,
+     "mid": 7.71
+    },
+    {
+     "action": "sell",
+     "type": "call",
+     "strike": 755.0,
+     "mid": 4.44
+    }
+   ],
+   "cost_per_share": 3.28,
+   "cost_pct_of_notional": 0.46,
+   "covers": "losses below 683 (-5.0%)",
+   "gives_up": "gains above 755 (+5.0%) until expiry"
+  }
+ ],
+ "quote_note": "Mid of bid/ask, 15-minute delayed; outside market hours these are the closing quotes and real fills will differ.",
+ "scanned_at": "2026-10-20T02:36:03+00:00",
  "source": "CBOE delayed quotes"
 }
