@@ -84,6 +84,15 @@
   .news-head a { color: inherit; }
   .news-meta { color: var(--muted); font-size: 12px; }
   ul.issues { color: var(--warning); font-size: 13px; margin: 0; padding-left: 18px; }
+  svg.chart { width: 100%; height: auto; display: block; }
+  .grid-line { stroke: var(--grid); stroke-width: 1; }
+  .spark { fill: none; stroke: var(--ink); stroke-width: 2.5;
+    stroke-linejoin: round; stroke-linecap: round; }
+  text.ax { fill: var(--muted); font-size: 13px;
+    font-family: system-ui, -apple-system, sans-serif; }
+  .dot.good { fill: var(--good); }
+  .dot.warning { fill: var(--warning); }
+  .dot.critical { fill: var(--critical); }
   footer { color: var(--muted); font-size: 12px; padding: 0 4px; }
 </style>
 </head>
@@ -91,7 +100,7 @@
 <main>
   <header>
     <h1>AI Crash Monitor</h1>
-    <span class="asof">pre-open · <time id="gen-time">2026-10-20T00:28Z</time>
+    <span class="asof">pre-open · <time id="gen-time">2026-10-20T01:39Z</time>
     <span class="stale-badge">STALE DATA</span></span>
   </header>
 
@@ -99,123 +108,128 @@
     <div class="tier-line">
       <span class="tier-icon">▲</span>
       <span class="tier-name">AMBER</span>
-      <span class="score"><b>38</b><br><span class="asof">composite / 100</span></span>
+      <span class="score"><b>33</b><br><span class="asof">composite / 100</span></span>
     </div>
-    <div class="blurb">Elevated readings — check the tripped indicators below.</div>
-    <div class="regime">Regime: credit-led <span>— credit is involved — more serious than an equity-only dip</span></div>
-    <ul><li>Red: CCC credit spread (OAS), AI basket drawdown / momentum, Periphery canaries (CRWV, ORCL), Breadth (RSP/SPY, % above 50dma)</li><li>Amber: HYG/IEF ratio (credit vs safety)</li><li>Regime: credit-led — Credit is involved — more serious than an equity-only dip.</li><li>Hedge pricing (not in composite): Put skew / cost of tail insurance expensive, Implied vol richness (VIX pctile, IV−RV) moderate</li></ul>
+    <div class="blurb">Some signals are running hot — see which ones below before doing anything.</div>
+    <div class="regime">Regime: credit-tail <span>— one corner of the credit market is strained while lenders broadly stay calm — watch, not yet the serious kind</span></div><div class="regime">Protection posture: Protection is dear — spreads or collars rather than outright <span>— only one corner of credit is strained; lenders broadly are calm, yet AMBER alone has historically doubled the odds of a 10% fall and protection is expensive — structures that sell the rich vol fit better than outright puts. Your own rules, applied mechanically — not advice.</span></div>
+    <ul><li>Red: Weakest-borrower risk premium, AI stocks vs their recent highs, Most fragile AI companies, Breadth of the market</li><li>Regime: credit-tail — one corner of the credit market is strained (the weakest borrowers, or a single fund or asset class) while lenders broadly stay calm — watch, not yet the serious kind</li><li>Protection posture: Protection is dear — spreads or collars rather than outright — only one corner of credit is strained; lenders broadly are calm, yet AMBER alone has historically doubled the odds of a 10% fall and protection is expensive — structures that sell the rich vol fit better than outright puts. (Your own rules, applied mechanically — not advice.)</li><li>Cost of protection (not part of the score): Cost of crash insurance — expensive, Cost of insurance overall — expensive</li></ul>
   </div>
 
   <div class="tiles">
       <div class="tile">
-        <div class="tile-label">HY credit spread (OAS)</div>
+        <div class="tile-label">Junk-bond risk premium</div>
         <div class="tile-value">3.31%</div>
-        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+20bp 5d</span></div>
+        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+0.20 pts, 1wk</span></div>
       </div>
       <div class="tile">
-        <div class="tile-label">IG credit spread (OAS)</div>
+        <div class="tile-label">Safe-borrower risk premium</div>
         <div class="tile-value">0.85%</div>
-        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+2bp 5d</span></div>
+        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+0.02 pts, 1wk</span></div>
       </div>
       <div class="tile">
-        <div class="tile-label">VIX term structure (VIX/VIX3M)</div>
+        <div class="tile-label">Fear now vs fear later</div>
         <div class="tile-value">0.94</div>
-        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+0.09 5d</span></div>
+        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">+0.09, 1wk</span></div>
       </div>
       <div class="tile">
-        <div class="tile-label">HYG/IEF ratio (credit vs safety)</div>
-        <div class="tile-value">-1.6% 10d</div>
-        <div class="tile-foot"><span class="badge warning"><span class="icon">▲</span>WATCH</span><span class="delta">-1.6% 5d</span></div>
+        <div class="tile-label">Junk bonds vs government bonds</div>
+        <div class="tile-value">-1.5%, 2wk</div>
+        <div class="tile-foot"><span class="badge good"><span class="icon">●</span>OK</span><span class="delta">-1.3%, 1wk</span></div>
       </div>
       <div class="tile">
-        <div class="tile-label">AI basket drawdown / momentum</div>
-        <div class="tile-value">-13.5% vs 60d high</div>
-        <div class="tile-foot"><span class="badge critical"><span class="icon">■</span>ALERT</span><span class="delta">-12.2% 10d</span></div>
+        <div class="tile-label">AI stocks vs their recent highs</div>
+        <div class="tile-value">-12.3% off high</div>
+        <div class="tile-foot"><span class="badge critical"><span class="icon">■</span>ALERT</span><span class="delta">-11.4%, 2wk</span></div>
       </div>
       <div class="tile">
-        <div class="tile-label">Put skew / cost of tail insurance</div>
-        <div class="tile-value">SKEW 162</div>
-        <div class="tile-foot"><span class="badge critical"><span class="icon">■</span>EXPENSIVE</span><span class="delta">VVIX 107 · +7 5d</span></div>
+        <div class="tile-label">Cost of crash insurance</div>
+        <div class="tile-value">162</div>
+        <div class="tile-foot"><span class="badge critical"><span class="icon">■</span>EXPENSIVE</span><span class="delta">VVIX 107 · +7, 1wk</span></div>
       </div>
   </div>
+
+  <section>
+    <h2>Score over time <span class="asof">0–100 · lower is calmer</span></h2>
+    <p class="detail">Building history — 1 reading on the current scale so far. The chart appears at 2.</p>
+  </section>
 
   <section>
     <h2>Indicators <span class="asof">status · value · as of</span></h2>
     <table><colgroup><col class="c-label"><col class="c-num"><col class="c-status"></colgroup><tr class="group-row"><td colspan="3">Credit &amp; funding</td></tr>
         <tr>
-          <td class="ind-label">HY credit spread (OAS)<div class="detail">Level 3.31% (amber ≥4.5%), 5d change +20bp (amber ≥+30bp). A fast widening is the best short-lead credit signal.</div></td>
-          <td class="num">3.31%<div class="delta">+20bp 5d</div></td>
+          <td class="ind-label">Junk-bond risk premium<div class="detail">The extra yield lenders demand to lend to risky companies rather than to the government: 3.31%, +0.20 points over the past week. Lenders are getting nervous above 4.5%, or on a jump of more than 0.30 points in a week. A fast jump is the earliest reliable warning signal here.</div></td>
+          <td class="num">3.31%<div class="delta">+0.20 pts, 1wk</div></td>
           <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-10-16</div></td>
         </tr>
         <tr>
-          <td class="ind-label">IG credit spread (OAS)<div class="detail">Level 0.85% (amber ≥1.3%), 5d change +2bp (amber ≥+15bp). Both tiers calm (HY/IG 3.9×).</div></td>
-          <td class="num">0.85%<div class="delta">+2bp 5d</div></td>
+          <td class="ind-label">Safe-borrower risk premium<div class="detail">The same measure for financially solid companies: 0.85%. It barely budges in normal times, so any real move means the worry has spread beyond the risky end of the market. Nervous above 1.3%. Both ends calm (risky borrowing costs 3.9× the solid kind, which is normal).</div></td>
+          <td class="num">0.85%<div class="delta">+0.02 pts, 1wk</div></td>
           <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-10-16</div></td>
         </tr>
         <tr>
-          <td class="ind-label">CCC credit spread (OAS)<div class="detail">Junkiest credit tier — closest public proxy for the leveraged AI periphery.</div></td>
-          <td class="num">12.97%<div class="delta">+44bp 5d</div></td>
+          <td class="ind-label">Weakest-borrower risk premium<div class="detail">The same measure for the shakiest borrowers of all: 12.97%. This is the closest free stand-in for the debt-funded AI buildout, and trouble usually shows up here before anywhere else. Nervous above 10.0%.</div></td>
+          <td class="num">12.97%<div class="delta">+0.44 pts, 1wk</div></td>
           <td class="status-cell"><span class="badge critical"><span class="icon">■</span>ALERT</span><div class="asof">2026-10-16</div></td>
         </tr>
         <tr>
-          <td class="ind-label">HYG/IEF ratio (credit vs safety)<div class="detail">High-yield ETF vs Treasuries — a same-day credit read with no FRED lag.</div></td>
-          <td class="num">-1.6% 10d<div class="delta">-1.6% 5d</div></td>
-          <td class="status-cell"><span class="badge warning"><span class="icon">▲</span>WATCH</span><div class="asof">2026-10-16</div></td>
+          <td class="ind-label">Junk bonds vs government bonds<div class="detail">Are investors dumping risky bonds and buying safe government ones? This is priced continuously through the trading day, so it moves before the official spread figures, which arrive a day late. A fall of 1.5% or more over two weeks is the warning.</div></td>
+          <td class="num">-1.5%, 2wk<div class="delta">-1.3%, 1wk</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-10-19</div></td>
         </tr>
         <tr>
-          <td class="ind-label">Leveraged loans (BKLN)<div class="detail">Floating-rate senior secured loans — isolates credit risk from rate moves. Tracking HY closely (-0.1pp 10d).</div></td>
-          <td class="num">-0.2% 10d<div class="delta">-0.1% 5d</div></td>
+          <td class="ind-label">Bank loans to risky companies<div class="detail">These loans pay a floating interest rate, so their price moves on worry about the companies rather than on interest-rate swings — a cleaner read on company health than bonds give you. Moving in step with junk bonds (-0.1 points over two weeks).</div></td>
+          <td class="num">-0.3%, 2wk<div class="delta">-0.2%, 1wk</div></td>
+          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-10-19</div></td>
+        </tr>
+        <tr>
+          <td class="ind-label">Overnight cash squeeze<div class="detail">What banks pay to borrow cash overnight, against what the Fed pays them to leave it parked. Normally near zero or a little below; currently -2 basis points (a basis point is one hundredth of a percentage point). Staying above +8 means cash is getting scarce in the banking system.</div></td>
+          <td class="num">-2bp<div class="delta">3-day avg</div></td>
           <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-10-16</div></td>
         </tr>
         <tr>
-          <td class="ind-label">SOFR − IORB (funding stress)<div class="detail">Repo rate over the interest-on-reserves floor; a persistent positive spread means funding stress.</div></td>
-          <td class="num">-2bp<div class="delta">3d avg</div></td>
+          <td class="ind-label">Cash squeeze severity<div class="detail">Two checks that tell a real cash shortage from the routine month-end and quarter-end noise. First, the gap between what the most desperate borrowers pay and what a typical one pays: 11 basis points, where 30 or more is unusual. Second, the Fed&#x27;s standing emergency lending window — banks borrowed $0.1 billion on the busiest of the last three days, where $5 billion or more is worth noticing. Ordinary calendar spikes show neither, which is why both have to agree before this counts as stress.</div></td>
+          <td class="num">11bp spread<div class="delta">Fed window $0.1bn</div></td>
           <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-10-16</div></td>
         </tr>
         <tr>
-          <td class="ind-label">Funding tail (SOFR spread + Fed repo use)<div class="detail">SOFR 99th−1st percentile 11bp (amber ≥30bp); Fed repo ops $0.1bn (3d max) (amber ≥$5bn). Needs both legs to confirm stress over calendar effects.</div></td>
-          <td class="num">11bp tail<div class="delta">Fed repo ops $0.1bn (3d max)</div></td>
-          <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-10-16</div></td>
-        </tr>
-        <tr>
-          <td class="ind-label">Chicago Fed NFCI<div class="detail">Weekly financial-conditions composite; positive = tighter than average.</div></td>
-          <td class="num">-0.50<div class="delta">+0.04 4w</div></td>
+          <td class="ind-label">Overall borrowing conditions<div class="detail">A weekly summary from the Chicago Fed of how easy it is to borrow across the whole economy. Above zero means tighter than the historical average. It moves slowly, so it carries little weight here.</div></td>
+          <td class="num">-0.50<div class="delta">+0.04, 1mo</div></td>
           <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-10-09</div></td>
         </tr><tr class="group-row"><td colspan="3">Volatility</td></tr>
         <tr>
-          <td class="ind-label">VIX term structure (VIX/VIX3M)<div class="detail">≥1.00 = backwardation — the near-coincident confirmation signal (days of lead at most).</div></td>
-          <td class="num">0.94<div class="delta">+0.09 5d</div></td>
+          <td class="ind-label">Fear now vs fear later<div class="detail">Investors normally expect more turbulence three months out than today, which keeps this below 1.00. Above 1.00 the market is pricing the trouble as happening now — a confirmation that something is already underway, worth days of warning at most rather than weeks.</div></td>
+          <td class="num">0.94<div class="delta">+0.09, 1wk</div></td>
           <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-10-19</div></td>
         </tr><tr class="group-row"><td colspan="3">AI sector</td></tr>
         <tr>
-          <td class="ind-label">AI basket drawdown / momentum<div class="detail">Equal-weight basket of 14 AI-exposed names.</div></td>
-          <td class="num">-13.5% vs 60d high<div class="delta">-12.2% 10d</div></td>
-          <td class="status-cell"><span class="badge critical"><span class="icon">■</span>ALERT</span><div class="asof">2026-10-16</div></td>
+          <td class="ind-label">AI stocks vs their recent highs<div class="detail">An equal-weight basket of 14 AI-exposed companies, currently 12.3% below its three-month high, having moved -11.4% over the past two weeks. Equal-weight means a small company counts as much as a giant one, so a single megacap cannot mask the rest.</div></td>
+          <td class="num">-12.3% off high<div class="delta">-11.4%, 2wk</div></td>
+          <td class="status-cell"><span class="badge critical"><span class="icon">■</span>ALERT</span><div class="asof">2026-10-19</div></td>
         </tr>
         <tr>
-          <td class="ind-label">Periphery canaries (CRWV, ORCL)<div class="detail">Sharp equity drops or realized-vol spikes in the debt-financed periphery stand in for CDS.</div></td>
-          <td class="num">CRWV -31% · ORCL -10% 10d<div class="delta">vol ×0.8 / ×1.0</div></td>
-          <td class="status-cell"><span class="badge critical"><span class="icon">■</span>ALERT</span><div class="asof">2026-10-16</div></td>
+          <td class="ind-label">Most fragile AI companies<div class="detail">CoreWeave and Oracle stand for the debt-funded end of the AI buildout. What their own lenders charge them is not published for free, so we watch for sharp share-price falls, or a sudden jump in how much the shares swing day to day, as the stand-in.</div></td>
+          <td class="num">CoreWeave -30% · Oracle -9%, 2wk<div class="delta">swings ×0.8 / ×1.0 vs normal</div></td>
+          <td class="status-cell"><span class="badge critical"><span class="icon">■</span>ALERT</span><div class="asof">2026-10-19</div></td>
         </tr><tr class="group-row"><td colspan="3">Backdrop</td></tr>
         <tr>
-          <td class="ind-label">Breadth (RSP/SPY, % above 50dma)<div class="detail">Narrowing breadth = fragility backdrop; slow signal, low weight.</div></td>
-          <td class="num">RSP/SPY +1.0% 20d<div class="delta">14% of basket &gt; 50dma</div></td>
-          <td class="status-cell"><span class="badge critical"><span class="icon">■</span>ALERT</span><div class="asof">2026-10-16</div></td>
+          <td class="ind-label">Breadth of the market<div class="detail">When gains narrow to a handful of giant companies the market gets fragile. Two checks: the average US stock against the big-company index (+1.3% over the past month), and how much of the AI basket is still above its 50-day average (21%). A slow background signal, so it carries little weight.</div></td>
+          <td class="num">avg stock +1.3%, 1mo<div class="delta">21% above 50-day avg</div></td>
+          <td class="status-cell"><span class="badge critical"><span class="icon">■</span>ALERT</span><div class="asof">2026-10-19</div></td>
         </tr>
         <tr>
-          <td class="ind-label">Yield curve (10y−3m)<div class="detail">Inversion is a 6–18 month gauge, not a timing signal — capped at amber.</div></td>
-          <td class="num">+0.88%<div class="delta">-0.11 5d</div></td>
+          <td class="ind-label">Yield curve<div class="detail">Long-term government borrowing costs minus short-term. When it goes negative — short-term paying more than long — a downturn has often followed, but 6 to 18 months later, which is no use for timing. Capped so it can never trigger a red on its own.</div></td>
+          <td class="num">+0.88%<div class="delta">-0.11, 1wk</div></td>
           <td class="status-cell"><span class="badge good"><span class="icon">●</span>OK</span><div class="asof">2026-10-19</div></td>
-        </tr><tr class="group-row"><td colspan="3">Hedge pricing <span class="group-note">cost of protection · not part of the composite</span></td></tr>
+        </tr><tr class="group-row"><td colspan="3">Hedge pricing <span class="group-note">how expensive insurance is · not part of the score</span></td></tr>
         <tr>
-          <td class="ind-label">Put skew / cost of tail insurance<div class="detail">SKEW 162 (expensive ≥145), VVIX 107 (expensive ≥110). Tail insurance is expensive — you would be paying up for the tail. Cost tier, not a risk tier — excluded from the composite.</div></td>
-          <td class="num">SKEW 162<div class="delta">VVIX 107 · +7 5d</div></td>
+          <td class="ind-label">Cost of crash insurance<div class="detail">How pricey insurance against a big fall is compared with ordinary options: 162, where 145 or more counts as expensive. VVIX 107 measures how pricey it is for that insurance to pay off explosively rather than merely well (expensive above 110). Protection is pricey — you would be paying up for exactly the outcome you want to insure against. This can read expensive in a perfectly calm market: it is about the price of insurance, not the odds of a crash, which is why it is not part of the score.</div></td>
+          <td class="num">162<div class="delta">VVIX 107 · +7, 1wk</div></td>
           <td class="status-cell"><span class="badge critical"><span class="icon">■</span>EXPENSIVE</span><div class="asof">2026-10-19</div></td>
         </tr>
         <tr>
-          <td class="ind-label">Implied vol richness (VIX pctile, IV−RV)<div class="detail">VIX 18.4 sits at the 69th percentile of its trailing year (expensive ≥80th); 20d realized 10.5, so implied carries +8.0 vol points of premium (expensive ≥8). Cost tier, not a risk tier — excluded from the composite.</div></td>
-          <td class="num">69th pctile<div class="delta">IV−RV +8.0pt</div></td>
-          <td class="status-cell"><span class="badge warning"><span class="icon">▲</span>MODERATE</span><div class="asof">2026-10-19</div></td>
+          <td class="ind-label">Cost of insurance overall<div class="detail">Two ways to check. The turbulence the market expects is running at 18.4, higher than 69% of the past year (expensive above 80%). And shares have actually been moving about 8.9, so you would be paying +9.5 points for turbulence that has not arrived (expensive above 8). This is a rough market-wide guide — check the price of the specific option before buying. Not part of the score.</div></td>
+          <td class="num">+9.5 pts extra<div class="delta">pricier than 69% of the year</div></td>
+          <td class="status-cell"><span class="badge critical"><span class="icon">■</span>EXPENSIVE</span><div class="asof">2026-10-19</div></td>
         </tr>
     </table>
   </section>
@@ -251,7 +265,7 @@
 </main>
 <script>
   (function () {
-    var age = Date.now() - 1792456102000;
+    var age = Date.now() - 1792460345000;
     if (age > 30 * 3600 * 1000) { document.body.classList.add("stale"); }
   })();
 </script>
