@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-10-20T01:39:05+00:00",
+ "generated_at": "2026-10-20T02:11:15+00:00",
  "run_label": "pre-open",
  "composite": 33.3,
  "base_composite": 33.3,
@@ -170,15 +170,16 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 2,
-   "display": "+9.5 pts extra",
-   "delta": "pricier than 69% of the year",
-   "detail": "Two ways to check. The turbulence the market expects is running at 18.4, higher than 69% of the past year (expensive above 80%). And shares have actually been moving about 8.9, so you would be paying +9.5 points for turbulence that has not arrived (expensive above 8). This is a rough market-wide guide \u2014 check the price of the specific option before buying. Not part of the score.",
+   "display": "+9.8 pts extra",
+   "delta": "pricier than 69% of the year \u00b7 Nasdaq",
+   "detail": "Priced on the Nasdaq. Two ways to check. The turbulence the market expects is running at 25.6, higher than 69% of the past year (expensive above 80%). And shares have actually been moving about 15.8, so you would be paying +9.8 points for turbulence that has not arrived (expensive above 8). This is a rough market-wide guide \u2014 check the price of the specific option before buying. Not part of the score.",
    "asof": "2026-10-19",
-   "value": 9.518660477011514,
+   "value": 9.795473366680142,
    "subscores": {
     "pctile": 1,
     "premium": 2,
-    "realized": 8.921340057046104
+    "realized": 15.764526099262241,
+    "market": "Nasdaq"
    }
   },
   {
