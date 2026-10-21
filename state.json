@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-10-21T16:05:37+00:00",
+ "generated_at": "2026-10-21T16:06:56+00:00",
  "run_label": "mid-day",
  "composite": 47.1,
  "base_composite": 47.1,
@@ -37,7 +37,7 @@
    "status": -1,
    "display": "n/a",
    "delta": "",
-   "detail": "data unavailable: FRED csv BAMLH0A0HYM2: Error tokenizing data. C error: Expected 1 fields in line 5, saw 3\n",
+   "detail": "data unavailable: FRED csv BAMLH0A0HYM2: not a FRED CSV (maintenance page?)",
    "asof": "",
    "value": null,
    "subscores": {}
@@ -50,7 +50,7 @@
    "status": -1,
    "display": "n/a",
    "delta": "",
-   "detail": "data unavailable: FRED csv BAMLC0A0CM: Error tokenizing data. C error: Expected 1 fields in line 5, saw 3\n",
+   "detail": "data unavailable: FRED csv BAMLC0A0CM: not a FRED CSV (maintenance page?)",
    "asof": "",
    "value": null,
    "subscores": {}
@@ -75,10 +75,10 @@
    "weight": 0.12,
    "status": 1,
    "display": "-1.6%, 2wk",
-   "delta": "-0.5%, 1wk",
+   "delta": "-0.4%, 1wk",
    "detail": "Are investors dumping risky bonds and buying safe government ones? This is priced continuously through the trading day, so it moves before the official spread figures, which arrive a day late. A fall of 1.5% or more over two weeks is the warning.",
    "asof": "2026-10-21",
-   "value": -0.016001739706776763,
+   "value": -0.01589376752275773,
    "subscores": {}
   },
   {
@@ -143,7 +143,7 @@
    "delta": "-0.00, 1wk",
    "detail": "Investors normally expect more turbulence three months out than today, which keeps this below 1.00. Above 1.00 the market is pricing the trouble as happening now \u2014 a confirmation that something is already underway, worth days of warning at most rather than weeks.",
    "asof": "2026-10-21",
-   "value": 0.8935828022846568,
+   "value": 0.8931052860574541,
    "subscores": {}
   },
   {
@@ -171,13 +171,13 @@
    "status": 2,
    "display": "+8.8 pts extra",
    "delta": "pricier than 64% of the year \u00b7 Nasdaq",
-   "detail": "Priced on the Nasdaq. Two ways to check. The turbulence the market expects is running at 24.6, higher than 64% of the past year (expensive above 80%). And shares have actually been moving about 15.9, so you would be paying +8.8 points for turbulence that has not arrived (expensive above 8). This is a rough market-wide guide \u2014 check the price of the specific option before buying. Not part of the score.",
+   "detail": "Priced on the Nasdaq. Two ways to check. The turbulence the market expects is running at 24.6, higher than 64% of the past year (expensive above 80%). And shares have actually been moving about 15.8, so you would be paying +8.8 points for turbulence that has not arrived (expensive above 8). This is a rough market-wide guide \u2014 check the price of the specific option before buying. Not part of the score.",
    "asof": "2026-10-21",
-   "value": 8.779805465243689,
+   "value": 8.793996700817798,
    "subscores": {
     "pctile": 1,
     "premium": 2,
-    "realized": 15.850193695522913,
+    "realized": 15.8260041384156,
     "market": "Nasdaq"
    }
   },
@@ -191,11 +191,11 @@
    "delta": "25\u0394 put 24.5% vs ATM 21.1% \u00b7 30d",
    "detail": "Read straight off the QQQ option chain (expiry 2026-11-20, 30 days): a put 25% likely to pay costs 24.5% implied volatility against 18.7% for the mirror-image call \u2014 +5.8 points more for downside than upside (expensive above 9). Relative to at-the-money (21.1%) that is \u00d71.16 (expensive above 1.4). Nasdaq downside insurance is relatively cheap right now. This is the price of the actual instrument, not an S&P proxy. Not part of the score.",
    "asof": "2026-10-21",
-   "value": 5.83,
+   "value": 5.84,
    "subscores": {
     "rr": 0,
     "ratio": 0,
-    "put10_iv": 0.2969
+    "put10_iv": 0.2973
    }
   },
   {
@@ -208,10 +208,10 @@
    "delta": "-10.7%, 2wk",
    "detail": "An equal-weight basket of 14 AI-exposed companies, currently 11.0% below its three-month high, having moved -10.7% over the past two weeks. Equal-weight means a small company counts as much as a giant one, so a single megacap cannot mask the rest.",
    "asof": "2026-10-21",
-   "value": -0.10992117915352329,
+   "value": -0.10991043724627891,
    "subscores": {
-    "drawdown": -0.10992117915352329,
-    "mom10": -0.10736826349285922
+    "drawdown": -0.10991043724627891,
+    "mom10": -0.10735749077577794
    }
   },
   {
@@ -233,11 +233,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 1,
-   "display": "avg stock +1.8%, 1mo",
+   "display": "avg stock +1.9%, 1mo",
    "delta": "29% above 50-day avg",
-   "detail": "When gains narrow to a handful of giant companies the market gets fragile. Two checks: the average US stock against the big-company index (+1.8% over the past month), and how much of the AI basket is still above its 50-day average (29%). A slow background signal, so it carries little weight.",
+   "detail": "When gains narrow to a handful of giant companies the market gets fragile. Two checks: the average US stock against the big-company index (+1.9% over the past month), and how much of the AI basket is still above its 50-day average (29%). A slow background signal, so it carries little weight.",
    "asof": "2026-10-21",
-   "value": 0.018479018338830144,
+   "value": 0.01863546252956616,
    "subscores": {}
   },
   {
@@ -250,27 +250,27 @@
    "delta": "-0.06, 1wk",
    "detail": "Long-term government borrowing costs minus short-term. When it goes negative \u2014 short-term paying more than long \u2014 a downturn has often followed, but 6 to 18 months later, which is no use for timing. Capped so it can never trigger a red on its own.",
    "asof": "2026-10-21",
-   "value": 1.0490002632141113,
+   "value": 1.0460000038146973,
    "subscores": {}
   }
  ],
- "qqq_close": 725.74,
+ "qqq_close": 725.57,
  "hedge": {
   "underlying": "QQQ",
-  "spot": 726.27,
+  "spot": 726.32,
   "expiry": "2026-11-20",
   "dte": 30,
   "atm_strike": 726.0,
-  "atm_iv": 0.2113,
+  "atm_iv": 0.2115,
   "put25_strike": 696.0,
-  "put25_iv": 0.245,
+  "put25_iv": 0.2452,
   "put25_delta": -0.249,
   "call25_strike": 757.0,
-  "call25_iv": 0.1867,
+  "call25_iv": 0.1868,
   "put10_strike": 655.0,
-  "put10_iv": 0.2969,
-  "risk_reversal": 5.83,
-  "skew_ratio": 1.1595,
+  "put10_iv": 0.2973,
+  "risk_reversal": 5.84,
+  "skew_ratio": 1.1593,
   "menu": [
    {
     "id": "put_spread_5_15",
@@ -280,7 +280,7 @@
       "action": "buy",
       "type": "put",
       "strike": 690.0,
-      "mid": 6.72
+      "mid": 6.73
      },
      {
       "action": "sell",
@@ -289,9 +289,9 @@
       "mid": 1.38
      }
     ],
-    "cost_per_share": 5.34,
+    "cost_per_share": 5.35,
     "cost_pct_of_notional": 0.74,
-    "max_payout_per_share": 69.66,
+    "max_payout_per_share": 69.65,
     "covers": "the band 615\u2013690 (-15% to -5%)",
     "gives_up": "protection below 615; the sold put recovers 21% of the premium",
     "explainer": "A correction hedge. You buy the 5%-below put and sell a 15%-below put, so the sold leg recovers part of the premium. Fully protected between \u22125% and \u221215%; below \u221215% you fall with the market again, just better off by the band. No cap on upside. Cheaper than the outright put precisely because it sells away the crash protection \u2014 the wrong structure for the scenario this tool is built to catch, the right one when lenders are calm and the move is a dip.",
@@ -299,44 +299,44 @@
      {
       "move_pct": -30,
       "unhedged": 70000,
-      "hedged": 79591,
-      "difference": 9591
+      "hedged": 79589,
+      "difference": 9589
      },
      {
       "move_pct": -15,
       "unhedged": 85000,
-      "hedged": 94271,
-      "difference": 9271
+      "hedged": 94263,
+      "difference": 9263
      },
      {
       "move_pct": -10,
       "unhedged": 90000,
-      "hedged": 94271,
-      "difference": 4271
+      "hedged": 94263,
+      "difference": 4263
      },
      {
       "move_pct": -5,
       "unhedged": 95000,
-      "hedged": 94271,
-      "difference": -729
+      "hedged": 94263,
+      "difference": -737
      },
      {
       "move_pct": 0,
       "unhedged": 100000,
-      "hedged": 99265,
-      "difference": -735
+      "hedged": 99263,
+      "difference": -737
      },
      {
       "move_pct": 5,
       "unhedged": 105000,
-      "hedged": 104265,
-      "difference": -735
+      "hedged": 104263,
+      "difference": -737
      },
      {
       "move_pct": 15,
       "unhedged": 115000,
-      "hedged": 114265,
-      "difference": -735
+      "hedged": 114263,
+      "difference": -737
      }
     ],
     "scenario_note": "Illustrative $100,000 sleeve held to expiry (~30 days); options settle at intrinsic value; mid prices, no commissions.",
@@ -352,13 +352,13 @@
       "action": "buy",
       "type": "put",
       "strike": 690.0,
-      "mid": 6.72
+      "mid": 6.73
      },
      {
       "action": "sell",
       "type": "call",
       "strike": 799.0,
-      "mid": 0.62
+      "mid": 0.63
      }
     ],
     "cost_per_share": 6.1,
@@ -370,26 +370,26 @@
      {
       "move_pct": -30,
       "unhedged": 70000,
-      "hedged": 94166,
-      "difference": 24166
+      "hedged": 94160,
+      "difference": 24160
      },
      {
       "move_pct": -15,
       "unhedged": 85000,
-      "hedged": 94166,
-      "difference": 9166
+      "hedged": 94160,
+      "difference": 9160
      },
      {
       "move_pct": -10,
       "unhedged": 90000,
-      "hedged": 94166,
-      "difference": 4166
+      "hedged": 94160,
+      "difference": 4160
      },
      {
       "move_pct": -5,
       "unhedged": 95000,
-      "hedged": 94166,
-      "difference": -834
+      "hedged": 94160,
+      "difference": -840
      },
      {
       "move_pct": 0,
@@ -406,8 +406,8 @@
      {
       "move_pct": 15,
       "unhedged": 115000,
-      "hedged": 109174,
-      "difference": -5826
+      "hedged": 109167,
+      "difference": -5833
      }
     ],
     "scenario_note": "Illustrative $100,000 sleeve held to expiry (~30 days); options settle at intrinsic value; mid prices, no commissions.",
@@ -423,17 +423,17 @@
       "action": "buy",
       "type": "put",
       "strike": 690.0,
-      "mid": 6.72
+      "mid": 6.73
      },
      {
       "action": "sell",
       "type": "call",
       "strike": 763.0,
-      "mid": 4.2
+      "mid": 4.25
      }
     ],
-    "cost_per_share": 2.52,
-    "cost_pct_of_notional": 0.35,
+    "cost_per_share": 2.49,
+    "cost_pct_of_notional": 0.34,
     "covers": "losses below 690 (-5.0%)",
     "gives_up": "gains above 763 (+5.1%) until expiry",
     "explainer": "Cheap protection paid for with your upside. You buy the 5%-below put and sell a 5%-above call; when implied vol is rich the call pays for most of the put. Floor at \u22125% with no limit, but every gain above +5% until expiry goes to the call buyer. The cap is the real cost and it is invisible until the month the market rallies \u2014 on a Nasdaq sleeve, that is where the upside lives.",
@@ -441,44 +441,44 @@
      {
       "move_pct": -30,
       "unhedged": 70000,
-      "hedged": 94659,
-      "difference": 24659
+      "hedged": 94657,
+      "difference": 24657
      },
      {
       "move_pct": -15,
       "unhedged": 85000,
-      "hedged": 94659,
-      "difference": 9659
+      "hedged": 94657,
+      "difference": 9657
      },
      {
       "move_pct": -10,
       "unhedged": 90000,
-      "hedged": 94659,
-      "difference": 4659
+      "hedged": 94657,
+      "difference": 4657
      },
      {
       "move_pct": -5,
       "unhedged": 95000,
-      "hedged": 94659,
-      "difference": -341
+      "hedged": 94657,
+      "difference": -343
      },
      {
       "move_pct": 0,
       "unhedged": 100000,
-      "hedged": 99653,
-      "difference": -347
+      "hedged": 99657,
+      "difference": -343
      },
      {
       "move_pct": 5,
       "unhedged": 105000,
-      "hedged": 104653,
-      "difference": -347
+      "hedged": 104657,
+      "difference": -343
      },
      {
       "move_pct": 15,
       "unhedged": 115000,
-      "hedged": 104710,
-      "difference": -10290
+      "hedged": 104707,
+      "difference": -10293
      }
     ],
     "scenario_note": "Illustrative $100,000 sleeve held to expiry (~30 days); options settle at intrinsic value; mid prices, no commissions.",
@@ -513,20 +513,20 @@
      {
       "move_pct": -30,
       "unhedged": 70000,
-      "hedged": 84802,
-      "difference": 14802
+      "hedged": 84801,
+      "difference": 14801
      },
      {
       "move_pct": -15,
       "unhedged": 85000,
-      "hedged": 89843,
-      "difference": 4843
+      "hedged": 89836,
+      "difference": 4836
      },
      {
       "move_pct": -10,
       "unhedged": 90000,
-      "hedged": 89843,
-      "difference": -157
+      "hedged": 89836,
+      "difference": -164
      },
      {
       "move_pct": -5,
@@ -568,10 +568,10 @@
       "action": "buy",
       "type": "put",
       "strike": 690.0,
-      "mid": 15.3
+      "mid": 15.29
      }
     ],
-    "cost_per_share": 15.3,
+    "cost_per_share": 15.29,
     "cost_pct_of_notional": 2.11,
     "cost_pct_per_month": 0.74,
     "covers": "losses below 690 (-5.0%) for ~86 days \u2014 \u22480.74% of notional per month",
@@ -581,44 +581,44 @@
      {
       "move_pct": -30,
       "unhedged": 70000,
-      "hedged": 92899,
-      "difference": 22899
+      "hedged": 92894,
+      "difference": 22894
      },
      {
       "move_pct": -15,
       "unhedged": 85000,
-      "hedged": 92899,
-      "difference": 7899
+      "hedged": 92894,
+      "difference": 7894
      },
      {
       "move_pct": -10,
       "unhedged": 90000,
-      "hedged": 92899,
-      "difference": 2899
+      "hedged": 92894,
+      "difference": 2894
      },
      {
       "move_pct": -5,
       "unhedged": 95000,
-      "hedged": 92899,
-      "difference": -2101
+      "hedged": 92895,
+      "difference": -2105
      },
      {
       "move_pct": 0,
       "unhedged": 100000,
-      "hedged": 97893,
-      "difference": -2107
+      "hedged": 97895,
+      "difference": -2105
      },
      {
       "move_pct": 5,
       "unhedged": 105000,
-      "hedged": 102893,
-      "difference": -2107
+      "hedged": 102895,
+      "difference": -2105
      },
      {
       "move_pct": 15,
       "unhedged": 115000,
-      "hedged": 112893,
-      "difference": -2107
+      "hedged": 112895,
+      "difference": -2105
      }
     ],
     "scenario_note": "Illustrative $100,000 sleeve held to expiry (~86 days); options settle at intrinsic value; mid prices, no commissions.",
@@ -634,10 +634,10 @@
       "action": "buy",
       "type": "put",
       "strike": 690.0,
-      "mid": 6.72
+      "mid": 6.73
      }
     ],
-    "cost_per_share": 6.72,
+    "cost_per_share": 6.73,
     "cost_pct_of_notional": 0.93,
     "covers": "losses below 690 (-5.0%), no cap on recovery",
     "gives_up": "the full premium if QQQ stays above the strike",
@@ -646,44 +646,44 @@
      {
       "move_pct": -30,
       "unhedged": 70000,
-      "hedged": 94081,
-      "difference": 24081
+      "hedged": 94073,
+      "difference": 24073
      },
      {
       "move_pct": -15,
       "unhedged": 85000,
-      "hedged": 94081,
-      "difference": 9081
+      "hedged": 94073,
+      "difference": 9073
      },
      {
       "move_pct": -10,
       "unhedged": 90000,
-      "hedged": 94081,
-      "difference": 4081
+      "hedged": 94073,
+      "difference": 4073
      },
      {
       "move_pct": -5,
       "unhedged": 95000,
-      "hedged": 94081,
-      "difference": -919
+      "hedged": 94073,
+      "difference": -927
      },
      {
       "move_pct": 0,
       "unhedged": 100000,
-      "hedged": 99075,
-      "difference": -925
+      "hedged": 99073,
+      "difference": -927
      },
      {
       "move_pct": 5,
       "unhedged": 105000,
-      "hedged": 104075,
-      "difference": -925
+      "hedged": 104073,
+      "difference": -927
      },
      {
       "move_pct": 15,
       "unhedged": 115000,
-      "hedged": 114075,
-      "difference": -925
+      "hedged": 114073,
+      "difference": -927
      }
     ],
     "scenario_note": "Illustrative $100,000 sleeve held to expiry (~30 days); options settle at intrinsic value; mid prices, no commissions.",
@@ -711,20 +711,20 @@
      {
       "move_pct": -30,
       "unhedged": 70000,
-      "hedged": 89775,
-      "difference": 19775
+      "hedged": 89769,
+      "difference": 19769
      },
      {
       "move_pct": -15,
       "unhedged": 85000,
-      "hedged": 89775,
-      "difference": 4775
+      "hedged": 89769,
+      "difference": 4769
      },
      {
       "move_pct": -10,
       "unhedged": 90000,
-      "hedged": 89775,
-      "difference": -225
+      "hedged": 89769,
+      "difference": -231
      },
      {
       "move_pct": -5,
@@ -758,7 +758,7 @@
    }
   ],
   "quote_note": "Mid of bid/ask, 15-minute delayed; outside market hours these are the closing quotes and real fills will differ.",
-  "scanned_at": "2026-10-21T16:05:37+00:00",
+  "scanned_at": "2026-10-21T16:06:56+00:00",
   "source": "CBOE delayed quotes",
   "fit_context": {
    "posture": "spread-or-collar",
@@ -776,10 +776,10 @@
   "as_of": "2026-10-21",
   "run_label": "mid-day",
   "seed_cash": 1000.0,
-  "nav": 1008.11,
-  "bench_nav": 1010.08,
-  "return_pct": 0.81,
-  "bench_return_pct": 1.01,
+  "nav": 1008.18,
+  "bench_nav": 1010.15,
+  "return_pct": 0.82,
+  "bench_return_pct": 1.02,
   "vs_bench_pct": -0.2,
   "cash": 0.0,
   "shares": 1.3799,
@@ -811,8 +811,8 @@
    },
    {
     "date": "2026-10-21",
-    "nav": 1008.11,
-    "bench": 1010.08,
+    "nav": 1008.18,
+    "bench": 1010.15,
     "posture": "spread-or-collar",
     "tier": "AMBER"
    }
@@ -829,10 +829,10 @@
    "as_of": "2026-10-21",
    "run_label": "mid-day",
    "seed_cash": 1000.0,
-   "nav": 1008.11,
-   "bench_nav": 1010.08,
-   "return_pct": 0.81,
-   "bench_return_pct": 1.01,
+   "nav": 1008.18,
+   "bench_nav": 1010.15,
+   "return_pct": 0.82,
+   "bench_return_pct": 1.02,
    "vs_bench_pct": -0.2,
    "cash": 0.0,
    "shares": 1.3799,
@@ -864,8 +864,8 @@
     },
     {
      "date": "2026-10-21",
-     "nav": 1008.11,
-     "bench": 1010.08,
+     "nav": 1008.18,
+     "bench": 1010.15,
      "posture": "spread-or-collar",
      "tier": "AMBER"
     }
@@ -881,10 +881,10 @@
    "as_of": "2026-10-21",
    "run_label": "mid-day",
    "seed_cash": 1000.0,
-   "nav": 1008.11,
-   "bench_nav": 1010.08,
-   "return_pct": 0.81,
-   "bench_return_pct": 1.01,
+   "nav": 1008.18,
+   "bench_nav": 1010.15,
+   "return_pct": 0.82,
+   "bench_return_pct": 1.02,
    "vs_bench_pct": -0.2,
    "cash": 0.0,
    "shares": 1.3799,
@@ -916,8 +916,8 @@
     },
     {
      "date": "2026-10-21",
-     "nav": 1008.11,
-     "bench": 1010.08,
+     "nav": 1008.18,
+     "bench": 1010.15,
      "posture": "spread-or-collar",
      "tier": "AMBER"
     }
@@ -947,8 +947,8 @@
   ]
  },
  "data_issues": [
-  "HY credit spread (OAS): FRED csv BAMLH0A0HYM2: Error tokenizing data. C error: Expected 1 fields in line 5, saw 3\n",
-  "IG credit spread (OAS): FRED csv BAMLC0A0CM: Error tokenizing data. C error: Expected 1 fields in line 5, saw 3\n",
+  "HY credit spread (OAS): FRED csv BAMLH0A0HYM2: not a FRED CSV (maintenance page?)",
+  "IG credit spread (OAS): FRED csv BAMLC0A0CM: not a FRED CSV (maintenance page?)",
   "CCC credit spread (OAS): skipped \u2014 FRED unreachable",
   "SOFR \u2212 IORB (funding stress): skipped \u2014 FRED unreachable",
   "Funding tail (SOFR spread + Fed repo use): skipped \u2014 FRED unreachable",

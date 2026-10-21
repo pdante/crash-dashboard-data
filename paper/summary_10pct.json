@@ -7,10 +7,10 @@
  "as_of": "2026-10-21",
  "run_label": "mid-day",
  "seed_cash": 1000.0,
- "nav": 1008.11,
- "bench_nav": 1010.08,
- "return_pct": 0.81,
- "bench_return_pct": 1.01,
+ "nav": 1008.18,
+ "bench_nav": 1010.15,
+ "return_pct": 0.82,
+ "bench_return_pct": 1.02,
  "vs_bench_pct": -0.2,
  "cash": 0.0,
  "shares": 1.3799,
@@ -42,8 +42,8 @@
   },
   {
    "date": "2026-10-21",
-   "nav": 1008.11,
-   "bench": 1010.08,
+   "nav": 1008.18,
+   "bench": 1010.15,
    "posture": "spread-or-collar",
    "tier": "AMBER"
   }
