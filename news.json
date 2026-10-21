@@ -1,21 +1,21 @@
 {
-  "scanned_at": "2026-10-20T12:00:00Z",
+  "scanned_at": "2026-10-21T12:00:00Z",
   "items": [
     {
-      "headline": "CoreWeave bonds rebound sharply after recent selloff",
-      "source": "ROIC.ai",
+      "headline": "CoreWeave bonds rebound sharply after selloff that pushed yields near 15%",
+      "source": "roic.ai",
       "url": "https://www.roic.ai/news/coreweave-bonds-rebound-sharply-after-recent-selloff-10-15-2026",
       "date": "2026-10-15",
       "severity": "low",
-      "note": "2031 notes recovered to ~82.8 cents and 2030 notes to ~91.3 cents, but both remain well below par, so neocloud funding stress has eased only partly."
+      "note": "Bonds still trade below par (2031s ~82.8) after the rebound, so the market is not fully reassured on neocloud refinancing risk."
     },
     {
-      "headline": "CoreWeave shares plunge 16% as bond yields near 15%; unsecured notes trade at 76-81 cents",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/coreweave-shares-plunge-bond-yields-15/",
-      "date": "2026-10-14",
+      "headline": "AI debt fears surge as tech default insurance hits record highs; CoreWeave 5y CDS above 1,000bp, Oracle CDS ~288bp",
+      "source": "roic.ai",
+      "url": "https://www.roic.ai/news/ai-debt-fears-surge-as-tech-default-insurance-hits-record-highs-10-15-2026",
+      "date": "2026-10-15",
       "severity": "medium",
-      "note": "Unsecured 2031/2032 notes yielding 15-16% and reported record CDS levels signal serious market doubt about neocloud refinancing, with about $4.4B due by end of 2026; Oracle also fell about 9% in the same sell-off."
+      "note": "CoreWeave CDS implies a very high default probability and Oracle CDS widened ~36bp in two days, with CoreWeave also facing $4.4B due by end-2026."
     }
   ]
 }
