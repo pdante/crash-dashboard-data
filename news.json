@@ -1,21 +1,37 @@
 {
-  "scanned_at": "2026-10-21T12:00:00Z",
+  "scanned_at": "2026-10-22T12:00:00Z",
   "items": [
     {
-      "headline": "CoreWeave bonds rebound sharply after selloff that pushed yields near 15%",
-      "source": "roic.ai",
-      "url": "https://www.roic.ai/news/coreweave-bonds-rebound-sharply-after-recent-selloff-10-15-2026",
-      "date": "2026-10-15",
-      "severity": "low",
-      "note": "Bonds still trade below par (2031s ~82.8) after the rebound, so the market is not fully reassured on neocloud refinancing risk."
+      "headline": "Credit investors stay wary of AI names even as equities shake off the AI rout; CoreWeave CDS ~1,082bp, Oracle ~315bp",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/19/coreweave-oracle-ai-credit-stress.html",
+      "date": "2026-10-19",
+      "severity": "medium",
+      "note": "CoreWeave 5y CDS above 1,000bp is read as distress-level pricing and Oracle's has widened sharply year over year, even though no default or downgrade has occurred."
     },
     {
-      "headline": "AI debt fears surge as tech default insurance hits record highs; CoreWeave 5y CDS above 1,000bp, Oracle CDS ~288bp",
+      "headline": "Oracle CDS hits record 288bp on AI debt concerns (BBB- rated, S&P downgraded in July)",
+      "source": "Securitas Global",
+      "url": "https://www.securitasglobal.com/risk-perspectives/oracle-cds-record-288-basis-points-ai-debt/",
+      "date": "2026-10-15",
+      "severity": "medium",
+      "note": "Oracle sits one notch above junk with $118B of long-term debt, so further widening could threaten its investment-grade funding access."
+    },
+    {
+      "headline": "Tech default insurance hits record highs: CoreWeave CDS tops 1,100bp, Amazon, Alphabet, Meta and Nvidia also at record CDS levels",
       "source": "roic.ai",
       "url": "https://www.roic.ai/news/ai-debt-fears-surge-as-tech-default-insurance-hits-record-highs-10-15-2026",
       "date": "2026-10-15",
       "severity": "medium",
-      "note": "CoreWeave CDS implies a very high default probability and Oracle CDS widened ~36bp in two days, with CoreWeave also facing $4.4B due by end-2026."
+      "note": "Record CDS across hyperscalers shows the stress is spreading beyond neoclouds, though their spreads remain far below Oracle's and CoreWeave's."
+    },
+    {
+      "headline": "CoreWeave's ~$51B debt and lease pile sparks AI-bubble fears; swaps imply >60% five-year default odds",
+      "source": "Hoodline (citing Bloomberg)",
+      "url": "https://hoodline.com/2026/10/coreweave-s-51-billion-debt-pile-sparks-fears-of-an-ai-bubble-reckoning/",
+      "date": "2026-10-19",
+      "severity": "low",
+      "note": "Market-implied default odds are an analyst-style read of CDS pricing rather than a realized event, but they show how costly refinancing could become."
     }
   ]
 }

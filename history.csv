@@ -271,3 +271,4 @@ generated_at,composite,tier,schema,regime,posture,lit,qqq
 2026-10-21T17:15:43+00:00,47.1,AMBER,2,credit-tail,spread-or-collar,hyg_ief=1;ai_basket=2;periphery=2;breadth=1,727.68
 2026-10-21T20:15:38+00:00,38.2,AMBER,2,equity-only,spread-or-collar,ai_basket=2;periphery=2;breadth=1,725.2
 2026-10-22T00:04:12+00:00,52.9,AMBER,2,credit-tail,spread-or-collar,hyg_ief=1;ai_basket=2;periphery=2;breadth=2,717.63
+2026-10-22T16:01:18+00:00,38.3,AMBER,2,credit-led,spread-or-collar,ccc_oas=2;hyg_ief=1;ai_basket=2;periphery=2;breadth=2,709.64
