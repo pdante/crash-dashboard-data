@@ -88,12 +88,12 @@
   },
   {
    "date": "2026-10-26",
-   "nav": 992.56,
-   "bench": 992.21,
+   "nav": 991.76,
+   "bench": 990.88,
    "posture": "buy-outright",
    "tier": "AMBER"
   }
  ],
  "last_trade_date": "2026-10-20",
- "last_posture": "spread-or-collar"
+ "last_posture": "buy-outright"
 }
