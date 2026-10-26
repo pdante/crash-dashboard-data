@@ -1,13 +1,29 @@
 {
-  "scanned_at": "2026-10-23T12:00:00Z",
+  "scanned_at": "2026-10-26T12:00:00Z",
   "items": [
     {
-      "headline": "CoreWeave bonds rebound sharply after recent selloff",
-      "source": "ROIC.ai",
-      "url": "https://www.roic.ai/news/coreweave-bonds-rebound-sharply-after-recent-selloff-10-15-2026",
+      "headline": "CoreWeave bond yields stay near 15% as AI stocks rebound",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/19/coreweave-oracle-ai-credit-stress.html",
+      "date": "2026-10-19",
+      "severity": "medium",
+      "note": "CoreWeave 5-year CDS stayed around 1,080bp (distressed territory) even as equities rebounded, and stress is spilling into Oracle debt."
+    },
+    {
+      "headline": "CoreWeave's Bond Rout Should Make the Fed Cautious",
+      "source": "Bloomberg Opinion",
+      "url": "https://www.bloomberg.com/opinion/articles/2026-10-20/coreweave-s-bond-rout-should-make-the-fed-cautious",
+      "date": "2026-10-20",
+      "severity": "low",
+      "note": "Commentary on neocloud bond-market stress as a possible systemic credit signal; no new realized event."
+    },
+    {
+      "headline": "AI debt fears surge as tech default insurance hits record highs",
+      "source": "roic.ai",
+      "url": "https://www.roic.ai/news/ai-debt-fears-surge-as-tech-default-insurance-hits-record-highs-10-15-2026",
       "date": "2026-10-15",
       "severity": "medium",
-      "note": "CoreWeave's 2032 notes yielded 14.8-16%+ and CDS topped ~1,000bp before a partial rebound (2031s at ~82.8c), showing neocloud debt remains under material stress."
+      "note": "CoreWeave CDS near 1,000-1,140bp and 2031 bonds above 16% yield; Oracle CDS reported around 288bp, up over 12% in a week."
     }
   ]
 }

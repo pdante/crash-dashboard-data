@@ -85,6 +85,13 @@
    "bench": 980.0,
    "posture": "spread-or-collar",
    "tier": "AMBER"
+  },
+  {
+   "date": "2026-10-26",
+   "nav": 993.48,
+   "bench": 993.38,
+   "posture": "buy-outright",
+   "tier": "AMBER"
   }
  ],
  "last_trade_date": "2026-10-20",
