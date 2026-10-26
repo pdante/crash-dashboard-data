@@ -280,3 +280,4 @@ generated_at,composite,tier,schema,regime,posture,lit,qqq
 2026-10-23T19:59:32+00:00,45.0,AMBER,2,credit-led,spread-or-collar,ccc_oas=2;hyg_ief=1;vix_ts=1;ai_basket=2;periphery=2;breadth=2,704.1
 2026-10-23T23:54:03+00:00,38.3,AMBER,2,credit-led,spread-or-collar,ccc_oas=2;hyg_ief=1;ai_basket=2;periphery=2;breadth=2,704.4
 2026-10-26T17:38:46+00:00,38.3,AMBER,2,credit-led,buy-outright,ccc_oas=2;hyg_ief=1;ai_basket=2;periphery=2;breadth=2,713.09
+2026-10-26T18:41:48+00:00,38.3,AMBER,2,credit-led,buy-outright,ccc_oas=2;hyg_ief=1;ai_basket=2;periphery=2;breadth=2,713.47
