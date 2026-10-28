@@ -1,21 +1,37 @@
 {
-  "scanned_at": "2026-10-27T12:00:00Z",
+  "scanned_at": "2026-10-28T12:00:00Z",
   "items": [
     {
-      "headline": "CoreWeave 5-year CDS near 1,067 bps, up ~30% in October; unsecured bonds trade in distressed territory",
-      "source": "CNBC (via secondary coverage)",
-      "url": "https://fourweekmba.com/ai-coreweave-debt-yields-15-as-credit-desks-wait-for-midterms/",
-      "date": "2026-10-21",
-      "severity": "medium",
-      "note": "Distressed-level bond pricing and ~$4.4B due by year-end make CoreWeave's refinancing a live test of neocloud credit, with high-yield issuance reportedly on hold until after the midterms."
+      "headline": "Moody's warns AI lending is pushing private credit toward refinancing risk",
+      "source": "Reuters (via Central Oregon Daily)",
+      "url": "https://www.centraloregondaily.com/news/consumer/ai-financing-driving-private-credit-growth-as-refinancing-risks-rise-moody-s-says/article_0299abb8-ade1-554c-a529-75fe4d06a010.html",
+      "date": "2026-10-27",
+      "severity": "low",
+      "note": "A cluster of 2027-2029 loan maturities could leave weaker AI-linked private-credit borrowers unable to refinance."
     },
     {
-      "headline": "CoreWeave and Oracle five-year CDS hit record levels; Oracle shares fall ~9%",
-      "source": "Reuters (via secondary coverage)",
-      "url": "https://letsdatascience.com/news/coreweave-shares-and-bonds-slide-as-debt-fears-grip-ai-build-b082a38e",
-      "date": "2026-10-15",
+      "headline": "CoreWeave 5-year CDS above 1,000 bp, implying a >60% five-year default probability",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/19/coreweave-oracle-ai-credit-stress.html",
+      "date": "2026-10-19",
       "severity": "medium",
-      "note": "Record CDS on both a neocloud and a BBB-rated AI-infrastructure borrower shows credit stress spreading beyond one name."
+      "note": "Spreads above 1,000 bp signal market-priced distress for the largest neocloud borrower, which carries roughly $35B+ of debt."
+    },
+    {
+      "headline": "Oracle CDS widens to ~315 bp after record 288 bp, trading like high yield",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/19/oracle-debt-faces-an-ai-stress-test-why-some-investors-arent-worried-.html",
+      "date": "2026-10-19",
+      "severity": "medium",
+      "note": "Oracle is rated BBB- (one notch above junk) and its CDS is pricing closer to BB/B credit as AI buildout debt grows."
+    },
+    {
+      "headline": "Banks reportedly shopping Oracle-linked AI data center construction debt as order books thin",
+      "source": "Startup Fortune",
+      "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+      "date": "2026-10-19",
+      "severity": "low",
+      "note": "Underwriters struggling to distribute data-center loans would point to weakening syndication demand; secondary source, dating and figures unverified."
     }
   ]
 }

@@ -99,6 +99,13 @@
    "bench": 1004.53,
    "posture": "buy-outright",
    "tier": "AMBER"
+  },
+  {
+   "date": "2026-10-28",
+   "nav": 1003.19,
+   "bench": 1005.6,
+   "posture": "hold",
+   "tier": "GREEN"
   }
  ],
  "last_trade_date": "2026-10-20",
