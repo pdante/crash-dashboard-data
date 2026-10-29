@@ -102,10 +102,10 @@
   },
   {
    "date": "2026-10-28",
-   "nav": 998.27,
-   "bench": 1000.88,
+   "nav": 996.0,
+   "bench": 998.58,
    "posture": "hold",
-   "tier": "GREEN"
+   "tier": "AMBER"
   }
  ],
  "last_trade_date": "2026-10-20",
