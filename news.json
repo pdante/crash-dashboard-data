@@ -1,21 +1,4 @@
 {
-  "scanned_at": "2026-10-29T12:00:00Z",
-  "items": [
-    {
-      "headline": "CoreWeave CDS narrows to lowest in over a week but stays above 1,000 bp",
-      "source": "ROIC.ai (Markit data)",
-      "url": "https://www.roic.ai/news/coreweave-cds-narrows-to-lowest-in-over-a-week-but-credit-stress-persists-10-27-2026",
-      "date": "2026-10-27",
-      "severity": "medium",
-      "note": "5-year CDS near 1,041 bp, after a record intraday peak earlier this month, still prices very high default risk for the largest neocloud borrower."
-    },
-    {
-      "headline": "CoreWeave is sole tenant for 7 of 20 project-financed high-yield data center bonds ($14.1B)",
-      "source": "iTiger (aggregated)",
-      "url": "https://www.itiger.com/news/1188830647",
-      "date": "2026-10-27",
-      "severity": "low",
-      "note": "Tenant concentration means CoreWeave distress could spread to the data-center high-yield bond market."
-    }
-  ]
+  "scanned_at": "2026-10-30T12:00:00Z",
+  "items": []
 }
