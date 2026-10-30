@@ -294,3 +294,4 @@ generated_at,composite,tier,schema,regime,posture,lit,qqq
 2026-10-29T17:31:37+00:00,20.0,GREEN,2,credit-tail,hold,ccc_oas=2;ai_basket=1;breadth=2,714.65
 2026-10-29T18:29:40+00:00,24.2,GREEN,2,credit-tail,hold,ccc_oas=2;ai_basket=1;periphery=1;breadth=2,713.05
 2026-10-29T21:16:09+00:00,24.2,GREEN,2,credit-tail,hold,ccc_oas=2;ai_basket=1;periphery=1;breadth=2,715.34
+2026-10-30T01:11:24+00:00,16.7,GREEN,2,credit-tail,hold,ccc_oas=2;ai_basket=1;breadth=1,725.61
