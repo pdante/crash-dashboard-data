@@ -7,11 +7,11 @@
  "as_of": "2026-11-02",
  "run_label": "post-close",
  "seed_cash": 1000.0,
- "nav": 962.46,
- "bench_nav": 950.4,
- "return_pct": -3.75,
- "bench_return_pct": -4.96,
- "vs_bench_pct": 1.21,
+ "nav": 963.49,
+ "bench_nav": 951.45,
+ "return_pct": -3.65,
+ "bench_return_pct": -4.86,
+ "vs_bench_pct": 1.2,
  "cash": 0.0,
  "shares": 1.3799,
  "options_value": 19.46,
@@ -98,8 +98,8 @@
   },
   {
    "date": "2026-11-02",
-   "nav": 962.46,
-   "bench": 950.4,
+   "nav": 963.49,
+   "bench": 951.45,
    "posture": "spread-or-collar",
    "tier": "AMBER"
   }
