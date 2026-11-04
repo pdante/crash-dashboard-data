@@ -1,13 +1,4 @@
 {
-  "scanned_at": "2026-11-03T12:00:00Z",
-  "items": [
-    {
-      "headline": "Oracle stock slides as it borrows another $10 billion for AI spending",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/article/oracle-stock-slides-as-it-borrows-another-10-billion-for-ai-spending-184518137.html",
-      "date": "2026-11-03",
-      "severity": "low",
-      "note": "Continued debt-funded AI capex at Oracle adds to leverage while CoreWeave-linked AI credit (yields ~14-15%) remains strained."
-    }
-  ]
+  "scanned_at": "2026-11-04T12:00:00Z",
+  "items": []
 }
