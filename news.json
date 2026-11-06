@@ -1,4 +1,21 @@
 {
-  "scanned_at": "2026-11-05T12:00:00Z",
-  "items": []
+  "scanned_at": "2026-11-06T12:00:00Z",
+  "items": [
+    {
+      "headline": "CoreWeave bond yield tops 16% as AI credit stress rises; 5-year CDS spikes above 1,289bp",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "date": "2026-11-06",
+      "severity": "medium",
+      "note": "CoreWeave CDS widened past its October peak and bonds fell to ~79.5 cents, showing sharply higher funding costs for the largest neocloud borrower (no default or forced action yet)."
+    },
+    {
+      "headline": "AI credit selloff spreads: Nvidia, Broadcom, Amazon and SpaceX CDS widen",
+      "source": "Briefs / BigGo Finance",
+      "url": "https://www.briefs.co/news/spacex-and-coreweave-whipsawed-as-ai-credit-jitters-spike/",
+      "date": "2026-11-06",
+      "severity": "low",
+      "note": "Reported month-over-month CDS increases at large AI-linked names (Nvidia +76%, Broadcom +49%, Amazon +44%) suggest stress is broadening beyond neoclouds; figures are secondary-source."
+    }
+  ]
 }
