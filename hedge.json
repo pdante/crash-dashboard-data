@@ -1,8 +1,8 @@
 {
  "underlying": "QQQ",
- "spot": 656.56,
+ "spot": 656.8,
  "expiry": "2026-12-04",
- "dte": 28,
+ "dte": 27,
  "atm_strike": 655.0,
  "atm_iv": 0.3006,
  "put25_strike": 620.0,
@@ -42,44 +42,44 @@
     {
      "move_pct": -30,
      "unhedged": 70000,
-     "hedged": 78686,
-     "difference": 8686
+     "hedged": 78683,
+     "difference": 8683
     },
     {
      "move_pct": -15,
      "unhedged": 85000,
-     "hedged": 93686,
-     "difference": 8686
+     "hedged": 93683,
+     "difference": 8683
     },
     {
      "move_pct": -10,
      "unhedged": 90000,
-     "hedged": 93979,
-     "difference": 3979
+     "hedged": 93945,
+     "difference": 3945
     },
     {
      "move_pct": -5,
      "unhedged": 95000,
-     "hedged": 93979,
-     "difference": -1021
+     "hedged": 93945,
+     "difference": -1055
     },
     {
      "move_pct": 0,
      "unhedged": 100000,
-     "hedged": 98786,
-     "difference": -1214
+     "hedged": 98787,
+     "difference": -1213
     },
     {
      "move_pct": 5,
      "unhedged": 105000,
-     "hedged": 103786,
-     "difference": -1214
+     "hedged": 103787,
+     "difference": -1213
     },
     {
      "move_pct": 15,
      "unhedged": 115000,
-     "hedged": 113786,
-     "difference": -1214
+     "hedged": 113787,
+     "difference": -1213
     }
    ],
    "scenario_note": "Illustrative $100,000 sleeve held to expiry (~30 days); options settle at intrinsic value; mid prices, no commissions.",
@@ -107,32 +107,32 @@
    "cost_per_share": 9.83,
    "cost_pct_of_notional": 1.5,
    "covers": "losses below 625 (-4.8%)",
-   "gives_up": "gains above 722 (+10.0%) until expiry",
+   "gives_up": "gains above 722 (+9.9%) until expiry",
    "explainer": "A collar with room to run. Put 5% below, financed by selling a call 10% above rather than 5%: you keep the first 10% of a rally and give up only what is beyond that. Costs more than the 5/5 collar because the farther call brings in less premium, but on a Nasdaq sleeve \u2014 where the upside lives \u2014 the extra headroom is usually the point. Floor at \u22125%, no limit.",
    "scenarios": [
     {
      "move_pct": -30,
      "unhedged": 70000,
-     "hedged": 93696,
-     "difference": 23696
+     "hedged": 93662,
+     "difference": 23662
     },
     {
      "move_pct": -15,
      "unhedged": 85000,
-     "hedged": 93696,
-     "difference": 8696
+     "hedged": 93662,
+     "difference": 8662
     },
     {
      "move_pct": -10,
      "unhedged": 90000,
-     "hedged": 93696,
-     "difference": 3696
+     "hedged": 93662,
+     "difference": 3662
     },
     {
      "move_pct": -5,
      "unhedged": 95000,
-     "hedged": 93696,
-     "difference": -1304
+     "hedged": 93662,
+     "difference": -1338
     },
     {
      "move_pct": 0,
@@ -149,8 +149,8 @@
     {
      "move_pct": 15,
      "unhedged": 115000,
-     "hedged": 108470,
-     "difference": -6530
+     "hedged": 108430,
+     "difference": -6570
     }
    ],
    "scenario_note": "Illustrative $100,000 sleeve held to expiry (~30 days); options settle at intrinsic value; mid prices, no commissions.",
@@ -171,57 +171,57 @@
     {
      "action": "sell",
      "type": "call",
-     "strike": 689.0,
-     "mid": 7.62
+     "strike": 690.0,
+     "mid": 7.31
     }
    ],
-   "cost_per_share": 3.59,
-   "cost_pct_of_notional": 0.55,
+   "cost_per_share": 3.9,
+   "cost_pct_of_notional": 0.59,
    "covers": "losses below 625 (-4.8%)",
-   "gives_up": "gains above 689 (+4.9%) until expiry",
+   "gives_up": "gains above 690 (+5.1%) until expiry",
    "explainer": "Cheap protection paid for with your upside. You buy the 5%-below put and sell a 5%-above call; when implied vol is rich the call pays for most of the put. Floor at \u22125% with no limit, but every gain above +5% until expiry goes to the call buyer. The cap is the real cost and it is invisible until the month the market rallies \u2014 on a Nasdaq sleeve, that is where the upside lives.",
    "scenarios": [
     {
      "move_pct": -30,
      "unhedged": 70000,
-     "hedged": 94646,
-     "difference": 24646
+     "hedged": 94565,
+     "difference": 24565
     },
     {
      "move_pct": -15,
      "unhedged": 85000,
-     "hedged": 94646,
-     "difference": 9646
+     "hedged": 94565,
+     "difference": 9565
     },
     {
      "move_pct": -10,
      "unhedged": 90000,
-     "hedged": 94646,
-     "difference": 4646
+     "hedged": 94565,
+     "difference": 4565
     },
     {
      "move_pct": -5,
      "unhedged": 95000,
-     "hedged": 94646,
-     "difference": -354
+     "hedged": 94565,
+     "difference": -435
     },
     {
      "move_pct": 0,
      "unhedged": 100000,
-     "hedged": 99453,
-     "difference": -547
+     "hedged": 99406,
+     "difference": -594
     },
     {
      "move_pct": 5,
      "unhedged": 105000,
-     "hedged": 104394,
-     "difference": -606
+     "hedged": 104406,
+     "difference": -594
     },
     {
      "move_pct": 15,
      "unhedged": 115000,
-     "hedged": 104394,
-     "difference": -10606
+     "hedged": 104461,
+     "difference": -10539
     }
    ],
    "scenario_note": "Illustrative $100,000 sleeve held to expiry (~30 days); options settle at intrinsic value; mid prices, no commissions.",
@@ -242,58 +242,58 @@
     {
      "action": "sell",
      "type": "put",
-     "strike": 490.0,
-     "mid": 0.98
+     "strike": 495.0,
+     "mid": 1.06
     }
    ],
-   "cost_per_share": 4.71,
-   "cost_pct_of_notional": 0.72,
-   "max_payout_per_share": 95.29,
-   "covers": "the band 490\u2013590 (-25% to -10%) \u2014 a crash, not a dip",
-   "gives_up": "the first ~10% of any fall and everything below 490",
+   "cost_per_share": 4.63,
+   "cost_pct_of_notional": 0.7,
+   "max_payout_per_share": 90.37,
+   "covers": "the band 495\u2013590 (-25% to -10%) \u2014 a crash, not a dip",
+   "gives_up": "the first ~10% of any fall and everything below 495",
    "explainer": "The crash-band version of the spread. You buy the 10%-below put and sell a 25%-below put: nothing happens in a dip, then full protection from \u221210% to \u221225%, then you fall with the market again below that. It skips the correction the 5\u219215 spread insures and covers the zone where that one runs out \u2014 the coherent spread for a credit-cascade thesis, and dead weight if the move stops at \u22128%. Cheap because both legs are far from the money.",
    "scenarios": [
     {
      "move_pct": -30,
      "unhedged": 70000,
-     "hedged": 84514,
-     "difference": 14514
+     "hedged": 83759,
+     "difference": 13759
     },
     {
      "move_pct": -15,
      "unhedged": 85000,
-     "hedged": 89145,
-     "difference": 4145
+     "hedged": 89125,
+     "difference": 4125
     },
     {
      "move_pct": -10,
      "unhedged": 90000,
-     "hedged": 89283,
-     "difference": -717
+     "hedged": 89295,
+     "difference": -705
     },
     {
      "move_pct": -5,
      "unhedged": 95000,
-     "hedged": 94283,
-     "difference": -717
+     "hedged": 94295,
+     "difference": -705
     },
     {
      "move_pct": 0,
      "unhedged": 100000,
-     "hedged": 99283,
-     "difference": -717
+     "hedged": 99295,
+     "difference": -705
     },
     {
      "move_pct": 5,
      "unhedged": 105000,
-     "hedged": 104283,
-     "difference": -717
+     "hedged": 104295,
+     "difference": -705
     },
     {
      "move_pct": 15,
      "unhedged": 115000,
-     "hedged": 114283,
-     "difference": -717
+     "hedged": 114295,
+     "difference": -705
     }
    ],
    "scenario_note": "Illustrative $100,000 sleeve held to expiry (~30 days); options settle at intrinsic value; mid prices, no commissions.",
@@ -303,9 +303,9 @@
   },
   {
    "id": "put5_3m",
-   "name": "Outright put ~5% below, ~84 days",
+   "name": "Outright put ~5% below, ~83 days",
    "expiry": "2027-01-29",
-   "dte": 84,
+   "dte": 83,
    "legs": [
     {
      "action": "buy",
@@ -316,55 +316,55 @@
    ],
    "cost_per_share": 20.49,
    "cost_pct_of_notional": 3.12,
-   "cost_pct_per_month": 1.11,
-   "covers": "losses below 625 (-4.8%) for ~84 days \u2014 \u22481.11% of notional per month",
+   "cost_pct_per_month": 1.13,
+   "covers": "losses below 625 (-4.8%) for ~83 days \u2014 \u22481.13% of notional per month",
    "gives_up": "a quarter's premium up front; resale value if you stop needing it",
    "explainer": "The same 5%-below put, bought three months out instead of one. It costs more per contract but much less per month of coverage, and it sidesteps the trap the backtest keeps showing: having to roll monthly, at prices that spike exactly when you want to keep the protection. The honest cost is that you commit the premium for a quarter \u2014 if the danger passes in two weeks you own insurance you no longer want (though it will still have resale value). No cap on upside.",
    "scenarios": [
     {
      "move_pct": -30,
      "unhedged": 70000,
-     "hedged": 92072,
-     "difference": 22072
+     "hedged": 92039,
+     "difference": 22039
     },
     {
      "move_pct": -15,
      "unhedged": 85000,
-     "hedged": 92072,
-     "difference": 7072
+     "hedged": 92039,
+     "difference": 7039
     },
     {
      "move_pct": -10,
      "unhedged": 90000,
-     "hedged": 92072,
-     "difference": 2072
+     "hedged": 92039,
+     "difference": 2039
     },
     {
      "move_pct": -5,
      "unhedged": 95000,
-     "hedged": 92072,
-     "difference": -2928
+     "hedged": 92039,
+     "difference": -2961
     },
     {
      "move_pct": 0,
      "unhedged": 100000,
-     "hedged": 96879,
-     "difference": -3121
+     "hedged": 96880,
+     "difference": -3120
     },
     {
      "move_pct": 5,
      "unhedged": 105000,
-     "hedged": 101879,
-     "difference": -3121
+     "hedged": 101880,
+     "difference": -3120
     },
     {
      "move_pct": 15,
      "unhedged": 115000,
-     "hedged": 111879,
-     "difference": -3121
+     "hedged": 111880,
+     "difference": -3120
     }
    ],
-   "scenario_note": "Illustrative $100,000 sleeve held to expiry (~84 days); options settle at intrinsic value; mid prices, no commissions.",
+   "scenario_note": "Illustrative $100,000 sleeve held to expiry (~83 days); options settle at intrinsic value; mid prices, no commissions.",
    "fit": "secondary",
    "fit_label": "Second choice",
    "fit_why": "cheapest per month of the outright puts if you intend to hold protection anyway"
@@ -389,26 +389,26 @@
     {
      "move_pct": -30,
      "unhedged": 70000,
-     "hedged": 93486,
-     "difference": 23486
+     "hedged": 93452,
+     "difference": 23452
     },
     {
      "move_pct": -15,
      "unhedged": 85000,
-     "hedged": 93486,
-     "difference": 8486
+     "hedged": 93452,
+     "difference": 8452
     },
     {
      "move_pct": -10,
      "unhedged": 90000,
-     "hedged": 93486,
-     "difference": 3486
+     "hedged": 93452,
+     "difference": 3452
     },
     {
      "move_pct": -5,
      "unhedged": 95000,
-     "hedged": 93486,
-     "difference": -1514
+     "hedged": 93452,
+     "difference": -1548
     },
     {
      "move_pct": 0,
@@ -447,51 +447,51 @@
    ],
    "cost_per_share": 5.69,
    "cost_pct_of_notional": 0.87,
-   "covers": "losses below 590 (-10.1%) \u2014 a crash, not a dip",
+   "covers": "losses below 590 (-10.2%) \u2014 a crash, not a dip",
    "gives_up": "the first ~10% of any fall, plus the premium",
    "explainer": "Crash insurance, not dip insurance. Half the price of the 5% put because you absorb the first ~10% of any fall yourself; below that, unlimited protection and no cap on upside. It does nothing in an ordinary correction and everything in a collapse \u2014 the structure most aligned with a credit-driven cascade, and useless if the move stops at \u22128%.",
    "scenarios": [
     {
      "move_pct": -30,
      "unhedged": 70000,
-     "hedged": 88996,
-     "difference": 18996
+     "hedged": 88963,
+     "difference": 18963
     },
     {
      "move_pct": -15,
      "unhedged": 85000,
-     "hedged": 88996,
-     "difference": 3996
+     "hedged": 88963,
+     "difference": 3963
     },
     {
      "move_pct": -10,
      "unhedged": 90000,
-     "hedged": 89133,
-     "difference": -867
+     "hedged": 89134,
+     "difference": -866
     },
     {
      "move_pct": -5,
      "unhedged": 95000,
-     "hedged": 94133,
-     "difference": -867
+     "hedged": 94134,
+     "difference": -866
     },
     {
      "move_pct": 0,
      "unhedged": 100000,
-     "hedged": 99133,
-     "difference": -867
+     "hedged": 99134,
+     "difference": -866
     },
     {
      "move_pct": 5,
      "unhedged": 105000,
-     "hedged": 104133,
-     "difference": -867
+     "hedged": 104134,
+     "difference": -866
     },
     {
      "move_pct": 15,
      "unhedged": 115000,
-     "hedged": 114133,
-     "difference": -867
+     "hedged": 114134,
+     "difference": -866
     }
    ],
    "scenario_note": "Illustrative $100,000 sleeve held to expiry (~30 days); options settle at intrinsic value; mid prices, no commissions.",
@@ -501,7 +501,7 @@
   }
  ],
  "quote_note": "Mid of bid/ask, 15-minute delayed; outside market hours these are the closing quotes and real fills will differ.",
- "scanned_at": "2026-11-06T21:40:41+00:00",
+ "scanned_at": "2026-11-07T01:00:12+00:00",
  "source": "CBOE delayed quotes",
  "fit_context": {
   "posture": "spread-or-collar",

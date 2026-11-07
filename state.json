@@ -1,9 +1,9 @@
 {
  "schema": 2,
- "generated_at": "2026-11-06T21:40:41+00:00",
- "run_label": "post-close",
- "composite": 42.5,
- "base_composite": 42.5,
+ "generated_at": "2026-11-07T01:00:12+00:00",
+ "run_label": "pre-open",
+ "composite": 46.7,
+ "base_composite": 46.7,
  "tier": "AMBER",
  "regime": "credit-tail",
  "posture": "spread-or-collar",
@@ -12,8 +12,7 @@
  "price_level": 2,
  "override": null,
  "reasons": [
-  "Red: Weakest-borrower risk premium, Fear now vs fear later, AI stocks vs their recent highs, Breadth of the market",
-  "Amber: Most fragile AI companies",
+  "Red: Weakest-borrower risk premium, Fear now vs fear later, AI stocks vs their recent highs, Most fragile AI companies, Breadth of the market",
   "Regime: credit-tail \u2014 one corner of the credit market is strained (the weakest borrowers, or a single fund or asset class) while lenders broadly stay calm \u2014 watch, not yet the serious kind",
   "Protection posture: Protection is dear \u2014 spreads or collars rather than outright \u2014 only one corner of credit is strained; lenders broadly are calm, yet AMBER alone has historically doubled the odds of a 10% fall and protection is expensive \u2014 structures that sell the rich vol fit better than outright puts. (Your own rules, applied mechanically \u2014 not advice.)",
   "Cost of protection (not part of the score): Cost of crash insurance \u2014 expensive, Cost of insurance overall \u2014 expensive, Cost of Nasdaq crash insurance \u2014 expensive"
@@ -73,11 +72,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "-0.7%, 2wk",
-   "delta": "-0.4%, 1wk",
+   "display": "-0.6%, 2wk",
+   "delta": "-1.2%, 1wk",
    "detail": "Are investors dumping risky bonds and buying safe government ones? This is priced continuously through the trading day, so it moves before the official spread figures, which arrive a day late. A fall of 1.5% or more over two weeks is the warning.",
-   "asof": "2026-11-06",
-   "value": -0.0065021898568699,
+   "asof": "2026-11-05",
+   "value": -0.006057253659387141,
    "subscores": {}
   },
   {
@@ -86,11 +85,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "+1.0%, 2wk",
-   "delta": "+0.2%, 1wk",
-   "detail": "These loans pay a floating interest rate, so their price moves on worry about the companies rather than on interest-rate swings \u2014 a cleaner read on company health than bonds give you. Moving in step with junk bonds (+0.8 points over two weeks).",
-   "asof": "2026-11-06",
-   "value": 0.010365206421532491,
+   "display": "+0.6%, 2wk",
+   "delta": "-0.2%, 1wk",
+   "detail": "These loans pay a floating interest rate, so their price moves on worry about the companies rather than on interest-rate swings \u2014 a cleaner read on company health than bonds give you. Moving in step with junk bonds (+0.4 points over two weeks).",
+   "asof": "2026-11-05",
+   "value": 0.006407055441141729,
    "subscores": {}
   },
   {
@@ -146,7 +145,7 @@
    "delta": "+0.11, 1wk",
    "detail": "Investors normally expect more turbulence three months out than today, which keeps this below 1.00. Above 1.00 the market is pricing the trouble as happening now \u2014 a confirmation that something is already underway, worth days of warning at most rather than weeks.",
    "asof": "2026-11-06",
-   "value": 1.0422763817907135,
+   "value": 1.0422763979531884,
    "subscores": {}
   },
   {
@@ -155,15 +154,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 2,
-   "display": "149",
-   "delta": "VVIX 122 \u00b7 -2, 1wk",
-   "detail": "How pricey insurance against a big fall is compared with ordinary options: 149, where 145 or more counts as expensive. VVIX 122 measures how pricey it is for that insurance to pay off explosively rather than merely well (expensive above 110). Protection is pricey \u2014 you would be paying up for exactly the outcome you want to insure against. This can read expensive in a perfectly calm market: it is about the price of insurance, not the odds of a crash, which is why it is not part of the score.",
-   "asof": "2026-11-05",
-   "value": 149.37,
+   "display": "154",
+   "delta": "VVIX 122 \u00b7 +4, 1wk",
+   "detail": "How pricey insurance against a big fall is compared with ordinary options: 154, where 145 or more counts as expensive. VVIX 122 measures how pricey it is for that insurance to pay off explosively rather than merely well (expensive above 110). Protection is pricey \u2014 you would be paying up for exactly the outcome you want to insure against. This can read expensive in a perfectly calm market: it is about the price of insurance, not the odds of a crash, which is why it is not part of the score.",
+   "asof": "2026-11-06",
+   "value": 153.5500030517578,
    "subscores": {
     "skew": 2,
     "vvix": 2,
-    "vvix_level": 121.94000244140625
+    "vvix_level": 121.94
    }
   },
   {
@@ -172,15 +171,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 2,
-   "display": "+2.0 pts extra",
+   "display": "+2.6 pts extra",
    "delta": "pricier than 99% of the year \u00b7 Nasdaq",
-   "detail": "Priced on the Nasdaq. Two ways to check. The turbulence the market expects is running at 34.0, higher than 99% of the past year (expensive above 80%). And shares have actually been moving about 32.0, so you would be paying +2.0 points for turbulence that has not arrived (expensive above 8). This is a rough market-wide guide \u2014 check the price of the specific option before buying. Not part of the score.",
+   "detail": "Priced on the Nasdaq. Two ways to check. The turbulence the market expects is running at 34.0, higher than 99% of the past year (expensive above 80%). And shares have actually been moving about 31.4, so you would be paying +2.6 points for turbulence that has not arrived (expensive above 8). This is a rough market-wide guide \u2014 check the price of the specific option before buying. Not part of the score.",
    "asof": "2026-11-06",
-   "value": 1.9777532168179022,
+   "value": 2.59199642595188,
    "subscores": {
     "pctile": 2,
     "premium": 0,
-    "realized": 32.04224724094577,
+    "realized": 31.428003574048123,
     "market": "Nasdaq"
    }
   },
@@ -191,9 +190,9 @@
    "weight": 0.0,
    "status": 2,
    "display": "+10.1 pts skew",
-   "delta": "25\u0394 put 35.2% vs ATM 30.1% \u00b7 28d",
-   "detail": "Read straight off the QQQ option chain (expiry 2026-12-04, 28 days): a put 25% likely to pay costs 35.2% implied volatility against 25.2% for the mirror-image call \u2014 +10.1 points more for downside than upside (expensive above 9). Relative to at-the-money (30.1%) that is \u00d71.17 (expensive above 1.4). Nasdaq downside insurance is pricey \u2014 the market is already charging up for exactly this fall. This is the price of the actual instrument, not an S&P proxy. Not part of the score.",
-   "asof": "2026-11-06",
+   "delta": "25\u0394 put 35.2% vs ATM 30.1% \u00b7 27d",
+   "detail": "Read straight off the QQQ option chain (expiry 2026-12-04, 27 days): a put 25% likely to pay costs 35.2% implied volatility against 25.2% for the mirror-image call \u2014 +10.1 points more for downside than upside (expensive above 9). Relative to at-the-money (30.1%) that is \u00d71.17 (expensive above 1.4). Nasdaq downside insurance is pricey \u2014 the market is already charging up for exactly this fall. This is the price of the actual instrument, not an S&P proxy. Not part of the score.",
+   "asof": "2026-11-07",
    "value": 10.05,
    "subscores": {
     "rr": 2,
@@ -207,14 +206,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 2,
-   "display": "-23.3% off high",
-   "delta": "-8.8%, 2wk",
-   "detail": "An equal-weight basket of 14 AI-exposed companies, currently 23.3% below its three-month high, having moved -8.8% over the past two weeks. Equal-weight means a small company counts as much as a giant one, so a single megacap cannot mask the rest.",
-   "asof": "2026-11-06",
-   "value": -0.23283242633992152,
+   "display": "-25.8% off high",
+   "delta": "-11.8%, 2wk",
+   "detail": "An equal-weight basket of 14 AI-exposed companies, currently 25.8% below its three-month high, having moved -11.8% over the past two weeks. Equal-weight means a small company counts as much as a giant one, so a single megacap cannot mask the rest.",
+   "asof": "2026-11-05",
+   "value": -0.25758100585421095,
    "subscores": {
-    "drawdown": -0.23283242633992152,
-    "mom10": -0.08767336908447565
+    "drawdown": -0.25758100585421095,
+    "mom10": -0.11839871257335721
    }
   },
   {
@@ -222,11 +221,11 @@
    "label": "Most fragile AI companies",
    "group": "AI sector",
    "weight": 0.1,
-   "status": 1,
-   "display": "CoreWeave -14% \u00b7 Oracle -8%, 2wk",
+   "status": 2,
+   "display": "CoreWeave -21% \u00b7 Oracle -8%, 2wk",
    "delta": "swings \u00d71.1 / \u00d71.5 vs normal",
    "detail": "CoreWeave and Oracle stand for the debt-funded end of the AI buildout. What their own lenders charge them is not published for free, so we watch for sharp share-price falls, or a sudden jump in how much the shares swing day to day, as the stand-in.",
-   "asof": "2026-11-06",
+   "asof": "2026-11-05",
    "value": null,
    "subscores": {}
   },
@@ -236,11 +235,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 2,
-   "display": "avg stock +7.4%, 1mo",
+   "display": "avg stock +8.1%, 1mo",
    "delta": "14% above 50-day avg",
-   "detail": "When gains narrow to a handful of giant companies the market gets fragile. Two checks: the average US stock against the big-company index (+7.4% over the past month), and how much of the AI basket is still above its 50-day average (14%). A slow background signal, so it carries little weight.",
-   "asof": "2026-11-06",
-   "value": 0.07382166017695413,
+   "detail": "When gains narrow to a handful of giant companies the market gets fragile. Two checks: the average US stock against the big-company index (+8.1% over the past month), and how much of the AI basket is still above its 50-day average (14%). A slow background signal, so it carries little weight.",
+   "asof": "2026-11-05",
+   "value": 0.08075615108763934,
    "subscores": {}
   },
   {
@@ -250,19 +249,19 @@
    "weight": 0.04,
    "status": 0,
    "display": "+0.67%",
-   "delta": "-0.13, 1wk",
+   "delta": "-0.11, 1wk",
    "detail": "Long-term government borrowing costs minus short-term. When it goes negative \u2014 short-term paying more than long \u2014 a downturn has often followed, but 6 to 18 months later, which is no use for timing. Capped so it can never trigger a red on its own.",
-   "asof": "2026-11-05",
+   "asof": "2026-11-06",
    "value": 0.67,
    "subscores": {}
   }
  ],
- "qqq_close": 656.1,
+ "qqq_close": 647.05,
  "hedge": {
   "underlying": "QQQ",
-  "spot": 656.56,
+  "spot": 656.8,
   "expiry": "2026-12-04",
-  "dte": 28,
+  "dte": 27,
   "atm_strike": 655.0,
   "atm_iv": 0.3006,
   "put25_strike": 620.0,
@@ -302,44 +301,44 @@
      {
       "move_pct": -30,
       "unhedged": 70000,
-      "hedged": 78686,
-      "difference": 8686
+      "hedged": 78683,
+      "difference": 8683
      },
      {
       "move_pct": -15,
       "unhedged": 85000,
-      "hedged": 93686,
-      "difference": 8686
+      "hedged": 93683,
+      "difference": 8683
      },
      {
       "move_pct": -10,
       "unhedged": 90000,
-      "hedged": 93979,
-      "difference": 3979
+      "hedged": 93945,
+      "difference": 3945
      },
      {
       "move_pct": -5,
       "unhedged": 95000,
-      "hedged": 93979,
-      "difference": -1021
+      "hedged": 93945,
+      "difference": -1055
      },
      {
       "move_pct": 0,
       "unhedged": 100000,
-      "hedged": 98786,
-      "difference": -1214
+      "hedged": 98787,
+      "difference": -1213
      },
      {
       "move_pct": 5,
       "unhedged": 105000,
-      "hedged": 103786,
-      "difference": -1214
+      "hedged": 103787,
+      "difference": -1213
      },
      {
       "move_pct": 15,
       "unhedged": 115000,
-      "hedged": 113786,
-      "difference": -1214
+      "hedged": 113787,
+      "difference": -1213
      }
     ],
     "scenario_note": "Illustrative $100,000 sleeve held to expiry (~30 days); options settle at intrinsic value; mid prices, no commissions.",
@@ -367,32 +366,32 @@
     "cost_per_share": 9.83,
     "cost_pct_of_notional": 1.5,
     "covers": "losses below 625 (-4.8%)",
-    "gives_up": "gains above 722 (+10.0%) until expiry",
+    "gives_up": "gains above 722 (+9.9%) until expiry",
     "explainer": "A collar with room to run. Put 5% below, financed by selling a call 10% above rather than 5%: you keep the first 10% of a rally and give up only what is beyond that. Costs more than the 5/5 collar because the farther call brings in less premium, but on a Nasdaq sleeve \u2014 where the upside lives \u2014 the extra headroom is usually the point. Floor at \u22125%, no limit.",
     "scenarios": [
      {
       "move_pct": -30,
       "unhedged": 70000,
-      "hedged": 93696,
-      "difference": 23696
+      "hedged": 93662,
+      "difference": 23662
      },
      {
       "move_pct": -15,
       "unhedged": 85000,
-      "hedged": 93696,
-      "difference": 8696
+      "hedged": 93662,
+      "difference": 8662
      },
      {
       "move_pct": -10,
       "unhedged": 90000,
-      "hedged": 93696,
-      "difference": 3696
+      "hedged": 93662,
+      "difference": 3662
      },
      {
       "move_pct": -5,
       "unhedged": 95000,
-      "hedged": 93696,
-      "difference": -1304
+      "hedged": 93662,
+      "difference": -1338
      },
      {
       "move_pct": 0,
@@ -409,8 +408,8 @@
      {
       "move_pct": 15,
       "unhedged": 115000,
-      "hedged": 108470,
-      "difference": -6530
+      "hedged": 108430,
+      "difference": -6570
      }
     ],
     "scenario_note": "Illustrative $100,000 sleeve held to expiry (~30 days); options settle at intrinsic value; mid prices, no commissions.",
@@ -431,57 +430,57 @@
      {
       "action": "sell",
       "type": "call",
-      "strike": 689.0,
-      "mid": 7.62
+      "strike": 690.0,
+      "mid": 7.31
      }
     ],
-    "cost_per_share": 3.59,
-    "cost_pct_of_notional": 0.55,
+    "cost_per_share": 3.9,
+    "cost_pct_of_notional": 0.59,
     "covers": "losses below 625 (-4.8%)",
-    "gives_up": "gains above 689 (+4.9%) until expiry",
+    "gives_up": "gains above 690 (+5.1%) until expiry",
     "explainer": "Cheap protection paid for with your upside. You buy the 5%-below put and sell a 5%-above call; when implied vol is rich the call pays for most of the put. Floor at \u22125% with no limit, but every gain above +5% until expiry goes to the call buyer. The cap is the real cost and it is invisible until the month the market rallies \u2014 on a Nasdaq sleeve, that is where the upside lives.",
     "scenarios": [
      {
       "move_pct": -30,
       "unhedged": 70000,
-      "hedged": 94646,
-      "difference": 24646
+      "hedged": 94565,
+      "difference": 24565
      },
      {
       "move_pct": -15,
       "unhedged": 85000,
-      "hedged": 94646,
-      "difference": 9646
+      "hedged": 94565,
+      "difference": 9565
      },
      {
       "move_pct": -10,
       "unhedged": 90000,
-      "hedged": 94646,
-      "difference": 4646
+      "hedged": 94565,
+      "difference": 4565
      },
      {
       "move_pct": -5,
       "unhedged": 95000,
-      "hedged": 94646,
-      "difference": -354
+      "hedged": 94565,
+      "difference": -435
      },
      {
       "move_pct": 0,
       "unhedged": 100000,
-      "hedged": 99453,
-      "difference": -547
+      "hedged": 99406,
+      "difference": -594
      },
      {
       "move_pct": 5,
       "unhedged": 105000,
-      "hedged": 104394,
-      "difference": -606
+      "hedged": 104406,
+      "difference": -594
      },
      {
       "move_pct": 15,
       "unhedged": 115000,
-      "hedged": 104394,
-      "difference": -10606
+      "hedged": 104461,
+      "difference": -10539
      }
     ],
     "scenario_note": "Illustrative $100,000 sleeve held to expiry (~30 days); options settle at intrinsic value; mid prices, no commissions.",
@@ -502,58 +501,58 @@
      {
       "action": "sell",
       "type": "put",
-      "strike": 490.0,
-      "mid": 0.98
+      "strike": 495.0,
+      "mid": 1.06
      }
     ],
-    "cost_per_share": 4.71,
-    "cost_pct_of_notional": 0.72,
-    "max_payout_per_share": 95.29,
-    "covers": "the band 490\u2013590 (-25% to -10%) \u2014 a crash, not a dip",
-    "gives_up": "the first ~10% of any fall and everything below 490",
+    "cost_per_share": 4.63,
+    "cost_pct_of_notional": 0.7,
+    "max_payout_per_share": 90.37,
+    "covers": "the band 495\u2013590 (-25% to -10%) \u2014 a crash, not a dip",
+    "gives_up": "the first ~10% of any fall and everything below 495",
     "explainer": "The crash-band version of the spread. You buy the 10%-below put and sell a 25%-below put: nothing happens in a dip, then full protection from \u221210% to \u221225%, then you fall with the market again below that. It skips the correction the 5\u219215 spread insures and covers the zone where that one runs out \u2014 the coherent spread for a credit-cascade thesis, and dead weight if the move stops at \u22128%. Cheap because both legs are far from the money.",
     "scenarios": [
      {
       "move_pct": -30,
       "unhedged": 70000,
-      "hedged": 84514,
-      "difference": 14514
+      "hedged": 83759,
+      "difference": 13759
      },
      {
       "move_pct": -15,
       "unhedged": 85000,
-      "hedged": 89145,
-      "difference": 4145
+      "hedged": 89125,
+      "difference": 4125
      },
      {
       "move_pct": -10,
       "unhedged": 90000,
-      "hedged": 89283,
-      "difference": -717
+      "hedged": 89295,
+      "difference": -705
      },
      {
       "move_pct": -5,
       "unhedged": 95000,
-      "hedged": 94283,
-      "difference": -717
+      "hedged": 94295,
+      "difference": -705
      },
      {
       "move_pct": 0,
       "unhedged": 100000,
-      "hedged": 99283,
-      "difference": -717
+      "hedged": 99295,
+      "difference": -705
      },
      {
       "move_pct": 5,
       "unhedged": 105000,
-      "hedged": 104283,
-      "difference": -717
+      "hedged": 104295,
+      "difference": -705
      },
      {
       "move_pct": 15,
       "unhedged": 115000,
-      "hedged": 114283,
-      "difference": -717
+      "hedged": 114295,
+      "difference": -705
      }
     ],
     "scenario_note": "Illustrative $100,000 sleeve held to expiry (~30 days); options settle at intrinsic value; mid prices, no commissions.",
@@ -563,9 +562,9 @@
    },
    {
     "id": "put5_3m",
-    "name": "Outright put ~5% below, ~84 days",
+    "name": "Outright put ~5% below, ~83 days",
     "expiry": "2027-01-29",
-    "dte": 84,
+    "dte": 83,
     "legs": [
      {
       "action": "buy",
@@ -576,55 +575,55 @@
     ],
     "cost_per_share": 20.49,
     "cost_pct_of_notional": 3.12,
-    "cost_pct_per_month": 1.11,
-    "covers": "losses below 625 (-4.8%) for ~84 days \u2014 \u22481.11% of notional per month",
+    "cost_pct_per_month": 1.13,
+    "covers": "losses below 625 (-4.8%) for ~83 days \u2014 \u22481.13% of notional per month",
     "gives_up": "a quarter's premium up front; resale value if you stop needing it",
     "explainer": "The same 5%-below put, bought three months out instead of one. It costs more per contract but much less per month of coverage, and it sidesteps the trap the backtest keeps showing: having to roll monthly, at prices that spike exactly when you want to keep the protection. The honest cost is that you commit the premium for a quarter \u2014 if the danger passes in two weeks you own insurance you no longer want (though it will still have resale value). No cap on upside.",
     "scenarios": [
      {
       "move_pct": -30,
       "unhedged": 70000,
-      "hedged": 92072,
-      "difference": 22072
+      "hedged": 92039,
+      "difference": 22039
      },
      {
       "move_pct": -15,
       "unhedged": 85000,
-      "hedged": 92072,
-      "difference": 7072
+      "hedged": 92039,
+      "difference": 7039
      },
      {
       "move_pct": -10,
       "unhedged": 90000,
-      "hedged": 92072,
-      "difference": 2072
+      "hedged": 92039,
+      "difference": 2039
      },
      {
       "move_pct": -5,
       "unhedged": 95000,
-      "hedged": 92072,
-      "difference": -2928
+      "hedged": 92039,
+      "difference": -2961
      },
      {
       "move_pct": 0,
       "unhedged": 100000,
-      "hedged": 96879,
-      "difference": -3121
+      "hedged": 96880,
+      "difference": -3120
      },
      {
       "move_pct": 5,
       "unhedged": 105000,
-      "hedged": 101879,
-      "difference": -3121
+      "hedged": 101880,
+      "difference": -3120
      },
      {
       "move_pct": 15,
       "unhedged": 115000,
-      "hedged": 111879,
-      "difference": -3121
+      "hedged": 111880,
+      "difference": -3120
      }
     ],
-    "scenario_note": "Illustrative $100,000 sleeve held to expiry (~84 days); options settle at intrinsic value; mid prices, no commissions.",
+    "scenario_note": "Illustrative $100,000 sleeve held to expiry (~83 days); options settle at intrinsic value; mid prices, no commissions.",
     "fit": "secondary",
     "fit_label": "Second choice",
     "fit_why": "cheapest per month of the outright puts if you intend to hold protection anyway"
@@ -649,26 +648,26 @@
      {
       "move_pct": -30,
       "unhedged": 70000,
-      "hedged": 93486,
-      "difference": 23486
+      "hedged": 93452,
+      "difference": 23452
      },
      {
       "move_pct": -15,
       "unhedged": 85000,
-      "hedged": 93486,
-      "difference": 8486
+      "hedged": 93452,
+      "difference": 8452
      },
      {
       "move_pct": -10,
       "unhedged": 90000,
-      "hedged": 93486,
-      "difference": 3486
+      "hedged": 93452,
+      "difference": 3452
      },
      {
       "move_pct": -5,
       "unhedged": 95000,
-      "hedged": 93486,
-      "difference": -1514
+      "hedged": 93452,
+      "difference": -1548
      },
      {
       "move_pct": 0,
@@ -707,51 +706,51 @@
     ],
     "cost_per_share": 5.69,
     "cost_pct_of_notional": 0.87,
-    "covers": "losses below 590 (-10.1%) \u2014 a crash, not a dip",
+    "covers": "losses below 590 (-10.2%) \u2014 a crash, not a dip",
     "gives_up": "the first ~10% of any fall, plus the premium",
     "explainer": "Crash insurance, not dip insurance. Half the price of the 5% put because you absorb the first ~10% of any fall yourself; below that, unlimited protection and no cap on upside. It does nothing in an ordinary correction and everything in a collapse \u2014 the structure most aligned with a credit-driven cascade, and useless if the move stops at \u22128%.",
     "scenarios": [
      {
       "move_pct": -30,
       "unhedged": 70000,
-      "hedged": 88996,
-      "difference": 18996
+      "hedged": 88963,
+      "difference": 18963
      },
      {
       "move_pct": -15,
       "unhedged": 85000,
-      "hedged": 88996,
-      "difference": 3996
+      "hedged": 88963,
+      "difference": 3963
      },
      {
       "move_pct": -10,
       "unhedged": 90000,
-      "hedged": 89133,
-      "difference": -867
+      "hedged": 89134,
+      "difference": -866
      },
      {
       "move_pct": -5,
       "unhedged": 95000,
-      "hedged": 94133,
-      "difference": -867
+      "hedged": 94134,
+      "difference": -866
      },
      {
       "move_pct": 0,
       "unhedged": 100000,
-      "hedged": 99133,
-      "difference": -867
+      "hedged": 99134,
+      "difference": -866
      },
      {
       "move_pct": 5,
       "unhedged": 105000,
-      "hedged": 104133,
-      "difference": -867
+      "hedged": 104134,
+      "difference": -866
      },
      {
       "move_pct": 15,
       "unhedged": 115000,
-      "hedged": 114133,
-      "difference": -867
+      "hedged": 114134,
+      "difference": -866
      }
     ],
     "scenario_note": "Illustrative $100,000 sleeve held to expiry (~30 days); options settle at intrinsic value; mid prices, no commissions.",
@@ -761,7 +760,7 @@
    }
   ],
   "quote_note": "Mid of bid/ask, 15-minute delayed; outside market hours these are the closing quotes and real fills will differ.",
-  "scanned_at": "2026-11-06T21:40:41+00:00",
+  "scanned_at": "2026-11-07T01:00:12+00:00",
   "source": "CBOE delayed quotes",
   "fit_context": {
    "posture": "spread-or-collar",
@@ -777,12 +776,12 @@
   "variant_note": "Cheap-protection window always buys the ~5%-below put.",
   "since": "2026-10-19",
   "as_of": "2026-11-06",
-  "run_label": "post-close",
+  "run_label": "pre-open",
   "seed_cash": 1000.0,
-  "nav": 940.84,
-  "bench_nav": 913.13,
-  "return_pct": -5.92,
-  "bench_return_pct": -8.69,
+  "nav": 941.17,
+  "bench_nav": 913.47,
+  "return_pct": -5.88,
+  "bench_return_pct": -8.65,
   "vs_bench_pct": 2.77,
   "cash": 0.0,
   "shares": 1.3799,
@@ -898,8 +897,8 @@
    },
    {
     "date": "2026-11-06",
-    "nav": 940.84,
-    "bench": 913.13,
+    "nav": 941.17,
+    "bench": 913.47,
     "posture": "spread-or-collar",
     "tier": "AMBER"
    }
@@ -914,12 +913,12 @@
    "variant_note": "Cheap-protection window always buys the ~5%-below put.",
    "since": "2026-10-19",
    "as_of": "2026-11-06",
-   "run_label": "post-close",
+   "run_label": "pre-open",
    "seed_cash": 1000.0,
-   "nav": 940.84,
-   "bench_nav": 913.13,
-   "return_pct": -5.92,
-   "bench_return_pct": -8.69,
+   "nav": 941.17,
+   "bench_nav": 913.47,
+   "return_pct": -5.88,
+   "bench_return_pct": -8.65,
    "vs_bench_pct": 2.77,
    "cash": 0.0,
    "shares": 1.3799,
@@ -1035,8 +1034,8 @@
     },
     {
      "date": "2026-11-06",
-     "nav": 940.84,
-     "bench": 913.13,
+     "nav": 941.17,
+     "bench": 913.47,
      "posture": "spread-or-collar",
      "tier": "AMBER"
     }
@@ -1050,12 +1049,12 @@
    "variant_note": "Cheap-protection window buys the ~10%-below put when the regime is credit-led or funding (the tail is live), the ~5%-below put in an unconfirmed early window.",
    "since": "2026-10-19",
    "as_of": "2026-11-06",
-   "run_label": "post-close",
+   "run_label": "pre-open",
    "seed_cash": 1000.0,
-   "nav": 940.84,
-   "bench_nav": 913.13,
-   "return_pct": -5.92,
-   "bench_return_pct": -8.69,
+   "nav": 941.17,
+   "bench_nav": 913.47,
+   "return_pct": -5.88,
+   "bench_return_pct": -8.65,
    "vs_bench_pct": 2.77,
    "cash": 0.0,
    "shares": 1.3799,
@@ -1171,8 +1170,8 @@
     },
     {
      "date": "2026-11-06",
-     "nav": 940.84,
-     "bench": 913.13,
+     "nav": 941.17,
+     "bench": 913.47,
      "posture": "spread-or-collar",
      "tier": "AMBER"
     }
