@@ -7,18 +7,18 @@
  "as_of": "2026-11-10",
  "run_label": "post-close",
  "seed_cash": 1000.0,
- "nav": 949.2,
- "bench_nav": 934.61,
- "return_pct": -5.08,
- "bench_return_pct": -6.54,
- "vs_bench_pct": 1.46,
+ "nav": 952.22,
+ "bench_nav": 940.02,
+ "return_pct": -4.78,
+ "bench_return_pct": -6.0,
+ "vs_bench_pct": 1.22,
  "cash": 0.0,
  "shares": 1.3799,
- "options_value": 21.88,
+ "options_value": 19.54,
  "premium_paid_total": 7.78,
  "settlements_total": 0,
  "open_position": "Put spread ~5% \u2192 ~15% below \u00b7 exp 2026-11-20 \u00b7 cost $7.78",
- "open_position_value": 21.88,
+ "open_position_value": 19.54,
  "n_trades": 3,
  "recent_trades": [
   "OPEN Put spread ~5% \u2192 ~15% below exp 2026-11-20 on 1.3799 sh for $7.78 (0.79% of notional) \u2014 posture: spread-or-collar",
@@ -140,10 +140,10 @@
   },
   {
    "date": "2026-11-10",
-   "nav": 949.2,
-   "bench": 934.61,
-   "posture": "spread-or-collar",
-   "tier": "AMBER"
+   "nav": 952.22,
+   "bench": 940.02,
+   "posture": "hold",
+   "tier": "GREEN"
   }
  ],
  "rules": "Fake $1,000 in QQQ from day one. Once per trading day (post-close): cheap-protection window \u2192 buy the ~5%-below put, notional-matched; spreads-or-collars \u2192 open the 5\u219215 put spread; trim \u2192 sell 25% of shares, once per episode; GREEN \u2192 put cash back into QQQ. Options marked at chain mids, settled at intrinsic on expiry. Benchmark: the same shares, never touched."
