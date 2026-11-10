@@ -1,4 +1,29 @@
 {
-  "scanned_at": "2026-11-09T12:00:00Z",
-  "items": []
+  "scanned_at": "2026-11-10T12:00:00Z",
+  "items": [
+    {
+      "headline": "Neocloud bonds tumble as lenders pull back from AI debt ahead of CoreWeave earnings",
+      "source": "MLQ.ai",
+      "url": "https://mlq.ai/news/from-coreweaves-16-bonds-to-spacexs-40-billion-chip-lease-lenders-are-pulling-back-from-ai-debt/",
+      "date": "2026-11-08",
+      "severity": "low",
+      "note": "Reported 14-21% drops in Iren, Nebius and Cipher bonds suggest funding stress is spreading across the neocloud group; figures come from a single aggregator."
+    },
+    {
+      "headline": "CoreWeave bond yield tops 16% as AI credit stress rises",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "date": "2026-11-06",
+      "severity": "medium",
+      "note": "CoreWeave's 2032 notes yield over 16% and five-year CDS is above 1,150-1,200bp, so the market is pricing neocloud distress days before Q3 earnings."
+    },
+    {
+      "headline": "Oracle prices $10B of notes at 7%-8.65% coupons",
+      "source": "BigGo Finance",
+      "url": "https://finance.biggo.com/news/da3b3785-a9cd-4d62-9a16-e66ffd2c762d",
+      "date": "2026-11-02",
+      "severity": "low",
+      "note": "High coupons on Oracle's new issue show a rising funding cost for AI buildout debt; a reported BBB- rating is unverified."
+    }
+  ]
 }

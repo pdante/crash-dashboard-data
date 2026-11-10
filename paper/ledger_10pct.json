@@ -162,6 +162,13 @@
    "bench": 943.92,
    "posture": "spread-or-collar",
    "tier": "AMBER"
+  },
+  {
+   "date": "2026-11-10",
+   "nav": 948.62,
+   "bench": 932.94,
+   "posture": "spread-or-collar",
+   "tier": "AMBER"
   }
  ],
  "last_trade_date": "2026-10-20",
