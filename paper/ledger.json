@@ -169,6 +169,13 @@
    "bench": 943.85,
    "posture": "hold",
    "tier": "GREEN"
+  },
+  {
+   "date": "2026-11-11",
+   "nav": 966.65,
+   "bench": 966.32,
+   "posture": "hold",
+   "tier": "GREEN"
   }
  ],
  "last_trade_date": "2026-10-20",
