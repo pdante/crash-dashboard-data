@@ -5,12 +5,12 @@
  "variant_note": "Cheap-protection window buys the ~10%-below put when the regime is credit-led or funding (the tail is live), the ~5%-below put in an unconfirmed early window.",
  "since": "2026-10-19",
  "as_of": "2026-11-10",
- "run_label": "post-close",
+ "run_label": "pre-open",
  "seed_cash": 1000.0,
- "nav": 952.22,
- "bench_nav": 940.02,
- "return_pct": -4.78,
- "bench_return_pct": -6.0,
+ "nav": 956.03,
+ "bench_nav": 943.85,
+ "return_pct": -4.4,
+ "bench_return_pct": -5.61,
  "vs_bench_pct": 1.22,
  "cash": 0.0,
  "shares": 1.3799,
@@ -140,8 +140,8 @@
   },
   {
    "date": "2026-11-10",
-   "nav": 952.22,
-   "bench": 940.02,
+   "nav": 956.03,
+   "bench": 943.85,
    "posture": "hold",
    "tier": "GREEN"
   }
