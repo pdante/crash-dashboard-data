@@ -1,29 +1,4 @@
 {
-  "scanned_at": "2026-11-11T12:00:00Z",
-  "items": [
-    {
-      "headline": "CoreWeave guides to ~$1.1B quarterly interest bill as debt reaches ~$47B, despite beat-and-raise",
-      "source": "ZeroHedge",
-      "url": "https://www.zerohedge.com/markets/coreweave-pops-beat-and-raise-then-guides-11-billion-quarterly-interest-bill-debt-hits-47",
-      "date": "2026-11-10",
-      "severity": "low",
-      "note": "Interest burden is scaling with debt even as results beat, keeping neocloud debt-service coverage in focus; post-earnings bond reaction not yet confirmed."
-    },
-    {
-      "headline": "The AI 'credit card' is getting costlier as CoreWeave bond yield tops 16%",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
-      "date": "2026-11-06",
-      "severity": "medium",
-      "note": "Five-year CDS reportedly above 1,289bp on Nov 5 (eased to ~1,155bp Nov 6) with bonds at distressed-level yields, signalling material market stress in neocloud credit."
-    },
-    {
-      "headline": "CoreWeave bonds hit new lows as Texas data centers in crosshairs",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-04/coreweave-bonds-hit-new-lows-as-texas-data-centers-in-crosshairs",
-      "date": "2026-11-04",
-      "severity": "medium",
-      "note": "2031 notes reportedly fell as low as ~79.5 cents on the dollar on data-center buildout policy risk, a concrete sign of stress in neocloud funding."
-    }
-  ]
+  "scanned_at": "2026-11-12T12:00:00Z",
+  "items": []
 }
