@@ -5,12 +5,12 @@
  "variant_note": "Cheap-protection window always buys the ~5%-below put.",
  "since": "2026-10-19",
  "as_of": "2026-11-12",
- "run_label": "post-close",
+ "run_label": "pre-open",
  "seed_cash": 1000.0,
- "nav": 960.75,
- "bench_nav": 957.66,
- "return_pct": -3.92,
- "bench_return_pct": -4.23,
+ "nav": 963.6,
+ "bench_nav": 960.53,
+ "return_pct": -3.64,
+ "bench_return_pct": -3.95,
  "vs_bench_pct": 0.31,
  "cash": 0.0,
  "shares": 1.3799,
@@ -154,8 +154,8 @@
   },
   {
    "date": "2026-11-12",
-   "nav": 960.75,
-   "bench": 957.66,
+   "nav": 963.6,
+   "bench": 960.53,
    "posture": "hold",
    "tier": "GREEN"
   }
