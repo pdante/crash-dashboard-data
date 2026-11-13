@@ -1,4 +1,21 @@
 {
-  "scanned_at": "2026-11-12T12:00:00Z",
-  "items": []
+  "scanned_at": "2026-11-13T12:00:00Z",
+  "items": [
+    {
+      "headline": "CoreWeave beats Q3 and raises FY26 guidance, but total debt nears $47B on $37-39B capex plan",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/11/10/coreweave-arrests-stock-slide-after-posting-a-strong-earnings-beat-and-raising-its-full-year-guidance/",
+      "date": "2026-11-10",
+      "severity": "low",
+      "note": "Revenue and backlog are strong, but the heavy debt load and capex keep funding risk at the center of the neocloud credit thesis."
+    },
+    {
+      "headline": "CoreWeave 2032 notes yield above 16% and CDS hits record ahead of Q3 earnings",
+      "source": "Tech Jack Solutions",
+      "url": "https://techjacksolutions.com/ai-brief/coreweave-2032-bonds-16-percent-yield-q3-earnings/",
+      "date": "2026-11-06",
+      "severity": "medium",
+      "note": "Bonds yielding nearly double their 9.625% coupon and record CDS levels show the market pricing CoreWeave debt as distressed. Figures vary by source."
+    }
+  ]
 }
