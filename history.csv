@@ -345,3 +345,4 @@ generated_at,composite,tier,schema,regime,posture,lit,qqq
 2026-11-17T04:02:17+00:00,31.7,AMBER,2,credit-tail,spread-or-collar,ccc_oas=2;vix_ts=1;ai_basket=2;breadth=2,661.75
 2026-11-17T20:00:08+00:00,42.5,AMBER,2,credit-tail,spread-or-collar,ccc_oas=2;vix_ts=2;ai_basket=2;periphery=1;breadth=2,651.59
 2026-11-17T20:58:39+00:00,42.5,AMBER,2,credit-tail,spread-or-collar,ccc_oas=2;vix_ts=2;ai_basket=2;periphery=1;breadth=2,655.68
+2026-11-17T23:34:59+00:00,42.5,AMBER,2,credit-tail,spread-or-collar,ccc_oas=2;vix_ts=2;ai_basket=2;periphery=1;breadth=2,656.95
