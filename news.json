@@ -1,21 +1,29 @@
 {
-  "scanned_at": "2026-11-16T00:00:00Z",
+  "scanned_at": "2026-11-17T12:00:00Z",
   "items": [
     {
-      "headline": "Morgan Stanley and other lenders explore moving data center construction loan exposure to private credit",
-      "source": "KuCoin Blog (secondary)",
+      "headline": "CoreWeave 2027 debt payments jump 77% to ~$11B, 10-Q shows; total debt $47.5B",
+      "source": "FourWeekMBA",
+      "url": "https://fourweekmba.com/ai-coreweaves-2027-debt-payments-jump-77-to-11b-10-q-shows/",
+      "date": "2026-11-11",
+      "severity": "medium",
+      "note": "Undrawn facility headroom fell to $5.7B from $10.0B while near-term maturities rose sharply, tightening neocloud refinancing capacity."
+    },
+    {
+      "headline": "CoreWeave rules out unsecured debt at current yields, plans $4B+ investment-grade loan",
+      "source": "TIKR",
+      "url": "https://www.tikr.com/blog/coreweave-wont-touch-unsecured-debt-at-current-yields-its-customers-are-paying-instead",
+      "date": "2026-11-11",
+      "severity": "low",
+      "note": "Parent-level unsecured funding is effectively shut at current yields; the company relies on customer-backed secured loans whose final terms are not yet set."
+    },
+    {
+      "headline": "Morgan Stanley trims data-center loan exposure, shifts risk to private credit",
+      "source": "KuCoin / Simply Wall St",
       "url": "https://kucoin.com/blog/morgan-stanley-data-center-loan-exposure-ai-financing",
       "date": "2026-11-09",
       "severity": "low",
-      "note": "Banks looking to offload data-center construction risk signals tighter bank appetite and shifts risk to private-credit funds; secondary source, unverified."
-    },
-    {
-      "headline": "CoreWeave 5-year CDS spiked above ~1,200bp and 2032 bonds yield ~16% ahead of Q3 earnings",
-      "source": "FourWeekMBA / TechJack (secondary, citing Deutsche Bank via CNBC)",
-      "url": "https://fourweekmba.com/ai-coreweave-cds-is-8x-nvidias-139bp-as-credit-prices-ai-risk/",
-      "date": "2026-11-06",
-      "severity": "medium",
-      "note": "Distressed-level CDS and bond yields show the market pricing real default risk on the largest neocloud borrower (~$50B debt); figures not confirmed from primary sources."
+      "note": "Bank risk transfer of data-center construction loans signals reduced bank appetite and more reliance on private credit."
     }
   ]
 }
