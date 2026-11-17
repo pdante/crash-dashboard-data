@@ -7,10 +7,10 @@
  "as_of": "2026-11-16",
  "run_label": "pre-open",
  "seed_cash": 1000.0,
- "nav": 943.9,
- "bench_nav": 920.59,
- "return_pct": -5.61,
- "bench_return_pct": -7.94,
+ "nav": 944.37,
+ "bench_nav": 921.06,
+ "return_pct": -5.56,
+ "bench_return_pct": -7.89,
  "vs_bench_pct": 2.33,
  "cash": 0.0,
  "shares": 1.3799,
@@ -168,8 +168,8 @@
   },
   {
    "date": "2026-11-16",
-   "nav": 943.9,
-   "bench": 920.59,
+   "nav": 944.37,
+   "bench": 921.06,
    "posture": "spread-or-collar",
    "tier": "AMBER"
   }
