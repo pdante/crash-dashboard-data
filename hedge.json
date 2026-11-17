@@ -1,8 +1,8 @@
 {
  "underlying": "QQQ",
- "spot": 661.64,
+ "spot": 661.92,
  "expiry": "2026-12-18",
- "dte": 32,
+ "dte": 31,
  "atm_strike": 660.0,
  "atm_iv": 0.2872,
  "put25_strike": 625.0,
@@ -42,44 +42,44 @@
     {
      "move_pct": -30,
      "unhedged": 70000,
-     "hedged": 78638,
-     "difference": 8638
+     "hedged": 78634,
+     "difference": 8634
     },
     {
      "move_pct": -15,
      "unhedged": 85000,
-     "hedged": 93638,
-     "difference": 8638
+     "hedged": 93634,
+     "difference": 8634
     },
     {
      "move_pct": -10,
      "unhedged": 90000,
-     "hedged": 93998,
-     "difference": 3998
+     "hedged": 93958,
+     "difference": 3958
     },
     {
      "move_pct": -5,
      "unhedged": 95000,
-     "hedged": 93998,
-     "difference": -1002
+     "hedged": 93958,
+     "difference": -1042
     },
     {
      "move_pct": 0,
      "unhedged": 100000,
-     "hedged": 98780,
-     "difference": -1220
+     "hedged": 98781,
+     "difference": -1219
     },
     {
      "move_pct": 5,
      "unhedged": 105000,
-     "hedged": 103780,
-     "difference": -1220
+     "hedged": 103781,
+     "difference": -1219
     },
     {
      "move_pct": 15,
      "unhedged": 115000,
-     "hedged": 113780,
-     "difference": -1220
+     "hedged": 113781,
+     "difference": -1219
     }
    ],
    "scenario_note": "Illustrative $100,000 sleeve held to expiry (~30 days); options settle at intrinsic value; mid prices, no commissions.",
@@ -113,26 +113,26 @@
     {
      "move_pct": -30,
      "unhedged": 70000,
-     "hedged": 93790,
-     "difference": 23790
+     "hedged": 93750,
+     "difference": 23750
     },
     {
      "move_pct": -15,
      "unhedged": 85000,
-     "hedged": 93790,
-     "difference": 8790
+     "hedged": 93750,
+     "difference": 8750
     },
     {
      "move_pct": -10,
      "unhedged": 90000,
-     "hedged": 93790,
-     "difference": 3790
+     "hedged": 93750,
+     "difference": 3750
     },
     {
      "move_pct": -5,
      "unhedged": 95000,
-     "hedged": 93790,
-     "difference": -1210
+     "hedged": 93750,
+     "difference": -1250
     },
     {
      "move_pct": 0,
@@ -149,8 +149,8 @@
     {
      "move_pct": 15,
      "unhedged": 115000,
-     "hedged": 108601,
-     "difference": -6399
+     "hedged": 108555,
+     "difference": -6445
     }
    ],
    "scenario_note": "Illustrative $100,000 sleeve held to expiry (~30 days); options settle at intrinsic value; mid prices, no commissions.",
@@ -184,26 +184,26 @@
     {
      "move_pct": -30,
      "unhedged": 70000,
-     "hedged": 94775,
-     "difference": 24775
+     "hedged": 94735,
+     "difference": 24735
     },
     {
      "move_pct": -15,
      "unhedged": 85000,
-     "hedged": 94775,
-     "difference": 9775
+     "hedged": 94735,
+     "difference": 9735
     },
     {
      "move_pct": -10,
      "unhedged": 90000,
-     "hedged": 94775,
-     "difference": 4775
+     "hedged": 94735,
+     "difference": 4735
     },
     {
      "move_pct": -5,
      "unhedged": 95000,
-     "hedged": 94775,
-     "difference": -225
+     "hedged": 94735,
+     "difference": -265
     },
     {
      "move_pct": 0,
@@ -214,14 +214,14 @@
     {
      "move_pct": 5,
      "unhedged": 105000,
-     "hedged": 104557,
-     "difference": -443
+     "hedged": 104555,
+     "difference": -445
     },
     {
      "move_pct": 15,
      "unhedged": 115000,
-     "hedged": 104599,
-     "difference": -10401
+     "hedged": 104555,
+     "difference": -10445
     }
    ],
    "scenario_note": "Illustrative $100,000 sleeve held to expiry (~30 days); options settle at intrinsic value; mid prices, no commissions.",
@@ -256,14 +256,14 @@
     {
      "move_pct": -30,
      "unhedged": 70000,
-     "hedged": 84402,
-     "difference": 14402
+     "hedged": 84396,
+     "difference": 14396
     },
     {
      "move_pct": -15,
      "unhedged": 85000,
-     "hedged": 89216,
-     "difference": 4216
+     "hedged": 89178,
+     "difference": 4178
     },
     {
      "move_pct": -10,
@@ -303,9 +303,9 @@
   },
   {
    "id": "put5_3m",
-   "name": "Outright put ~5% below, ~95 days",
+   "name": "Outright put ~5% below, ~94 days",
    "expiry": "2027-02-19",
-   "dte": 95,
+   "dte": 94,
    "legs": [
     {
      "action": "buy",
@@ -316,55 +316,55 @@
    ],
    "cost_per_share": 21.12,
    "cost_pct_of_notional": 3.19,
-   "cost_pct_per_month": 1.01,
-   "covers": "losses below 630 (-4.8%) for ~95 days \u2014 \u22481.01% of notional per month",
+   "cost_pct_per_month": 1.02,
+   "covers": "losses below 630 (-4.8%) for ~94 days \u2014 \u22481.02% of notional per month",
    "gives_up": "a quarter's premium up front; resale value if you stop needing it",
    "explainer": "The same 5%-below put, bought three months out instead of one. It costs more per contract but much less per month of coverage, and it sidesteps the trap the backtest keeps showing: having to roll monthly, at prices that spike exactly when you want to keep the protection. The honest cost is that you commit the premium for a quarter \u2014 if the danger passes in two weeks you own insurance you no longer want (though it will still have resale value). No cap on upside.",
    "scenarios": [
     {
      "move_pct": -30,
      "unhedged": 70000,
-     "hedged": 92026,
-     "difference": 22026
+     "hedged": 91987,
+     "difference": 21987
     },
     {
      "move_pct": -15,
      "unhedged": 85000,
-     "hedged": 92026,
-     "difference": 7026
+     "hedged": 91987,
+     "difference": 6987
     },
     {
      "move_pct": -10,
      "unhedged": 90000,
-     "hedged": 92026,
-     "difference": 2026
+     "hedged": 91987,
+     "difference": 1987
     },
     {
      "move_pct": -5,
      "unhedged": 95000,
-     "hedged": 92026,
-     "difference": -2974
+     "hedged": 91987,
+     "difference": -3013
     },
     {
      "move_pct": 0,
      "unhedged": 100000,
-     "hedged": 96808,
-     "difference": -3192
+     "hedged": 96809,
+     "difference": -3191
     },
     {
      "move_pct": 5,
      "unhedged": 105000,
-     "hedged": 101808,
-     "difference": -3192
+     "hedged": 101809,
+     "difference": -3191
     },
     {
      "move_pct": 15,
      "unhedged": 115000,
-     "hedged": 111808,
-     "difference": -3192
+     "hedged": 111809,
+     "difference": -3191
     }
    ],
-   "scenario_note": "Illustrative $100,000 sleeve held to expiry (~95 days); options settle at intrinsic value; mid prices, no commissions.",
+   "scenario_note": "Illustrative $100,000 sleeve held to expiry (~94 days); options settle at intrinsic value; mid prices, no commissions.",
    "fit": "secondary",
    "fit_label": "Second choice",
    "fit_why": "cheapest per month of the outright puts if you intend to hold protection anyway"
@@ -389,26 +389,26 @@
     {
      "move_pct": -30,
      "unhedged": 70000,
-     "hedged": 93509,
-     "difference": 23509
+     "hedged": 93469,
+     "difference": 23469
     },
     {
      "move_pct": -15,
      "unhedged": 85000,
-     "hedged": 93509,
-     "difference": 8509
+     "hedged": 93469,
+     "difference": 8469
     },
     {
      "move_pct": -10,
      "unhedged": 90000,
-     "hedged": 93509,
-     "difference": 3509
+     "hedged": 93469,
+     "difference": 3469
     },
     {
      "move_pct": -5,
      "unhedged": 95000,
-     "hedged": 93509,
-     "difference": -1491
+     "hedged": 93469,
+     "difference": -1531
     },
     {
      "move_pct": 0,
@@ -454,14 +454,14 @@
     {
      "move_pct": -30,
      "unhedged": 70000,
-     "hedged": 89065,
-     "difference": 19065
+     "hedged": 89027,
+     "difference": 19027
     },
     {
      "move_pct": -15,
      "unhedged": 85000,
-     "hedged": 89065,
-     "difference": 4065
+     "hedged": 89027,
+     "difference": 4027
     },
     {
      "move_pct": -10,
@@ -501,7 +501,7 @@
   }
  ],
  "quote_note": "Mid of bid/ask, 15-minute delayed; outside market hours these are the closing quotes and real fills will differ.",
- "scanned_at": "2026-11-16T22:09:29+00:00",
+ "scanned_at": "2026-11-17T00:20:53+00:00",
  "source": "CBOE delayed quotes",
  "fit_context": {
   "posture": "spread-or-collar",
