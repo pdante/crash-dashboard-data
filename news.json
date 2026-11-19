@@ -1,37 +1,4 @@
 {
-  "scanned_at": "2026-11-18T12:00:00Z",
-  "items": [
-    {
-      "headline": "CoreWeave falls 5% even as Nvidia reaffirms financing commitments to AI cloud partners",
-      "source": "24/7 Wall St.",
-      "url": "https://247wallst.com/investing/2026/11/18/coreweave-falls-5-despite-nvidia-sticking-to-its-financing-commitments-nebius-dips-oracle-holds-steady/",
-      "date": "2026-11-18",
-      "severity": "low",
-      "note": "Nvidia backstop reassurance failed to calm neocloud sentiment; CoreWeave's next debt deal pricing (target 7-7.5% yields) is the key refinancing test."
-    },
-    {
-      "headline": "Apollo CEO Rowan warns neocloud financing access could 'disappear'",
-      "source": "CNBC",
-      "url": "https://cnbc.com/2026/11/17/apollo-ceo-marc-rowan-on-ai-debt.html",
-      "date": "2026-11-17",
-      "severity": "low",
-      "note": "A major private-credit lender flags neocloud funding dependence on Nvidia support; commentary, not a realized event."
-    },
-    {
-      "headline": "CoreWeave bond yield tops 16% as AI credit stress rises; 5y CDS still ~1,100bp",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
-      "date": "2026-11-06",
-      "severity": "medium",
-      "note": "CoreWeave unsecured bonds trade at distressed-like yields (~15.7% on Nov 17) with CDS around 1,113bp, showing sustained market-implied default risk."
-    },
-    {
-      "headline": "ING shops ~$500M of data center loans at auction, incl. slice tied to Oracle's New Mexico Stargate site",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-mystery-seller-now-124333215.html",
-      "date": "2026-11-06",
-      "severity": "medium",
-      "note": "Lenders offloading Stargate-linked data center loans, alongside a reported Oracle force majeure notice to the site developer, signals weakening syndication appetite."
-    }
-  ]
+  "scanned_at": "2026-11-19T12:00:00Z",
+  "items": []
 }
