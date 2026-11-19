@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-11-19T20:41:27+00:00",
+ "generated_at": "2026-11-19T23:07:45+00:00",
  "run_label": "post-close",
  "composite": 38.3,
  "base_composite": 38.3,
@@ -72,11 +72,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "+0.4%, 2wk",
-   "delta": "-1.1%, 1wk",
+   "display": "+0.3%, 2wk",
+   "delta": "-1.3%, 1wk",
    "detail": "Are investors dumping risky bonds and buying safe government ones? This is priced continuously through the trading day, so it moves before the official spread figures, which arrive a day late. A fall of 1.5% or more over two weeks is the warning.",
    "asof": "2026-11-19",
-   "value": 0.004456367822189167,
+   "value": 0.002834568454188613,
    "subscores": {}
   },
   {
@@ -85,11 +85,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "+0.6%, 2wk",
-   "delta": "+0.0%, 1wk",
+   "display": "+0.4%, 2wk",
+   "delta": "-0.1%, 1wk",
    "detail": "These loans pay a floating interest rate, so their price moves on worry about the companies rather than on interest-rate swings \u2014 a cleaner read on company health than bonds give you. Moving in step with junk bonds (+1.4 points over two weeks).",
    "asof": "2026-11-19",
-   "value": 0.005631722364764835,
+   "value": 0.003917723967049813,
    "subscores": {}
   },
   {
@@ -145,7 +145,7 @@
    "delta": "+0.12, 1wk",
    "detail": "Investors normally expect more turbulence three months out than today, which keeps this below 1.00. Above 1.00 the market is pricing the trouble as happening now \u2014 a confirmation that something is already underway, worth days of warning at most rather than weeks.",
    "asof": "2026-11-19",
-   "value": 1.0481522569650616,
+   "value": 1.0521642816891459,
    "subscores": {}
   },
   {
@@ -154,15 +154,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 2,
-   "display": "143",
-   "delta": "VVIX 127 \u00b7 -6, 1wk",
-   "detail": "How pricey insurance against a big fall is compared with ordinary options: 143, where 145 or more counts as expensive. VVIX 127 measures how pricey it is for that insurance to pay off explosively rather than merely well (expensive above 110). Protection is pricey \u2014 you would be paying up for exactly the outcome you want to insure against. This can read expensive in a perfectly calm market: it is about the price of insurance, not the odds of a crash, which is why it is not part of the score.",
-   "asof": "2026-11-18",
-   "value": 142.84,
+   "display": "141",
+   "delta": "VVIX 127 \u00b7 -9, 1wk",
+   "detail": "How pricey insurance against a big fall is compared with ordinary options: 141, where 145 or more counts as expensive. VVIX 127 measures how pricey it is for that insurance to pay off explosively rather than merely well (expensive above 110). Protection is pricey \u2014 you would be paying up for exactly the outcome you want to insure against. This can read expensive in a perfectly calm market: it is about the price of insurance, not the odds of a crash, which is why it is not part of the score.",
+   "asof": "2026-11-19",
+   "value": 140.86000061035156,
    "subscores": {
     "skew": 1,
     "vvix": 2,
-    "vvix_level": 127.44999694824219
+    "vvix_level": 127.1
    }
   },
   {
@@ -171,15 +171,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 2,
-   "display": "+1.0 pts extra",
+   "display": "+1.2 pts extra",
    "delta": "pricier than 99% of the year \u00b7 Nasdaq",
-   "detail": "Priced on the Nasdaq. Two ways to check. The turbulence the market expects is running at 36.0, higher than 99% of the past year (expensive above 80%). And shares have actually been moving about 35.1, so you would be paying +1.0 points for turbulence that has not arrived (expensive above 8). This is a rough market-wide guide \u2014 check the price of the specific option before buying. Not part of the score.",
+   "detail": "Priced on the Nasdaq. Two ways to check. The turbulence the market expects is running at 36.5, higher than 99% of the past year (expensive above 80%). And shares have actually been moving about 35.2, so you would be paying +1.2 points for turbulence that has not arrived (expensive above 8). This is a rough market-wide guide \u2014 check the price of the specific option before buying. Not part of the score.",
    "asof": "2026-11-19",
-   "value": 0.9633663401343284,
+   "value": 1.2473955893129087,
    "subscores": {
     "pctile": 2,
     "premium": 0,
-    "realized": 35.08663289692622,
+    "realized": 35.23260441068709,
     "market": "Nasdaq"
    }
   },
@@ -206,14 +206,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 2,
-   "display": "-25.2% off high",
-   "delta": "+0.8%, 2wk",
-   "detail": "An equal-weight basket of 14 AI-exposed companies, currently 25.2% below its three-month high, having moved +0.8% over the past two weeks. Equal-weight means a small company counts as much as a giant one, so a single megacap cannot mask the rest.",
+   "display": "-25.5% off high",
+   "delta": "+0.3%, 2wk",
+   "detail": "An equal-weight basket of 14 AI-exposed companies, currently 25.5% below its three-month high, having moved +0.3% over the past two weeks. Equal-weight means a small company counts as much as a giant one, so a single megacap cannot mask the rest.",
    "asof": "2026-11-19",
-   "value": -0.2519731326208201,
+   "value": -0.2553134247755644,
    "subscores": {
-    "drawdown": -0.2519731326208201,
-    "mom10": 0.0075535153028278845
+    "drawdown": -0.2553134247755644,
+    "mom10": 0.003054314472726416
    }
   },
   {
@@ -235,11 +235,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 2,
-   "display": "avg stock +3.4%, 1mo",
+   "display": "avg stock +3.5%, 1mo",
    "delta": "14% above 50-day avg",
-   "detail": "When gains narrow to a handful of giant companies the market gets fragile. Two checks: the average US stock against the big-company index (+3.4% over the past month), and how much of the AI basket is still above its 50-day average (14%). A slow background signal, so it carries little weight.",
+   "detail": "When gains narrow to a handful of giant companies the market gets fragile. Two checks: the average US stock against the big-company index (+3.5% over the past month), and how much of the AI basket is still above its 50-day average (14%). A slow background signal, so it carries little weight.",
    "asof": "2026-11-19",
-   "value": 0.034143937297676175,
+   "value": 0.0349495041343324,
    "subscores": {}
   },
   {
@@ -248,15 +248,15 @@
    "group": "Backdrop",
    "weight": 0.04,
    "status": 0,
-   "display": "+0.73%",
-   "delta": "+0.05, 1wk",
+   "display": "+0.70%",
+   "delta": "-0.08, 1wk",
    "detail": "Long-term government borrowing costs minus short-term. When it goes negative \u2014 short-term paying more than long \u2014 a downturn has often followed, but 6 to 18 months later, which is no use for timing. Capped so it can never trigger a red on its own.",
-   "asof": "2026-11-18",
-   "value": 0.73,
+   "asof": "2026-11-19",
+   "value": 0.7,
    "subscores": {}
   }
  ],
- "qqq_close": 646.57,
+ "qqq_close": 645.04,
  "hedge": {
   "underlying": "QQQ",
   "spot": 646.74,
@@ -769,609 +769,14 @@
    "tier": "AMBER"
   }
  },
- "paper": {
-  "schema": 1,
-  "variant": "5pct",
-  "label": "A \u00b7 5%-below put",
-  "variant_note": "Cheap-protection window always buys the ~5%-below put.",
-  "since": "2026-10-19",
-  "as_of": "2026-11-19",
-  "run_label": "post-close",
-  "seed_cash": 1000.0,
-  "nav": 940.93,
-  "bench_nav": 899.47,
-  "return_pct": -5.91,
-  "bench_return_pct": -10.05,
-  "vs_bench_pct": 4.15,
-  "cash": 0.0,
-  "shares": 1.3799,
-  "options_value": 48.47,
-  "premium_paid_total": 7.78,
-  "settlements_total": 0,
-  "open_position": "Put spread ~5% \u2192 ~15% below \u00b7 exp 2026-11-20 \u00b7 cost $7.78",
-  "open_position_value": 48.47,
-  "n_trades": 3,
-  "recent_trades": [
-   "OPEN Put spread ~5% \u2192 ~15% below exp 2026-11-20 on 1.3799 sh for $7.78 (0.79% of notional) \u2014 posture: spread-or-collar",
-   "SELL 0.0108 QQQ @ 717.58 to fund protection",
-   "BUY 1.3908 QQQ @ 719.02 (seed $1000)"
-  ],
-  "nav_history": [
-   {
-    "date": "2026-10-19",
-    "nav": 1000.0,
-    "bench": 1000.0,
-    "posture": "spread-or-collar",
-    "tier": "AMBER"
-   },
-   {
-    "date": "2026-10-20",
-    "nav": 1004.35,
-    "bench": 1004.66,
-    "posture": "spread-or-collar",
-    "tier": "AMBER"
-   },
-   {
-    "date": "2026-10-21",
-    "nav": 999.67,
-    "bench": 1001.14,
-    "posture": "spread-or-collar",
-    "tier": "AMBER"
-   },
-   {
-    "date": "2026-10-22",
-    "nav": 982.11,
-    "bench": 977.23,
-    "posture": "spread-or-collar",
-    "tier": "AMBER"
-   },
-   {
-    "date": "2026-10-23",
-    "nav": 984.18,
-    "bench": 980.0,
-    "posture": "spread-or-collar",
-    "tier": "AMBER"
-   },
-   {
-    "date": "2026-10-26",
-    "nav": 994.27,
-    "bench": 993.41,
-    "posture": "spread-or-collar",
-    "tier": "AMBER"
-   },
-   {
-    "date": "2026-10-27",
-    "nav": 1002.83,
-    "bench": 1004.53,
-    "posture": "buy-outright",
-    "tier": "AMBER"
-   },
-   {
-    "date": "2026-10-28",
-    "nav": 996.0,
-    "bench": 998.58,
-    "posture": "hold",
-    "tier": "AMBER"
-   },
-   {
-    "date": "2026-10-29",
-    "nav": 980.35,
-    "bench": 978.87,
-    "posture": "hold",
-    "tier": "GREEN"
-   },
-   {
-    "date": "2026-10-30",
-    "nav": 970.67,
-    "bench": 963.05,
-    "posture": "hold",
-    "tier": "GREEN"
-   },
-   {
-    "date": "2026-11-02",
-    "nav": 960.9,
-    "bench": 948.83,
-    "posture": "spread-or-collar",
-    "tier": "AMBER"
-   },
-   {
-    "date": "2026-11-03",
-    "nav": 958.58,
-    "bench": 947.68,
-    "posture": "spread-or-collar",
-    "tier": "AMBER"
-   },
-   {
-    "date": "2026-11-04",
-    "nav": 964.66,
-    "bench": 960.89,
-    "posture": "hold",
-    "tier": "GREEN"
-   },
-   {
-    "date": "2026-11-05",
-    "nav": 940.14,
-    "bench": 905.25,
-    "posture": "spread-or-collar",
-    "tier": "AMBER"
-   },
-   {
-    "date": "2026-11-06",
-    "nav": 941.17,
-    "bench": 913.47,
-    "posture": "spread-or-collar",
-    "tier": "AMBER"
-   },
-   {
-    "date": "2026-11-09",
-    "nav": 954.4,
-    "bench": 943.92,
-    "posture": "spread-or-collar",
-    "tier": "AMBER"
-   },
-   {
-    "date": "2026-11-10",
-    "nav": 956.03,
-    "bench": 943.85,
-    "posture": "hold",
-    "tier": "GREEN"
-   },
-   {
-    "date": "2026-11-11",
-    "nav": 953.92,
-    "bench": 951.29,
-    "posture": "hold",
-    "tier": "GREEN"
-   },
-   {
-    "date": "2026-11-12",
-    "nav": 963.6,
-    "bench": 960.53,
-    "posture": "hold",
-    "tier": "GREEN"
-   },
-   {
-    "date": "2026-11-13",
-    "nav": 947.66,
-    "bench": 938.22,
-    "posture": "hold",
-    "tier": "GREEN"
-   },
-   {
-    "date": "2026-11-16",
-    "nav": 944.37,
-    "bench": 921.06,
-    "posture": "spread-or-collar",
-    "tier": "AMBER"
-   },
-   {
-    "date": "2026-11-17",
-    "nav": 954.58,
-    "bench": 926.16,
-    "posture": "spread-or-collar",
-    "tier": "AMBER"
-   },
-   {
-    "date": "2026-11-18",
-    "nav": 954.45,
-    "bench": 929.64,
-    "posture": "spread-or-collar",
-    "tier": "AMBER"
-   },
-   {
-    "date": "2026-11-19",
-    "nav": 940.93,
-    "bench": 899.47,
-    "posture": "spread-or-collar",
-    "tier": "AMBER"
-   }
-  ],
-  "rules": "Fake $1,000 in QQQ from day one. Once per trading day (post-close): cheap-protection window \u2192 buy the ~5%-below put, notional-matched; spreads-or-collars \u2192 open the 5\u219215 put spread; trim \u2192 sell 25% of shares, once per episode; GREEN \u2192 put cash back into QQQ. Options marked at chain mids, settled at intrinsic on expiry. Benchmark: the same shares, never touched."
- },
- "paper_variants": [
-  {
-   "schema": 1,
-   "variant": "5pct",
-   "label": "A \u00b7 5%-below put",
-   "variant_note": "Cheap-protection window always buys the ~5%-below put.",
-   "since": "2026-10-19",
-   "as_of": "2026-11-19",
-   "run_label": "post-close",
-   "seed_cash": 1000.0,
-   "nav": 940.93,
-   "bench_nav": 899.47,
-   "return_pct": -5.91,
-   "bench_return_pct": -10.05,
-   "vs_bench_pct": 4.15,
-   "cash": 0.0,
-   "shares": 1.3799,
-   "options_value": 48.47,
-   "premium_paid_total": 7.78,
-   "settlements_total": 0,
-   "open_position": "Put spread ~5% \u2192 ~15% below \u00b7 exp 2026-11-20 \u00b7 cost $7.78",
-   "open_position_value": 48.47,
-   "n_trades": 3,
-   "recent_trades": [
-    "OPEN Put spread ~5% \u2192 ~15% below exp 2026-11-20 on 1.3799 sh for $7.78 (0.79% of notional) \u2014 posture: spread-or-collar",
-    "SELL 0.0108 QQQ @ 717.58 to fund protection",
-    "BUY 1.3908 QQQ @ 719.02 (seed $1000)"
-   ],
-   "nav_history": [
-    {
-     "date": "2026-10-19",
-     "nav": 1000.0,
-     "bench": 1000.0,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-10-20",
-     "nav": 1004.35,
-     "bench": 1004.66,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-10-21",
-     "nav": 999.67,
-     "bench": 1001.14,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-10-22",
-     "nav": 982.11,
-     "bench": 977.23,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-10-23",
-     "nav": 984.18,
-     "bench": 980.0,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-10-26",
-     "nav": 994.27,
-     "bench": 993.41,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-10-27",
-     "nav": 1002.83,
-     "bench": 1004.53,
-     "posture": "buy-outright",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-10-28",
-     "nav": 996.0,
-     "bench": 998.58,
-     "posture": "hold",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-10-29",
-     "nav": 980.35,
-     "bench": 978.87,
-     "posture": "hold",
-     "tier": "GREEN"
-    },
-    {
-     "date": "2026-10-30",
-     "nav": 970.67,
-     "bench": 963.05,
-     "posture": "hold",
-     "tier": "GREEN"
-    },
-    {
-     "date": "2026-11-02",
-     "nav": 960.9,
-     "bench": 948.83,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-11-03",
-     "nav": 958.58,
-     "bench": 947.68,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-11-04",
-     "nav": 964.66,
-     "bench": 960.89,
-     "posture": "hold",
-     "tier": "GREEN"
-    },
-    {
-     "date": "2026-11-05",
-     "nav": 940.14,
-     "bench": 905.25,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-11-06",
-     "nav": 941.17,
-     "bench": 913.47,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-11-09",
-     "nav": 954.4,
-     "bench": 943.92,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-11-10",
-     "nav": 956.03,
-     "bench": 943.85,
-     "posture": "hold",
-     "tier": "GREEN"
-    },
-    {
-     "date": "2026-11-11",
-     "nav": 953.92,
-     "bench": 951.29,
-     "posture": "hold",
-     "tier": "GREEN"
-    },
-    {
-     "date": "2026-11-12",
-     "nav": 963.6,
-     "bench": 960.53,
-     "posture": "hold",
-     "tier": "GREEN"
-    },
-    {
-     "date": "2026-11-13",
-     "nav": 947.66,
-     "bench": 938.22,
-     "posture": "hold",
-     "tier": "GREEN"
-    },
-    {
-     "date": "2026-11-16",
-     "nav": 944.37,
-     "bench": 921.06,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-11-17",
-     "nav": 954.58,
-     "bench": 926.16,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-11-18",
-     "nav": 954.45,
-     "bench": 929.64,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-11-19",
-     "nav": 940.93,
-     "bench": 899.47,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    }
-   ],
-   "rules": "Fake $1,000 in QQQ from day one. Once per trading day (post-close): cheap-protection window \u2192 buy the ~5%-below put, notional-matched; spreads-or-collars \u2192 open the 5\u219215 put spread; trim \u2192 sell 25% of shares, once per episode; GREEN \u2192 put cash back into QQQ. Options marked at chain mids, settled at intrinsic on expiry. Benchmark: the same shares, never touched."
-  },
-  {
-   "schema": 1,
-   "variant": "10pct",
-   "label": "B \u00b7 10%-below put when credit confirms",
-   "variant_note": "Cheap-protection window buys the ~10%-below put when the regime is credit-led or funding (the tail is live), the ~5%-below put in an unconfirmed early window.",
-   "since": "2026-10-19",
-   "as_of": "2026-11-19",
-   "run_label": "post-close",
-   "seed_cash": 1000.0,
-   "nav": 940.93,
-   "bench_nav": 899.47,
-   "return_pct": -5.91,
-   "bench_return_pct": -10.05,
-   "vs_bench_pct": 4.15,
-   "cash": 0.0,
-   "shares": 1.3799,
-   "options_value": 48.47,
-   "premium_paid_total": 7.78,
-   "settlements_total": 0,
-   "open_position": "Put spread ~5% \u2192 ~15% below \u00b7 exp 2026-11-20 \u00b7 cost $7.78",
-   "open_position_value": 48.47,
-   "n_trades": 3,
-   "recent_trades": [
-    "OPEN Put spread ~5% \u2192 ~15% below exp 2026-11-20 on 1.3799 sh for $7.78 (0.79% of notional) \u2014 posture: spread-or-collar",
-    "SELL 0.0108 QQQ @ 717.58 to fund protection",
-    "BUY 1.3908 QQQ @ 719.02 (seed $1000)"
-   ],
-   "nav_history": [
-    {
-     "date": "2026-10-19",
-     "nav": 1000.0,
-     "bench": 1000.0,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-10-20",
-     "nav": 1004.35,
-     "bench": 1004.66,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-10-21",
-     "nav": 999.67,
-     "bench": 1001.14,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-10-22",
-     "nav": 982.11,
-     "bench": 977.23,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-10-23",
-     "nav": 984.18,
-     "bench": 980.0,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-10-26",
-     "nav": 994.27,
-     "bench": 993.41,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-10-27",
-     "nav": 1002.83,
-     "bench": 1004.53,
-     "posture": "buy-outright",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-10-28",
-     "nav": 996.0,
-     "bench": 998.58,
-     "posture": "hold",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-10-29",
-     "nav": 980.35,
-     "bench": 978.87,
-     "posture": "hold",
-     "tier": "GREEN"
-    },
-    {
-     "date": "2026-10-30",
-     "nav": 970.67,
-     "bench": 963.05,
-     "posture": "hold",
-     "tier": "GREEN"
-    },
-    {
-     "date": "2026-11-02",
-     "nav": 960.9,
-     "bench": 948.83,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-11-03",
-     "nav": 958.58,
-     "bench": 947.68,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-11-04",
-     "nav": 964.66,
-     "bench": 960.89,
-     "posture": "hold",
-     "tier": "GREEN"
-    },
-    {
-     "date": "2026-11-05",
-     "nav": 940.14,
-     "bench": 905.25,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-11-06",
-     "nav": 941.17,
-     "bench": 913.47,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-11-09",
-     "nav": 954.4,
-     "bench": 943.92,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-11-10",
-     "nav": 956.03,
-     "bench": 943.85,
-     "posture": "hold",
-     "tier": "GREEN"
-    },
-    {
-     "date": "2026-11-11",
-     "nav": 953.92,
-     "bench": 951.29,
-     "posture": "hold",
-     "tier": "GREEN"
-    },
-    {
-     "date": "2026-11-12",
-     "nav": 963.6,
-     "bench": 960.53,
-     "posture": "hold",
-     "tier": "GREEN"
-    },
-    {
-     "date": "2026-11-13",
-     "nav": 947.66,
-     "bench": 938.22,
-     "posture": "hold",
-     "tier": "GREEN"
-    },
-    {
-     "date": "2026-11-16",
-     "nav": 944.37,
-     "bench": 921.06,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-11-17",
-     "nav": 954.58,
-     "bench": 926.16,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-11-18",
-     "nav": 954.45,
-     "bench": 929.64,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    },
-    {
-     "date": "2026-11-19",
-     "nav": 940.93,
-     "bench": 899.47,
-     "posture": "spread-or-collar",
-     "tier": "AMBER"
-    }
-   ],
-   "rules": "Fake $1,000 in QQQ from day one. Once per trading day (post-close): cheap-protection window \u2192 buy the ~5%-below put, notional-matched; spreads-or-collars \u2192 open the 5\u219215 put spread; trim \u2192 sell 25% of shares, once per episode; GREEN \u2192 put cash back into QQQ. Options marked at chain mids, settled at intrinsic on expiry. Benchmark: the same shares, never touched."
-  }
- ],
+ "paper": null,
+ "paper_variants": [],
  "news": {
   "scanned_at": "2026-11-19T12:00:00Z",
   "items": []
  },
- "data_issues": [],
+ "data_issues": [
+  "QQQ option chain: 403 Client Error: Forbidden for url: https://cdn-api.cboe.com/api/global/delayed_quotes/options/QQQ.json"
+ ],
  "disclaimer": "Not financial advice. No indicator reliably times crashes; this composite raises the odds of a short heads-up, nothing more."
 }
