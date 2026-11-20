@@ -1,20 +1,21 @@
 {
  "schema": 2,
- "generated_at": "2026-11-20T02:27:11+00:00",
- "run_label": "pre-open",
- "composite": 38.3,
- "base_composite": 38.3,
+ "generated_at": "2026-11-20T19:15:17+00:00",
+ "run_label": "post-close",
+ "composite": 49.2,
+ "base_composite": 49.2,
  "tier": "AMBER",
- "regime": "credit-tail",
+ "regime": "credit-led",
  "posture": "spread-or-collar",
  "posture_label": "Protection is dear \u2014 spreads or collars rather than outright",
- "posture_reason": "only one corner of credit is strained; lenders broadly are calm, yet AMBER alone has historically doubled the odds of a 10% fall and protection is expensive \u2014 structures that sell the rich vol fit better than outright puts",
+ "posture_reason": "credit-led stress with protection is expensive \u2014 structures that sell the rich vol recover part of the cost",
  "price_level": 2,
  "override": null,
  "reasons": [
   "Red: Weakest-borrower risk premium, Fear now vs fear later, AI stocks vs their recent highs, Breadth of the market",
-  "Regime: credit-tail \u2014 one corner of the credit market is strained (the weakest borrowers, or a single fund or asset class) while lenders broadly stay calm \u2014 watch, not yet the serious kind",
-  "Protection posture: Protection is dear \u2014 spreads or collars rather than outright \u2014 only one corner of credit is strained; lenders broadly are calm, yet AMBER alone has historically doubled the odds of a 10% fall and protection is expensive \u2014 structures that sell the rich vol fit better than outright puts. (Your own rules, applied mechanically \u2014 not advice.)",
+  "Amber: Junk-bond risk premium, Most fragile AI companies",
+  "Regime: credit-led \u2014 lenders are worried too, not just stock investors \u2014 the more serious kind",
+  "Protection posture: Protection is dear \u2014 spreads or collars rather than outright \u2014 credit-led stress with protection is expensive \u2014 structures that sell the rich vol recover part of the cost. (Your own rules, applied mechanically \u2014 not advice.)",
   "Cost of protection (not part of the score): Cost of crash insurance \u2014 expensive, Cost of insurance overall \u2014 expensive, Cost of Nasdaq crash insurance \u2014 expensive"
  ],
  "news_escalated": false,
@@ -25,15 +26,15 @@
    "label": "Junk-bond risk premium",
    "group": "Credit & funding",
    "weight": 0.16,
-   "status": 0,
-   "display": "3.47%",
-   "delta": "+0.17 pts, 1wk",
-   "detail": "The extra yield lenders demand to lend to risky companies rather than to the government: 3.47%, +0.17 points over the past week. Lenders are getting nervous above 4.5%, or on a jump of more than 0.30 points in a week. A fast jump is the earliest reliable warning signal here.",
-   "asof": "2026-11-18",
-   "value": 3.47,
+   "status": 1,
+   "display": "3.52%",
+   "delta": "+0.32 pts, 1wk",
+   "detail": "The extra yield lenders demand to lend to risky companies rather than to the government: 3.52%, +0.32 points over the past week. Lenders are getting nervous above 4.5%, or on a jump of more than 0.30 points in a week. A fast jump is the earliest reliable warning signal here.",
+   "asof": "2026-11-19",
+   "value": 3.52,
    "subscores": {
     "level": 0,
-    "chg5": 0
+    "chg5": 1
    }
   },
   {
@@ -42,15 +43,15 @@
    "group": "Credit & funding",
    "weight": 0.08,
    "status": 0,
-   "display": "0.93%",
-   "delta": "+0.03 pts, 1wk",
-   "detail": "The same measure for financially solid companies: 0.93%. It barely budges in normal times, so any real move means the worry has spread beyond the risky end of the market. Nervous above 1.3%. Both ends calm (risky borrowing costs 3.7\u00d7 the solid kind, which is normal).",
-   "asof": "2026-11-18",
-   "value": 0.93,
+   "display": "0.94%",
+   "delta": "+0.05 pts, 1wk",
+   "detail": "The same measure for financially solid companies: 0.94%. It barely budges in normal times, so any real move means the worry has spread beyond the risky end of the market. Nervous above 1.3%. ONE CORNER ONLY: risky borrowers are strained while solid ones stay calm (risky costs 3.7\u00d7 more). Looks like a single sector or fund selling, not a system-wide problem.",
+   "asof": "2026-11-19",
+   "value": 0.94,
    "subscores": {
     "level": 0,
     "chg5": 0,
-    "hy_ig_ratio": 3.7311827956989245
+    "hy_ig_ratio": 3.74468085106383
    }
   },
   {
@@ -59,11 +60,11 @@
    "group": "Credit & funding",
    "weight": 0.1,
    "status": 2,
-   "display": "13.53%",
-   "delta": "+0.23 pts, 1wk",
-   "detail": "The same measure for the shakiest borrowers of all: 13.53%. This is the closest free stand-in for the debt-funded AI buildout, and trouble usually shows up here before anywhere else. Nervous above 10.0%.",
-   "asof": "2026-11-18",
-   "value": 13.53,
+   "display": "13.61%",
+   "delta": "+0.47 pts, 1wk",
+   "detail": "The same measure for the shakiest borrowers of all: 13.61%. This is the closest free stand-in for the debt-funded AI buildout, and trouble usually shows up here before anywhere else. Nervous above 10.0%.",
+   "asof": "2026-11-19",
+   "value": 13.61,
    "subscores": {}
   },
   {
@@ -72,11 +73,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "+0.3%, 2wk",
-   "delta": "-1.3%, 1wk",
+   "display": "-0.7%, 2wk",
+   "delta": "-2.3%, 1wk",
    "detail": "Are investors dumping risky bonds and buying safe government ones? This is priced continuously through the trading day, so it moves before the official spread figures, which arrive a day late. A fall of 1.5% or more over two weeks is the warning.",
-   "asof": "2026-11-19",
-   "value": 0.002834568454188613,
+   "asof": "2026-11-20",
+   "value": -0.007191824539011793,
    "subscores": {}
   },
   {
@@ -85,11 +86,11 @@
    "group": "Credit & funding",
    "weight": 0.06,
    "status": 0,
-   "display": "+0.4%, 2wk",
+   "display": "+0.1%, 2wk",
    "delta": "-0.1%, 1wk",
-   "detail": "These loans pay a floating interest rate, so their price moves on worry about the companies rather than on interest-rate swings \u2014 a cleaner read on company health than bonds give you. Moving in step with junk bonds (+1.4 points over two weeks).",
-   "asof": "2026-11-19",
-   "value": 0.003917723967049813,
+   "detail": "These loans pay a floating interest rate, so their price moves on worry about the companies rather than on interest-rate swings \u2014 a cleaner read on company health than bonds give you. Moving in step with junk bonds (+1.2 points over two weeks).",
+   "asof": "2026-11-20",
+   "value": 0.001221374045801582,
    "subscores": {}
   },
   {
@@ -98,11 +99,11 @@
    "group": "Credit & funding",
    "weight": 0.08,
    "status": 0,
-   "display": "+2bp",
+   "display": "+1bp",
    "delta": "3-day avg",
-   "detail": "What banks pay to borrow cash overnight, against what the Fed pays them to leave it parked. Normally near zero or a little below; currently +2 basis points (a basis point is one hundredth of a percentage point). Staying above +8 means cash is getting scarce in the banking system.",
-   "asof": "2026-11-18",
-   "value": 1.6666666666666756,
+   "detail": "What banks pay to borrow cash overnight, against what the Fed pays them to leave it parked. Normally near zero or a little below; currently +1 basis points (a basis point is one hundredth of a percentage point). Staying above +8 means cash is getting scarce in the banking system.",
+   "asof": "2026-11-19",
+   "value": 1.0000000000000082,
    "subscores": {}
   },
   {
@@ -112,14 +113,14 @@
    "weight": 0.06,
    "status": 0,
    "display": "13bp spread",
-   "delta": "Fed window $0.1bn",
-   "detail": "Two checks that tell a real cash shortage from the routine month-end and quarter-end noise. First, the gap between what the most desperate borrowers pay and what a typical one pays: 13 basis points, where 30 or more is unusual. Second, the Fed's standing emergency lending window \u2014 banks borrowed $0.1 billion on the busiest of the last three days, where $5 billion or more is worth noticing. Ordinary calendar spikes show neither, which is why both have to agree before this counts as stress.",
-   "asof": "2026-11-18",
+   "delta": "Fed window $0.0bn",
+   "detail": "Two checks that tell a real cash shortage from the routine month-end and quarter-end noise. First, the gap between what the most desperate borrowers pay and what a typical one pays: 13 basis points, where 30 or more is unusual. Second, the Fed's standing emergency lending window \u2014 banks have barely touched it over the last three days, which is what calm looks like. Ordinary calendar spikes show neither, which is why both have to agree before this counts as stress.",
+   "asof": "2026-11-19",
    "value": 12.99999999999999,
    "subscores": {
     "tail": 0,
     "usage": 0,
-    "usage_bn": 0.102
+    "usage_bn": 0.001
    }
   },
   {
@@ -141,11 +142,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 2,
-   "display": "1.05",
-   "delta": "+0.12, 1wk",
+   "display": "1.10",
+   "delta": "+0.17, 1wk",
    "detail": "Investors normally expect more turbulence three months out than today, which keeps this below 1.00. Above 1.00 the market is pricing the trouble as happening now \u2014 a confirmation that something is already underway, worth days of warning at most rather than weeks.",
-   "asof": "2026-11-19",
-   "value": 1.0521642619311875,
+   "asof": "2026-11-20",
+   "value": 1.1010489283601863,
    "subscores": {}
   },
   {
@@ -155,14 +156,14 @@
    "weight": 0.0,
    "status": 2,
    "display": "141",
-   "delta": "VVIX 127 \u00b7 -9, 1wk",
-   "detail": "How pricey insurance against a big fall is compared with ordinary options: 141, where 145 or more counts as expensive. VVIX 127 measures how pricey it is for that insurance to pay off explosively rather than merely well (expensive above 110). Protection is pricey \u2014 you would be paying up for exactly the outcome you want to insure against. This can read expensive in a perfectly calm market: it is about the price of insurance, not the odds of a crash, which is why it is not part of the score.",
+   "delta": "VVIX 129 \u00b7 -9, 1wk",
+   "detail": "How pricey insurance against a big fall is compared with ordinary options: 141, where 145 or more counts as expensive. VVIX 129 measures how pricey it is for that insurance to pay off explosively rather than merely well (expensive above 110). Protection is pricey \u2014 you would be paying up for exactly the outcome you want to insure against. This can read expensive in a perfectly calm market: it is about the price of insurance, not the odds of a crash, which is why it is not part of the score.",
    "asof": "2026-11-19",
    "value": 140.86,
    "subscores": {
     "skew": 1,
     "vvix": 2,
-    "vvix_level": 127.1
+    "vvix_level": 129.25999450683594
    }
   },
   {
@@ -171,15 +172,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 2,
-   "display": "+1.2 pts extra",
-   "delta": "pricier than 99% of the year \u00b7 Nasdaq",
-   "detail": "Priced on the Nasdaq. Two ways to check. The turbulence the market expects is running at 36.5, higher than 99% of the past year (expensive above 80%). And shares have actually been moving about 35.2, so you would be paying +1.2 points for turbulence that has not arrived (expensive above 8). This is a rough market-wide guide \u2014 check the price of the specific option before buying. Not part of the score.",
-   "asof": "2026-11-19",
-   "value": 1.2473955893129087,
+   "display": "+1.8 pts extra",
+   "delta": "pricier than 100% of the year \u00b7 Nasdaq",
+   "detail": "Priced on the Nasdaq. Two ways to check. The turbulence the market expects is running at 39.6, higher than 100% of the past year (expensive above 80%). And shares have actually been moving about 37.8, so you would be paying +1.8 points for turbulence that has not arrived (expensive above 8). This is a rough market-wide guide \u2014 check the price of the specific option before buying. Not part of the score.",
+   "asof": "2026-11-20",
+   "value": 1.843151957906123,
    "subscores": {
     "pctile": 2,
     "premium": 0,
-    "realized": 35.23260441068709,
+    "realized": 37.75684651621497,
     "market": "Nasdaq"
    }
   },
@@ -206,14 +207,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 2,
-   "display": "-25.3% off high",
-   "delta": "+0.7%, 2wk",
-   "detail": "An equal-weight basket of 14 AI-exposed companies, currently 25.3% below its three-month high, having moved +0.7% over the past two weeks. Equal-weight means a small company counts as much as a giant one, so a single megacap cannot mask the rest.",
-   "asof": "2026-11-19",
-   "value": -0.2526040062841307,
+   "display": "-31.4% off high",
+   "delta": "-10.6%, 2wk",
+   "detail": "An equal-weight basket of 14 AI-exposed companies, currently 31.4% below its three-month high, having moved -10.6% over the past two weeks. Equal-weight means a small company counts as much as a giant one, so a single megacap cannot mask the rest.",
+   "asof": "2026-11-20",
+   "value": -0.3140276440144576,
    "subscores": {
-    "drawdown": -0.2526040062841307,
-    "mom10": 0.006703757709359159
+    "drawdown": -0.3140276440144576,
+    "mom10": -0.10583765855855187
    }
   },
   {
@@ -221,11 +222,11 @@
    "label": "Most fragile AI companies",
    "group": "AI sector",
    "weight": 0.1,
-   "status": 0,
-   "display": "CoreWeave -1% \u00b7 Oracle -4%, 2wk",
-   "delta": "swings \u00d71.3 / \u00d71.4 vs normal",
+   "status": 1,
+   "display": "CoreWeave -14% \u00b7 Oracle -12%, 2wk",
+   "delta": "swings \u00d71.5 / \u00d71.6 vs normal",
    "detail": "CoreWeave and Oracle stand for the debt-funded end of the AI buildout. What their own lenders charge them is not published for free, so we watch for sharp share-price falls, or a sudden jump in how much the shares swing day to day, as the stand-in.",
-   "asof": "2026-11-19",
+   "asof": "2026-11-20",
    "value": null,
    "subscores": {}
   },
@@ -235,11 +236,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 2,
-   "display": "avg stock +3.5%, 1mo",
-   "delta": "14% above 50-day avg",
-   "detail": "When gains narrow to a handful of giant companies the market gets fragile. Two checks: the average US stock against the big-company index (+3.5% over the past month), and how much of the AI basket is still above its 50-day average (14%). A slow background signal, so it carries little weight.",
-   "asof": "2026-11-19",
-   "value": 0.0349495041343324,
+   "display": "avg stock +5.4%, 1mo",
+   "delta": "0% above 50-day avg",
+   "detail": "When gains narrow to a handful of giant companies the market gets fragile. Two checks: the average US stock against the big-company index (+5.4% over the past month), and how much of the AI basket is still above its 50-day average (0%). A slow background signal, so it carries little weight.",
+   "asof": "2026-11-20",
+   "value": 0.05397850926826697,
    "subscores": {}
   },
   {
@@ -256,7 +257,7 @@
    "subscores": {}
   }
  ],
- "qqq_close": 645.04,
+ "qqq_close": 617.4,
  "hedge": {
   "underlying": "QQQ",
   "spot": 646.74,
@@ -344,7 +345,7 @@
     "scenario_note": "Illustrative $100,000 sleeve held to expiry (~30 days); options settle at intrinsic value; mid prices, no commissions.",
     "fit": "match",
     "fit_label": "Matches your posture \u2014 sell the rich vol",
-    "fit_why": "fits an equity dip \u2014 lenders are calm"
+    "fit_why": "covers the correction band; the 10\u219225 covers the tail"
    },
    {
     "id": "collar_5_10",
@@ -556,9 +557,9 @@
      }
     ],
     "scenario_note": "Illustrative $100,000 sleeve held to expiry (~30 days); options settle at intrinsic value; mid prices, no commissions.",
-    "fit": "secondary",
-    "fit_label": "Second choice",
-    "fit_why": "built for a cascade, but the regime is still unconfirmed"
+    "fit": "match",
+    "fit_label": "Matches your posture \u2014 sell the rich vol",
+    "fit_why": "fits the live tail \u2014 credit has confirmed"
    },
    {
     "id": "put5_3m",
@@ -764,7 +765,7 @@
   "source": "CBOE delayed quotes",
   "fit_context": {
    "posture": "spread-or-collar",
-   "regime": "credit-tail",
+   "regime": "credit-led",
    "price_level": 2,
    "tier": "AMBER"
   }
@@ -772,7 +773,7 @@
  "paper": null,
  "paper_variants": [],
  "news": {
-  "scanned_at": "2026-11-19T12:00:00Z",
+  "scanned_at": "2026-11-20T12:00:00Z",
   "items": []
  },
  "data_issues": [

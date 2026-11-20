@@ -85,7 +85,7 @@
    "scenario_note": "Illustrative $100,000 sleeve held to expiry (~30 days); options settle at intrinsic value; mid prices, no commissions.",
    "fit": "match",
    "fit_label": "Matches your posture \u2014 sell the rich vol",
-   "fit_why": "fits an equity dip \u2014 lenders are calm"
+   "fit_why": "covers the correction band; the 10\u219225 covers the tail"
   },
   {
    "id": "collar_5_10",
@@ -297,9 +297,9 @@
     }
    ],
    "scenario_note": "Illustrative $100,000 sleeve held to expiry (~30 days); options settle at intrinsic value; mid prices, no commissions.",
-   "fit": "secondary",
-   "fit_label": "Second choice",
-   "fit_why": "built for a cascade, but the regime is still unconfirmed"
+   "fit": "match",
+   "fit_label": "Matches your posture \u2014 sell the rich vol",
+   "fit_why": "fits the live tail \u2014 credit has confirmed"
   },
   {
    "id": "put5_3m",
@@ -505,7 +505,7 @@
  "source": "CBOE delayed quotes",
  "fit_context": {
   "posture": "spread-or-collar",
-  "regime": "credit-tail",
+  "regime": "credit-led",
   "price_level": 2,
   "tier": "AMBER"
  }
