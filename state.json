@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-11-19T23:07:45+00:00",
- "run_label": "post-close",
+ "generated_at": "2026-11-20T02:27:11+00:00",
+ "run_label": "pre-open",
  "composite": 38.3,
  "base_composite": 38.3,
  "tier": "AMBER",
@@ -145,7 +145,7 @@
    "delta": "+0.12, 1wk",
    "detail": "Investors normally expect more turbulence three months out than today, which keeps this below 1.00. Above 1.00 the market is pricing the trouble as happening now \u2014 a confirmation that something is already underway, worth days of warning at most rather than weeks.",
    "asof": "2026-11-19",
-   "value": 1.0521642816891459,
+   "value": 1.0521642619311875,
    "subscores": {}
   },
   {
@@ -158,7 +158,7 @@
    "delta": "VVIX 127 \u00b7 -9, 1wk",
    "detail": "How pricey insurance against a big fall is compared with ordinary options: 141, where 145 or more counts as expensive. VVIX 127 measures how pricey it is for that insurance to pay off explosively rather than merely well (expensive above 110). Protection is pricey \u2014 you would be paying up for exactly the outcome you want to insure against. This can read expensive in a perfectly calm market: it is about the price of insurance, not the odds of a crash, which is why it is not part of the score.",
    "asof": "2026-11-19",
-   "value": 140.86000061035156,
+   "value": 140.86,
    "subscores": {
     "skew": 1,
     "vvix": 2,
@@ -206,14 +206,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 2,
-   "display": "-25.5% off high",
-   "delta": "+0.3%, 2wk",
-   "detail": "An equal-weight basket of 14 AI-exposed companies, currently 25.5% below its three-month high, having moved +0.3% over the past two weeks. Equal-weight means a small company counts as much as a giant one, so a single megacap cannot mask the rest.",
+   "display": "-25.3% off high",
+   "delta": "+0.7%, 2wk",
+   "detail": "An equal-weight basket of 14 AI-exposed companies, currently 25.3% below its three-month high, having moved +0.7% over the past two weeks. Equal-weight means a small company counts as much as a giant one, so a single megacap cannot mask the rest.",
    "asof": "2026-11-19",
-   "value": -0.2553134247755644,
+   "value": -0.2526040062841307,
    "subscores": {
-    "drawdown": -0.2553134247755644,
-    "mom10": 0.003054314472726416
+    "drawdown": -0.2526040062841307,
+    "mom10": 0.006703757709359159
    }
   },
   {
@@ -222,7 +222,7 @@
    "group": "AI sector",
    "weight": 0.1,
    "status": 0,
-   "display": "CoreWeave +3% \u00b7 Oracle -4%, 2wk",
+   "display": "CoreWeave -1% \u00b7 Oracle -4%, 2wk",
    "delta": "swings \u00d71.3 / \u00d71.4 vs normal",
    "detail": "CoreWeave and Oracle stand for the debt-funded end of the AI buildout. What their own lenders charge them is not published for free, so we watch for sharp share-price falls, or a sudden jump in how much the shares swing day to day, as the stand-in.",
    "asof": "2026-11-19",
