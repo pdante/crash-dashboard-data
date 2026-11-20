@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-11-20T19:15:17+00:00",
+ "generated_at": "2026-11-20T20:25:52+00:00",
  "run_label": "post-close",
  "composite": 49.2,
  "base_composite": 49.2,
@@ -73,11 +73,11 @@
    "group": "Credit & funding",
    "weight": 0.12,
    "status": 0,
-   "display": "-0.7%, 2wk",
-   "delta": "-2.3%, 1wk",
+   "display": "-0.9%, 2wk",
+   "delta": "-2.5%, 1wk",
    "detail": "Are investors dumping risky bonds and buying safe government ones? This is priced continuously through the trading day, so it moves before the official spread figures, which arrive a day late. A fall of 1.5% or more over two weeks is the warning.",
    "asof": "2026-11-20",
-   "value": -0.007191824539011793,
+   "value": -0.00901032148655967,
    "subscores": {}
   },
   {
@@ -90,7 +90,7 @@
    "delta": "-0.1%, 1wk",
    "detail": "These loans pay a floating interest rate, so their price moves on worry about the companies rather than on interest-rate swings \u2014 a cleaner read on company health than bonds give you. Moving in step with junk bonds (+1.2 points over two weeks).",
    "asof": "2026-11-20",
-   "value": 0.001221374045801582,
+   "value": 0.0009770619655382617,
    "subscores": {}
   },
   {
@@ -142,11 +142,11 @@
    "group": "Volatility",
    "weight": 0.16,
    "status": 2,
-   "display": "1.10",
-   "delta": "+0.17, 1wk",
+   "display": "1.15",
+   "delta": "+0.21, 1wk",
    "detail": "Investors normally expect more turbulence three months out than today, which keeps this below 1.00. Above 1.00 the market is pricing the trouble as happening now \u2014 a confirmation that something is already underway, worth days of warning at most rather than weeks.",
    "asof": "2026-11-20",
-   "value": 1.1010489283601863,
+   "value": 1.1456089165530903,
    "subscores": {}
   },
   {
@@ -156,14 +156,14 @@
    "weight": 0.0,
    "status": 2,
    "display": "141",
-   "delta": "VVIX 129 \u00b7 -9, 1wk",
-   "detail": "How pricey insurance against a big fall is compared with ordinary options: 141, where 145 or more counts as expensive. VVIX 129 measures how pricey it is for that insurance to pay off explosively rather than merely well (expensive above 110). Protection is pricey \u2014 you would be paying up for exactly the outcome you want to insure against. This can read expensive in a perfectly calm market: it is about the price of insurance, not the odds of a crash, which is why it is not part of the score.",
+   "delta": "VVIX 136 \u00b7 -9, 1wk",
+   "detail": "How pricey insurance against a big fall is compared with ordinary options: 141, where 145 or more counts as expensive. VVIX 136 measures how pricey it is for that insurance to pay off explosively rather than merely well (expensive above 110). Protection is pricey \u2014 you would be paying up for exactly the outcome you want to insure against. This can read expensive in a perfectly calm market: it is about the price of insurance, not the odds of a crash, which is why it is not part of the score.",
    "asof": "2026-11-19",
    "value": 140.86,
    "subscores": {
     "skew": 1,
     "vvix": 2,
-    "vvix_level": 129.25999450683594
+    "vvix_level": 136.36000061035156
    }
   },
   {
@@ -172,15 +172,15 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 2,
-   "display": "+1.8 pts extra",
+   "display": "+4.7 pts extra",
    "delta": "pricier than 100% of the year \u00b7 Nasdaq",
-   "detail": "Priced on the Nasdaq. Two ways to check. The turbulence the market expects is running at 39.6, higher than 100% of the past year (expensive above 80%). And shares have actually been moving about 37.8, so you would be paying +1.8 points for turbulence that has not arrived (expensive above 8). This is a rough market-wide guide \u2014 check the price of the specific option before buying. Not part of the score.",
+   "detail": "Priced on the Nasdaq. Two ways to check. The turbulence the market expects is running at 43.4, higher than 100% of the past year (expensive above 80%). And shares have actually been moving about 38.7, so you would be paying +4.7 points for turbulence that has not arrived (expensive above 8). This is a rough market-wide guide \u2014 check the price of the specific option before buying. Not part of the score.",
    "asof": "2026-11-20",
-   "value": 1.843151957906123,
+   "value": 4.717867890388689,
    "subscores": {
     "pctile": 2,
-    "premium": 0,
-    "realized": 37.75684651621497,
+    "premium": 1,
+    "realized": 38.662133177726545,
     "market": "Nasdaq"
    }
   },
@@ -207,14 +207,14 @@
    "group": "AI sector",
    "weight": 0.12,
    "status": 2,
-   "display": "-31.4% off high",
-   "delta": "-10.6%, 2wk",
-   "detail": "An equal-weight basket of 14 AI-exposed companies, currently 31.4% below its three-month high, having moved -10.6% over the past two weeks. Equal-weight means a small company counts as much as a giant one, so a single megacap cannot mask the rest.",
+   "display": "-32.0% off high",
+   "delta": "-11.4%, 2wk",
+   "detail": "An equal-weight basket of 14 AI-exposed companies, currently 32.0% below its three-month high, having moved -11.4% over the past two weeks. Equal-weight means a small company counts as much as a giant one, so a single megacap cannot mask the rest.",
    "asof": "2026-11-20",
-   "value": -0.3140276440144576,
+   "value": -0.3201569425058636,
    "subscores": {
-    "drawdown": -0.3140276440144576,
-    "mom10": -0.10583765855855187
+    "drawdown": -0.3201569425058636,
+    "mom10": -0.11382717569090828
    }
   },
   {
@@ -236,11 +236,11 @@
    "group": "Backdrop",
    "weight": 0.08,
    "status": 2,
-   "display": "avg stock +5.4%, 1mo",
+   "display": "avg stock +5.5%, 1mo",
    "delta": "0% above 50-day avg",
-   "detail": "When gains narrow to a handful of giant companies the market gets fragile. Two checks: the average US stock against the big-company index (+5.4% over the past month), and how much of the AI basket is still above its 50-day average (0%). A slow background signal, so it carries little weight.",
+   "detail": "When gains narrow to a handful of giant companies the market gets fragile. Two checks: the average US stock against the big-company index (+5.5% over the past month), and how much of the AI basket is still above its 50-day average (0%). A slow background signal, so it carries little weight.",
    "asof": "2026-11-20",
-   "value": 0.05397850926826697,
+   "value": 0.05522417917199651,
    "subscores": {}
   },
   {
@@ -257,7 +257,7 @@
    "subscores": {}
   }
  ],
- "qqq_close": 617.4,
+ "qqq_close": 613.16,
  "hedge": {
   "underlying": "QQQ",
   "spot": 646.74,
