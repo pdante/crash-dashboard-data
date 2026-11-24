@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-11-24T21:30:12+00:00",
+ "generated_at": "2026-11-24T22:29:41+00:00",
  "run_label": "post-close",
  "composite": 47.5,
  "base_composite": 47.5,
@@ -158,11 +158,11 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 2,
-   "display": "140",
+   "display": "139",
    "delta": "VVIX 114 \u00b7 -6, 1wk",
-   "detail": "How pricey insurance against a big fall is compared with ordinary options: 140, where 145 or more counts as expensive. VVIX 114 measures how pricey it is for that insurance to pay off explosively rather than merely well (expensive above 110). Protection is pricey \u2014 you would be paying up for exactly the outcome you want to insure against. This can read expensive in a perfectly calm market: it is about the price of insurance, not the odds of a crash, which is why it is not part of the score.",
-   "asof": "2026-11-23",
-   "value": 140.37,
+   "detail": "How pricey insurance against a big fall is compared with ordinary options: 139, where 145 or more counts as expensive. VVIX 114 measures how pricey it is for that insurance to pay off explosively rather than merely well (expensive above 110). Protection is pricey \u2014 you would be paying up for exactly the outcome you want to insure against. This can read expensive in a perfectly calm market: it is about the price of insurance, not the odds of a crash, which is why it is not part of the score.",
+   "asof": "2026-11-24",
+   "value": 139.16000366210938,
    "subscores": {
     "skew": 1,
     "vvix": 2,
@@ -195,7 +195,7 @@
    "status": -1,
    "display": "n/a",
    "delta": "",
-   "detail": "data unavailable: snapshot is 121h old",
+   "detail": "data unavailable: snapshot is 122h old",
    "asof": "",
    "value": null,
    "subscores": {}
@@ -210,10 +210,10 @@
    "delta": "-9.9%, 2wk",
    "detail": "An equal-weight basket of 14 AI-exposed companies, currently 28.3% below its three-month high, having moved -9.9% over the past two weeks. Equal-weight means a small company counts as much as a giant one, so a single megacap cannot mask the rest.",
    "asof": "2026-11-24",
-   "value": -0.2826859128746364,
+   "value": -0.2826859128746365,
    "subscores": {
-    "drawdown": -0.2826859128746364,
-    "mom10": -0.0990368443583719
+    "drawdown": -0.2826859128746365,
+    "mom10": -0.09903684435837201
    }
   },
   {
@@ -249,9 +249,9 @@
    "weight": 0.04,
    "status": 0,
    "display": "+0.55%",
-   "delta": "-0.23, 1wk",
+   "delta": "-0.22, 1wk",
    "detail": "Long-term government borrowing costs minus short-term. When it goes negative \u2014 short-term paying more than long \u2014 a downturn has often followed, but 6 to 18 months later, which is no use for timing. Capped so it can never trigger a red on its own.",
-   "asof": "2026-11-23",
+   "asof": "2026-11-24",
    "value": 0.55,
    "subscores": {}
   }
@@ -777,7 +777,7 @@
  },
  "data_issues": [
   "QQQ option chain: 403 Client Error: Forbidden for url: https://cdn-api.cboe.com/api/global/delayed_quotes/options/QQQ.json",
-  "Cost of Nasdaq crash insurance: snapshot is 121h old"
+  "Cost of Nasdaq crash insurance: snapshot is 122h old"
  ],
  "disclaimer": "Not financial advice. No indicator reliably times crashes; this composite raises the odds of a short heads-up, nothing more."
 }
