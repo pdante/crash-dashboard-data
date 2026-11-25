@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-11-24T22:29:41+00:00",
- "run_label": "post-close",
+ "generated_at": "2026-11-25T00:56:12+00:00",
+ "run_label": "pre-open",
  "composite": 47.5,
  "base_composite": 47.5,
  "tier": "AMBER",
@@ -149,7 +149,7 @@
    "delta": "+0.02, 1wk",
    "detail": "Investors normally expect more turbulence three months out than today, which keeps this below 1.00. Above 1.00 the market is pricing the trouble as happening now \u2014 a confirmation that something is already underway, worth days of warning at most rather than weeks.",
    "asof": "2026-11-24",
-   "value": 1.0349431221433296,
+   "value": 1.0349430942423072,
    "subscores": {}
   },
   {
@@ -166,7 +166,7 @@
    "subscores": {
     "skew": 1,
     "vvix": 2,
-    "vvix_level": 114.06999969482422
+    "vvix_level": 114.07
    }
   },
   {
@@ -175,11 +175,11 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 2,
-   "display": "-11.6 pts extra",
+   "display": "-11.5 pts extra",
    "delta": "pricier than 99% of the year \u00b7 Nasdaq",
-   "detail": "Priced on the Nasdaq. Two ways to check. The turbulence the market expects is running at 36.3, higher than 99% of the past year (expensive above 80%). And shares have actually been moving about 47.9, so you would be paying -11.6 points for turbulence that has not arrived (expensive above 8). This is a rough market-wide guide \u2014 check the price of the specific option before buying. Not part of the score.",
-   "asof": "2026-11-23",
-   "value": -11.573159293187999,
+   "detail": "Priced on the Nasdaq. Two ways to check. The turbulence the market expects is running at 36.4, higher than 99% of the past year (expensive above 80%). And shares have actually been moving about 47.9, so you would be paying -11.5 points for turbulence that has not arrived (expensive above 8). This is a rough market-wide guide \u2014 check the price of the specific option before buying. Not part of the score.",
+   "asof": "2026-11-24",
+   "value": -11.463159293188,
    "subscores": {
     "pctile": 2,
     "premium": 0,
@@ -195,7 +195,7 @@
    "status": -1,
    "display": "n/a",
    "delta": "",
-   "detail": "data unavailable: snapshot is 122h old",
+   "detail": "data unavailable: snapshot is 124h old",
    "asof": "",
    "value": null,
    "subscores": {}
@@ -213,7 +213,7 @@
    "value": -0.2826859128746365,
    "subscores": {
     "drawdown": -0.2826859128746365,
-    "mom10": -0.09903684435837201
+    "mom10": -0.09903684435837223
    }
   },
   {
@@ -777,7 +777,7 @@
  },
  "data_issues": [
   "QQQ option chain: 403 Client Error: Forbidden for url: https://cdn-api.cboe.com/api/global/delayed_quotes/options/QQQ.json",
-  "Cost of Nasdaq crash insurance: snapshot is 122h old"
+  "Cost of Nasdaq crash insurance: snapshot is 124h old"
  ],
  "disclaimer": "Not financial advice. No indicator reliably times crashes; this composite raises the odds of a short heads-up, nothing more."
 }
