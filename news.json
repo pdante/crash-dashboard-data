@@ -1,29 +1,4 @@
 {
-  "scanned_at": "2026-11-25T12:00:00Z",
-  "items": [
-    {
-      "headline": "US AI chip curbs stall billions in Asia data center loans and deals",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-25/billions-in-data-center-deals-grind-to-halt-after-ai-chip-curbs",
-      "date": "2026-11-25",
-      "severity": "medium",
-      "note": "Lenders are pausing loans tied to Chinese tech giants and one bank is declining a $372M Digital Halo underwriting, showing syndication stress spreading to Asian data-center credit."
-    },
-    {
-      "headline": "AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html",
-      "date": "2026-11-25",
-      "severity": "low",
-      "note": "Heavy AI spenders and debt issuers such as Oracle and Alphabet are down 25-45% from their June peaks, per Man analysis, which tightens the funding backdrop for AI borrowers."
-    },
-    {
-      "headline": "Banks start selling AI data center loans as construction delays pile up",
-      "source": "Crypto Briefing (citing Bloomberg)",
-      "url": "https://cryptobriefing.com/banks-sell-ai-data-center-loans/",
-      "date": "2026-11-15",
-      "severity": "low",
-      "note": "ING and SocGen have listed up to $800M of data-center loans, and HSBC reportedly sold about $300M of a New Mexico project loan at a discount, so lenders are trimming exposure."
-    }
-  ]
+  "scanned_at": "2026-11-26T12:00:00Z",
+  "items": []
 }
