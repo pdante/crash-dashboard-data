@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-11-27T00:41:53+00:00",
+ "generated_at": "2026-11-27T03:41:26+00:00",
  "run_label": "pre-open",
  "composite": 51.7,
  "base_composite": 51.7,
@@ -195,7 +195,7 @@
    "status": -1,
    "display": "n/a",
    "delta": "",
-   "detail": "data unavailable: snapshot is 172h old",
+   "detail": "data unavailable: snapshot is 175h old",
    "asof": "",
    "value": null,
    "subscores": {}
@@ -210,10 +210,10 @@
    "delta": "-15.9%, 2wk",
    "detail": "An equal-weight basket of 14 AI-exposed companies, currently 29.2% below its three-month high, having moved -15.9% over the past two weeks. Equal-weight means a small company counts as much as a giant one, so a single megacap cannot mask the rest.",
    "asof": "2026-11-25",
-   "value": -0.2922697018939252,
+   "value": -0.29226970189392587,
    "subscores": {
-    "drawdown": -0.2922697018939252,
-    "mom10": -0.159486771429323
+    "drawdown": -0.29226970189392587,
+    "mom10": -0.15948677142932344
    }
   },
   {
@@ -777,7 +777,7 @@
  },
  "data_issues": [
   "QQQ option chain: 403 Client Error: Forbidden for url: https://cdn-api.cboe.com/api/global/delayed_quotes/options/QQQ.json",
-  "Cost of Nasdaq crash insurance: snapshot is 172h old"
+  "Cost of Nasdaq crash insurance: snapshot is 175h old"
  ],
  "disclaimer": "Not financial advice. No indicator reliably times crashes; this composite raises the odds of a short heads-up, nothing more."
 }
