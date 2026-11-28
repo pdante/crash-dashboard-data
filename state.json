@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "generated_at": "2026-11-27T21:21:36+00:00",
- "run_label": "post-close",
+ "generated_at": "2026-11-28T00:08:20+00:00",
+ "run_label": "pre-open",
  "composite": 47.5,
  "base_composite": 47.5,
  "tier": "AMBER",
@@ -149,7 +149,7 @@
    "delta": "-0.05, 1wk",
    "detail": "Investors normally expect more turbulence three months out than today, which keeps this below 1.00. Above 1.00 the market is pricing the trouble as happening now \u2014 a confirmation that something is already underway, worth days of warning at most rather than weeks.",
    "asof": "2026-11-27",
-   "value": 0.9995801751045358,
+   "value": 0.9995801622981688,
    "subscores": {}
   },
   {
@@ -166,7 +166,7 @@
    "subscores": {
     "skew": 2,
     "vvix": 1,
-    "vvix_level": 107.83999633789062
+    "vvix_level": 107.84
    }
   },
   {
@@ -175,11 +175,11 @@
    "group": "Hedge pricing",
    "weight": 0.0,
    "status": 2,
-   "display": "-10.5 pts extra",
-   "delta": "pricier than 99% of the year \u00b7 Nasdaq",
-   "detail": "Priced on the Nasdaq. Two ways to check. The turbulence the market expects is running at 38.5, higher than 99% of the past year (expensive above 80%). And shares have actually been moving about 49.0, so you would be paying -10.5 points for turbulence that has not arrived (expensive above 8). This is a rough market-wide guide \u2014 check the price of the specific option before buying. Not part of the score.",
-   "asof": "2026-11-25",
-   "value": -10.465787060272106,
+   "display": "-15.7 pts extra",
+   "delta": "pricier than 96% of the year \u00b7 Nasdaq",
+   "detail": "Priced on the Nasdaq. Two ways to check. The turbulence the market expects is running at 33.3, higher than 96% of the past year (expensive above 80%). And shares have actually been moving about 49.0, so you would be paying -15.7 points for turbulence that has not arrived (expensive above 8). This is a rough market-wide guide \u2014 check the price of the specific option before buying. Not part of the score.",
+   "asof": "2026-11-27",
+   "value": -15.655787060272104,
    "subscores": {
     "pctile": 2,
     "premium": 0,
@@ -195,7 +195,7 @@
    "status": -1,
    "display": "n/a",
    "delta": "",
-   "detail": "data unavailable: snapshot is 193h old",
+   "detail": "data unavailable: snapshot is 195h old",
    "asof": "",
    "value": null,
    "subscores": {}
@@ -210,10 +210,10 @@
    "delta": "-12.5%, 2wk",
    "detail": "An equal-weight basket of 14 AI-exposed companies, currently 27.0% below its three-month high, having moved -12.5% over the past two weeks. Equal-weight means a small company counts as much as a giant one, so a single megacap cannot mask the rest.",
    "asof": "2026-11-27",
-   "value": -0.26983939107352706,
+   "value": -0.2698393910735274,
    "subscores": {
-    "drawdown": -0.26983939107352706,
-    "mom10": -0.12453758802329151
+    "drawdown": -0.2698393910735274,
+    "mom10": -0.12453758802329173
    }
   },
   {
@@ -248,11 +248,11 @@
    "group": "Backdrop",
    "weight": 0.04,
    "status": 0,
-   "display": "+0.51%",
-   "delta": "-0.22, 1wk",
+   "display": "+0.59%",
+   "delta": "-0.11, 1wk",
    "detail": "Long-term government borrowing costs minus short-term. When it goes negative \u2014 short-term paying more than long \u2014 a downturn has often followed, but 6 to 18 months later, which is no use for timing. Capped so it can never trigger a red on its own.",
-   "asof": "2026-11-25",
-   "value": 0.51,
+   "asof": "2026-11-27",
+   "value": 0.59,
    "subscores": {}
   }
  ],
@@ -777,7 +777,7 @@
  },
  "data_issues": [
   "QQQ option chain: 403 Client Error: Forbidden for url: https://cdn-api.cboe.com/api/global/delayed_quotes/options/QQQ.json",
-  "Cost of Nasdaq crash insurance: snapshot is 193h old"
+  "Cost of Nasdaq crash insurance: snapshot is 195h old"
  ],
  "disclaimer": "Not financial advice. No indicator reliably times crashes; this composite raises the odds of a short heads-up, nothing more."
 }
